@@ -26,9 +26,7 @@
             src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"
         ></script>
 
-        <script src="viz_map1.js"
-    ></script>
-
+   
     <!-- D3.js -->
     <script src="https://d3js.org/d3.v6.min.js"></script>
     <!-- Leaflet JS -->
@@ -297,22 +295,33 @@
             Visualizations
                     
                 </h1>
+                <div class="container mx-auto py-8">
+                    <h1 class="text-2xl font-bold mb-4">Geographical Distribution of Libraries Through the Years</h1>
+                    <div id="filters" class="mb-4">
+                        <select id="region" class="mr-2 p-2 border rounded">
+                            <option value="2011">2011</option>
+                            <option value="2011">2012</option>
+                            <option value="2011">2013</option>
+                            <option value="2011">2014</option>
+                            <option value="2011">2015</option>
+                            <option value="2011">2016</option>
+                            <option value="2011">2017</option>
+                            <option value="2011">2018</option>
 
-                <div id="filters" class="mb-4">
-                    <select id="event-type" class="mr-2 p-2 border rounded">
-                        <option value="all">All Event Types</option>
-                        <option value="music">Music</option>
-                        <option value="theater">Theater</option>
-                        <option value="art">Art</option>
-                    </select>
-                    <select id="event-cost" class="p-2 border rounded">
-                        <option value="all">All Costs</option>
-                        <option value="free">Free</option>
-                        <option value="paid">Paid</option>
-                    </select>
+                            
+                            <!-- Add options dynamically if needed -->
+                        </select>
+                    </div>
+                    <div id="map"></div>
                 </div>
-                <div id="map"></div>
-            </div>
+
+                <script src="https://d3js.org/d3.v6.min.js"></script>
+                <script src="https://unpkg.com/leaflet@1.7.1/d
+            <script src="viz_map1.js"
+            ></script>
+
+        
+
         <footer class="bg-red-50 py-16 mb-10">
             <div class="container max-w-screen-xl mx-auto px-4">
                 <div class="text-center">
