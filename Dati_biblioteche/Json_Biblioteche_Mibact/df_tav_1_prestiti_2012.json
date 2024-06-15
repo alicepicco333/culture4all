@@ -1,0 +1,539 @@
+[{
+        "Tav. 1 - Numero di Biblioteche statali dipendenti dal MiBact per regioni e provincie, opere consultate e prestiti a privati e altre biblioteche - Anno 2012":"PROVINCE E REGIONI",
+        "Column2":"Biblioteche",
+        "Column3":"Persone ammesse al prestito",
+        "Column4":"Opere  in prestito a privati",
+        "Column5":"Opere  in prestito a biblioteche",
+        "Column6":"Opere ricevute in prestito da biblioteche",
+        "Column7":"Opere consultate"
+    },
+
+    {
+        "Tav. 1 - Numero di Biblioteche statali dipendenti dal MiBact per regioni e provincie, opere consultate e prestiti a privati e altre biblioteche - Anno 2012":"Torino",
+        "Column2":2,
+        "Column3":5420,
+        "Column4":13551,
+        "Column5":663,
+        "Column6":281,
+        "Column7":65076
+    },
+
+    {
+        "Tav. 1 - Numero di Biblioteche statali dipendenti dal MiBact per regioni e provincie, opere consultate e prestiti a privati e altre biblioteche - Anno 2012":"Piemonte",
+        "Column2":2,
+        "Column3":5420,
+        "Column4":13551,
+        "Column5":663,
+        "Column6":281,
+        "Column7":65076
+    },
+
+    {
+        "Tav. 1 - Numero di Biblioteche statali dipendenti dal MiBact per regioni e provincie, opere consultate e prestiti a privati e altre biblioteche - Anno 2012":"Valle d'Aosta\/Vallée d'Aoste",
+        "Column2":"-",
+        "Column3":"-",
+        "Column4":"-",
+        "Column5":"-",
+        "Column6":"-",
+        "Column7":"-"
+    },
+
+    {
+        "Tav. 1 - Numero di Biblioteche statali dipendenti dal MiBact per regioni e provincie, opere consultate e prestiti a privati e altre biblioteche - Anno 2012":"Cremona",
+        "Column2":1,
+        "Column3":1470,
+        "Column4":14318,
+        "Column5":752,
+        "Column6":833,
+        "Column7":386948
+    },
+
+    {
+        "Tav. 1 - Numero di Biblioteche statali dipendenti dal MiBact per regioni e provincie, opere consultate e prestiti a privati e altre biblioteche - Anno 2012":"Milano",
+        "Column2":1,
+        "Column3":1414,
+        "Column4":9985,
+        "Column5":2462,
+        "Column6":258,
+        "Column7":16411
+    },
+
+    {
+        "Tav. 1 - Numero di Biblioteche statali dipendenti dal MiBact per regioni e provincie, opere consultate e prestiti a privati e altre biblioteche - Anno 2012":"Pavia",
+        "Column2":1,
+        "Column3":2122,
+        "Column4":5588,
+        "Column5":500,
+        "Column6":225,
+        "Column7":16739
+    },
+
+    {
+        "Tav. 1 - Numero di Biblioteche statali dipendenti dal MiBact per regioni e provincie, opere consultate e prestiti a privati e altre biblioteche - Anno 2012":"Lombardia",
+        "Column2":3,
+        "Column3":5006,
+        "Column4":29891,
+        "Column5":3714,
+        "Column6":1316,
+        "Column7":420098
+    },
+
+    {
+        "Tav. 1 - Numero di Biblioteche statali dipendenti dal MiBact per regioni e provincie, opere consultate e prestiti a privati e altre biblioteche - Anno 2012":"Bolzano\/Bozen",
+        "Column2":"-",
+        "Column3":"-",
+        "Column4":"-",
+        "Column5":"-",
+        "Column6":"-",
+        "Column7":"-"
+    },
+
+    {
+        "Tav. 1 - Numero di Biblioteche statali dipendenti dal MiBact per regioni e provincie, opere consultate e prestiti a privati e altre biblioteche - Anno 2012":"Trento",
+        "Column2":"-",
+        "Column3":"-",
+        "Column4":"-",
+        "Column5":"-",
+        "Column6":"-",
+        "Column7":"-"
+    },
+
+    {
+        "Tav. 1 - Numero di Biblioteche statali dipendenti dal MiBact per regioni e provincie, opere consultate e prestiti a privati e altre biblioteche - Anno 2012":"Trentino-Alto Adige",
+        "Column2":"-",
+        "Column3":"-",
+        "Column4":"-",
+        "Column5":"-",
+        "Column6":"-",
+        "Column7":"-"
+    },
+
+    {
+        "Tav. 1 - Numero di Biblioteche statali dipendenti dal MiBact per regioni e provincie, opere consultate e prestiti a privati e altre biblioteche - Anno 2012":"Padova",
+        "Column2":3,
+        "Column3":2688,
+        "Column4":7937,
+        "Column5":894,
+        "Column6":246,
+        "Column7":40802
+    },
+
+    {
+        "Tav. 1 - Numero di Biblioteche statali dipendenti dal MiBact per regioni e provincie, opere consultate e prestiti a privati e altre biblioteche - Anno 2012":"Venezia",
+        "Column2":1,
+        "Column3":1172,
+        "Column4":5059,
+        "Column5":844,
+        "Column6":229,
+        "Column7":27680
+    },
+
+    {
+        "Tav. 1 - Numero di Biblioteche statali dipendenti dal MiBact per regioni e provincie, opere consultate e prestiti a privati e altre biblioteche - Anno 2012":"Veneto",
+        "Column2":4,
+        "Column3":3860,
+        "Column4":12996,
+        "Column5":1738,
+        "Column6":475,
+        "Column7":68482
+    },
+
+    {
+        "Tav. 1 - Numero di Biblioteche statali dipendenti dal MiBact per regioni e provincie, opere consultate e prestiti a privati e altre biblioteche - Anno 2012":"Gorizia",
+        "Column2":1,
+        "Column3":4733,
+        "Column4":14613,
+        "Column5":574,
+        "Column6":168,
+        "Column7":51372
+    },
+
+    {
+        "Tav. 1 - Numero di Biblioteche statali dipendenti dal MiBact per regioni e provincie, opere consultate e prestiti a privati e altre biblioteche - Anno 2012":"Trieste",
+        "Column2":1,
+        "Column3":1565,
+        "Column4":5768,
+        "Column5":86,
+        "Column6":142,
+        "Column7":29945
+    },
+
+    {
+        "Tav. 1 - Numero di Biblioteche statali dipendenti dal MiBact per regioni e provincie, opere consultate e prestiti a privati e altre biblioteche - Anno 2012":"Friuli-Venezia Giulia",
+        "Column2":2,
+        "Column3":6298,
+        "Column4":20381,
+        "Column5":660,
+        "Column6":310,
+        "Column7":81317
+    },
+
+    {
+        "Tav. 1 - Numero di Biblioteche statali dipendenti dal MiBact per regioni e provincie, opere consultate e prestiti a privati e altre biblioteche - Anno 2012":"Genova",
+        "Column2":1,
+        "Column3":2540,
+        "Column4":5797,
+        "Column5":487,
+        "Column6":528,
+        "Column7":15520
+    },
+
+    {
+        "Tav. 1 - Numero di Biblioteche statali dipendenti dal MiBact per regioni e provincie, opere consultate e prestiti a privati e altre biblioteche - Anno 2012":"Liguria",
+        "Column2":1,
+        "Column3":2540,
+        "Column4":5797,
+        "Column5":487,
+        "Column6":528,
+        "Column7":15520
+    },
+
+    {
+        "Tav. 1 - Numero di Biblioteche statali dipendenti dal MiBact per regioni e provincie, opere consultate e prestiti a privati e altre biblioteche - Anno 2012":"Modena",
+        "Column2":1,
+        "Column3":2051,
+        "Column4":4031,
+        "Column5":545,
+        "Column6":147,
+        "Column7":12994
+    },
+
+    {
+        "Tav. 1 - Numero di Biblioteche statali dipendenti dal MiBact per regioni e provincie, opere consultate e prestiti a privati e altre biblioteche - Anno 2012":"Parma",
+        "Column2":1,
+        "Column3":1504,
+        "Column4":3827,
+        "Column5":270,
+        "Column6":101,
+        "Column7":12230
+    },
+
+    {
+        "Tav. 1 - Numero di Biblioteche statali dipendenti dal MiBact per regioni e provincie, opere consultate e prestiti a privati e altre biblioteche - Anno 2012":"Emilia-Romagna",
+        "Column2":2,
+        "Column3":3555,
+        "Column4":7858,
+        "Column5":815,
+        "Column6":248,
+        "Column7":25224
+    },
+
+    {
+        "Tav. 1 - Numero di Biblioteche statali dipendenti dal MiBact per regioni e provincie, opere consultate e prestiti a privati e altre biblioteche - Anno 2012":"Firenze",
+        "Column2":4,
+        "Column3":3799,
+        "Column4":12070,
+        "Column5":1810,
+        "Column6":128,
+        "Column7":402184
+    },
+
+    {
+        "Tav. 1 - Numero di Biblioteche statali dipendenti dal MiBact per regioni e provincie, opere consultate e prestiti a privati e altre biblioteche - Anno 2012":"Lucca",
+        "Column2":1,
+        "Column3":3174,
+        "Column4":1821,
+        "Column5":352,
+        "Column6":239,
+        "Column7":14250
+    },
+
+    {
+        "Tav. 1 - Numero di Biblioteche statali dipendenti dal MiBact per regioni e provincie, opere consultate e prestiti a privati e altre biblioteche - Anno 2012":"Pisa",
+        "Column2":1,
+        "Column3":5122,
+        "Column4":290,
+        "Column5":96,
+        "Column6":67,
+        "Column7":11824
+    },
+
+    {
+        "Tav. 1 - Numero di Biblioteche statali dipendenti dal MiBact per regioni e provincie, opere consultate e prestiti a privati e altre biblioteche - Anno 2012":"Toscana",
+        "Column2":6,
+        "Column3":12095,
+        "Column4":14181,
+        "Column5":2258,
+        "Column6":434,
+        "Column7":428258
+    },
+
+    {
+        "Tav. 1 - Numero di Biblioteche statali dipendenti dal MiBact per regioni e provincie, opere consultate e prestiti a privati e altre biblioteche - Anno 2012":"Umbria",
+        "Column2":"-",
+        "Column3":"-",
+        "Column4":"-",
+        "Column5":"-",
+        "Column6":"-",
+        "Column7":"-"
+    },
+
+    {
+        "Tav. 1 - Numero di Biblioteche statali dipendenti dal MiBact per regioni e provincie, opere consultate e prestiti a privati e altre biblioteche - Anno 2012":"Macerata",
+        "Column2":1,
+        "Column3":3910,
+        "Column4":8831,
+        "Column5":159,
+        "Column6":20,
+        "Column7":22550
+    },
+
+    {
+        "Tav. 1 - Numero di Biblioteche statali dipendenti dal MiBact per regioni e provincie, opere consultate e prestiti a privati e altre biblioteche - Anno 2012":"Marche",
+        "Column2":1,
+        "Column3":3910,
+        "Column4":8831,
+        "Column5":159,
+        "Column6":20,
+        "Column7":22550
+    },
+
+    {
+        "Tav. 1 - Numero di Biblioteche statali dipendenti dal MiBact per regioni e provincie, opere consultate e prestiti a privati e altre biblioteche - Anno 2012":"Frosinone",
+        "Column2":3,
+        "Column3":"-",
+        "Column4":"-",
+        "Column5":"-",
+        "Column6":"-",
+        "Column7":49570
+    },
+
+    {
+        "Tav. 1 - Numero di Biblioteche statali dipendenti dal MiBact per regioni e provincie, opere consultate e prestiti a privati e altre biblioteche - Anno 2012":"Rieti",
+        "Column2":1,
+        "Column3":16,
+        "Column4":45,
+        "Column5":"-",
+        "Column6":"-",
+        "Column7":686
+    },
+
+    {
+        "Tav. 1 - Numero di Biblioteche statali dipendenti dal MiBact per regioni e provincie, opere consultate e prestiti a privati e altre biblioteche - Anno 2012":"Roma",
+        "Column2":11,
+        "Column3":35776,
+        "Column4":55253,
+        "Column5":2866,
+        "Column6":732,
+        "Column7":515190
+    },
+
+    {
+        "Tav. 1 - Numero di Biblioteche statali dipendenti dal MiBact per regioni e provincie, opere consultate e prestiti a privati e altre biblioteche - Anno 2012":"Lazio",
+        "Column2":15,
+        "Column3":35792,
+        "Column4":55298,
+        "Column5":2866,
+        "Column6":732,
+        "Column7":565446
+    },
+
+    {
+        "Tav. 1 - Numero di Biblioteche statali dipendenti dal MiBact per regioni e provincie, opere consultate e prestiti a privati e altre biblioteche - Anno 2012":"Abruzzo",
+        "Column2":"-",
+        "Column3":"-",
+        "Column4":"-",
+        "Column5":"-",
+        "Column6":"-",
+        "Column7":"-"
+    },
+
+    {
+        "Tav. 1 - Numero di Biblioteche statali dipendenti dal MiBact per regioni e provincie, opere consultate e prestiti a privati e altre biblioteche - Anno 2012":"Molise",
+        "Column2":"-",
+        "Column3":"-",
+        "Column4":"-",
+        "Column5":"-",
+        "Column6":"-",
+        "Column7":"-"
+    },
+
+    {
+        "Tav. 1 - Numero di Biblioteche statali dipendenti dal MiBact per regioni e provincie, opere consultate e prestiti a privati e altre biblioteche - Anno 2012":"Avellino",
+        "Column2":1,
+        "Column3":586,
+        "Column4":689,
+        "Column5":90,
+        "Column6":240,
+        "Column7":6775
+    },
+
+    {
+        "Tav. 1 - Numero di Biblioteche statali dipendenti dal MiBact per regioni e provincie, opere consultate e prestiti a privati e altre biblioteche - Anno 2012":"Napoli",
+        "Column2":3,
+        "Column3":5039,
+        "Column4":9585,
+        "Column5":360,
+        "Column6":575,
+        "Column7":194127
+    },
+
+    {
+        "Tav. 1 - Numero di Biblioteche statali dipendenti dal MiBact per regioni e provincie, opere consultate e prestiti a privati e altre biblioteche - Anno 2012":"Salerno",
+        "Column2":1,
+        "Column3":19,
+        "Column4":103,
+        "Column5":"-",
+        "Column6":2,
+        "Column7":1515
+    },
+
+    {
+        "Tav. 1 - Numero di Biblioteche statali dipendenti dal MiBact per regioni e provincie, opere consultate e prestiti a privati e altre biblioteche - Anno 2012":"Campania",
+        "Column2":5,
+        "Column3":5644,
+        "Column4":10377,
+        "Column5":451,
+        "Column6":817,
+        "Column7":202417
+    },
+
+    {
+        "Tav. 1 - Numero di Biblioteche statali dipendenti dal MiBact per regioni e provincie, opere consultate e prestiti a privati e altre biblioteche - Anno 2012":"Bari",
+        "Column2":1,
+        "Column3":616,
+        "Column4":2028,
+        "Column5":345,
+        "Column6":51,
+        "Column7":7845
+    },
+
+    {
+        "Tav. 1 - Numero di Biblioteche statali dipendenti dal MiBact per regioni e provincie, opere consultate e prestiti a privati e altre biblioteche - Anno 2012":"Puglia",
+        "Column2":1,
+        "Column3":616,
+        "Column4":2028,
+        "Column5":345,
+        "Column6":51,
+        "Column7":7845
+    },
+
+    {
+        "Tav. 1 - Numero di Biblioteche statali dipendenti dal MiBact per regioni e provincie, opere consultate e prestiti a privati e altre biblioteche - Anno 2012":"Potenza ",
+        "Column2":1,
+        "Column3":528,
+        "Column4":3329,
+        "Column5":216,
+        "Column6":105,
+        "Column7":19890
+    },
+
+    {
+        "Tav. 1 - Numero di Biblioteche statali dipendenti dal MiBact per regioni e provincie, opere consultate e prestiti a privati e altre biblioteche - Anno 2012":"Basilicata",
+        "Column2":1,
+        "Column3":528,
+        "Column4":3329,
+        "Column5":216,
+        "Column6":105,
+        "Column7":19890
+    },
+
+    {
+        "Tav. 1 - Numero di Biblioteche statali dipendenti dal MiBact per regioni e provincie, opere consultate e prestiti a privati e altre biblioteche - Anno 2012":"Cosenza",
+        "Column2":1,
+        "Column3":510,
+        "Column4":2592,
+        "Column5":382,
+        "Column6":248,
+        "Column7":4464
+    },
+
+    {
+        "Tav. 1 - Numero di Biblioteche statali dipendenti dal MiBact per regioni e provincie, opere consultate e prestiti a privati e altre biblioteche - Anno 2012":"Calabria",
+        "Column2":1,
+        "Column3":510,
+        "Column4":2592,
+        "Column5":382,
+        "Column6":248,
+        "Column7":4464
+    },
+
+    {
+        "Tav. 1 - Numero di Biblioteche statali dipendenti dal MiBact per regioni e provincie, opere consultate e prestiti a privati e altre biblioteche - Anno 2012":"Sicilia",
+        "Column2":"-",
+        "Column3":"-",
+        "Column4":"-",
+        "Column5":"-",
+        "Column6":"-",
+        "Column7":"-"
+    },
+
+    {
+        "Tav. 1 - Numero di Biblioteche statali dipendenti dal MiBact per regioni e provincie, opere consultate e prestiti a privati e altre biblioteche - Anno 2012":"Cagliari",
+        "Column2":1,
+        "Column3":4984,
+        "Column4":7376,
+        "Column5":476,
+        "Column6":458,
+        "Column7":45574
+    },
+
+    {
+        "Tav. 1 - Numero di Biblioteche statali dipendenti dal MiBact per regioni e provincie, opere consultate e prestiti a privati e altre biblioteche - Anno 2012":"Sassari",
+        "Column2":1,
+        "Column3":2686,
+        "Column4":2127,
+        "Column5":272,
+        "Column6":124,
+        "Column7":1254
+    },
+
+    {
+        "Tav. 1 - Numero di Biblioteche statali dipendenti dal MiBact per regioni e provincie, opere consultate e prestiti a privati e altre biblioteche - Anno 2012":"Sardegna",
+        "Column2":2,
+        "Column3":7670,
+        "Column4":9503,
+        "Column5":748,
+        "Column6":582,
+        "Column7":46828
+    },
+
+    {
+        "Tav. 1 - Numero di Biblioteche statali dipendenti dal MiBact per regioni e provincie, opere consultate e prestiti a privati e altre biblioteche - Anno 2012":"",
+        "Column2":"",
+        "Column3":"",
+        "Column4":"",
+        "Column5":"",
+        "Column6":"",
+        "Column7":""
+    },
+
+    {
+        "Tav. 1 - Numero di Biblioteche statali dipendenti dal MiBact per regioni e provincie, opere consultate e prestiti a privati e altre biblioteche - Anno 2012":"ITALIA",
+        "Column2":46,
+        "Column3":93444,
+        "Column4":196613,
+        "Column5":15502,
+        "Column6":5516,
+        "Column7":1973415
+    },
+
+    {
+        "Tav. 1 - Numero di Biblioteche statali dipendenti dal MiBact per regioni e provincie, opere consultate e prestiti a privati e altre biblioteche - Anno 2012":"Nord",
+        "Column2":14,
+        "Column3":26679,
+        "Column4":90474,
+        "Column5":8077,
+        "Column6":3158,
+        "Column7":675717
+    },
+
+    {
+        "Tav. 1 - Numero di Biblioteche statali dipendenti dal MiBact per regioni e provincie, opere consultate e prestiti a privati e altre biblioteche - Anno 2012":"Centro",
+        "Column2":22,
+        "Column3":51797,
+        "Column4":78310,
+        "Column5":5283,
+        "Column6":1186,
+        "Column7":1016254
+    },
+
+    {
+        "Tav. 1 - Numero di Biblioteche statali dipendenti dal MiBact per regioni e provincie, opere consultate e prestiti a privati e altre biblioteche - Anno 2012":"Mezzogiorno",
+        "Column2":10,
+        "Column3":14968,
+        "Column4":27829,
+        "Column5":2142,
+        "Column6":1684,
+        "Column7":281444
+    }]
