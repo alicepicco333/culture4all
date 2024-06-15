@@ -1,0 +1,1520 @@
+{
+"Tav 4.7":[
+ null,
+ null,
+ {
+   "Tavola 4.7 - Biblioteche, opere consultate, prestiti e personale delle biblioteche statali dipendenti dal Ministero per i beni e le attività culturali per provincia - Anno 2012": "PROVINCE E REGIONI",
+  "Column3": "Biblioteche",
+  "Column4": "Opere consultate",
+  "Column5": "Prestiti a privati",
+  "Column6": "Personale"
+ },
+ null,
+ {
+   "Tavola 4.7 - Biblioteche, opere consultate, prestiti e personale delle biblioteche statali dipendenti dal Ministero per i beni e le attività culturali per provincia - Anno 2012": "Torino",
+  "Column3": 2,
+  "Column4": 65076,
+  "Column5": 13551,
+  "Column6": 108
+ },
+ {
+   "Tavola 4.7 - Biblioteche, opere consultate, prestiti e personale delle biblioteche statali dipendenti dal Ministero per i beni e le attività culturali per provincia - Anno 2012": "Piemonte",
+  "Column3": 2,
+  "Column4": 65076,
+  "Column5": 13551,
+  "Column6": 108
+ },
+ {
+   "Tavola 4.7 - Biblioteche, opere consultate, prestiti e personale delle biblioteche statali dipendenti dal Ministero per i beni e le attività culturali per provincia - Anno 2012": "Valle d'Aosta\/Vallée d'Aoste",
+  "Column3": "-",
+  "Column4": "-",
+  "Column5": "-",
+  "Column6": "-"
+ },
+ {
+   "Tavola 4.7 - Biblioteche, opere consultate, prestiti e personale delle biblioteche statali dipendenti dal Ministero per i beni e le attività culturali per provincia - Anno 2012": "Cremona",
+  "Column3": 1,
+  "Column4": 386948,
+  "Column5": 14318,
+  "Column6": 27
+ },
+ {
+   "Tavola 4.7 - Biblioteche, opere consultate, prestiti e personale delle biblioteche statali dipendenti dal Ministero per i beni e le attività culturali per provincia - Anno 2012": "Milano",
+  "Column3": 1,
+  "Column4": 16411,
+  "Column5": 9985,
+  "Column6": 65
+ },
+ {
+   "Tavola 4.7 - Biblioteche, opere consultate, prestiti e personale delle biblioteche statali dipendenti dal Ministero per i beni e le attività culturali per provincia - Anno 2012": "Pavia",
+  "Column3": 1,
+  "Column4": 16739,
+  "Column5": 5588,
+  "Column6": 42
+ },
+ {
+   "Tavola 4.7 - Biblioteche, opere consultate, prestiti e personale delle biblioteche statali dipendenti dal Ministero per i beni e le attività culturali per provincia - Anno 2012": "Lombardia",
+  "Column3": 3,
+  "Column4": 420098,
+  "Column5": 29891,
+  "Column6": 134
+ },
+ {
+   "Tavola 4.7 - Biblioteche, opere consultate, prestiti e personale delle biblioteche statali dipendenti dal Ministero per i beni e le attività culturali per provincia - Anno 2012": "Bolzano\/Bozen",
+  "Column3": "-",
+  "Column4": "-",
+  "Column5": "-",
+  "Column6": "-"
+ },
+ {
+   "Tavola 4.7 - Biblioteche, opere consultate, prestiti e personale delle biblioteche statali dipendenti dal Ministero per i beni e le attività culturali per provincia - Anno 2012": "Trento",
+  "Column3": "-",
+  "Column4": "-",
+  "Column5": "-",
+  "Column6": "-"
+ },
+ {
+   "Tavola 4.7 - Biblioteche, opere consultate, prestiti e personale delle biblioteche statali dipendenti dal Ministero per i beni e le attività culturali per provincia - Anno 2012": "Trentino-Alto Adige",
+  "Column3": "-",
+  "Column4": "-",
+  "Column5": "-",
+  "Column6": "-"
+ },
+ {
+   "Tavola 4.7 - Biblioteche, opere consultate, prestiti e personale delle biblioteche statali dipendenti dal Ministero per i beni e le attività culturali per provincia - Anno 2012": "Padova",
+  "Column3": 3,
+  "Column4": 40802,
+  "Column5": 7937,
+  "Column6": 47
+ },
+ {
+   "Tavola 4.7 - Biblioteche, opere consultate, prestiti e personale delle biblioteche statali dipendenti dal Ministero per i beni e le attività culturali per provincia - Anno 2012": "Venezia",
+  "Column3": 1,
+  "Column4": 27680,
+  "Column5": 5059,
+  "Column6": 67
+ },
+ {
+   "Tavola 4.7 - Biblioteche, opere consultate, prestiti e personale delle biblioteche statali dipendenti dal Ministero per i beni e le attività culturali per provincia - Anno 2012": "Veneto",
+  "Column3": 4,
+  "Column4": 68482,
+  "Column5": 12996,
+  "Column6": 114
+ },
+ {
+   "Tavola 4.7 - Biblioteche, opere consultate, prestiti e personale delle biblioteche statali dipendenti dal Ministero per i beni e le attività culturali per provincia - Anno 2012": "Gorizia",
+  "Column3": 1,
+  "Column4": 51372,
+  "Column5": 14613,
+  "Column6": 26
+ },
+ {
+   "Tavola 4.7 - Biblioteche, opere consultate, prestiti e personale delle biblioteche statali dipendenti dal Ministero per i beni e le attività culturali per provincia - Anno 2012": "Trieste",
+  "Column3": 1,
+  "Column4": 29945,
+  "Column5": 5768,
+  "Column6": 23
+ },
+ {
+   "Tavola 4.7 - Biblioteche, opere consultate, prestiti e personale delle biblioteche statali dipendenti dal Ministero per i beni e le attività culturali per provincia - Anno 2012": "Friuli-Venezia Giulia",
+  "Column3": 2,
+  "Column4": 81317,
+  "Column5": 20381,
+  "Column6": 49
+ },
+ {
+   "Tavola 4.7 - Biblioteche, opere consultate, prestiti e personale delle biblioteche statali dipendenti dal Ministero per i beni e le attività culturali per provincia - Anno 2012": "Genova",
+  "Column3": 1,
+  "Column4": 15520,
+  "Column5": 5797,
+  "Column6": 59
+ },
+ {
+   "Tavola 4.7 - Biblioteche, opere consultate, prestiti e personale delle biblioteche statali dipendenti dal Ministero per i beni e le attività culturali per provincia - Anno 2012": "Liguria",
+  "Column3": 1,
+  "Column4": 15520,
+  "Column5": 5797,
+  "Column6": 59
+ },
+ {
+   "Tavola 4.7 - Biblioteche, opere consultate, prestiti e personale delle biblioteche statali dipendenti dal Ministero per i beni e le attività culturali per provincia - Anno 2012": "Modena",
+  "Column3": 1,
+  "Column4": 12994,
+  "Column5": 4031,
+  "Column6": 43
+ },
+ {
+   "Tavola 4.7 - Biblioteche, opere consultate, prestiti e personale delle biblioteche statali dipendenti dal Ministero per i beni e le attività culturali per provincia - Anno 2012": "Parma",
+  "Column3": 1,
+  "Column4": 12230,
+  "Column5": 3827,
+  "Column6": 35
+ },
+ {
+   "Tavola 4.7 - Biblioteche, opere consultate, prestiti e personale delle biblioteche statali dipendenti dal Ministero per i beni e le attività culturali per provincia - Anno 2012": "Emilia-Romagna",
+  "Column3": 2,
+  "Column4": 25224,
+  "Column5": 7858,
+  "Column6": 78
+ },
+ {
+   "Tavola 4.7 - Biblioteche, opere consultate, prestiti e personale delle biblioteche statali dipendenti dal Ministero per i beni e le attività culturali per provincia - Anno 2012": "Firenze",
+  "Column3": 4,
+  "Column4": 402184,
+  "Column5": 12070,
+  "Column6": 266
+ },
+ {
+   "Tavola 4.7 - Biblioteche, opere consultate, prestiti e personale delle biblioteche statali dipendenti dal Ministero per i beni e le attività culturali per provincia - Anno 2012": "Lucca",
+  "Column3": 1,
+  "Column4": 14250,
+  "Column5": 1821,
+  "Column6": 19
+ },
+ {
+   "Tavola 4.7 - Biblioteche, opere consultate, prestiti e personale delle biblioteche statali dipendenti dal Ministero per i beni e le attività culturali per provincia - Anno 2012": "Pisa",
+  "Column3": 1,
+  "Column4": 11824,
+  "Column5": 290,
+  "Column6": 35
+ },
+ {
+   "Tavola 4.7 - Biblioteche, opere consultate, prestiti e personale delle biblioteche statali dipendenti dal Ministero per i beni e le attività culturali per provincia - Anno 2012": "Toscana",
+  "Column3": 6,
+  "Column4": 428258,
+  "Column5": 14181,
+  "Column6": 320
+ },
+ {
+   "Tavola 4.7 - Biblioteche, opere consultate, prestiti e personale delle biblioteche statali dipendenti dal Ministero per i beni e le attività culturali per provincia - Anno 2012": "Umbria",
+  "Column3": "-",
+  "Column4": "-",
+  "Column5": "-",
+  "Column6": "-"
+ },
+ {
+   "Tavola 4.7 - Biblioteche, opere consultate, prestiti e personale delle biblioteche statali dipendenti dal Ministero per i beni e le attività culturali per provincia - Anno 2012": "Macerata",
+  "Column3": 1,
+  "Column4": 22550,
+  "Column5": 8831,
+  "Column6": 9
+ },
+ {
+   "Tavola 4.7 - Biblioteche, opere consultate, prestiti e personale delle biblioteche statali dipendenti dal Ministero per i beni e le attività culturali per provincia - Anno 2012": "Marche",
+  "Column3": 1,
+  "Column4": 22550,
+  "Column5": 8831,
+  "Column6": 9
+ },
+ {
+   "Tavola 4.7 - Biblioteche, opere consultate, prestiti e personale delle biblioteche statali dipendenti dal Ministero per i beni e le attività culturali per provincia - Anno 2012": "Frosinone",
+  "Column3": 3,
+  "Column4": 49570,
+  "Column5": "-",
+  "Column6": 16
+ },
+ {
+   "Tavola 4.7 - Biblioteche, opere consultate, prestiti e personale delle biblioteche statali dipendenti dal Ministero per i beni e le attività culturali per provincia - Anno 2012": "Rieti",
+  "Column3": 1,
+  "Column4": 686,
+  "Column5": 45,
+  "Column6": 3
+ },
+ {
+   "Tavola 4.7 - Biblioteche, opere consultate, prestiti e personale delle biblioteche statali dipendenti dal Ministero per i beni e le attività culturali per provincia - Anno 2012": "Roma",
+  "Column3": 11,
+  "Column4": 515190,
+  "Column5": 55253,
+  "Column6": 483
+ },
+ {
+   "Tavola 4.7 - Biblioteche, opere consultate, prestiti e personale delle biblioteche statali dipendenti dal Ministero per i beni e le attività culturali per provincia - Anno 2012": "Lazio",
+  "Column3": 15,
+  "Column4": 565446,
+  "Column5": 55298,
+  "Column6": 502
+ },
+ {
+   "Tavola 4.7 - Biblioteche, opere consultate, prestiti e personale delle biblioteche statali dipendenti dal Ministero per i beni e le attività culturali per provincia - Anno 2012": "Abruzzo",
+  "Column3": "-",
+  "Column4": "-",
+  "Column5": "-",
+  "Column6": "-"
+ },
+ {
+   "Tavola 4.7 - Biblioteche, opere consultate, prestiti e personale delle biblioteche statali dipendenti dal Ministero per i beni e le attività culturali per provincia - Anno 2012": "Molise",
+  "Column3": "-",
+  "Column4": "-",
+  "Column5": "-",
+  "Column6": "-"
+ },
+ {
+   "Tavola 4.7 - Biblioteche, opere consultate, prestiti e personale delle biblioteche statali dipendenti dal Ministero per i beni e le attività culturali per provincia - Anno 2012": "Avellino",
+  "Column3": 1,
+  "Column4": 6775,
+  "Column5": 689,
+  "Column6": 11
+ },
+ {
+   "Tavola 4.7 - Biblioteche, opere consultate, prestiti e personale delle biblioteche statali dipendenti dal Ministero per i beni e le attività culturali per provincia - Anno 2012": "Napoli",
+  "Column3": 3,
+  "Column4": 194127,
+  "Column5": 9585,
+  "Column6": 291
+ },
+ {
+   "Tavola 4.7 - Biblioteche, opere consultate, prestiti e personale delle biblioteche statali dipendenti dal Ministero per i beni e le attività culturali per provincia - Anno 2012": "Salerno",
+  "Column3": 1,
+  "Column4": 1515,
+  "Column5": 103,
+  "Column6": 3
+ },
+ {
+   "Tavola 4.7 - Biblioteche, opere consultate, prestiti e personale delle biblioteche statali dipendenti dal Ministero per i beni e le attività culturali per provincia - Anno 2012": "Campania",
+  "Column3": 5,
+  "Column4": 202417,
+  "Column5": 10377,
+  "Column6": 305
+ },
+ {
+   "Tavola 4.7 - Biblioteche, opere consultate, prestiti e personale delle biblioteche statali dipendenti dal Ministero per i beni e le attività culturali per provincia - Anno 2012": "Bari",
+  "Column3": 1,
+  "Column4": 7845,
+  "Column5": 2028,
+  "Column6": 59
+ },
+ {
+   "Tavola 4.7 - Biblioteche, opere consultate, prestiti e personale delle biblioteche statali dipendenti dal Ministero per i beni e le attività culturali per provincia - Anno 2012": "Puglia",
+  "Column3": 1,
+  "Column4": 7845,
+  "Column5": 2028,
+  "Column6": 59
+ },
+ {
+   "Tavola 4.7 - Biblioteche, opere consultate, prestiti e personale delle biblioteche statali dipendenti dal Ministero per i beni e le attività culturali per provincia - Anno 2012": "Potenza ",
+  "Column3": 1,
+  "Column4": 19890,
+  "Column5": 3329,
+  "Column6": 55
+ },
+ {
+   "Tavola 4.7 - Biblioteche, opere consultate, prestiti e personale delle biblioteche statali dipendenti dal Ministero per i beni e le attività culturali per provincia - Anno 2012": "Basilicata",
+  "Column3": 1,
+  "Column4": 19890,
+  "Column5": 3329,
+  "Column6": 55
+ },
+ {
+   "Tavola 4.7 - Biblioteche, opere consultate, prestiti e personale delle biblioteche statali dipendenti dal Ministero per i beni e le attività culturali per provincia - Anno 2012": "Cosenza",
+  "Column3": 1,
+  "Column4": 4464,
+  "Column5": 2592,
+  "Column6": 88
+ },
+ {
+   "Tavola 4.7 - Biblioteche, opere consultate, prestiti e personale delle biblioteche statali dipendenti dal Ministero per i beni e le attività culturali per provincia - Anno 2012": "Calabria",
+  "Column3": 1,
+  "Column4": 4464,
+  "Column5": 2592,
+  "Column6": 88
+ },
+ {
+   "Tavola 4.7 - Biblioteche, opere consultate, prestiti e personale delle biblioteche statali dipendenti dal Ministero per i beni e le attività culturali per provincia - Anno 2012": "Sicilia",
+  "Column3": "-",
+  "Column4": "-",
+  "Column5": "-",
+  "Column6": "-"
+ },
+ {
+   "Tavola 4.7 - Biblioteche, opere consultate, prestiti e personale delle biblioteche statali dipendenti dal Ministero per i beni e le attività culturali per provincia - Anno 2012": "Cagliari",
+  "Column3": 1,
+  "Column4": 45574,
+  "Column5": 7376,
+  "Column6": 55
+ },
+ {
+   "Tavola 4.7 - Biblioteche, opere consultate, prestiti e personale delle biblioteche statali dipendenti dal Ministero per i beni e le attività culturali per provincia - Anno 2012": "Sassari",
+  "Column3": 1,
+  "Column4": 1254,
+  "Column5": 2127,
+  "Column6": 33
+ },
+ {
+   "Tavola 4.7 - Biblioteche, opere consultate, prestiti e personale delle biblioteche statali dipendenti dal Ministero per i beni e le attività culturali per provincia - Anno 2012": "Sardegna",
+  "Column3": 2,
+  "Column4": 46828,
+  "Column5": 9503,
+  "Column6": 88
+ },
+ {
+
+ },
+ {
+   "Tavola 4.7 - Biblioteche, opere consultate, prestiti e personale delle biblioteche statali dipendenti dal Ministero per i beni e le attività culturali per provincia - Anno 2012": "ITALIA",
+  "Column3": 46,
+  "Column4": 1973415,
+  "Column5": 196613,
+  "Column6": 1968
+ },
+ {
+   "Tavola 4.7 - Biblioteche, opere consultate, prestiti e personale delle biblioteche statali dipendenti dal Ministero per i beni e le attività culturali per provincia - Anno 2012": "Nord",
+  "Column3": 14,
+  "Column4": 675717,
+  "Column5": 90474,
+  "Column6": 542
+ },
+ {
+   "Tavola 4.7 - Biblioteche, opere consultate, prestiti e personale delle biblioteche statali dipendenti dal Ministero per i beni e le attività culturali per provincia - Anno 2012": "Centro",
+  "Column3": 22,
+  "Column4": 1016254,
+  "Column5": 78310,
+  "Column6": 831
+ },
+ {
+   "Tavola 4.7 - Biblioteche, opere consultate, prestiti e personale delle biblioteche statali dipendenti dal Ministero per i beni e le attività culturali per provincia - Anno 2012": "Mezzogiorno",
+  "Column3": 10,
+  "Column4": 281444,
+  "Column5": 27829,
+  "Column6": 595
+ }
+],
+"Tav 4.8":[
+ null,
+ null,
+ {
+  "Tavola 4.8 - Biblioteche statali dipendenti dal MiBact per tipologia e provincia  e consistenza del patrimonio librario - Anno 2012": "PROVINCE E REGIONI",
+  "Column3": "Volumi manoscritti ",
+  "Column4": "Volumi stampati",
+  "Column5": "Opuscoli",
+  "Column6": "Periodici"
+ },
+ null,
+ {
+  "Tavola 4.8 - Biblioteche statali dipendenti dal MiBact per tipologia e provincia  e consistenza del patrimonio librario - Anno 2012": "Torino",
+  "Column3": 8979,
+  "Column4": 966456,
+  "Column5": 204558,
+  "Column6": 1272
+ },
+ {
+  "Tavola 4.8 - Biblioteche statali dipendenti dal MiBact per tipologia e provincia  e consistenza del patrimonio librario - Anno 2012": "Piemonte",
+  "Column3": 8979,
+  "Column4": 966456,
+  "Column5": 204558,
+  "Column6": 1272
+ },
+ {
+  "Tavola 4.8 - Biblioteche statali dipendenti dal MiBact per tipologia e provincia  e consistenza del patrimonio librario - Anno 2012": "Valle d'Aosta\/Vallée d'Aoste",
+  "Column3": "-",
+  "Column4": "-",
+  "Column5": "-",
+  "Column6": "-"
+ },
+ {
+  "Tavola 4.8 - Biblioteche statali dipendenti dal MiBact per tipologia e provincia  e consistenza del patrimonio librario - Anno 2012": "Cremona",
+  "Column3": 3879,
+  "Column4": 477182,
+  "Column5": 86561,
+  "Column6": 45
+ },
+ {
+  "Tavola 4.8 - Biblioteche statali dipendenti dal MiBact per tipologia e provincia  e consistenza del patrimonio librario - Anno 2012": "Milano",
+  "Column3": 2119,
+  "Column4": 1023094,
+  "Column5": 299669,
+  "Column6": 2529
+ },
+ {
+  "Tavola 4.8 - Biblioteche statali dipendenti dal MiBact per tipologia e provincia  e consistenza del patrimonio librario - Anno 2012": "Pavia",
+  "Column3": 1411,
+  "Column4": 386774,
+  "Column5": 119587,
+  "Column6": 162
+ },
+ {
+  "Tavola 4.8 - Biblioteche statali dipendenti dal MiBact per tipologia e provincia  e consistenza del patrimonio librario - Anno 2012": "Lombardia",
+  "Column3": 7409,
+  "Column4": 1887050,
+  "Column5": 505817,
+  "Column6": 2736
+ },
+ {
+  "Tavola 4.8 - Biblioteche statali dipendenti dal MiBact per tipologia e provincia  e consistenza del patrimonio librario - Anno 2012": "Bolzano\/Bozen",
+  "Column3": "-",
+  "Column4": "-",
+  "Column5": "-",
+  "Column6": "-"
+ },
+ {
+  "Tavola 4.8 - Biblioteche statali dipendenti dal MiBact per tipologia e provincia  e consistenza del patrimonio librario - Anno 2012": "Trento",
+  "Column3": "-",
+  "Column4": "-",
+  "Column5": "-",
+  "Column6": "-"
+ },
+ {
+  "Tavola 4.8 - Biblioteche statali dipendenti dal MiBact per tipologia e provincia  e consistenza del patrimonio librario - Anno 2012": "Trentino-Alto Adige",
+  "Column3": "-",
+  "Column4": "-",
+  "Column5": "-",
+  "Column6": "-"
+ },
+ {
+  "Tavola 4.8 - Biblioteche statali dipendenti dal MiBact per tipologia e provincia  e consistenza del patrimonio librario - Anno 2012": "Padova",
+  "Column3": 2946,
+  "Column4": 609911,
+  "Column5": 228946,
+  "Column6": 762
+ },
+ {
+  "Tavola 4.8 - Biblioteche statali dipendenti dal MiBact per tipologia e provincia  e consistenza del patrimonio librario - Anno 2012": "Venezia",
+  "Column3": 13118,
+  "Column4": 635939,
+  "Column5": 263115,
+  "Column6": 531
+ },
+ {
+  "Tavola 4.8 - Biblioteche statali dipendenti dal MiBact per tipologia e provincia  e consistenza del patrimonio librario - Anno 2012": "Veneto",
+  "Column3": 16064,
+  "Column4": 1245850,
+  "Column5": 492061,
+  "Column6": 1293
+ },
+ {
+  "Tavola 4.8 - Biblioteche statali dipendenti dal MiBact per tipologia e provincia  e consistenza del patrimonio librario - Anno 2012": "Gorizia",
+  "Column3": 900,
+  "Column4": 357903,
+  "Column5": 82031,
+  "Column6": 482
+ },
+ {
+  "Tavola 4.8 - Biblioteche statali dipendenti dal MiBact per tipologia e provincia  e consistenza del patrimonio librario - Anno 2012": "Trieste",
+  "Column3": 8,
+  "Column4": 189763,
+  "Column5": 19737,
+  "Column6": 180
+ },
+ {
+  "Tavola 4.8 - Biblioteche statali dipendenti dal MiBact per tipologia e provincia  e consistenza del patrimonio librario - Anno 2012": "Friuli-Venezia Giulia",
+  "Column3": 908,
+  "Column4": 547666,
+  "Column5": 101768,
+  "Column6": 662
+ },
+ {
+  "Tavola 4.8 - Biblioteche statali dipendenti dal MiBact per tipologia e provincia  e consistenza del patrimonio librario - Anno 2012": "Genova",
+  "Column3": 1949,
+  "Column4": 402228,
+  "Column5": 103444,
+  "Column6": 1148
+ },
+ {
+  "Tavola 4.8 - Biblioteche statali dipendenti dal MiBact per tipologia e provincia  e consistenza del patrimonio librario - Anno 2012": "Liguria",
+  "Column3": 1949,
+  "Column4": 402228,
+  "Column5": 103444,
+  "Column6": 1148
+ },
+ {
+  "Tavola 4.8 - Biblioteche statali dipendenti dal MiBact per tipologia e provincia  e consistenza del patrimonio librario - Anno 2012": "Modena",
+  "Column3": 11025,
+  "Column4": 565925,
+  "Column5": 129520,
+  "Column6": 490
+ },
+ {
+  "Tavola 4.8 - Biblioteche statali dipendenti dal MiBact per tipologia e provincia  e consistenza del patrimonio librario - Anno 2012": "Parma",
+  "Column3": 52244,
+  "Column4": 677009,
+  "Column5": 130942,
+  "Column6": 208
+ },
+ {
+  "Tavola 4.8 - Biblioteche statali dipendenti dal MiBact per tipologia e provincia  e consistenza del patrimonio librario - Anno 2012": "Emilia-Romagna",
+  "Column3": 63269,
+  "Column4": 1242934,
+  "Column5": 260462,
+  "Column6": 698
+ },
+ {
+  "Tavola 4.8 - Biblioteche statali dipendenti dal MiBact per tipologia e provincia  e consistenza del patrimonio librario - Anno 2012": "Firenze",
+  "Column3": 43438,
+  "Column4": 6453328,
+  "Column5": 2934301,
+  "Column6": 20545
+ },
+ {
+  "Tavola 4.8 - Biblioteche statali dipendenti dal MiBact per tipologia e provincia  e consistenza del patrimonio librario - Anno 2012": "Lucca",
+  "Column3": 4323,
+  "Column4": 380040,
+  "Column5": 88010,
+  "Column6": 298
+ },
+ {
+  "Tavola 4.8 - Biblioteche statali dipendenti dal MiBact per tipologia e provincia  e consistenza del patrimonio librario - Anno 2012": "Pisa",
+  "Column3": 1395,
+  "Column4": 476631,
+  "Column5": 105369,
+  "Column6": 1915
+ },
+ {
+  "Tavola 4.8 - Biblioteche statali dipendenti dal MiBact per tipologia e provincia  e consistenza del patrimonio librario - Anno 2012": "Toscana",
+  "Column3": 49156,
+  "Column4": 7309999,
+  "Column5": 3127680,
+  "Column6": 22758
+ },
+ {
+  "Tavola 4.8 - Biblioteche statali dipendenti dal MiBact per tipologia e provincia  e consistenza del patrimonio librario - Anno 2012": "Umbria",
+  "Column3": "-",
+  "Column4": "-",
+  "Column5": "-",
+  "Column6": "-"
+ },
+ {
+  "Tavola 4.8 - Biblioteche statali dipendenti dal MiBact per tipologia e provincia  e consistenza del patrimonio librario - Anno 2012": "Macerata",
+  "Column3": 64,
+  "Column4": 80135,
+  "Column5": 4006,
+  "Column6": "-"
+ },
+ {
+  "Tavola 4.8 - Biblioteche statali dipendenti dal MiBact per tipologia e provincia  e consistenza del patrimonio librario - Anno 2012": "Marche",
+  "Column3": 64,
+  "Column4": 80135,
+  "Column5": 4006,
+  "Column6": "-"
+ },
+ {
+  "Tavola 4.8 - Biblioteche statali dipendenti dal MiBact per tipologia e provincia  e consistenza del patrimonio librario - Anno 2012": "Frosinone",
+  "Column3": 2680,
+  "Column4": 177479,
+  "Column5": 5370,
+  "Column6": 103
+ },
+ {
+  "Tavola 4.8 - Biblioteche statali dipendenti dal MiBact per tipologia e provincia  e consistenza del patrimonio librario - Anno 2012": "Rieti",
+  "Column3": 350,
+  "Column4": 43968,
+  "Column5": 2444,
+  "Column6": "-"
+ },
+ {
+  "Tavola 4.8 - Biblioteche statali dipendenti dal MiBact per tipologia e provincia  e consistenza del patrimonio librario - Anno 2012": "Roma",
+  "Column3": 25402,
+  "Column4": 6867355,
+  "Column5": 2006919,
+  "Column6": 34349
+ },
+ {
+  "Tavola 4.8 - Biblioteche statali dipendenti dal MiBact per tipologia e provincia  e consistenza del patrimonio librario - Anno 2012": "Lazio",
+  "Column3": 28432,
+  "Column4": 7088802,
+  "Column5": 2014733,
+  "Column6": 34452
+ },
+ {
+  "Tavola 4.8 - Biblioteche statali dipendenti dal MiBact per tipologia e provincia  e consistenza del patrimonio librario - Anno 2012": "Abruzzo",
+  "Column3": "-",
+  "Column4": "-",
+  "Column5": "-",
+  "Column6": "-"
+ },
+ {
+  "Tavola 4.8 - Biblioteche statali dipendenti dal MiBact per tipologia e provincia  e consistenza del patrimonio librario - Anno 2012": "Molise",
+  "Column3": "-",
+  "Column4": "-",
+  "Column5": "-",
+  "Column6": "-"
+ },
+ {
+  "Tavola 4.8 - Biblioteche statali dipendenti dal MiBact per tipologia e provincia  e consistenza del patrimonio librario - Anno 2012": "Avellino",
+  "Column3": 580,
+  "Column4": 156663,
+  "Column5": 22623,
+  "Column6": 144
+ },
+ {
+  "Tavola 4.8 - Biblioteche statali dipendenti dal MiBact per tipologia e provincia  e consistenza del patrimonio librario - Anno 2012": "Napoli",
+  "Column3": 18566,
+  "Column4": 2172952,
+  "Column5": "....",
+  "Column6": 1132
+ },
+ {
+  "Tavola 4.8 - Biblioteche statali dipendenti dal MiBact per tipologia e provincia  e consistenza del patrimonio librario - Anno 2012": "Salerno",
+  "Column3": 438,
+  "Column4": 85700,
+  "Column5": 7149,
+  "Column6": 69
+ },
+ {
+  "Tavola 4.8 - Biblioteche statali dipendenti dal MiBact per tipologia e provincia  e consistenza del patrimonio librario - Anno 2012": "Campania",
+  "Column3": 19584,
+  "Column4": 2415315,
+  "Column5": 481238,
+  "Column6": 1345
+ },
+ {
+  "Tavola 4.8 - Biblioteche statali dipendenti dal MiBact per tipologia e provincia  e consistenza del patrimonio librario - Anno 2012": "Bari",
+  "Column3": 454,
+  "Column4": 306858,
+  "Column5": 65542,
+  "Column6": 76
+ },
+ {
+  "Tavola 4.8 - Biblioteche statali dipendenti dal MiBact per tipologia e provincia  e consistenza del patrimonio librario - Anno 2012": "Puglia",
+  "Column3": 454,
+  "Column4": 306858,
+  "Column5": 65542,
+  "Column6": 76
+ },
+ {
+  "Tavola 4.8 - Biblioteche statali dipendenti dal MiBact per tipologia e provincia  e consistenza del patrimonio librario - Anno 2012": "Potenza ",
+  "Column3": 74,
+  "Column4": 130728,
+  "Column5": 11615,
+  "Column6": 479
+ },
+ {
+  "Tavola 4.8 - Biblioteche statali dipendenti dal MiBact per tipologia e provincia  e consistenza del patrimonio librario - Anno 2012": "Basilicata",
+  "Column3": 74,
+  "Column4": 130728,
+  "Column5": 11615,
+  "Column6": 479
+ },
+ {
+  "Tavola 4.8 - Biblioteche statali dipendenti dal MiBact per tipologia e provincia  e consistenza del patrimonio librario - Anno 2012": "Cosenza",
+  "Column3": 117,
+  "Column4": 117841,
+  "Column5": 14372,
+  "Column6": 137
+ },
+ {
+  "Tavola 4.8 - Biblioteche statali dipendenti dal MiBact per tipologia e provincia  e consistenza del patrimonio librario - Anno 2012": "Calabria",
+  "Column3": 117,
+  "Column4": 117841,
+  "Column5": 14372,
+  "Column6": 137
+ },
+ {
+  "Tavola 4.8 - Biblioteche statali dipendenti dal MiBact per tipologia e provincia  e consistenza del patrimonio librario - Anno 2012": "Sicilia",
+  "Column3": "-",
+  "Column4": "-",
+  "Column5": "-",
+  "Column6": "-"
+ },
+ {
+  "Tavola 4.8 - Biblioteche statali dipendenti dal MiBact per tipologia e provincia  e consistenza del patrimonio librario - Anno 2012": "Cagliari",
+  "Column3": 604,
+  "Column4": 544182,
+  "Column5": 29952,
+  "Column6": 801
+ },
+ {
+  "Tavola 4.8 - Biblioteche statali dipendenti dal MiBact per tipologia e provincia  e consistenza del patrimonio librario - Anno 2012": "Sassari",
+  "Column3": 957,
+  "Column4": 201760,
+  "Column5": 25009,
+  "Column6": 2706
+ },
+ {
+  "Tavola 4.8 - Biblioteche statali dipendenti dal MiBact per tipologia e provincia  e consistenza del patrimonio librario - Anno 2012": "Sardegna",
+  "Column3": 1561,
+  "Column4": 745942,
+  "Column5": 54961,
+  "Column6": 3507
+ },
+ {
+
+ },
+ {
+  "Tavola 4.8 - Biblioteche statali dipendenti dal MiBact per tipologia e provincia  e consistenza del patrimonio librario - Anno 2012": "ITALIA",
+  "Column3": 198020,
+  "Column4": 24487804,
+  "Column5": 7442257,
+  "Column6": 70563
+ },
+ {
+  "Tavola 4.8 - Biblioteche statali dipendenti dal MiBact per tipologia e provincia  e consistenza del patrimonio librario - Anno 2012": "Nord",
+  "Column3": 98578,
+  "Column4": 6292184,
+  "Column5": 1668110,
+  "Column6": 7809
+ },
+ {
+  "Tavola 4.8 - Biblioteche statali dipendenti dal MiBact per tipologia e provincia  e consistenza del patrimonio librario - Anno 2012": "Centro",
+  "Column3": 77652,
+  "Column4": 14478936,
+  "Column5": 5146419,
+  "Column6": 57210
+ },
+ {
+  "Tavola 4.8 - Biblioteche statali dipendenti dal MiBact per tipologia e provincia  e consistenza del patrimonio librario - Anno 2012": "Mezzogiorno",
+  "Column3": 21790,
+  "Column4": 3716684,
+  "Column5": 627728,
+  "Column6": 5544
+ }
+],
+"Tav 4.9":[
+ null,
+ null,
+ null,
+ {
+  "Tavola 4.9 - Biblioteche statali dipendenti dal MiBact, posti per lettori, lettori in totale e stranieri e opere consultate - Anno 2012": "PROVINCE E REGIONI",
+  "Column2": "Posti per lettori",
+  "Column4": "Lettori in totale",
+  "Column5": " Lettori Stranieri",
+  "Column6": "Opere consultate"
+ },
+ null,
+ {
+  "Tavola 4.9 - Biblioteche statali dipendenti dal MiBact, posti per lettori, lettori in totale e stranieri e opere consultate - Anno 2012": "Torino",
+  "Column2": 416,
+  "Column4": 149103,
+  "Column5": 6733,
+  "Column6": 65076
+ },
+ {
+  "Tavola 4.9 - Biblioteche statali dipendenti dal MiBact, posti per lettori, lettori in totale e stranieri e opere consultate - Anno 2012": "Piemonte",
+  "Column2": 416,
+  "Column4": 149103,
+  "Column5": 6733,
+  "Column6": 65076
+ },
+ {
+  "Tavola 4.9 - Biblioteche statali dipendenti dal MiBact, posti per lettori, lettori in totale e stranieri e opere consultate - Anno 2012": "Valle d'Aosta\/Vallée d'Aoste",
+  "Column2": "-",
+  "Column4": "-",
+  "Column5": "-",
+  "Column6": "-"
+ },
+ {
+  "Tavola 4.9 - Biblioteche statali dipendenti dal MiBact, posti per lettori, lettori in totale e stranieri e opere consultate - Anno 2012": "Cremona",
+  "Column2": 220,
+  "Column4": 134213,
+  "Column5": 11215,
+  "Column6": 386948
+ },
+ {
+  "Tavola 4.9 - Biblioteche statali dipendenti dal MiBact, posti per lettori, lettori in totale e stranieri e opere consultate - Anno 2012": "Milano",
+  "Column2": 240,
+  "Column4": 49041,
+  "Column5": 7356,
+  "Column6": 16411
+ },
+ {
+  "Tavola 4.9 - Biblioteche statali dipendenti dal MiBact, posti per lettori, lettori in totale e stranieri e opere consultate - Anno 2012": "Pavia",
+  "Column2": 63,
+  "Column4": 34307,
+  "Column5": 1255,
+  "Column6": 16739
+ },
+ {
+  "Tavola 4.9 - Biblioteche statali dipendenti dal MiBact, posti per lettori, lettori in totale e stranieri e opere consultate - Anno 2012": "Lombardia",
+  "Column2": 523,
+  "Column4": 217561,
+  "Column5": 19826,
+  "Column6": 420098
+ },
+ {
+  "Tavola 4.9 - Biblioteche statali dipendenti dal MiBact, posti per lettori, lettori in totale e stranieri e opere consultate - Anno 2012": "Bolzano\/Bozen",
+  "Column2": "-",
+  "Column4": "-",
+  "Column5": "-",
+  "Column6": "-"
+ },
+ {
+  "Tavola 4.9 - Biblioteche statali dipendenti dal MiBact, posti per lettori, lettori in totale e stranieri e opere consultate - Anno 2012": "Trento",
+  "Column2": "-",
+  "Column4": "-",
+  "Column5": "-",
+  "Column6": "-"
+ },
+ {
+  "Tavola 4.9 - Biblioteche statali dipendenti dal MiBact, posti per lettori, lettori in totale e stranieri e opere consultate - Anno 2012": "Trentino-Alto Adige",
+  "Column2": "-",
+  "Column4": "-",
+  "Column5": "-",
+  "Column6": "-"
+ },
+ {
+  "Tavola 4.9 - Biblioteche statali dipendenti dal MiBact, posti per lettori, lettori in totale e stranieri e opere consultate - Anno 2012": "Padova",
+  "Column2": 252,
+  "Column4": 54596,
+  "Column5": 1105,
+  "Column6": 40802
+ },
+ {
+  "Tavola 4.9 - Biblioteche statali dipendenti dal MiBact, posti per lettori, lettori in totale e stranieri e opere consultate - Anno 2012": "Venezia",
+  "Column2": 76,
+  "Column4": 26830,
+  "Column5": 1722,
+  "Column6": 27680
+ },
+ {
+  "Tavola 4.9 - Biblioteche statali dipendenti dal MiBact, posti per lettori, lettori in totale e stranieri e opere consultate - Anno 2012": "Veneto",
+  "Column2": 328,
+  "Column4": 81426,
+  "Column5": 2827,
+  "Column6": 68482
+ },
+ {
+  "Tavola 4.9 - Biblioteche statali dipendenti dal MiBact, posti per lettori, lettori in totale e stranieri e opere consultate - Anno 2012": "Gorizia",
+  "Column2": 102,
+  "Column4": 47461,
+  "Column5": 2038,
+  "Column6": 51372
+ },
+ {
+  "Tavola 4.9 - Biblioteche statali dipendenti dal MiBact, posti per lettori, lettori in totale e stranieri e opere consultate - Anno 2012": "Trieste",
+  "Column2": 120,
+  "Column4": 25500,
+  "Column5": 3144,
+  "Column6": 29945
+ },
+ {
+  "Tavola 4.9 - Biblioteche statali dipendenti dal MiBact, posti per lettori, lettori in totale e stranieri e opere consultate - Anno 2012": "Friuli-Venezia Giulia",
+  "Column2": 222,
+  "Column4": 72961,
+  "Column5": 5182,
+  "Column6": 81317
+ },
+ {
+  "Tavola 4.9 - Biblioteche statali dipendenti dal MiBact, posti per lettori, lettori in totale e stranieri e opere consultate - Anno 2012": "Genova",
+  "Column2": 99,
+  "Column4": 36167,
+  "Column5": 7200,
+  "Column6": 15520
+ },
+ {
+  "Tavola 4.9 - Biblioteche statali dipendenti dal MiBact, posti per lettori, lettori in totale e stranieri e opere consultate - Anno 2012": "Liguria",
+  "Column2": 99,
+  "Column4": 36167,
+  "Column5": 7200,
+  "Column6": 15520
+ },
+ {
+  "Tavola 4.9 - Biblioteche statali dipendenti dal MiBact, posti per lettori, lettori in totale e stranieri e opere consultate - Anno 2012": "Modena",
+  "Column2": 220,
+  "Column4": 16124,
+  "Column5": 3162,
+  "Column6": 12994
+ },
+ {
+  "Tavola 4.9 - Biblioteche statali dipendenti dal MiBact, posti per lettori, lettori in totale e stranieri e opere consultate - Anno 2012": "Parma",
+  "Column2": 142,
+  "Column4": 21419,
+  "Column5": 2150,
+  "Column6": 12230
+ },
+ {
+  "Tavola 4.9 - Biblioteche statali dipendenti dal MiBact, posti per lettori, lettori in totale e stranieri e opere consultate - Anno 2012": "Emilia-Romagna",
+  "Column2": 362,
+  "Column4": 37543,
+  "Column5": 5312,
+  "Column6": 25224
+ },
+ {
+  "Tavola 4.9 - Biblioteche statali dipendenti dal MiBact, posti per lettori, lettori in totale e stranieri e opere consultate - Anno 2012": "Firenze",
+  "Column2": 589,
+  "Column4": 170747,
+  "Column5": 24886,
+  "Column6": 402184
+ },
+ {
+  "Tavola 4.9 - Biblioteche statali dipendenti dal MiBact, posti per lettori, lettori in totale e stranieri e opere consultate - Anno 2012": "Lucca",
+  "Column2": 80,
+  "Column4": 10510,
+  "Column5": 70,
+  "Column6": 14250
+ },
+ {
+  "Tavola 4.9 - Biblioteche statali dipendenti dal MiBact, posti per lettori, lettori in totale e stranieri e opere consultate - Anno 2012": "Pisa",
+  "Column2": 120,
+  "Column4": 24400,
+  "Column5": 600,
+  "Column6": 11824
+ },
+ {
+  "Tavola 4.9 - Biblioteche statali dipendenti dal MiBact, posti per lettori, lettori in totale e stranieri e opere consultate - Anno 2012": "Toscana",
+  "Column2": 789,
+  "Column4": 205657,
+  "Column5": 25556,
+  "Column6": 428258
+ },
+ {
+  "Tavola 4.9 - Biblioteche statali dipendenti dal MiBact, posti per lettori, lettori in totale e stranieri e opere consultate - Anno 2012": "Umbria",
+  "Column2": "-",
+  "Column4": "-",
+  "Column5": "-",
+  "Column6": "-"
+ },
+ {
+  "Tavola 4.9 - Biblioteche statali dipendenti dal MiBact, posti per lettori, lettori in totale e stranieri e opere consultate - Anno 2012": "Macerata",
+  "Column2": 104,
+  "Column4": 21943,
+  "Column5": 3657,
+  "Column6": 22550
+ },
+ {
+  "Tavola 4.9 - Biblioteche statali dipendenti dal MiBact, posti per lettori, lettori in totale e stranieri e opere consultate - Anno 2012": "Marche",
+  "Column2": 104,
+  "Column4": 21943,
+  "Column5": 3657,
+  "Column6": 22550
+ },
+ {
+  "Tavola 4.9 - Biblioteche statali dipendenti dal MiBact, posti per lettori, lettori in totale e stranieri e opere consultate - Anno 2012": "Frosinone",
+  "Column2": 64,
+  "Column4": 10828,
+  "Column5": 522,
+  "Column6": 49570
+ },
+ {
+  "Tavola 4.9 - Biblioteche statali dipendenti dal MiBact, posti per lettori, lettori in totale e stranieri e opere consultate - Anno 2012": "Rieti",
+  "Column2": 40,
+  "Column4": 365,
+  "Column5": 6,
+  "Column6": 686
+ },
+ {
+  "Tavola 4.9 - Biblioteche statali dipendenti dal MiBact, posti per lettori, lettori in totale e stranieri e opere consultate - Anno 2012": "Roma",
+  "Column2": 1866,
+  "Column4": 468564,
+  "Column5": 24194,
+  "Column6": 515190
+ },
+ {
+  "Tavola 4.9 - Biblioteche statali dipendenti dal MiBact, posti per lettori, lettori in totale e stranieri e opere consultate - Anno 2012": "Lazio",
+  "Column2": 1970,
+  "Column4": 479757,
+  "Column5": 24722,
+  "Column6": 565446
+ },
+ {
+  "Tavola 4.9 - Biblioteche statali dipendenti dal MiBact, posti per lettori, lettori in totale e stranieri e opere consultate - Anno 2012": "Abruzzo",
+  "Column2": "-",
+  "Column4": "-",
+  "Column5": "-",
+  "Column6": "-"
+ },
+ {
+  "Tavola 4.9 - Biblioteche statali dipendenti dal MiBact, posti per lettori, lettori in totale e stranieri e opere consultate - Anno 2012": "Molise",
+  "Column2": "-",
+  "Column4": "-",
+  "Column5": "-",
+  "Column6": "-"
+ },
+ {
+  "Tavola 4.9 - Biblioteche statali dipendenti dal MiBact, posti per lettori, lettori in totale e stranieri e opere consultate - Anno 2012": "Avellino",
+  "Column2": 116,
+  "Column4": 1742,
+  "Column5": 6,
+  "Column6": 6775
+ },
+ {
+  "Tavola 4.9 - Biblioteche statali dipendenti dal MiBact, posti per lettori, lettori in totale e stranieri e opere consultate - Anno 2012": "Napoli",
+  "Column2": 694,
+  "Column4": 74868,
+  "Column5": 1130,
+  "Column6": 194127
+ },
+ {
+  "Tavola 4.9 - Biblioteche statali dipendenti dal MiBact, posti per lettori, lettori in totale e stranieri e opere consultate - Anno 2012": "Salerno",
+  "Column2": 18,
+  "Column4": 734,
+  "Column5": 38,
+  "Column6": 1515
+ },
+ {
+  "Tavola 4.9 - Biblioteche statali dipendenti dal MiBact, posti per lettori, lettori in totale e stranieri e opere consultate - Anno 2012": "Campania",
+  "Column2": 828,
+  "Column4": 77344,
+  "Column5": 1174,
+  "Column6": 202417
+ },
+ {
+  "Tavola 4.9 - Biblioteche statali dipendenti dal MiBact, posti per lettori, lettori in totale e stranieri e opere consultate - Anno 2012": "Bari",
+  "Column2": 230,
+  "Column4": 25298,
+  "Column5": 298,
+  "Column6": 7845
+ },
+ {
+  "Tavola 4.9 - Biblioteche statali dipendenti dal MiBact, posti per lettori, lettori in totale e stranieri e opere consultate - Anno 2012": "Puglia",
+  "Column2": 230,
+  "Column4": 25298,
+  "Column5": 298,
+  "Column6": 7845
+ },
+ {
+  "Tavola 4.9 - Biblioteche statali dipendenti dal MiBact, posti per lettori, lettori in totale e stranieri e opere consultate - Anno 2012": "Potenza ",
+  "Column2": 313,
+  "Column4": 52620,
+  "Column5": "-",
+  "Column6": 19890
+ },
+ {
+  "Tavola 4.9 - Biblioteche statali dipendenti dal MiBact, posti per lettori, lettori in totale e stranieri e opere consultate - Anno 2012": "Basilicata",
+  "Column2": 313,
+  "Column4": 52620,
+  "Column5": "-",
+  "Column6": 19890
+ },
+ {
+  "Tavola 4.9 - Biblioteche statali dipendenti dal MiBact, posti per lettori, lettori in totale e stranieri e opere consultate - Anno 2012": "Cosenza",
+  "Column2": 65,
+  "Column4": 9397,
+  "Column5": 36,
+  "Column6": 4464
+ },
+ {
+  "Tavola 4.9 - Biblioteche statali dipendenti dal MiBact, posti per lettori, lettori in totale e stranieri e opere consultate - Anno 2012": "Calabria",
+  "Column2": 65,
+  "Column4": 9397,
+  "Column5": 36,
+  "Column6": 4464
+ },
+ {
+  "Tavola 4.9 - Biblioteche statali dipendenti dal MiBact, posti per lettori, lettori in totale e stranieri e opere consultate - Anno 2012": "Sicilia",
+  "Column2": "-",
+  "Column4": "-",
+  "Column5": "-",
+  "Column6": "-"
+ },
+ {
+  "Tavola 4.9 - Biblioteche statali dipendenti dal MiBact, posti per lettori, lettori in totale e stranieri e opere consultate - Anno 2012": "Cagliari",
+  "Column2": 98,
+  "Column4": 21174,
+  "Column5": 2236,
+  "Column6": 45574
+ },
+ {
+  "Tavola 4.9 - Biblioteche statali dipendenti dal MiBact, posti per lettori, lettori in totale e stranieri e opere consultate - Anno 2012": "Sassari",
+  "Column2": 140,
+  "Column4": 6852,
+  "Column5": "-",
+  "Column6": 1254
+ },
+ {
+  "Tavola 4.9 - Biblioteche statali dipendenti dal MiBact, posti per lettori, lettori in totale e stranieri e opere consultate - Anno 2012": "Sardegna",
+  "Column2": 238,
+  "Column4": 28026,
+  "Column5": 2236,
+  "Column6": 46828
+ },
+ {
+
+ },
+ {
+  "Tavola 4.9 - Biblioteche statali dipendenti dal MiBact, posti per lettori, lettori in totale e stranieri e opere consultate - Anno 2012": "ITALIA",
+  "Column2": 6487,
+  "Column4": 1494803,
+  "Column5": 104759,
+  "Column6": 1973415
+ },
+ {
+  "Tavola 4.9 - Biblioteche statali dipendenti dal MiBact, posti per lettori, lettori in totale e stranieri e opere consultate - Anno 2012": "Nord",
+  "Column2": 1950,
+  "Column4": 594761,
+  "Column5": 47080,
+  "Column6": 675717
+ },
+ {
+  "Tavola 4.9 - Biblioteche statali dipendenti dal MiBact, posti per lettori, lettori in totale e stranieri e opere consultate - Anno 2012": "Centro",
+  "Column2": 2863,
+  "Column4": 707357,
+  "Column5": 53935,
+  "Column6": 1016254
+ },
+ {
+  "Tavola 4.9 - Biblioteche statali dipendenti dal MiBact, posti per lettori, lettori in totale e stranieri e opere consultate - Anno 2012": "Mezzogiorno",
+  "Column2": 1674,
+  "Column4": 192685,
+  "Column5": 3744,
+  "Column6": 281444
+ }
+],
+"Tav 4.10":[
+ null,
+ null,
+ null,
+ {
+  "Tavola 4.10 - Prestiti delle biblioteche statali dipendenti dal Mibact per provincia e regione - Anno 2012": "PROVINCE E REGIONI",
+  "Column2": "Persone ammesse al prestito",
+  "Column4": "Opere  in prestito a privati",
+  "Column5": "Opere  in prestito a biblioteche",
+  "Column7": "Opere ricevute in prestito da biblioteche"
+ },
+ null,
+ {
+  "Tavola 4.10 - Prestiti delle biblioteche statali dipendenti dal Mibact per provincia e regione - Anno 2012": "Torino",
+  "Column2": 5420,
+  "Column4": 13551,
+  "Column5": 663,
+  "Column7": 281
+ },
+ {
+  "Tavola 4.10 - Prestiti delle biblioteche statali dipendenti dal Mibact per provincia e regione - Anno 2012": "Piemonte",
+  "Column2": 5420,
+  "Column4": 13551,
+  "Column5": 663,
+  "Column7": 281
+ },
+ {
+  "Tavola 4.10 - Prestiti delle biblioteche statali dipendenti dal Mibact per provincia e regione - Anno 2012": "Valle d'Aosta\/Vallée d'Aoste",
+  "Column2": "-",
+  "Column4": "-",
+  "Column5": "-",
+  "Column7": "-"
+ },
+ {
+  "Tavola 4.10 - Prestiti delle biblioteche statali dipendenti dal Mibact per provincia e regione - Anno 2012": "Cremona",
+  "Column2": 1470,
+  "Column4": 14318,
+  "Column5": 752,
+  "Column7": 833
+ },
+ {
+  "Tavola 4.10 - Prestiti delle biblioteche statali dipendenti dal Mibact per provincia e regione - Anno 2012": "Milano",
+  "Column2": 1414,
+  "Column4": 9985,
+  "Column5": 2462,
+  "Column7": 258
+ },
+ {
+  "Tavola 4.10 - Prestiti delle biblioteche statali dipendenti dal Mibact per provincia e regione - Anno 2012": "Pavia",
+  "Column2": 2122,
+  "Column4": 5588,
+  "Column5": 500,
+  "Column7": 225
+ },
+ {
+  "Tavola 4.10 - Prestiti delle biblioteche statali dipendenti dal Mibact per provincia e regione - Anno 2012": "Lombardia",
+  "Column2": 5006,
+  "Column4": 29891,
+  "Column5": 3714,
+  "Column7": 1316
+ },
+ {
+  "Tavola 4.10 - Prestiti delle biblioteche statali dipendenti dal Mibact per provincia e regione - Anno 2012": "Bolzano\/Bozen",
+  "Column2": "-",
+  "Column4": "-",
+  "Column5": "-",
+  "Column7": "-"
+ },
+ {
+  "Tavola 4.10 - Prestiti delle biblioteche statali dipendenti dal Mibact per provincia e regione - Anno 2012": "Trento",
+  "Column2": "-",
+  "Column4": "-",
+  "Column5": "-",
+  "Column7": "-"
+ },
+ {
+  "Tavola 4.10 - Prestiti delle biblioteche statali dipendenti dal Mibact per provincia e regione - Anno 2012": "Trentino-Alto Adige",
+  "Column2": "-",
+  "Column4": "-",
+  "Column5": "-",
+  "Column7": "-"
+ },
+ {
+  "Tavola 4.10 - Prestiti delle biblioteche statali dipendenti dal Mibact per provincia e regione - Anno 2012": "Padova",
+  "Column2": 2688,
+  "Column4": 7937,
+  "Column5": 894,
+  "Column7": 246
+ },
+ {
+  "Tavola 4.10 - Prestiti delle biblioteche statali dipendenti dal Mibact per provincia e regione - Anno 2012": "Venezia",
+  "Column2": 1172,
+  "Column4": 5059,
+  "Column5": 844,
+  "Column7": 229
+ },
+ {
+  "Tavola 4.10 - Prestiti delle biblioteche statali dipendenti dal Mibact per provincia e regione - Anno 2012": "Veneto",
+  "Column2": 3860,
+  "Column4": 12996,
+  "Column5": 1738,
+  "Column7": 475
+ },
+ {
+  "Tavola 4.10 - Prestiti delle biblioteche statali dipendenti dal Mibact per provincia e regione - Anno 2012": "Gorizia",
+  "Column2": 4733,
+  "Column4": 14613,
+  "Column5": 574,
+  "Column7": 168
+ },
+ {
+  "Tavola 4.10 - Prestiti delle biblioteche statali dipendenti dal Mibact per provincia e regione - Anno 2012": "Trieste",
+  "Column2": 1565,
+  "Column4": 5768,
+  "Column5": 86,
+  "Column7": 142
+ },
+ {
+  "Tavola 4.10 - Prestiti delle biblioteche statali dipendenti dal Mibact per provincia e regione - Anno 2012": "Friuli-Venezia Giulia",
+  "Column2": 6298,
+  "Column4": 20381,
+  "Column5": 660,
+  "Column7": 310
+ },
+ {
+  "Tavola 4.10 - Prestiti delle biblioteche statali dipendenti dal Mibact per provincia e regione - Anno 2012": "Genova",
+  "Column2": 2540,
+  "Column4": 5797,
+  "Column5": 487,
+  "Column7": 528
+ },
+ {
+  "Tavola 4.10 - Prestiti delle biblioteche statali dipendenti dal Mibact per provincia e regione - Anno 2012": "Liguria",
+  "Column2": 2540,
+  "Column4": 5797,
+  "Column5": 487,
+  "Column7": 528
+ },
+ {
+  "Tavola 4.10 - Prestiti delle biblioteche statali dipendenti dal Mibact per provincia e regione - Anno 2012": "Modena",
+  "Column2": 2051,
+  "Column4": 4031,
+  "Column5": 545,
+  "Column7": 147
+ },
+ {
+  "Tavola 4.10 - Prestiti delle biblioteche statali dipendenti dal Mibact per provincia e regione - Anno 2012": "Parma",
+  "Column2": 1504,
+  "Column4": 3827,
+  "Column5": 270,
+  "Column7": 101
+ },
+ {
+  "Tavola 4.10 - Prestiti delle biblioteche statali dipendenti dal Mibact per provincia e regione - Anno 2012": "Emilia-Romagna",
+  "Column2": 3555,
+  "Column4": 7858,
+  "Column5": 815,
+  "Column7": 248
+ },
+ {
+  "Tavola 4.10 - Prestiti delle biblioteche statali dipendenti dal Mibact per provincia e regione - Anno 2012": "Firenze",
+  "Column2": 3799,
+  "Column4": 12070,
+  "Column5": 1810,
+  "Column7": 128
+ },
+ {
+  "Tavola 4.10 - Prestiti delle biblioteche statali dipendenti dal Mibact per provincia e regione - Anno 2012": "Lucca",
+  "Column2": 3174,
+  "Column4": 1821,
+  "Column5": 352,
+  "Column7": 239
+ },
+ {
+  "Tavola 4.10 - Prestiti delle biblioteche statali dipendenti dal Mibact per provincia e regione - Anno 2012": "Pisa",
+  "Column2": 5122,
+  "Column4": 290,
+  "Column5": 96,
+  "Column7": 67
+ },
+ {
+  "Tavola 4.10 - Prestiti delle biblioteche statali dipendenti dal Mibact per provincia e regione - Anno 2012": "Toscana",
+  "Column2": 12095,
+  "Column4": 14181,
+  "Column5": 2258,
+  "Column7": 434
+ },
+ {
+  "Tavola 4.10 - Prestiti delle biblioteche statali dipendenti dal Mibact per provincia e regione - Anno 2012": "Umbria",
+  "Column2": "-",
+  "Column4": "-",
+  "Column5": "-",
+  "Column7": "-"
+ },
+ {
+  "Tavola 4.10 - Prestiti delle biblioteche statali dipendenti dal Mibact per provincia e regione - Anno 2012": "Macerata",
+  "Column2": 3910,
+  "Column4": 8831,
+  "Column5": 159,
+  "Column7": 20
+ },
+ {
+  "Tavola 4.10 - Prestiti delle biblioteche statali dipendenti dal Mibact per provincia e regione - Anno 2012": "Marche",
+  "Column2": 3910,
+  "Column4": 8831,
+  "Column5": 159,
+  "Column7": 20
+ },
+ {
+  "Tavola 4.10 - Prestiti delle biblioteche statali dipendenti dal Mibact per provincia e regione - Anno 2012": "Frosinone",
+  "Column2": "-",
+  "Column4": "-",
+  "Column5": "-",
+  "Column7": "-"
+ },
+ {
+  "Tavola 4.10 - Prestiti delle biblioteche statali dipendenti dal Mibact per provincia e regione - Anno 2012": "Rieti",
+  "Column2": 16,
+  "Column4": 45,
+  "Column5": "-",
+  "Column7": "-"
+ },
+ {
+  "Tavola 4.10 - Prestiti delle biblioteche statali dipendenti dal Mibact per provincia e regione - Anno 2012": "Roma",
+  "Column2": 35776,
+  "Column4": 55253,
+  "Column5": 2866,
+  "Column7": 732
+ },
+ {
+  "Tavola 4.10 - Prestiti delle biblioteche statali dipendenti dal Mibact per provincia e regione - Anno 2012": "Lazio",
+  "Column2": 35792,
+  "Column4": 55298,
+  "Column5": 2866,
+  "Column7": 732
+ },
+ {
+  "Tavola 4.10 - Prestiti delle biblioteche statali dipendenti dal Mibact per provincia e regione - Anno 2012": "Abruzzo",
+  "Column2": "-",
+  "Column4": "-",
+  "Column5": "-",
+  "Column7": "-"
+ },
+ {
+  "Tavola 4.10 - Prestiti delle biblioteche statali dipendenti dal Mibact per provincia e regione - Anno 2012": "Molise",
+  "Column2": "-",
+  "Column4": "-",
+  "Column5": "-",
+  "Column7": "-"
+ },
+ {
+  "Tavola 4.10 - Prestiti delle biblioteche statali dipendenti dal Mibact per provincia e regione - Anno 2012": "Avellino",
+  "Column2": 586,
+  "Column4": 689,
+  "Column5": 90,
+  "Column7": 240
+ },
+ {
+  "Tavola 4.10 - Prestiti delle biblioteche statali dipendenti dal Mibact per provincia e regione - Anno 2012": "Napoli",
+  "Column2": 5039,
+  "Column4": 9585,
+  "Column5": 360,
+  "Column7": 575
+ },
+ {
+  "Tavola 4.10 - Prestiti delle biblioteche statali dipendenti dal Mibact per provincia e regione - Anno 2012": "Salerno",
+  "Column2": 19,
+  "Column4": 103,
+  "Column5": "-",
+  "Column7": 2
+ },
+ {
+  "Tavola 4.10 - Prestiti delle biblioteche statali dipendenti dal Mibact per provincia e regione - Anno 2012": "Campania",
+  "Column2": 5644,
+  "Column4": 10377,
+  "Column5": 451,
+  "Column7": 817
+ },
+ {
+  "Tavola 4.10 - Prestiti delle biblioteche statali dipendenti dal Mibact per provincia e regione - Anno 2012": "Bari",
+  "Column2": 616,
+  "Column4": 2028,
+  "Column5": 345,
+  "Column7": 51
+ },
+ {
+  "Tavola 4.10 - Prestiti delle biblioteche statali dipendenti dal Mibact per provincia e regione - Anno 2012": "Puglia",
+  "Column2": 616,
+  "Column4": 2028,
+  "Column5": 345,
+  "Column7": 51
+ },
+ {
+  "Tavola 4.10 - Prestiti delle biblioteche statali dipendenti dal Mibact per provincia e regione - Anno 2012": "Potenza ",
+  "Column2": 528,
+  "Column4": 3329,
+  "Column5": 216,
+  "Column7": 105
+ },
+ {
+  "Tavola 4.10 - Prestiti delle biblioteche statali dipendenti dal Mibact per provincia e regione - Anno 2012": "Basilicata",
+  "Column2": 528,
+  "Column4": 3329,
+  "Column5": 216,
+  "Column7": 105
+ },
+ {
+  "Tavola 4.10 - Prestiti delle biblioteche statali dipendenti dal Mibact per provincia e regione - Anno 2012": "Cosenza",
+  "Column2": 510,
+  "Column4": 2592,
+  "Column5": 382,
+  "Column7": 248
+ },
+ {
+  "Tavola 4.10 - Prestiti delle biblioteche statali dipendenti dal Mibact per provincia e regione - Anno 2012": "Calabria",
+  "Column2": 510,
+  "Column4": 2592,
+  "Column5": 382,
+  "Column7": 248
+ },
+ {
+  "Tavola 4.10 - Prestiti delle biblioteche statali dipendenti dal Mibact per provincia e regione - Anno 2012": "Sicilia",
+  "Column2": "-",
+  "Column4": "-",
+  "Column5": "-",
+  "Column7": "-"
+ },
+ {
+  "Tavola 4.10 - Prestiti delle biblioteche statali dipendenti dal Mibact per provincia e regione - Anno 2012": "Cagliari",
+  "Column2": 4984,
+  "Column4": 7376,
+  "Column5": 476,
+  "Column7": 458
+ },
+ {
+  "Tavola 4.10 - Prestiti delle biblioteche statali dipendenti dal Mibact per provincia e regione - Anno 2012": "Sassari",
+  "Column2": 2686,
+  "Column4": 2127,
+  "Column5": 272,
+  "Column7": 124
+ },
+ {
+  "Tavola 4.10 - Prestiti delle biblioteche statali dipendenti dal Mibact per provincia e regione - Anno 2012": "Sardegna",
+  "Column2": 7670,
+  "Column4": 9503,
+  "Column5": 748,
+  "Column7": 582
+ },
+ {
+
+ },
+ {
+  "Tavola 4.10 - Prestiti delle biblioteche statali dipendenti dal Mibact per provincia e regione - Anno 2012": "ITALIA",
+  "Column2": 93444,
+  "Column4": 196613,
+  "Column5": 15502,
+  "Column7": 5516
+ },
+ {
+  "Tavola 4.10 - Prestiti delle biblioteche statali dipendenti dal Mibact per provincia e regione - Anno 2012": "Nord",
+  "Column2": 26679,
+  "Column4": 90474,
+  "Column5": 8077,
+  "Column7": 3158
+ },
+ {
+  "Tavola 4.10 - Prestiti delle biblioteche statali dipendenti dal Mibact per provincia e regione - Anno 2012": "Centro",
+  "Column2": 51797,
+  "Column4": 78310,
+  "Column5": 5283,
+  "Column7": 1186
+ },
+ {
+  "Tavola 4.10 - Prestiti delle biblioteche statali dipendenti dal Mibact per provincia e regione - Anno 2012": "Mezzogiorno",
+  "Column2": 14968,
+  "Column4": 27829,
+  "Column5": 2142,
+  "Column7": 1684
+ }
+]
+}
