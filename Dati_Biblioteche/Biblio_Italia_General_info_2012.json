@@ -1,0 +1,668 @@
+{
+"Tav 4.3":[
+ null,
+ {
+  "Tavola 4.3 - Biblioteche per consistenza del patrimonio librario e regione - Anno 2012 (a)": "REGIONI",
+  "Column2": "Non indicato",
+  "Column3": "Fino a 2.000 volumi",
+  "Column4": "Da 2.001       a 5.000",
+  "Column5": "Da 5.001 a 10.000",
+  "Column6": "Da 10.001     a 100.000",
+  "Column7": "Da 100.001 \na 500.000",
+  "Column8": "Da 500.001  a 1.000.000",
+  "Column9": "Oltre 1.000.000 \ndi volumi",
+  "Column10": "Totale"
+ },
+ null,
+ {
+  "Tavola 4.3 - Biblioteche per consistenza del patrimonio librario e regione - Anno 2012 (a)": "Piemonte",
+  "Column2": 60,
+  "Column3": 253,
+  "Column4": 324,
+  "Column5": 141,
+  "Column6": 243,
+  "Column7": 24,
+  "Column8": 1,
+  "Column9": "-",
+  "Column10": 1046
+ },
+ {
+  "Tavola 4.3 - Biblioteche per consistenza del patrimonio librario e regione - Anno 2012 (a)": "Valle d'Aosta\/Vallée d'Aoste",
+  "Column2": 4,
+  "Column3": 3,
+  "Column4": 18,
+  "Column5": 19,
+  "Column6": 10,
+  "Column7": 1,
+  "Column8": "-",
+  "Column9": "-",
+  "Column10": 55
+ },
+ {
+  "Tavola 4.3 - Biblioteche per consistenza del patrimonio librario e regione - Anno 2012 (a)": "Liguria",
+  "Column2": 63,
+  "Column3": 83,
+  "Column4": 75,
+  "Column5": 68,
+  "Column6": 86,
+  "Column7": 10,
+  "Column8": 1,
+  "Column9": "-",
+  "Column10": 386
+ },
+ {
+  "Tavola 4.3 - Biblioteche per consistenza del patrimonio librario e regione - Anno 2012 (a)": "Lombardia",
+  "Column2": 134,
+  "Column3": 299,
+  "Column4": 436,
+  "Column5": 473,
+  "Column6": 761,
+  "Column7": 32,
+  "Column8": 7,
+  "Column9": 2,
+  "Column10": 2144
+ },
+ {
+  "Tavola 4.3 - Biblioteche per consistenza del patrimonio librario e regione - Anno 2012 (a)": "Trentino-Alto Adige",
+  "Column2": 35,
+  "Column3": 75,
+  "Column4": 111,
+  "Column5": 76,
+  "Column6": 92,
+  "Column7": 9,
+  "Column8": "-",
+  "Column9": "-",
+  "Column10": 398
+ },
+ {
+  "Tavola 4.3 - Biblioteche per consistenza del patrimonio librario e regione - Anno 2012 (a)": "Bolzano\/Bozen",
+  "Column2": 33,
+  "Column3": 18,
+  "Column4": 18,
+  "Column5": 32,
+  "Column6": 70,
+  "Column7": 5,
+  "Column8": "-",
+  "Column9": "-",
+  "Column10": 176
+ },
+ {
+  "Tavola 4.3 - Biblioteche per consistenza del patrimonio librario e regione - Anno 2012 (a)": "Trento",
+  "Column2": 2,
+  "Column3": 57,
+  "Column4": 93,
+  "Column5": 44,
+  "Column6": 22,
+  "Column7": 4,
+  "Column8": "-",
+  "Column9": "-",
+  "Column10": 222
+ },
+ {
+  "Tavola 4.3 - Biblioteche per consistenza del patrimonio librario e regione - Anno 2012 (a)": "Veneto",
+  "Column2": 30,
+  "Column3": 77,
+  "Column4": 221,
+  "Column5": 245,
+  "Column6": 272,
+  "Column7": 21,
+  "Column8": 4,
+  "Column9": 1,
+  "Column10": 871
+ },
+ {
+  "Tavola 4.3 - Biblioteche per consistenza del patrimonio librario e regione - Anno 2012 (a)": "Friuli-Venezia Giulia",
+  "Column2": 19,
+  "Column3": 53,
+  "Column4": 108,
+  "Column5": 91,
+  "Column6": 92,
+  "Column7": 9,
+  "Column8": "-",
+  "Column9": "-",
+  "Column10": 372
+ },
+ {
+  "Tavola 4.3 - Biblioteche per consistenza del patrimonio librario e regione - Anno 2012 (a)": "Emilia Romagna",
+  "Column2": 52,
+  "Column3": 180,
+  "Column4": 205,
+  "Column5": 196,
+  "Column6": 376,
+  "Column7": 30,
+  "Column8": 5,
+  "Column9": 2,
+  "Column10": 1046
+ },
+ {
+  "Tavola 4.3 - Biblioteche per consistenza del patrimonio librario e regione - Anno 2012 (a)": "Toscana",
+  "Column2": 55,
+  "Column3": 145,
+  "Column4": 206,
+  "Column5": 164,
+  "Column6": 323,
+  "Column7": 30,
+  "Column8": 2,
+  "Column9": 2,
+  "Column10": 927
+ },
+ {
+  "Tavola 4.3 - Biblioteche per consistenza del patrimonio librario e regione - Anno 2012 (a)": "Umbria",
+  "Column2": 7,
+  "Column3": 105,
+  "Column4": 62,
+  "Column5": 42,
+  "Column6": 54,
+  "Column7": 4,
+  "Column8": "-",
+  "Column9": "-",
+  "Column10": 274
+ },
+ {
+  "Tavola 4.3 - Biblioteche per consistenza del patrimonio librario e regione - Anno 2012 (a)": "Marche",
+  "Column2": 13,
+  "Column3": 34,
+  "Column4": 98,
+  "Column5": 63,
+  "Column6": 95,
+  "Column7": 11,
+  "Column8": 1,
+  "Column9": "-",
+  "Column10": 315
+ },
+ {
+  "Tavola 4.3 - Biblioteche per consistenza del patrimonio librario e regione - Anno 2012 (a)": "Lazio",
+  "Column2": 152,
+  "Column3": 173,
+  "Column4": 216,
+  "Column5": 211,
+  "Column6": 396,
+  "Column7": 47,
+  "Column8": 13,
+  "Column9": 2,
+  "Column10": 1210
+ },
+ {
+  "Tavola 4.3 - Biblioteche per consistenza del patrimonio librario e regione - Anno 2012 (a)": "Abruzzo",
+  "Column2": 34,
+  "Column3": 88,
+  "Column4": 38,
+  "Column5": 24,
+  "Column6": 42,
+  "Column7": 5,
+  "Column8": "-",
+  "Column9": "-",
+  "Column10": 231
+ },
+ {
+  "Tavola 4.3 - Biblioteche per consistenza del patrimonio librario e regione - Anno 2012 (a)": "Molise",
+  "Column2": 3,
+  "Column3": 51,
+  "Column4": 36,
+  "Column5": 9,
+  "Column6": 15,
+  "Column7": 1,
+  "Column8": "-",
+  "Column9": "-",
+  "Column10": 115
+ },
+ {
+  "Tavola 4.3 - Biblioteche per consistenza del patrimonio librario e regione - Anno 2012 (a)": "Campania",
+  "Column2": 56,
+  "Column3": 268,
+  "Column4": 188,
+  "Column5": 138,
+  "Column6": 209,
+  "Column7": 17,
+  "Column8": 1,
+  "Column9": 1,
+  "Column10": 878
+ },
+ {
+  "Tavola 4.3 - Biblioteche per consistenza del patrimonio librario e regione - Anno 2012 (a)": "Puglia",
+  "Column2": 47,
+  "Column3": 139,
+  "Column4": 141,
+  "Column5": 97,
+  "Column6": 168,
+  "Column7": 11,
+  "Column8": "-",
+  "Column9": "-",
+  "Column10": 603
+ },
+ {
+  "Tavola 4.3 - Biblioteche per consistenza del patrimonio librario e regione - Anno 2012 (a)": "Basilicata",
+  "Column2": 14,
+  "Column3": 27,
+  "Column4": 40,
+  "Column5": 26,
+  "Column6": 12,
+  "Column7": 2,
+  "Column8": "-",
+  "Column9": "-",
+  "Column10": 121
+ },
+ {
+  "Tavola 4.3 - Biblioteche per consistenza del patrimonio librario e regione - Anno 2012 (a)": "Calabria",
+  "Column2": 32,
+  "Column3": 132,
+  "Column4": 97,
+  "Column5": 60,
+  "Column6": 58,
+  "Column7": 6,
+  "Column8": "-",
+  "Column9": "-",
+  "Column10": 385
+ },
+ {
+  "Tavola 4.3 - Biblioteche per consistenza del patrimonio librario e regione - Anno 2012 (a)": "Sicilia  ",
+  "Column2": 71,
+  "Column3": 154,
+  "Column4": 248,
+  "Column5": 153,
+  "Column6": 226,
+  "Column7": 18,
+  "Column8": 2,
+  "Column9": "-",
+  "Column10": 872
+ },
+ {
+  "Tavola 4.3 - Biblioteche per consistenza del patrimonio librario e regione - Anno 2012 (a)": "Sardegna",
+  "Column2": 19,
+  "Column3": 91,
+  "Column4": 151,
+  "Column5": 115,
+  "Column6": 79,
+  "Column7": 8,
+  "Column8": 1,
+  "Column9": "-",
+  "Column10": 464
+ },
+ {
+
+ },
+ {
+  "Tavola 4.3 - Biblioteche per consistenza del patrimonio librario e regione - Anno 2012 (a)": "ITALIA",
+  "Column2": 900,
+  "Column3": 2430,
+  "Column4": 3019,
+  "Column5": 2411,
+  "Column6": 3609,
+  "Column7": 296,
+  "Column8": 38,
+  "Column9": 10,
+  "Column10": 12713
+ },
+ {
+  "Tavola 4.3 - Biblioteche per consistenza del patrimonio librario e regione - Anno 2012 (a)": "Nord",
+  "Column2": 397,
+  "Column3": 1023,
+  "Column4": 1498,
+  "Column5": 1309,
+  "Column6": 1932,
+  "Column7": 136,
+  "Column8": 18,
+  "Column9": 5,
+  "Column10": 6318
+ },
+ {
+  "Tavola 4.3 - Biblioteche per consistenza del patrimonio librario e regione - Anno 2012 (a)": "Centro",
+  "Column2": 227,
+  "Column3": 457,
+  "Column4": 582,
+  "Column5": 480,
+  "Column6": 868,
+  "Column7": 92,
+  "Column8": 16,
+  "Column9": 4,
+  "Column10": 2726
+ },
+ {
+  "Tavola 4.3 - Biblioteche per consistenza del patrimonio librario e regione - Anno 2012 (a)": "Mezzogiorno",
+  "Column2": 276,
+  "Column3": 950,
+  "Column4": 939,
+  "Column5": 622,
+  "Column6": 809,
+  "Column7": 68,
+  "Column8": 4,
+  "Column9": 1,
+  "Column10": 3669
+ }
+],
+"Tav 4.4":[
+ null,
+ {
+  "Tavola 4.4 - Biblioteche per tipologia funzionale e regione - Anno 2012 (a)": "REGIONI",
+  "Column2": "Nazionali",
+  "Column3": "Istituti d'istruzione superiore",
+  "Column4": "Pubbliche",
+  "Column5": "Speciali",
+  "Column6": "Importanti non specializzate",
+  "Column7": "Totale"
+ },
+ null,
+ {
+  "Tavola 4.4 - Biblioteche per tipologia funzionale e regione - Anno 2012 (a)": "Piemonte",
+  "Column2": "-",
+  "Column3": 89,
+  "Column4": 597,
+  "Column5": 326,
+  "Column6": 34,
+  "Column7": 1046
+ },
+ {
+  "Tavola 4.4 - Biblioteche per tipologia funzionale e regione - Anno 2012 (a)": "Valle d'Aosta\/Vallée d'Aoste",
+  "Column2": "-",
+  "Column3": 1,
+  "Column4": 44,
+  "Column5": 8,
+  "Column6": 2,
+  "Column7": 55
+ },
+ {
+  "Tavola 4.4 - Biblioteche per tipologia funzionale e regione - Anno 2012 (a)": "Liguria",
+  "Column2": "-",
+  "Column3": 86,
+  "Column4": 145,
+  "Column5": 122,
+  "Column6": 33,
+  "Column7": 386
+ },
+ {
+  "Tavola 4.4 - Biblioteche per tipologia funzionale e regione - Anno 2012 (a)": "Lombardia",
+  "Column2": "-",
+  "Column3": 223,
+  "Column4": 786,
+  "Column5": 562,
+  "Column6": 573,
+  "Column7": 2144
+ },
+ {
+  "Tavola 4.4 - Biblioteche per tipologia funzionale e regione - Anno 2012 (a)": "Trentino-Alto Adige",
+  "Column2": "-",
+  "Column3": 3,
+  "Column4": 247,
+  "Column5": 83,
+  "Column6": 65,
+  "Column7": 398
+ },
+ {
+  "Tavola 4.4 - Biblioteche per tipologia funzionale e regione - Anno 2012 (a)": "Bolzano\/Bozen",
+  "Column2": "-",
+  "Column3": 2,
+  "Column4": 171,
+  "Column5": 34,
+  "Column6": 15,
+  "Column7": 222
+ },
+ {
+  "Tavola 4.4 - Biblioteche per tipologia funzionale e regione - Anno 2012 (a)": "Trento",
+  "Column2": "-",
+  "Column3": 1,
+  "Column4": 76,
+  "Column5": 49,
+  "Column6": 50,
+  "Column7": 176
+ },
+ {
+  "Tavola 4.4 - Biblioteche per tipologia funzionale e regione - Anno 2012 (a)": "Veneto",
+  "Column2": "-",
+  "Column3": 86,
+  "Column4": 434,
+  "Column5": 160,
+  "Column6": 191,
+  "Column7": 871
+ },
+ {
+  "Tavola 4.4 - Biblioteche per tipologia funzionale e regione - Anno 2012 (a)": "Friuli-Venezia Giulia",
+  "Column2": "-",
+  "Column3": 70,
+  "Column4": 178,
+  "Column5": 86,
+  "Column6": 38,
+  "Column7": 372
+ },
+ {
+  "Tavola 4.4 - Biblioteche per tipologia funzionale e regione - Anno 2012 (a)": "Emilia Romagna",
+  "Column2": "-",
+  "Column3": 193,
+  "Column4": 472,
+  "Column5": 374,
+  "Column6": 7,
+  "Column7": 1046
+ },
+ {
+  "Tavola 4.4 - Biblioteche per tipologia funzionale e regione - Anno 2012 (a)": "Toscana",
+  "Column2": 1,
+  "Column3": 170,
+  "Column4": 298,
+  "Column5": 406,
+  "Column6": 52,
+  "Column7": 927
+ },
+ {
+  "Tavola 4.4 - Biblioteche per tipologia funzionale e regione - Anno 2012 (a)": "Umbria",
+  "Column2": "-",
+  "Column3": 105,
+  "Column4": 58,
+  "Column5": 74,
+  "Column6": 37,
+  "Column7": 274
+ },
+ {
+  "Tavola 4.4 - Biblioteche per tipologia funzionale e regione - Anno 2012 (a)": "Marche",
+  "Column2": "-",
+  "Column3": 68,
+  "Column4": 108,
+  "Column5": 82,
+  "Column6": 57,
+  "Column7": 315
+ },
+ {
+  "Tavola 4.4 - Biblioteche per tipologia funzionale e regione - Anno 2012 (a)": "Lazio",
+  "Column2": 1,
+  "Column3": 182,
+  "Column4": 405,
+  "Column5": 577,
+  "Column6": 45,
+  "Column7": 1210
+ },
+ {
+  "Tavola 4.4 - Biblioteche per tipologia funzionale e regione - Anno 2012 (a)": "Abruzzo",
+  "Column2": "-",
+  "Column3": 12,
+  "Column4": 153,
+  "Column5": 42,
+  "Column6": 24,
+  "Column7": 231
+ },
+ {
+  "Tavola 4.4 - Biblioteche per tipologia funzionale e regione - Anno 2012 (a)": "Molise",
+  "Column2": "-",
+  "Column3": 2,
+  "Column4": 98,
+  "Column5": 6,
+  "Column6": 9,
+  "Column7": 115
+ },
+ {
+  "Tavola 4.4 - Biblioteche per tipologia funzionale e regione - Anno 2012 (a)": "Campania",
+  "Column2": "-",
+  "Column3": 183,
+  "Column4": 374,
+  "Column5": 257,
+  "Column6": 64,
+  "Column7": 878
+ },
+ {
+  "Tavola 4.4 - Biblioteche per tipologia funzionale e regione - Anno 2012 (a)": "Puglia",
+  "Column2": "-",
+  "Column3": 154,
+  "Column4": 229,
+  "Column5": 141,
+  "Column6": 79,
+  "Column7": 603
+ },
+ {
+  "Tavola 4.4 - Biblioteche per tipologia funzionale e regione - Anno 2012 (a)": "Basilicata",
+  "Column2": "-",
+  "Column3": 2,
+  "Column4": 93,
+  "Column5": 18,
+  "Column6": 8,
+  "Column7": 121
+ },
+ {
+  "Tavola 4.4 - Biblioteche per tipologia funzionale e regione - Anno 2012 (a)": "Calabria",
+  "Column2": "-",
+  "Column3": 24,
+  "Column4": 222,
+  "Column5": 112,
+  "Column6": 27,
+  "Column7": 385
+ },
+ {
+  "Tavola 4.4 - Biblioteche per tipologia funzionale e regione - Anno 2012 (a)": "Sicilia  ",
+  "Column2": "-",
+  "Column3": 235,
+  "Column4": 370,
+  "Column5": 149,
+  "Column6": 118,
+  "Column7": 872
+ },
+ {
+  "Tavola 4.4 - Biblioteche per tipologia funzionale e regione - Anno 2012 (a)": "Sardegna",
+  "Column2": "-",
+  "Column3": 93,
+  "Column4": 260,
+  "Column5": 75,
+  "Column6": 36,
+  "Column7": 464
+ },
+ {
+  "Tavola 4.4 - Biblioteche per tipologia funzionale e regione - Anno 2012 (a)": "ITALIA",
+  "Column2": 2,
+  "Column3": 1981,
+  "Column4": 5571,
+  "Column5": 3660,
+  "Column6": 1499,
+  "Column7": 12713
+ },
+ {
+  "Tavola 4.4 - Biblioteche per tipologia funzionale e regione - Anno 2012 (a)": "Nord",
+  "Column2": "-",
+  "Column3": 751,
+  "Column4": 2903,
+  "Column5": 1721,
+  "Column6": 943,
+  "Column7": 6318
+ },
+ {
+  "Tavola 4.4 - Biblioteche per tipologia funzionale e regione - Anno 2012 (a)": "Centro",
+  "Column2": 2,
+  "Column3": 525,
+  "Column4": 869,
+  "Column5": 1139,
+  "Column6": 191,
+  "Column7": 2726
+ },
+ {
+  "Tavola 4.4 - Biblioteche per tipologia funzionale e regione - Anno 2012 (a)": "Mezzogiorno",
+  "Column2": "-",
+  "Column3": 705,
+  "Column4": 1799,
+  "Column5": 800,
+  "Column6": 365,
+  "Column7": 3669
+ }
+],
+"Tav 4.6":[
+ null,
+ {
+  "Tavola 4.6 - Biblioteche per consistenza del patrimonio librario e tipologia funzionale - Anno 2012": "TIPOLOGIA",
+  "Column2": "Non indicato",
+  "Column3": "Fino a 2.000 volumi",
+  "Column4": "Da 2.001\na 5.000",
+  "Column5": "Da 5.001\na 10.000",
+  "Column6": "Da 10.001\na 100.000",
+  "Column7": "Da 100.001\na 500.000",
+  "Column8": "Da 500.001\na 1.000.000",
+  "Column9": "Oltre 1.000.000 di volumi",
+  "Column10": "Totale"
+ },
+ null,
+ {
+  "Tavola 4.6 - Biblioteche per consistenza del patrimonio librario e tipologia funzionale - Anno 2012": "Nazionali",
+  "Column2": "-",
+  "Column3": "-",
+  "Column4": "-",
+  "Column5": "-",
+  "Column6": "-",
+  "Column7": "-",
+  "Column8": "-",
+  "Column9": 2,
+  "Column10": 2
+ },
+ {
+  "Tavola 4.6 - Biblioteche per consistenza del patrimonio librario e tipologia funzionale - Anno 2012": "Di Istituti superiori ",
+  "Column2": 183,
+  "Column3": 463,
+  "Column4": 364,
+  "Column5": 296,
+  "Column6": 603,
+  "Column7": 66,
+  "Column8": 4,
+  "Column9": 2,
+  "Column10": 1981
+ },
+ {
+  "Tavola 4.6 - Biblioteche per consistenza del patrimonio librario e tipologia funzionale - Anno 2012": "Pubbliche",
+  "Column2": 429,
+  "Column3": 1192,
+  "Column4": 1902,
+  "Column5": 1437,
+  "Column6": 579,
+  "Column7": 26,
+  "Column8": 4,
+  "Column9": 2,
+  "Column10": 5571
+ },
+ {
+  "Tavola 4.6 - Biblioteche per consistenza del patrimonio librario e tipologia funzionale - Anno 2012": "Specializzate",
+  "Column2": 264,
+  "Column3": 759,
+  "Column4": 736,
+  "Column5": 612,
+  "Column6": 1165,
+  "Column7": 111,
+  "Column8": 11,
+  "Column9": 2,
+  "Column10": 3660
+ },
+ {
+  "Tavola 4.6 - Biblioteche per consistenza del patrimonio librario e tipologia funzionale - Anno 2012": "Importanti non specializzate",
+  "Column2": 24,
+  "Column3": 16,
+  "Column4": 17,
+  "Column5": 66,
+  "Column6": 1262,
+  "Column7": 93,
+  "Column8": 19,
+  "Column9": 2,
+  "Column10": 1499
+ },
+ {
+  "Tavola 4.6 - Biblioteche per consistenza del patrimonio librario e tipologia funzionale - Anno 2012": "Totale",
+  "Column2": 900,
+  "Column3": 2430,
+  "Column4": 3019,
+  "Column5": 2411,
+  "Column6": 3609,
+  "Column7": 296,
+  "Column8": 38,
+  "Column9": 10,
+  "Column10": 12713
+ }
+]
+}
