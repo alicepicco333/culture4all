@@ -1,0 +1,178 @@
+{
+"Sheet1":[
+ {
+  "REGIONI": "Piemonte",
+  "Numero Biblioteche Mibact (valori percentuali)": 0.5
+ },
+ {
+  "REGIONI": "Valle d'Aosta - Vallée d'Aoste",
+  "Numero Biblioteche Mibact (valori percentuali)": "-"
+ },
+ {
+  "REGIONI": "Lombardia",
+  "Numero Biblioteche Mibact (valori percentuali)": 0.4
+ },
+ {
+  "REGIONI": "Trentino-Alto Adige",
+  "Numero Biblioteche Mibact (valori percentuali)": "-"
+ },
+ {
+  "REGIONI": "Bolzano\/Bozen",
+  "Numero Biblioteche Mibact (valori percentuali)": "-"
+ },
+ {
+  "REGIONI": "Trento",
+  "Numero Biblioteche Mibact (valori percentuali)": "-"
+ },
+ {
+  "REGIONI": "Veneto",
+  "Numero Biblioteche Mibact (valori percentuali)": 1.2
+ },
+ {
+  "REGIONI": "Friuli-Venezia Giulia",
+  "Numero Biblioteche Mibact (valori percentuali)": 1.5
+ },
+ {
+  "REGIONI": "Liguria",
+  "Numero Biblioteche Mibact (valori percentuali)": 2.3
+ },
+ {
+  "REGIONI": "Emilia-Romagna",
+  "Numero Biblioteche Mibact (valori percentuali)": 0.9
+ },
+ {
+  "REGIONI": "Toscana",
+  "Numero Biblioteche Mibact (valori percentuali)": 3.2
+ },
+ {
+  "REGIONI": "Umbria",
+  "Numero Biblioteche Mibact (valori percentuali)": 1
+ },
+ {
+  "REGIONI": "Marche",
+  "Numero Biblioteche Mibact (valori percentuali)": 1.5
+ },
+ {
+  "REGIONI": "Lazio",
+  "Numero Biblioteche Mibact (valori percentuali)": 5
+ },
+ {
+  "REGIONI": "Abruzzo",
+  "Numero Biblioteche Mibact (valori percentuali)": 0.7
+ },
+ {
+  "REGIONI": "Molise",
+  "Numero Biblioteche Mibact (valori percentuali)": "-"
+ },
+ {
+  "REGIONI": "Campania",
+  "Numero Biblioteche Mibact (valori percentuali)": 3.3
+ },
+ {
+  "REGIONI": "Puglia",
+  "Numero Biblioteche Mibact (valori percentuali)": 1.4
+ },
+ {
+  "REGIONI": "Basilicata",
+  "Numero Biblioteche Mibact (valori percentuali)": 7.1
+ },
+ {
+  "REGIONI": "Calabria",
+  "Numero Biblioteche Mibact (valori percentuali)": 2.1
+ },
+ {
+  "REGIONI": "Sicilia",
+  "Numero Biblioteche Mibact (valori percentuali)": 0.8
+ },
+ {
+  "REGIONI": "Sardegna",
+  "Numero Biblioteche Mibact (valori percentuali)": 1.2
+ },
+ {
+  "REGIONI": "RIPARTIZIONI GEOGRAFICHE"
+ },
+ {
+  "REGIONI": "Nord-ovest",
+  "Numero Biblioteche Mibact (valori percentuali)": 0.6
+ },
+ {
+  "REGIONI": "Nord-est",
+  "Numero Biblioteche Mibact (valori percentuali)": 0.9
+ },
+ {
+  "REGIONI": "Centro",
+  "Numero Biblioteche Mibact (valori percentuali)": 3.4
+ },
+ {
+  "REGIONI": "Sud",
+  "Numero Biblioteche Mibact (valori percentuali)": 2.5
+ },
+ {
+  "REGIONI": "Isole",
+  "Numero Biblioteche Mibact (valori percentuali)": 1
+ },
+ {
+  "REGIONI": "DIMENSIONE DEI COMUNI"
+ },
+ {
+  "REGIONI": "Fino a 2.000 abitanti",
+  "Numero Biblioteche Mibact (valori percentuali)": 0.1
+ },
+ {
+  "REGIONI": "Da 2.001 a 5.000 abitanti",
+  "Numero Biblioteche Mibact (valori percentuali)": 0.1
+ },
+ {
+  "REGIONI": "Da 5.001 a 10.000 abitanti",
+  "Numero Biblioteche Mibact (valori percentuali)": 0.4
+ },
+ {
+  "REGIONI": "Da 10.001 a 30.000 abitanti",
+  "Numero Biblioteche Mibact (valori percentuali)": 0.8
+ },
+ {
+  "REGIONI": "Da 30.001 a 50.000 abitanti",
+  "Numero Biblioteche Mibact (valori percentuali)": 0.8
+ },
+ {
+  "REGIONI": "Più di 50.000 abitanti",
+  "Numero Biblioteche Mibact (valori percentuali)": 3.5
+ },
+ {
+  "REGIONI": "Città metropolitane",
+  "Numero Biblioteche Mibact (valori percentuali)": 6.7
+ },
+ {
+  "REGIONI": "TIPOLOGIE DI AREE INTERNE"
+ },
+ {
+  "REGIONI": "Comune polo",
+  "Numero Biblioteche Mibact (valori percentuali)": 4.7
+ },
+ {
+  "REGIONI": "Polo intercomunale",
+  "Numero Biblioteche Mibact (valori percentuali)": 1.1
+ },
+ {
+  "REGIONI": "Comune cintura",
+  "Numero Biblioteche Mibact (valori percentuali)": 0.2
+ },
+ {
+  "REGIONI": "Comune intermedio",
+  "Numero Biblioteche Mibact (valori percentuali)": 0.3
+ },
+ {
+  "REGIONI": "Comune periferico",
+  "Numero Biblioteche Mibact (valori percentuali)": 0.3
+ },
+ {
+  "REGIONI": "Comune ultra-periferico",
+  "Numero Biblioteche Mibact (valori percentuali)": "-"
+ },
+ null,
+ {
+  "REGIONI": "Italia",
+  "Numero Biblioteche Mibact (valori percentuali)": 1.4
+ }
+]
+}
