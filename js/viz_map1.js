@@ -148,13 +148,13 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Initial load
-    const initialFilePath = '../data/Dati_biblioteche/Json_Biblioteche_Mibact/df_tav_1_prestiti__2010.json'; // Adjust this to the desired initial file path
+    const initialFilePath = 'data/Dati_biblioteche/Json_Biblioteche_Mibact/df_tav_1_prestiti__2010.json'; // Adjust this to the desired initial file path
     loadData(initialFilePath);
 
     // Load initial data
     document.getElementById('year').addEventListener('change', function() {
         const selectedYear = this.value;
-        const filePath = `../data/Dati_biblioteche/Json_Biblioteche_Mibact/df_tav_1_prestiti__${selectedYear}.json`;
+        const filePath = `data/Dati_biblioteche/Json_Biblioteche_Mibact/df_tav_1_prestiti__${selectedYear}.json`;
         loadData(filePath);
     });
 });
