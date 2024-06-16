@@ -295,18 +295,27 @@
             Visualizations
                     
                 </h1>
+                <h1
+                class="font-semibold text-indigo-800 text-2xl md:text-3xl xl:text-5xl text-center leading-tight mb-5 xl:mb-10"
+            >
+        Libraries 
+                
+            </h1>
+
+            <p></p>
                 <div class="container mx-auto py-8">
                     <h1 class="text-2xl font-bold mb-4">Geographical Distribution of Libraries Through the Years</h1>
                     <div id="filters" class="mb-4">
-                        <select id="region" class="mr-2 p-2 border rounded">
+                        <select id="year" class="mr-2 p-2 border rounded">
+                            <option value="2010">2010</option>
                             <option value="2011">2011</option>
-                            <option value="2011">2012</option>
-                            <option value="2011">2013</option>
-                            <option value="2011">2014</option>
-                            <option value="2011">2015</option>
-                            <option value="2011">2016</option>
-                            <option value="2011">2017</option>
-                            <option value="2011">2018</option>
+                            <option value="2012">2012</option>
+                            <option value="2013">2013</option>
+                            <option value="2014">2014</option>
+                            <option value="2015">2015</option>
+                            <option value="2016">2016</option>
+                            <option value="2017">2017</option>
+                            <option value="2018">2018</option>
 
                             
                             <!-- Add options dynamically if needed -->
@@ -315,10 +324,6 @@
                     <div id="map"></div>
                 </div>
 
-                <script src="https://d3js.org/d3.v6.min.js"></script>
-                <script src="https://unpkg.com/leaflet@1.7.1/d
-            <script src="viz_map1.js"
-            ></script>
 
         
 
@@ -348,5 +353,9 @@
         <script>
             feather.replace();
         </script>
+
+<script src="https://d3js.org/d3.v6.min.js"></script>
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+<script src="js/viz_map1.js"></script>
     </body>
 </html>
