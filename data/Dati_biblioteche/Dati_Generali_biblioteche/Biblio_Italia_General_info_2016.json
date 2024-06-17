@@ -1,0 +1,188 @@
+{
+"Tav. 4.1":[
+ null,
+ {
+  "Tavola 4.1 -": "REGIONI E RIPARTIZIONI GEOGRAFICHE                                               ",
+  "Column3": "Numero",
+  "Column4": "%"
+ },
+ null,
+ {
+  "Tavola 4.1 -": "Piemonte",
+  "Column3": 1182,
+  "Column4": 8.488330341113105
+ },
+ {
+  "Tavola 4.1 -": "Valle d'Aosta\/Vallée d'Aoste",
+  "Column3": 66,
+  "Column4": 0.473967684021544
+ },
+ {
+  "Tavola 4.1 -": "Liguria",
+  "Column3": 412,
+  "Column4": 2.9587073608617596
+ },
+ {
+  "Tavola 4.1 -": "Lombardia",
+  "Column3": 2196,
+  "Column4": 15.77019748653501
+ },
+ {
+  "Tavola 4.1 -": "Trentino-Alto Adige",
+  "Column3": 405,
+  "Column4": 2.9084380610412923
+ },
+ {
+  "Tavola 4.1 -": "Bolzano\/Bozen",
+  "Column3": 228,
+  "Column4": 1.6373429084380613
+ },
+ {
+  "Tavola 4.1 -": "Trento",
+  "Column3": 177,
+  "Column4": 1.2710951526032317
+ },
+ {
+  "Tavola 4.1 -": "Veneto",
+  "Column3": 997,
+  "Column4": 7.159784560143627
+ },
+ {
+  "Tavola 4.1 -": "Friuli-Venezia Giulia",
+  "Column3": 399,
+  "Column4": 2.865350089766607
+ },
+ {
+  "Tavola 4.1 -": "Emilia Romagna",
+  "Column3": 1114,
+  "Column4": 8
+ },
+ {
+  "Tavola 4.1 -": "Toscana",
+  "Column3": 958,
+  "Column4": 6.879712746858169
+ },
+ {
+  "Tavola 4.1 -": "Umbria",
+  "Column3": 302,
+  "Column4": 2.1687612208258527
+ },
+ {
+  "Tavola 4.1 -": "Marche",
+  "Column3": 374,
+  "Column4": 2.6858168761220824
+ },
+ {
+  "Tavola 4.1 -": "Lazio",
+  "Column3": 1315,
+  "Column4": 9.443447037701976
+ },
+ {
+  "Tavola 4.1 -": "Abruzzo",
+  "Column3": 256,
+  "Column4": 1.838420107719928
+ },
+ {
+  "Tavola 4.1 -": "Molise",
+  "Column3": 116,
+  "Column4": 0.8330341113105926
+ },
+ {
+  "Tavola 4.1 -": "Campania",
+  "Column3": 1059,
+  "Column4": 7.6050269299820465
+ },
+ {
+  "Tavola 4.1 -": "Puglia",
+  "Column3": 650,
+  "Column4": 4.66786355475763
+ },
+ {
+  "Tavola 4.1 -": "Basilicata",
+  "Column3": 132,
+  "Column4": 0.947935368043088
+ },
+ {
+  "Tavola 4.1 -": "Calabria",
+  "Column3": 443,
+  "Column4": 3.1813285457809695
+ },
+ {
+  "Tavola 4.1 -": "Sicilia  ",
+  "Column3": 928,
+  "Column4": 6.664272890484741
+ },
+ {
+  "Tavola 4.1 -": "Sardegna",
+  "Column3": 621,
+  "Column4": 4.4596050269299825
+ },
+ null,
+ {
+  "Tavola 4.1 -": "Nord",
+  "Column3": 5657,
+  "Column4": 40.62477558348294
+ },
+ {
+  "Tavola 4.1 -": "Centro",
+  "Column3": 4063,
+  "Column4": 29.17773788150808
+ },
+ {
+  "Tavola 4.1 -": "Mezzogiorno",
+  "Column3": 4205,
+  "Column4": 30.197486535008977
+ },
+ null,
+ {
+  "Tavola 4.1 -": "Totale Italia",
+  "Column3": 13925,
+  "Column4": 100
+ }
+],
+"Tav. 4.3":[
+ null,
+ {
+  "Tavola 4.3 - Biblioteche per tipologia funzionale - Anno 2016 (a)": "TIPOLOGIA FUNZIONALE",
+  "Column2": "Numero",
+  "Column3": "%"
+ },
+ null,
+ {
+  "Tavola 4.3 - Biblioteche per tipologia funzionale - Anno 2016 (a)": "Nazionali",
+  "Column2": 2,
+  "Column3": 0.014362657091561938
+ },
+ {
+  "Tavola 4.3 - Biblioteche per tipologia funzionale - Anno 2016 (a)": "Istituzioni scolastiche",
+  "Column2": 638,
+  "Column3": 4.581687612208259
+ },
+ {
+  "Tavola 4.3 - Biblioteche per tipologia funzionale - Anno 2016 (a)": "Istituti d'istruzione superiore",
+  "Column2": 1830,
+  "Column3": 13.141831238779176
+ },
+ {
+  "Tavola 4.3 - Biblioteche per tipologia funzionale - Anno 2016 (a)": "Pubbliche",
+  "Column2": 6013,
+  "Column3": 43.181328545780964
+ },
+ {
+  "Tavola 4.3 - Biblioteche per tipologia funzionale - Anno 2016 (a)": "Speciali",
+  "Column2": 4075,
+  "Column3": 29.263913824057454
+ },
+ {
+  "Tavola 4.3 - Biblioteche per tipologia funzionale - Anno 2016 (a)": "Importanti non specializzate",
+  "Column2": 1367,
+  "Column3": 9.816876122082585
+ },
+ null,
+ {
+  "Tavola 4.3 - Biblioteche per tipologia funzionale - Anno 2016 (a)": "Totale",
+  "Column2": 13925,
+  "Column3": 100
+ }
+]
+}
