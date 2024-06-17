@@ -6,3 +6,5 @@ Corrado Consiglio - Data Gathering - Data Curation - Data investigation
 Salvatore Di Marzo - Data Gathering - Data Curation - Data Investigation
 
 Alice Picco - Data Gathering - Data Visualization - Web page development
+
+culture4all by Alice Picco - Salvatore Di Marzo - Corrado Consiglio is marked with CC0 1.0 
