@@ -1,0 +1,102 @@
+[
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Abruzzo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 27
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Basilicata",
+    "Ticket_Cost": "Free Entry",
+    "Count": 7
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Calabria",
+    "Ticket_Cost": "Free Entry",
+    "Count": 26
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Campania",
+    "Ticket_Cost": "Free Entry",
+    "Count": 165
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Emilia-Romagna",
+    "Ticket_Cost": "Free Entry",
+    "Count": 349
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Friuli-Venezia_Giulia",
+    "Ticket_Cost": "Free Entry",
+    "Count": 109
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lazio",
+    "Ticket_Cost": "Free Entry",
+    "Count": 195
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Liguria",
+    "Ticket_Cost": "Free Entry",
+    "Count": 107
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lombardia",
+    "Ticket_Cost": "Free Entry",
+    "Count": 159
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Marche",
+    "Ticket_Cost": "Free Entry",
+    "Count": 69
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Molise",
+    "Ticket_Cost": "Free Entry",
+    "Count": 7
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Piemonte",
+    "Ticket_Cost": "Free Entry",
+    "Count": 54
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Puglia",
+    "Ticket_Cost": "Free Entry",
+    "Count": 32
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sardegna",
+    "Ticket_Cost": "Free Entry",
+    "Count": 20
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sicilia",
+    "Ticket_Cost": "Free Entry",
+    "Count": 41
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Toscana",
+    "Ticket_Cost": "Free Entry",
+    "Count": 49
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Trentino-Alto_Adige",
+    "Ticket_Cost": "Free Entry",
+    "Count": 8
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Umbria",
+    "Ticket_Cost": "Free Entry",
+    "Count": 7
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Valle_d_Aosta_Vallee_d_Aoste",
+    "Ticket_Cost": "Free Entry",
+    "Count": 9
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Veneto",
+    "Ticket_Cost": "Free Entry",
+    "Count": 10
+  }
+]

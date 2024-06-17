@@ -1,0 +1,5177 @@
+[
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Abano_Terme",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Abbadia_Lariana",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Aci_Castello",
+    "Ticket_Cost": 1.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Acquapendente",
+    "Ticket_Cost": 4.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Acqui_Terme",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Adrano",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Adria",
+    "Ticket_Cost": 6.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Agrigento",
+    "Ticket_Cost": 2.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Agrigento",
+    "Ticket_Cost": 4.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Agrigento",
+    "Ticket_Cost": 8.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Agropoli",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Aidone",
+    "Ticket_Cost": 6.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ala",
+    "Ticket_Cost": 20.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Alagna_Valsesia",
+    "Ticket_Cost": 2.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Albenga",
+    "Ticket_Cost": 6.00,
+    "Count": 3
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Albese_con_Cassano",
+    "Ticket_Cost": 8.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Albiano",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Alcamo",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ales",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Alessandria",
+    "Ticket_Cost": 12.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Alessandria",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Alessandria",
+    "Ticket_Cost": 5.00,
+    "Count": 4
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Alghero",
+    "Ticket_Cost": 5.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Alife",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Allumiere",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Altamura",
+    "Ticket_Cost": 5.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Altare",
+    "Ticket_Cost": 7.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Amalfi",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Amalfi",
+    "Ticket_Cost": 4.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Amandola",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Anagni",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ancona",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ancona",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ancona",
+    "Ticket_Cost": 6.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Andria",
+    "Ticket_Cost": 8.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Angera",
+    "Ticket_Cost": 8.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Anghiari",
+    "Ticket_Cost": 4.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Anticoli_Corrado",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Aosta",
+    "Ticket_Cost": 10.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Aquileia",
+    "Ticket_Cost": 9.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Arborea",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Arcevia",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Arcinazzo_Romano",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ardesio",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Arenzano",
+    "Ticket_Cost": 7.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Arese",
+    "Ticket_Cost": 12.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Arezzo",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Arezzo",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Arezzo",
+    "Ticket_Cost": 6.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Argenta",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Argenta",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ariccia",
+    "Ticket_Cost": 6.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Aritzo",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Aritzo",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Armungia",
+    "Ticket_Cost": 6.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Arpino",
+    "Ticket_Cost": 1.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Arpino",
+    "Ticket_Cost": 2.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ascoli_Piceno",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ascoli_Piceno",
+    "Ticket_Cost": 3.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ascoli_Piceno",
+    "Ticket_Cost": 4.00,
+    "Count": 3
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ascoli_Piceno",
+    "Ticket_Cost": 8.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Asola",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Asola",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Assisi",
+    "Ticket_Cost": 3.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Assisi",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Atri",
+    "Ticket_Cost": 1.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Atri",
+    "Ticket_Cost": 1.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Atri",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Atzara",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Auditore",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Aulla",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bacoli",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Badia_Abtei",
+    "Ticket_Cost": 8.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bagnara_di_Romagna",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bagnoregio",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Banari",
+    "Ticket_Cost": 2.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Baragiano",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Barcellona_Pozzo_di_Gotto",
+    "Ticket_Cost": 7.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bard",
+    "Ticket_Cost": 8.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bardolino",
+    "Ticket_Cost": 3.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bardonecchia",
+    "Ticket_Cost": 8.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bari",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bari",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Barletta",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Barletta",
+    "Ticket_Cost": 6.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Barolo",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Barolo",
+    "Ticket_Cost": 9.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Barumini",
+    "Ticket_Cost": 10.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bassano_del_Grappa",
+    "Ticket_Cost": 7.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bassiano",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bazzano",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bellagio",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Belvi",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bentivoglio",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Berceto",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Berchidda",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bergamo",
+    "Ticket_Cost": 10.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bergamo",
+    "Ticket_Cost": 3.00,
+    "Count": 3
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bergamo",
+    "Ticket_Cost": 5.00,
+    "Count": 3
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bergamo",
+    "Ticket_Cost": 8.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bernalda",
+    "Ticket_Cost": 2.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bertinoro",
+    "Ticket_Cost": 8.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Besano",
+    "Ticket_Cost": 4.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Besenello",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Biandronno",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bidoni",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Biella",
+    "Ticket_Cost": 10.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bienno",
+    "Ticket_Cost": 2.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bitonto",
+    "Ticket_Cost": 6.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bitti",
+    "Ticket_Cost": 2.60,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bobbio",
+    "Ticket_Cost": 2.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bobbio",
+    "Ticket_Cost": 3.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bologna",
+    "Ticket_Cost": 10.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bologna",
+    "Ticket_Cost": 17.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bologna",
+    "Ticket_Cost": 5.00,
+    "Count": 6
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bologna",
+    "Ticket_Cost": 6.00,
+    "Count": 4
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bologna",
+    "Ticket_Cost": 7.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bologna",
+    "Ticket_Cost": 8.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bolsena",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bolzano_Bozen",
+    "Ticket_Cost": 10.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bolzano_Bozen",
+    "Ticket_Cost": 13.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bolzano_Bozen",
+    "Ticket_Cost": 4.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bolzano_Bozen",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bolzano_Bozen",
+    "Ticket_Cost": 9.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bomba",
+    "Ticket_Cost": 1.70,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bordighera",
+    "Ticket_Cost": 1.60,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bordighera",
+    "Ticket_Cost": 7.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bordighera",
+    "Ticket_Cost": 8.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Borgia",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Borgo_Valsugana",
+    "Ticket_Cost": 6.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Borgo_Velino",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bormio",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bosa",
+    "Ticket_Cost": 4.50,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Boscoreale",
+    "Ticket_Cost": 8.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bosio",
+    "Ticket_Cost": 1.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bra",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bracciano",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Breganze",
+    "Ticket_Cost": 1.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Brentonico",
+    "Ticket_Cost": 2.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Brescia",
+    "Ticket_Cost": 10.00,
+    "Count": 3
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Brescia",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Brescia",
+    "Ticket_Cost": 5.00,
+    "Count": 3
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Brescia",
+    "Ticket_Cost": 8.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bressanone_Brixen",
+    "Ticket_Cost": 3.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bressanone_Brixen",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bressanone_Brixen",
+    "Ticket_Cost": 7.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bronte",
+    "Ticket_Cost": 1.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Brugnato",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Brunico_Bruneck",
+    "Ticket_Cost": 9.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Buccino",
+    "Ticket_Cost": 6.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Budduso",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Budrio",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Buggerru",
+    "Ticket_Cost": 8.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Buonconvento",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Busachi",
+    "Ticket_Cost": 2.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Busca",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Busseto",
+    "Ticket_Cost": 5.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cabras",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cagliari",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cagliari",
+    "Ticket_Cost": 2.20,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cagliari",
+    "Ticket_Cost": 3.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cagliari",
+    "Ticket_Cost": 4.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cagliari",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cagliari",
+    "Ticket_Cost": 6.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cagliari",
+    "Ticket_Cost": 9.00,
+    "Count": 3
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Calasetta",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Calci",
+    "Ticket_Cost": 8.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Calice_al_Cornoviglio",
+    "Ticket_Cost": 3.00,
+    "Count": 3
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Calolziocorte",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Caltagirone",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Caltagirone",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Caltagirone",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Caltanissetta",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Camerino",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Camerino",
+    "Ticket_Cost": 3.10,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Camerino",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Campli",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Campo_Ligure",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Campo_Tures_Sand_in_Taufers",
+    "Ticket_Cost": 7.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Campobasso",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Campobasso",
+    "Ticket_Cost": 6.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Campodolcino",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Campogalliano",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Canino",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Canneto_sull_Oglio",
+    "Ticket_Cost": 3.60,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Canosa_di_Puglia",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Canossa",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cantiano",
+    "Ticket_Cost": 1.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Caorle",
+    "Ticket_Cost": 6.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Capaccio_Paestum",
+    "Ticket_Cost": 15.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Capodimonte",
+    "Ticket_Cost": 2.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Capoliveri",
+    "Ticket_Cost": 2.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Capri",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Capriolo",
+    "Ticket_Cost": 7.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Carbognano",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Carbonia",
+    "Ticket_Cost": 6.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Carbonia",
+    "Ticket_Cost": 8.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Carloforte",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Carmignano",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Carpi",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Carpi",
+    "Ticket_Cost": 8.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Carpineto_Romano",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Carpineto_Romano",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Casale_Monferrato",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Casale_Monferrato",
+    "Ticket_Cost": 6.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Casalmaggiore",
+    "Ticket_Cost": 3.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Casalzuigno",
+    "Ticket_Cost": 12.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Caselle_in_Pittari",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Caserta",
+    "Ticket_Cost": 18.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Casole_d_Elsa",
+    "Ticket_Cost": 3.00,
+    "Count": 3
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cassano_all_Ionio",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cassino",
+    "Ticket_Cost": 5.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Casteggio",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Castel_di_Sangro",
+    "Ticket_Cost": 1.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Castel_di_Sangro",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Castelbello-Ciardes_Kastelbell-Tschars",
+    "Ticket_Cost": 8.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Casteldelfino",
+    "Ticket_Cost": 35.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Castelfidardo",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Castelfiorentino",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Castelfranco_Veneto",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Castell_Arquato",
+    "Ticket_Cost": 2.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Castell_Arquato",
+    "Ticket_Cost": 3.50,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Castell_Arquato",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Castellammare_di_Stabia",
+    "Ticket_Cost": 8.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Castellania",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Castelleone_di_Suasa",
+    "Ticket_Cost": 6.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Castelli",
+    "Ticket_Cost": 3.60,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Castelnuovo_Rangone",
+    "Ticket_Cost": 7.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Castelnuovo_di_Farfa",
+    "Ticket_Cost": 6.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Castelplanio",
+    "Ticket_Cost": 2.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Castenaso",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Castiadas",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Castiglione_Olona",
+    "Ticket_Cost": 3.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Castiglione_Olona",
+    "Ticket_Cost": 6.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Castiglione_del_Lago",
+    "Ticket_Cost": 9.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Castiglione_della_Pescaia",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Castiglione_della_Pescaia",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Castiglione_delle_Stiviere",
+    "Ticket_Cost": 8.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Castignano",
+    "Ticket_Cost": 1.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Castrocaro_Terme_e_Terra_del_Sole",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Castroreale",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Catania",
+    "Ticket_Cost": 2.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Catania",
+    "Ticket_Cost": 4.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Catania",
+    "Ticket_Cost": 5.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Catania",
+    "Ticket_Cost": 6.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Catanzaro",
+    "Ticket_Cost": 1.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Catanzaro",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Catanzaro",
+    "Ticket_Cost": 8.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cattolica_Eraclea",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cave",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cavriana",
+    "Ticket_Cost": 2.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cedegolo",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cefalu",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Celano",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cellere",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cerchio",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ceriale",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cermes_Tscherms",
+    "Ticket_Cost": 6.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cerveno",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cerveteri",
+    "Ticket_Cost": 10.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cervo",
+    "Ticket_Cost": 2.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cesenatico",
+    "Ticket_Cost": 2.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ceto",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Chiaramonte_Gulfi",
+    "Ticket_Cost": 1.00,
+    "Count": 4
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Chiaramonte_Gulfi",
+    "Ticket_Cost": 4.00,
+    "Count": 3
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Chiavari",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Chiavenna",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Chieri",
+    "Ticket_Cost": 16.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Chieti",
+    "Ticket_Cost": 5.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Chiusa_Klausen",
+    "Ticket_Cost": 4.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Chiusa_di_Pesio",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Chiusi",
+    "Ticket_Cost": 6.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cingoli",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Citta_della_Pieve",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cividale_del_Friuli",
+    "Ticket_Cost": 10.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cividale_del_Friuli",
+    "Ticket_Cost": 6.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Civitavecchia",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Civitella_Alfedena",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Civitella_del_Tronto",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Clauzetto",
+    "Ticket_Cost": 4.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Coccaglio",
+    "Ticket_Cost": 6.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cocquio-Trevisago",
+    "Ticket_Cost": 1.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Codigoro",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cogne",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Colle_San_Magno",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Colle_di_Val_d_Elsa",
+    "Ticket_Cost": 8.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Collecchio",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Collecchio",
+    "Ticket_Cost": 7.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Colleferro",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Colorno",
+    "Ticket_Cost": 3.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Comacchio",
+    "Ticket_Cost": 4.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Comacchio",
+    "Ticket_Cost": 7.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Como",
+    "Ticket_Cost": 10.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Como",
+    "Ticket_Cost": 4.00,
+    "Count": 4
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Compiano",
+    "Ticket_Cost": 8.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Conegliano",
+    "Ticket_Cost": 1.55,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Contessa_Entellina",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Conversano",
+    "Ticket_Cost": 5.00,
+    "Count": 3
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Corfinio",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cori",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Corigliano_Calabro",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Corinaldo",
+    "Ticket_Cost": 2.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cortaccia_sulla_strada_del_vino_Kurtatsch_an_der_Weinstrasse",
+    "Ticket_Cost": 5.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Corteno_Golgi",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cortina_d_Ampezzo",
+    "Ticket_Cost": 8.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cosenza",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cosenza",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Costigliole_Saluzzo",
+    "Ticket_Cost": 6.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Costigliole_d_Asti",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Courmayeur",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Crecchio",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cremona",
+    "Ticket_Cost": 10.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cremona",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Crodo",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Crotone",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cupra_Marittima",
+    "Ticket_Cost": 7.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cupramontana",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Daone",
+    "Ticket_Cost": 1.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Deliceto",
+    "Ticket_Cost": 17.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Desenzano_del_Garda",
+    "Ticket_Cost": 7.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Desenzano_del_Garda",
+    "Ticket_Cost": 8.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Dolianova",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Domodossola",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Domodossola",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Dorgali",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Dorgali",
+    "Ticket_Cost": 6.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Dorgali",
+    "Ticket_Cost": 8.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Dozza",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Dronero",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Duino-Aurisina",
+    "Ticket_Cost": 10.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Eboli",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Elva",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ercolano",
+    "Ticket_Cost": 10.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Este",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Fabriano",
+    "Ticket_Cost": 4.20,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Fabriano",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Fabriano",
+    "Ticket_Cost": 6.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Faenza",
+    "Ticket_Cost": 10.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Faenza",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Fagagna",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Falconara_Marittima",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Fano",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Fara_San_Martino",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Farra_d_Isonzo",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Fasano",
+    "Ticket_Cost": 10.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Felino",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Felonica",
+    "Ticket_Cost": 8.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Fenestrelle",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Fenis",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Fermo",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Fermo",
+    "Ticket_Cost": 7.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ferrara",
+    "Ticket_Cost": 10.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ferrara",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ferrara",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ferrara",
+    "Ticket_Cost": 6.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ferrara",
+    "Ticket_Cost": 8.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Fidenza",
+    "Ticket_Cost": 7.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Finale_Ligure",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Firenze",
+    "Ticket_Cost": 10.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Firenze",
+    "Ticket_Cost": 12.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Firenze",
+    "Ticket_Cost": 12.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Firenze",
+    "Ticket_Cost": 16.00,
+    "Count": 6
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Firenze",
+    "Ticket_Cost": 18.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Firenze",
+    "Ticket_Cost": 25.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Firenze",
+    "Ticket_Cost": 4.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Firenze",
+    "Ticket_Cost": 6.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Firenze",
+    "Ticket_Cost": 7.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Firenze",
+    "Ticket_Cost": 7.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Firenze",
+    "Ticket_Cost": 8.00,
+    "Count": 5
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Firenze",
+    "Ticket_Cost": 9.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Fiumicino",
+    "Ticket_Cost": 6.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Floridia",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Floridia",
+    "Ticket_Cost": 2.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Fluminimaggiore",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Foggia",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Folgaria",
+    "Ticket_Cost": 1.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Folgaria",
+    "Ticket_Cost": 2.60,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Fondi",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Fontanellato",
+    "Ticket_Cost": 10.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Forli",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Forlimpopoli",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Formia",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Fortezza_Franzensfeste",
+    "Ticket_Cost": 7.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Fossombrone",
+    "Ticket_Cost": 4.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Frabosa_Sottana",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Frascineto",
+    "Ticket_Cost": 3.00,
+    "Count": 3
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Fratta_Polesine",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Fratte_Rosa",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Frosinone",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Frossasco",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Funes_Villnoess",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Gagliole",
+    "Ticket_Cost": 2.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Gais_Gais",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Galbiate",
+    "Ticket_Cost": 2.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Gallarate",
+    "Ticket_Cost": 10.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Gambolo",
+    "Ticket_Cost": 3.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Gandino",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Gardone_Val_Trompia",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Gargnano",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Garlate",
+    "Ticket_Cost": 6.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Garlenda",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Gavardo",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Gazoldo_degli_Ippoliti",
+    "Ticket_Cost": 2.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Gela",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Gemonio",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Genga",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Genoni",
+    "Ticket_Cost": 3.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Genova",
+    "Ticket_Cost": 12.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Genova",
+    "Ticket_Cost": 17.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Genova",
+    "Ticket_Cost": 4.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Genova",
+    "Ticket_Cost": 4.20,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Genova",
+    "Ticket_Cost": 5.00,
+    "Count": 7
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Genova",
+    "Ticket_Cost": 6.00,
+    "Count": 3
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Genova",
+    "Ticket_Cost": 7.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Genova",
+    "Ticket_Cost": 8.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Genova",
+    "Ticket_Cost": 9.00,
+    "Count": 4
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Giardini-Naxos",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Gioia_del_Colle",
+    "Ticket_Cost": 8.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Giulianova",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Golasecca",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Gonnostramatza",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Gorizia",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Gorizia",
+    "Ticket_Cost": 3.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Gorizia",
+    "Ticket_Cost": 6.00,
+    "Count": 3
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Gravina_in_Puglia",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Grosio",
+    "Ticket_Cost": 8.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Grottaferrata",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Grotte_di_Castro",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Grumento_Nova",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Guardiagrele",
+    "Ticket_Cost": 1.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Gubbio",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Guspini",
+    "Ticket_Cost": 6.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Imola",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Imperia",
+    "Ticket_Cost": 5.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Imperia",
+    "Ticket_Cost": 6.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Imperia",
+    "Ticket_Cost": 8.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Introd",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Irgoli",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Irsina",
+    "Ticket_Cost": 2.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Isernia",
+    "Ticket_Cost": 6.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ivrea",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Jelsi",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Jesi",
+    "Ticket_Cost": 6.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Jesi",
+    "Ticket_Cost": 7.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Jovencan",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/L_Aquila",
+    "Ticket_Cost": 7.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/La_Maddalena",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/La_Maddalena",
+    "Ticket_Cost": 6.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/La_Spezia",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/La_Spezia",
+    "Ticket_Cost": 4.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/La_Spezia",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/La_Spezia",
+    "Ticket_Cost": 5.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/La_Spezia",
+    "Ticket_Cost": 6.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/La_Spezia",
+    "Ticket_Cost": 8.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Lainate",
+    "Ticket_Cost": 10.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Lama_dei_Peligni",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Lana_Lana",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Langhirano",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Lanzo_d_Intelvi",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Latiano",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Latina",
+    "Ticket_Cost": 13.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Lavarone",
+    "Ticket_Cost": 6.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Lecce",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Lecco",
+    "Ticket_Cost": 6.00,
+    "Count": 4
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Lipari",
+    "Ticket_Cost": 6.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Locri",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Lodi",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Lodrino",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Lonato_del_Garda",
+    "Ticket_Cost": 8.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Longiano",
+    "Ticket_Cost": 7.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Loreto_Aprutino",
+    "Ticket_Cost": 6.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Loro_Piceno",
+    "Ticket_Cost": 2.50,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Lorsica",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Lovere",
+    "Ticket_Cost": 7.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Lubriano",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Lucca",
+    "Ticket_Cost": 4.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Lucera",
+    "Ticket_Cost": 17.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Luras",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Luserna",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Macerata",
+    "Ticket_Cost": 9.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Macerata_Feltria",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Macomer",
+    "Ticket_Cost": 3.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Maddaloni",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Maglie",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Magreglio",
+    "Ticket_Cost": 6.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Maiolati_Spontini",
+    "Ticket_Cost": 2.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Mairago",
+    "Ticket_Cost": 7.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Maissana",
+    "Ticket_Cost": 6.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Malborghetto_Valbruna",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Malegno",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Malesco",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Malles_Venosta_Mals",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Mammola",
+    "Ticket_Cost": 8.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Mamoiada",
+    "Ticket_Cost": 4.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Mandas",
+    "Ticket_Cost": 4.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Manfredonia",
+    "Ticket_Cost": 8.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Maniago",
+    "Ticket_Cost": 6.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Mantova",
+    "Ticket_Cost": 10.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Mantova",
+    "Ticket_Cost": 12.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Mantova",
+    "Ticket_Cost": 15.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Mantova",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Maranello",
+    "Ticket_Cost": 17.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Marostica",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Marsala",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Marsala",
+    "Ticket_Cost": 6.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Martina_Franca",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Marzabotto",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Massa_Marittima",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Massa_Marittima",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Massa_Marittima",
+    "Ticket_Cost": 6.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Masserano",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Matelica",
+    "Ticket_Cost": 3.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Matelica",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Matera",
+    "Ticket_Cost": 10.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Matera",
+    "Ticket_Cost": 3.00,
+    "Count": 3
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Mattinata",
+    "Ticket_Cost": 6.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Mazzano",
+    "Ticket_Cost": 8.00,
+    "Count": 3
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Mazze",
+    "Ticket_Cost": 10.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Melegnano",
+    "Ticket_Cost": 2.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Melfi",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Melilli",
+    "Ticket_Cost": 10.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Mentana",
+    "Ticket_Cost": 3.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Merano_Meran",
+    "Ticket_Cost": 11.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Merano_Meran",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Merano_Meran",
+    "Ticket_Cost": 9.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Mesagne",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Mesola",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Messina",
+    "Ticket_Cost": 3.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Messina",
+    "Ticket_Cost": 9.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Micigliano",
+    "Ticket_Cost": 1.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Milano",
+    "Ticket_Cost": 10.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Milano",
+    "Ticket_Cost": 11.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Milano",
+    "Ticket_Cost": 12.00,
+    "Count": 3
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Milano",
+    "Ticket_Cost": 15.00,
+    "Count": 3
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Milano",
+    "Ticket_Cost": 5.00,
+    "Count": 8
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Milano",
+    "Ticket_Cost": 6.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Milano",
+    "Ticket_Cost": 7.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Milano",
+    "Ticket_Cost": 8.00,
+    "Count": 3
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Mineo",
+    "Ticket_Cost": 1.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Mineo",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Modena",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Modena",
+    "Ticket_Cost": 8.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Modica",
+    "Ticket_Cost": 2.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Modica",
+    "Ticket_Cost": 3.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Modigliana",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Mogliano_Veneto",
+    "Ticket_Cost": 7.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Molfetta",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Monasterace",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Monastero_Bormida",
+    "Ticket_Cost": 2.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Mondaino",
+    "Ticket_Cost": 2.50,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Mondavio",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Monopoli",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Monsampolo_del_Tronto",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Montalcino",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Montalto_delle_Marche",
+    "Ticket_Cost": 1.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Monte_Rinaldo",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Monte_San_Martino",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Monte_Sant_Angelo",
+    "Ticket_Cost": 1.20,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Montecatini_Val_di_Cecina",
+    "Ticket_Cost": 1.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Montefalcone_Appennino",
+    "Ticket_Cost": 2.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Montefiore_dell_Aso",
+    "Ticket_Cost": 3.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Montefiorino",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Montefortino",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Monteodorisio",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Monterchi",
+    "Ticket_Cost": 6.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Monterubbiano",
+    "Ticket_Cost": 1.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Monterubbiano",
+    "Ticket_Cost": 2.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Montesarchio",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Montichiari",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Montone",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Montopoli_di_Sabina",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Monza",
+    "Ticket_Cost": 8.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Morgongiori",
+    "Ticket_Cost": 2.60,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Morro_d_Alba",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Mosciano_Sant_Angelo",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Moso_in_Passiria_Moos_in_Passeier",
+    "Ticket_Cost": 4.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Murlo",
+    "Ticket_Cost": 6.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Muro_Leccese",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Muro_Lucano",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Napoli",
+    "Ticket_Cost": 10.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Napoli",
+    "Ticket_Cost": 12.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Napoli",
+    "Ticket_Cost": 15.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Napoli",
+    "Ticket_Cost": 2.50,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Napoli",
+    "Ticket_Cost": 22.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Napoli",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Napoli",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Napoli",
+    "Ticket_Cost": 5.00,
+    "Count": 5
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Napoli",
+    "Ticket_Cost": 6.00,
+    "Count": 3
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Napoli",
+    "Ticket_Cost": 7.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Narni",
+    "Ticket_Cost": 6.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Nazzano",
+    "Ticket_Cost": 1.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ne",
+    "Ticket_Cost": 11.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Nemi",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Nichelino",
+    "Ticket_Cost": 12.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Nicolosi",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Noceto",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Norcia",
+    "Ticket_Cost": 6.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Norma",
+    "Ticket_Cost": 4.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Notaresco",
+    "Ticket_Cost": 1.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Noto",
+    "Ticket_Cost": 8.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Novara",
+    "Ticket_Cost": 5.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Numana",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Nuoro",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Nuoro",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Nuoro",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Nuoro",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Offagna",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Offagna",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Offagna",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Offida",
+    "Ticket_Cost": 3.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Oltre_il_Colle",
+    "Ticket_Cost": 2.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ome",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Orani",
+    "Ticket_Cost": 7.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Orbetello",
+    "Ticket_Cost": 2.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Orciano_di_Pesaro",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Oristano",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Orosei",
+    "Ticket_Cost": 2.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Orroli",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ortacesus",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Orte",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ortisei_St__Ulrich",
+    "Ticket_Cost": 7.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ortona",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ortonovo",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Orvieto",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Osimo",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Osimo",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ozieri",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Padria",
+    "Ticket_Cost": 1.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Palau",
+    "Ticket_Cost": 2.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Palazzolo_Acreide",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Palermo",
+    "Ticket_Cost": 12.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Palermo",
+    "Ticket_Cost": 3.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Palermo",
+    "Ticket_Cost": 4.50,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Palermo",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Palermo",
+    "Ticket_Cost": 6.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Palermo",
+    "Ticket_Cost": 8.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Palestrina",
+    "Ticket_Cost": 7.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Palmoli",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Parcines_Partschins",
+    "Ticket_Cost": 7.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Parcines_Partschins",
+    "Ticket_Cost": 8.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Parma",
+    "Ticket_Cost": 18.00,
+    "Count": 4
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Parma",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Parma",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Parma",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Parma",
+    "Ticket_Cost": 7.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Partanna",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pastena",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Patti",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pau",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pavia",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pavia",
+    "Ticket_Cost": 6.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pavullo_nel_Frignano",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pennabilli",
+    "Ticket_Cost": 5.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Penne",
+    "Ticket_Cost": 3.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Perfugas",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pergola",
+    "Ticket_Cost": 6.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Perugia",
+    "Ticket_Cost": 10.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Perugia",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Perugia",
+    "Ticket_Cost": 7.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pesaro",
+    "Ticket_Cost": 10.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pesaro",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pesaro",
+    "Ticket_Cost": 7.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pesaro",
+    "Ticket_Cost": 9.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pescara",
+    "Ticket_Cost": 2.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pescara",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pescara",
+    "Ticket_Cost": 6.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pescopennataro",
+    "Ticket_Cost": 2.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pezzaze",
+    "Ticket_Cost": 10.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Piacenza",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Piacenza",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Piacenza",
+    "Ticket_Cost": 8.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Piadena",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pianello_del_Lario",
+    "Ticket_Cost": 12.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Piasco",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Piazza_Armerina",
+    "Ticket_Cost": 10.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Picciano",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Piegaro",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pienza",
+    "Ticket_Cost": 7.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pietraroja",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pieve_Santo_Stefano",
+    "Ticket_Cost": 6.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pieve_di_Cento",
+    "Ticket_Cost": 15.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pieve_di_Teco",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pinerolo",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pinerolo",
+    "Ticket_Cost": 5.00,
+    "Count": 4
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pioraco",
+    "Ticket_Cost": 1.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pioraco",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Piovera",
+    "Ticket_Cost": 8.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pisa",
+    "Ticket_Cost": 11.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pisa",
+    "Ticket_Cost": 2.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pisa",
+    "Ticket_Cost": 5.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Piscina",
+    "Ticket_Cost": 6.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pistoia",
+    "Ticket_Cost": 10.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pistoia",
+    "Ticket_Cost": 3.50,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Piuro",
+    "Ticket_Cost": 7.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ploaghe",
+    "Ticket_Cost": 2.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pofi",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Policoro",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Polignano_a_Mare",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pollenza",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pompeiana",
+    "Ticket_Cost": 10.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ponte_Gardena_Waidbruck",
+    "Ticket_Cost": 6.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ponte_di_Legno",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pontecagnano_Faiano",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pordenone",
+    "Ticket_Cost": 3.00,
+    "Count": 3
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Portici",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Porto_Torres",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Portoferraio",
+    "Ticket_Cost": 5.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Portogruaro",
+    "Ticket_Cost": 6.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Potenza",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pozza_di_Fassa",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Prali",
+    "Ticket_Cost": 11.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Prato",
+    "Ticket_Cost": 6.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Prato",
+    "Ticket_Cost": 8.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Prato_Carnico",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Predoi_Prettau",
+    "Ticket_Cost": 10.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Premana",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Priverno",
+    "Ticket_Cost": 3.80,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pula",
+    "Ticket_Cost": 2.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Putignano",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Quarto_d_Altino",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Racines_Ratschings",
+    "Ticket_Cost": 10.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Racines_Ratschings",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ragusa",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Rapallo",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ravenna",
+    "Ticket_Cost": 6.00,
+    "Count": 3
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Recanati",
+    "Ticket_Cost": 1.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Recanati",
+    "Ticket_Cost": 20.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Recanati",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Reggio_di_Calabria",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Reggio_di_Calabria",
+    "Ticket_Cost": 7.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Reggio_di_Calabria",
+    "Ticket_Cost": 8.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Remanzacco",
+    "Ticket_Cost": 8.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Remedello",
+    "Ticket_Cost": 2.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Renon_Ritten",
+    "Ticket_Cost": 6.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Revere",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Rezzato",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Riccione",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Riesi",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Rieti",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Rimini",
+    "Ticket_Cost": 6.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Rimini",
+    "Ticket_Cost": 7.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Rimini",
+    "Ticket_Cost": 9.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Riofreddo",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ripatransone",
+    "Ticket_Cost": 2.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ripatransone",
+    "Ticket_Cost": 3.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Riva_del_Garda",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Riva_presso_Chieri",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Rivisondoli",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Rocca_di_Papa",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Roccagorga",
+    "Ticket_Cost": 2.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Roccavaldina",
+    "Ticket_Cost": 2.60,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Rocchetta_a_Volturno",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Rodengo_Saiano",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Rodigo",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Roma",
+    "Ticket_Cost": 10.00,
+    "Count": 4
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Roma",
+    "Ticket_Cost": 10.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Roma",
+    "Ticket_Cost": 11.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Roma",
+    "Ticket_Cost": 11.50,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Roma",
+    "Ticket_Cost": 12.00,
+    "Count": 5
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Roma",
+    "Ticket_Cost": 13.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Roma",
+    "Ticket_Cost": 14.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Roma",
+    "Ticket_Cost": 15.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Roma",
+    "Ticket_Cost": 16.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Roma",
+    "Ticket_Cost": 17.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Roma",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Roma",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Roma",
+    "Ticket_Cost": 5.00,
+    "Count": 4
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Roma",
+    "Ticket_Cost": 6.00,
+    "Count": 10
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Roma",
+    "Ticket_Cost": 7.00,
+    "Count": 3
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Roma",
+    "Ticket_Cost": 8.00,
+    "Count": 6
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Roma",
+    "Ticket_Cost": 9.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Roma",
+    "Ticket_Cost": 9.50,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Romano_di_Lombardia",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Roncegno_Terme",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ronco_Scrivia",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Roncoferraro",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Rosarno",
+    "Ticket_Cost": 6.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Rosta",
+    "Ticket_Cost": 2.60,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Rotella",
+    "Ticket_Cost": 1.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Rovereto",
+    "Ticket_Cost": 10.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Rovereto",
+    "Ticket_Cost": 11.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Rovereto",
+    "Ticket_Cost": 7.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Roviano",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ruvo_di_Puglia",
+    "Ticket_Cost": 6.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sabbioneta",
+    "Ticket_Cost": 2.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sala_Consilina",
+    "Ticket_Cost": 6.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Salbertrand",
+    "Ticket_Cost": 10.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Salerno",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Salerno",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Saliceto",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Salo",
+    "Ticket_Cost": 9.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Saltara",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Saluzzo",
+    "Ticket_Cost": 3.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Saluzzo",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Saluzzo",
+    "Ticket_Cost": 8.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Samarate",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Samugheo",
+    "Ticket_Cost": 2.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/San_Benedetto_Po",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/San_Benedetto_del_Tronto",
+    "Ticket_Cost": 2.00,
+    "Count": 3
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/San_Candido_Innichen",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/San_Candido_Innichen",
+    "Ticket_Cost": 9.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/San_Casciano_in_Val_di_Pesa",
+    "Ticket_Cost": 0.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/San_Daniele_Po",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/San_Daniele_del_Friuli",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/San_Dona_di_Piave",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/San_Ginesio",
+    "Ticket_Cost": 2.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/San_Giorgio_di_Pesaro",
+    "Ticket_Cost": 1.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/San_Giovanni_Bianco",
+    "Ticket_Cost": 1.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/San_Giovanni_in_Persiceto",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/San_Giovanni_in_Persiceto",
+    "Ticket_Cost": 2.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/San_Leo",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/San_Leonardo_in_Passiria_St__Leonhard_in_Passeier",
+    "Ticket_Cost": 8.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/San_Lorenzo_di_Sebato_St__Lorenzen",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/San_Lorenzo_in_Campo",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/San_Martino_in_Badia_St__Martin_in_Thurn",
+    "Ticket_Cost": 8.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/San_Mauro_Pascoli",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/San_Mauro_Pascoli",
+    "Ticket_Cost": 6.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/San_Michele_all_Adige",
+    "Ticket_Cost": 6.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/San_Salvo",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/San_Severino_Marche",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sanluri",
+    "Ticket_Cost": 6.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sanremo",
+    "Ticket_Cost": 10.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sanremo",
+    "Ticket_Cost": 5.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sant_Agata_Bolognese",
+    "Ticket_Cost": 15.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sant_Agata_Feltria",
+    "Ticket_Cost": 6.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sant_Ambrogio_di_Torino",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sant_Anatolia_di_Narco",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sant_Angelo_in_Vado",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sant_Antioco",
+    "Ticket_Cost": 2.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sant_Antioco",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sant_Antioco",
+    "Ticket_Cost": 6.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sant_Elpidio_a_Mare",
+    "Ticket_Cost": 5.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sant_Oreste",
+    "Ticket_Cost": 1.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sant_Orsola_Terme",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Santa_Margherita_di_Belice",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Santa_Maria_Capua_Vetere",
+    "Ticket_Cost": 2.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Santa_Marinella",
+    "Ticket_Cost": 6.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Santadi",
+    "Ticket_Cost": 2.60,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Santadi",
+    "Ticket_Cost": 7.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Santarcangelo_di_Romagna",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sardara",
+    "Ticket_Cost": 4.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sarezzo",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sarnano",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Saronno",
+    "Ticket_Cost": 2.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Saronno",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sarsina",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sartirana_Lomellina",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sassari",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sassari",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sassari",
+    "Ticket_Cost": 6.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sassari",
+    "Ticket_Cost": 8.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sassocorvaro",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sassocorvaro",
+    "Ticket_Cost": 6.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sassoferrato",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Savigliano",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Savigliano",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Savigliano",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Savoca",
+    "Ticket_Cost": 1.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Savona",
+    "Ticket_Cost": 2.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Savona",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Savona",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Savona",
+    "Ticket_Cost": 7.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Scaletta_Zanclea",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Scapoli",
+    "Ticket_Cost": 1.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Schilpario",
+    "Ticket_Cost": 10.00,
+    "Count": 4
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Schilpario",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Seborga",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Senago",
+    "Ticket_Cost": 8.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Senorbi",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sepino",
+    "Ticket_Cost": 10.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Serra_San_Quirico",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Serra_de__Conti",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Serravalle_di_Chienti",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sestri_Levante",
+    "Ticket_Cost": 5.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Seui",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sezze",
+    "Ticket_Cost": 2.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sezze",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sgonico",
+    "Ticket_Cost": 13.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Siddi",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Siddi",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Siena",
+    "Ticket_Cost": 6.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Siena",
+    "Ticket_Cost": 9.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sinnai",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Siracusa",
+    "Ticket_Cost": 1.55,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Siracusa",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sirmione",
+    "Ticket_Cost": 8.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sluderno_Schluderns",
+    "Ticket_Cost": 4.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Solferino",
+    "Ticket_Cost": 2.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Soncino",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sondrio",
+    "Ticket_Cost": 7.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sonnino",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Soragna",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Soragna",
+    "Ticket_Cost": 9.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sorrento",
+    "Ticket_Cost": 15.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sorso",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sperlonga",
+    "Ticket_Cost": 7.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Spilamberto",
+    "Ticket_Cost": 6.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Spoleto",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Spoleto",
+    "Ticket_Cost": 6.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Spoleto",
+    "Ticket_Cost": 7.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Stintino",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Stra",
+    "Ticket_Cost": 14.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Stradella",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Stradella",
+    "Ticket_Cost": 6.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Succivo",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Suni",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Taormina",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Taranto",
+    "Ticket_Cost": 8.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Tarquinia",
+    "Ticket_Cost": 10.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Tavernole_sul_Mella",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Temu",
+    "Ticket_Cost": 7.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Termini_Imerese",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Terrasini",
+    "Ticket_Cost": 6.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Teti",
+    "Ticket_Cost": 2.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Tignale",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Tirolo_Tirol",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Tirolo_Tirol",
+    "Ticket_Cost": 7.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Toirano",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Tolentino",
+    "Ticket_Cost": 3.00,
+    "Count": 3
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Tolmezzo",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Tonezza_del_Cimone",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Torino",
+    "Ticket_Cost": 10.00,
+    "Count": 6
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Torino",
+    "Ticket_Cost": 15.00,
+    "Count": 3
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Torino",
+    "Ticket_Cost": 3.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Torino",
+    "Ticket_Cost": 5.00,
+    "Count": 3
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Torino",
+    "Ticket_Cost": 6.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Torino",
+    "Ticket_Cost": 7.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Torino",
+    "Ticket_Cost": 9.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Torre_de__Passeri",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Tossicia",
+    "Ticket_Cost": 1.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Tovo_San_Giacomo",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Trarego_Viggiona",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Traversella",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Traversetolo",
+    "Ticket_Cost": 12.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Traversetolo",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Travo",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Treia",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Tremezzo",
+    "Ticket_Cost": 12.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Trento",
+    "Ticket_Cost": 10.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Trento",
+    "Ticket_Cost": 11.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Trento",
+    "Ticket_Cost": 4.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Trento",
+    "Ticket_Cost": 7.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Treppo_Carnico",
+    "Ticket_Cost": 3.60,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Trevi",
+    "Ticket_Cost": 6.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Treviso",
+    "Ticket_Cost": 9.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Trieste",
+    "Ticket_Cost": 10.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Trieste",
+    "Ticket_Cost": 12.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Trieste",
+    "Ticket_Cost": 3.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Trieste",
+    "Ticket_Cost": 3.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Trieste",
+    "Ticket_Cost": 4.00,
+    "Count": 3
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Trieste",
+    "Ticket_Cost": 5.00,
+    "Count": 3
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Trieste",
+    "Ticket_Cost": 6.00,
+    "Count": 3
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Trieste",
+    "Ticket_Cost": 7.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Triora",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Troia",
+    "Ticket_Cost": 17.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Tusa",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Udine",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ulassai",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Umbertide",
+    "Ticket_Cost": 7.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Urbania",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Urbino",
+    "Ticket_Cost": 1.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Urbino",
+    "Ticket_Cost": 10.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Urbisaglia",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Urgnano",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Usseglio",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Valentano",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Valle_Aurina_Ahrntal",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Valle_Aurina_Ahrntal",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Valle_Aurina_Ahrntal",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Valle_Aurina_Ahrntal",
+    "Ticket_Cost": 9.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Valtorta",
+    "Ticket_Cost": 2.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Valtorta",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Valvestino",
+    "Ticket_Cost": 1.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Varenna",
+    "Ticket_Cost": 10.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Varenna",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Varese",
+    "Ticket_Cost": 10.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Varese",
+    "Ticket_Cost": 12.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Varese",
+    "Ticket_Cost": 5.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Varese",
+    "Ticket_Cost": 6.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Varna_Vahrn",
+    "Ticket_Cost": 6.60,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Vasto",
+    "Ticket_Cost": 3.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Velletri",
+    "Ticket_Cost": 4.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Venafro",
+    "Ticket_Cost": 6.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Venaria_Reale",
+    "Ticket_Cost": 20.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Venaria_Reale",
+    "Ticket_Cost": 8.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Venezia",
+    "Ticket_Cost": 10.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Venezia",
+    "Ticket_Cost": 14.00,
+    "Count": 3
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Venezia",
+    "Ticket_Cost": 16.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Venezia",
+    "Ticket_Cost": 25.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Venezia",
+    "Ticket_Cost": 30.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Venezia",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Venezia",
+    "Ticket_Cost": 6.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Venezia",
+    "Ticket_Cost": 8.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Venosa",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ventimiglia",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ventimiglia",
+    "Ticket_Cost": 6.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Verbania",
+    "Ticket_Cost": 100.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Verbania",
+    "Ticket_Cost": 11.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Verbania",
+    "Ticket_Cost": 8.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Vercelli",
+    "Ticket_Cost": 10.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Vercelli",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Vercelli",
+    "Ticket_Cost": 7.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Vermiglio",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Vernasca",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Verona",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Verona",
+    "Ticket_Cost": 4.50,
+    "Count": 4
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Verona",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Verona",
+    "Ticket_Cost": 6.00,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Verucchio",
+    "Ticket_Cost": 5.50,
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Viareggio",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Vibo_Valentia",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Vicenza",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Vico_Equense",
+    "Ticket_Cost": 2.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Viddalba",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Vigevano",
+    "Ticket_Cost": 5.00,
+    "Count": 3
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Villabassa_Niederdorf",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Villanovaforru",
+    "Ticket_Cost": 3.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Villasimius",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Villavallelonga",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Villetta_Barrea",
+    "Ticket_Cost": 1.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Villetta_Barrea",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Villimpenta",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Vimercate",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Vinci",
+    "Ticket_Cost": 11.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Vipiteno_Sterzing",
+    "Ticket_Cost": 2.50,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Visso",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Viterbo",
+    "Ticket_Cost": 7.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Vittorio_Veneto",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Voghera",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Voghiera",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Zagarolo",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Zavattarello",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Zogno",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Zola_Predosa",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Zuglio",
+    "Ticket_Cost": 3.00,
+    "Count": 1
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cagliari",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cassino",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cava_de__Tirreni",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cremona",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Fara_in_Sabina",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Firenze",
+    "Ticket_Cost": "Free Entry",
+    "Count": 4
+  },
+  {
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Genova",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Gorizia",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Grottaferrata",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Lucca",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Macerata",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Milano",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Modena",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Napoli",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Padova",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Parma",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pavia",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pisa",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Potenza",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Roma",
+    "Ticket_Cost": "Free Entry",
+    "Count": 7
+  },
+  {
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sassari",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Subiaco",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Teolo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Torino",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Trieste",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Veroli",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  }
+]
