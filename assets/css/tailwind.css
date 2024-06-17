@@ -193704,7 +193704,7 @@ video {
 }
 
 
- #map, #map1 { height: 800px; width: 100%; }
+ #map, #map1 { height: 1000px; width: 100%; }
         .tooltip { 
             background: white; 
             border: 1px solid #ccc; 

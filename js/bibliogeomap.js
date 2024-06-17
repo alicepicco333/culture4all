@@ -6,8 +6,8 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     const map = L.map('map1', {
-        center: [41.8719, 12.5674],
-        zoom: 6,
+        center: [41.8719, 13.5674],
+        zoom: 6.5,
         zoomControl: false,
         attributionControl: false,
         zoomSnap: 0.1,
