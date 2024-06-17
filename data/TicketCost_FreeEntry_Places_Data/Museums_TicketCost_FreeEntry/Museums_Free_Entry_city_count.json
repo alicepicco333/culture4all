@@ -1,0 +1,4442 @@
+[
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Abetone_Cutigliano",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Acerra",
+    "Ticket_Cost": "Free Entry",
+    "Count": 3
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Aci_Castello",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Acqualagna",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Acqui_Terme",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Adro",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Agnone",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Aiello_del_Friuli",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Airola",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Alassio",
+    "Ticket_Cost": "Free Entry",
+    "Count": 3
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Alatri",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Albenga",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Albese_con_Cassano",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Albino",
+    "Ticket_Cost": "Free Entry",
+    "Count": 3
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Albisola_Superiore",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Albissola_Marina",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Aldino_Aldein",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Alessandria_del_Carretto",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Alfonsine",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Almenno_San_Bartolomeo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Alpignano",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Alseno",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Altamura",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Altavilla_Irpina",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Alto",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Amatrice",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Amendolara",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ampezzo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Anagni",
+    "Ticket_Cost": "Free Entry",
+    "Count": 3
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ancona",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Andezeno",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Andreis",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Andretta",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Angera",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Anguillara_Sabazia",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Antrodoco",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Anzio",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Aosta",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Apecchio",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Apricale",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Apricena",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Aquila_d_Arroscia",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Aquileia",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Aquilonia",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Aquino",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Arbus",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Arcinazzo_Romano",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ardea",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Argenta",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ariano_Irpino",
+    "Ticket_Cost": "Free Entry",
+    "Count": 3
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Arnad",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Arosio",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Arpino",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Arre",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Arsago_Seprio",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Arsoli",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Artena",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Artogne",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Arzano",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Asola",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Asti",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Atina",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Atripalda",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Attimis",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ausonia",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Avella",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Avellino",
+    "Ticket_Cost": "Free Entry",
+    "Count": 4
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Aversa",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Avezzano",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bagnacavallo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bagnara_di_Romagna",
+    "Ticket_Cost": "Free Entry",
+    "Count": 3
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bagno_di_Romagna",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bagnolo_in_Piano",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bagnoregio",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bagolino",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bardi",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bari",
+    "Ticket_Cost": "Free Entry",
+    "Count": 4
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Baronissi",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Barzio",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bedonia",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bellaria-Igea_Marina",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Belvedere_Ostrense",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bene_Vagienna",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Benevento",
+    "Ticket_Cost": "Free Entry",
+    "Count": 4
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bentivoglio",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Berceto",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bergamo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bertinoro",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bettola",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Biassono",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Binasco",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bisaccia",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bisegna",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bisignano",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bistagno",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bitonto",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Blera",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bobbio",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bologna",
+    "Ticket_Cost": "Free Entry",
+    "Count": 44
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bolognetta",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bolognola",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bolzano_Bozen",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bondeno",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bonito",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bordighera",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Boretto",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Borghi",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Borgo_Pace",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Borgo_San_Dalmazzo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Borgo_Tossignano",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Borgoricco",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Borgosesia",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bortigiadas",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bosco_Marengo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Botticino",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bova_Marina",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bovino",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bracciano",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Breno",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Brescello",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Brescia",
+    "Ticket_Cost": "Free Entry",
+    "Count": 4
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Brindisi",
+    "Ticket_Cost": "Free Entry",
+    "Count": 3
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Brisighella",
+    "Ticket_Cost": "Free Entry",
+    "Count": 4
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Brosso",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Budrio",
+    "Ticket_Cost": "Free Entry",
+    "Count": 5
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Buja",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Buonabitacolo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Busana",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Busseto",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Busto_Arsizio",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Buttrio",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cagliari",
+    "Ticket_Cost": "Free Entry",
+    "Count": 6
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Calangianus",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Calanna",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Calcata",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Caldarola",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Calice_Ligure",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Calitri",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Caltagirone",
+    "Ticket_Cost": "Free Entry",
+    "Count": 4
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Caltanissetta",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Calvisano",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Camerata_Cornello",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Camerino",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Caminata",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Camogli",
+    "Ticket_Cost": "Free Entry",
+    "Count": 3
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Campagna",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Campagnano_di_Roma",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Campagnola_Emilia",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Campi_Bisenzio",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Campobasso",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Campomorone",
+    "Ticket_Cost": "Free Entry",
+    "Count": 4
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Canelli",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Canepina",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Caneva",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Canosa_Sannita",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Canosa_di_Puglia",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cantiano",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Capo_di_Ponte",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Capovalle",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Capua",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Carassai",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Caravaggio",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Carcare",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Carinola",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Carmagnola",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Carmignano",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Carpasio",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Carpenedolo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Carro",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Casacalenda",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Casalmaggiore",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Casalvieri",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Casarza_Ligure",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Casazza",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Casola_Valsenio",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cassacco",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Castagneto_Carducci",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Castel_Bolognese",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Castel_Morrone",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Castel_San_Giovanni",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Castel_San_Lorenzo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Castel_del_Monte",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Castel_del_Rio",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Casteldelci",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Castelfidardo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Castellabate",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Castellammare_di_Stabia",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Castellanza",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Castelleone",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Castello_di_Serravalle",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Castellucchio",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Castelmagno",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Castelnovo_di_Sotto",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Castelnuovo_Scrivia",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Castelvenere",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Castiglion_Fiorentino",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Castiglione_Chiavarese",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Castro_dei_Volsci",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Castrocaro_Terme_e_Terra_del_Sole",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Castrocielo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Catania",
+    "Ticket_Cost": "Free Entry",
+    "Count": 3
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Catanzaro",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cattolica",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cava_de__Tirreni",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cavargna",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cavasso_Nuovo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cazzago_San_Martino",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Celle_di_Macra",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cento",
+    "Ticket_Cost": "Free Entry",
+    "Count": 3
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Centola",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ceprano",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cerano_d_Intelvi",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cerreto_Guidi",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cerreto_Sannita",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cerreto_d_Esi",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cerreto_di_Spoleto",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Certosa_di_Pavia",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cervara_di_Roma",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cervaro",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cervia",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cesena",
+    "Ticket_Cost": "Free Entry",
+    "Count": 8
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cesenatico",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cessapalombo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Chiari",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Chiavari",
+    "Ticket_Cost": "Free Entry",
+    "Count": 6
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Chieri",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Chieti",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cimolais",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cingoli",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cinisello_Balsamo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Citta_Sant_Angelo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cittiglio",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cividate_Camuno",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Civita_Castellana",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Civitanova_Marche",
+    "Ticket_Cost": "Free Entry",
+    "Count": 4
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Claut",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Clusone",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Codogno",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Codroipo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 4
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cogne",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cogorno",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Colbordolo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Collegno",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Comacchio",
+    "Ticket_Cost": "Free Entry",
+    "Count": 4
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Como",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Concesio",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Conegliano",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Conzano",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Copparo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Corato",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Corbetta",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Coriano",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Corleto_Monforte",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cormons",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Correggio",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Corridonia",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cortona",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cosenza",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cosio_d_Arroscia",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cotignola",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Crema",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cremona",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Crevalcore",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Crocefieschi",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Crotone",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cuneo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cusano_Mutri",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Dalmine",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Darfo_Boario_Terme",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Demonte",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Desio",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Diano_Marina",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Dolceacqua",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Dongo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Dovadola",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Dozza",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Drenchia",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Dresano",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Enna",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Erba",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ercolano",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Erice",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Erto_e_Casso",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Etroubles",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Fabbrica_Curone",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Fabriano",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Faenza",
+    "Ticket_Cost": "Free Entry",
+    "Count": 6
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Falconara_Marittima",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Fano",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Fara_in_Sabina",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Farnese",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Fasano",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Favale_di_Malvaro",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Felitto",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ferrara",
+    "Ticket_Cost": "Free Entry",
+    "Count": 11
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Fiastra",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Fidenza",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Fiesole",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Fiorano_Modenese",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Firenze",
+    "Ticket_Cost": "Free Entry",
+    "Count": 10
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Fiumicino",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Fogliano_Redipuglia",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Fontanarosa",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Fontanelice",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Forgaria_nel_Friuli",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Forli",
+    "Ticket_Cost": "Free Entry",
+    "Count": 10
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Formello",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Forni_Avoltri",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Forte_dei_Marmi",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Fossano",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Fragneto_Monforte",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Frascati",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Frattamaggiore",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Frisanco",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Frontino",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Fumone",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Furore",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Fusignano",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Gaeta",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Galeata",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Gallarate",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Gallese",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Gattatico",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Gatteo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Gemmano",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Gemona_del_Friuli",
+    "Ticket_Cost": "Free Entry",
+    "Count": 4
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Genazzano",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Genova",
+    "Ticket_Cost": "Free Entry",
+    "Count": 21
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Gerace",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Gerano",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Giarre",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Gioia_Tauro",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Giulianova",
+    "Ticket_Cost": "Free Entry",
+    "Count": 4
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Gorizia",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Gottolengo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Gradisca_d_Isonzo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Grado",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Gradoli",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Graglia",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Gragnano",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Grandate",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Grandola_ed_Uniti",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Gravina_in_Puglia",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Greci",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Grimacco",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Grosseto",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Grottaminarda",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Grottammare",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Grotte_di_Castro",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Gualtieri",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Guardiagrele",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Guastalla",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Guidonia_Montecelio",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Iglesias",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Imola",
+    "Ticket_Cost": "Free Entry",
+    "Count": 7
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Imperia",
+    "Ticket_Cost": "Free Entry",
+    "Count": 4
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ischia_di_Castro",
+    "Ticket_Cost": "Free Entry",
+    "Count": 3
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Isera",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Isola_del_Gran_Sasso_d_Italia",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Itri",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ivrea",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Jesi",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/La_Spezia",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Lacedonia",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Lamezia_Terme",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Lana_Lana",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Lanciano",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Langhirano",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Lanusei",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Lanuvio",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Lanzo_Torinese",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Lanzo_d_Intelvi",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Larciano",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Larino",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Latera",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Latiano",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Latina",
+    "Ticket_Cost": "Free Entry",
+    "Count": 7
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Lauro",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Lavagna",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Lecce",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Lecco",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Legnano",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Lentate_sul_Seveso",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Lentini",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Leonessa",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Lerma",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Letino",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Levanto",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Licata",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Licenza",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Linguaglossa",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Lissone",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Lizzano_in_Belvedere",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Locri",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Lodi",
+    "Ticket_Cost": "Free Entry",
+    "Count": 5
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Lombriasco",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Lomello",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Longiano",
+    "Ticket_Cost": "Free Entry",
+    "Count": 3
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Loreto",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Loro_Piceno",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Lovere",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Lu_e_Cuccaro_Monferrato",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Lucca",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Lucinasco",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Lugo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Luino",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Luras",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Lusevera",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Luzzana",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Luzzara",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Maccagno",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Macerata",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Maddaloni",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Maenza",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Magasa",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Magione",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Magliano_Sabina",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Maiori",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Mairano",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Malborghetto_Valbruna",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Malnate",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Malo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Mandello_del_Lario",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Manerba_del_Garda",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Manerbio",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Manfredonia",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Maniago",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Mantova",
+    "Ticket_Cost": "Free Entry",
+    "Count": 3
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Maratea",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Marchirolo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Margherita_di_Savoia",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Marineo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Marino",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Masone",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Massa_Fermana",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Massa_Fiscaglia",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Massa_Lombarda",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Mazara_del_Vallo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Medesano",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Medicina",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Medole",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Meldola",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Mendatica",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Mentana",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Mercatello_sul_Metauro",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Mercogliano",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Mereto_di_Tomba",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Messina",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Migliarino",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Milano",
+    "Ticket_Cost": "Free Entry",
+    "Count": 10
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Milazzo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 3
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Mileto",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Milis",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Militello_in_Val_di_Catania",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Millesimo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Mirabella_Eclano",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Mistretta",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Moconesi",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Modena",
+    "Ticket_Cost": "Free Entry",
+    "Count": 21
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Modigliana",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Mogliano",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Moimacco",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Moio_della_Civitella",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Molfetta",
+    "Ticket_Cost": "Free Entry",
+    "Count": 3
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Mombaroccio",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Mondragone",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Monfalcone",
+    "Ticket_Cost": "Free Entry",
+    "Count": 3
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Monghidoro",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Mongrassano",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Monreale",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Monrupino",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Monsampolo_del_Tronto",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Monsummano_Terme",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Montappone",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Monte_Compatri",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Monte_Porzio_Catone",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Monte_San_Giusto",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Monte_Vidon_Corrado",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Montebruno",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Montecalvo_Irpino",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Montecchio",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Montecchio_Emilia",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Montechiaro_d_Acqui",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Montechiarugolo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Monteciccardo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Montecorice",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Montefelcino",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Montefiascone",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Montefusco",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Montegallo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Montegridolfo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Montegrosso_Pian_Latte",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Monteleone_Sabino",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Montella",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Montelupone",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Montemaggiore_al_Metauro",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Montemarano",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Montereale_Valcellina",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Monterenzio",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Monterotondo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Montesano_sulla_Marcellana",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Montescaglioso",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Montescudo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Montese",
+    "Ticket_Cost": "Free Entry",
+    "Count": 3
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Monticelli_d_Ongina",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Montichiari",
+    "Ticket_Cost": "Free Entry",
+    "Count": 3
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Montoro_Inferiore",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Morbegno",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Morcone",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Moresco",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Morigerati",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Morra_De_Sanctis",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Morro_d_Oro",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Mottafollone",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Muggia",
+    "Ticket_Cost": "Free Entry",
+    "Count": 4
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Murialdo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Muzzano",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Napoli",
+    "Ticket_Cost": "Free Entry",
+    "Count": 15
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ne",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Neoneli",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Nepi",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Nettuno",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Neviano_degli_Arduini",
+    "Ticket_Cost": "Free Entry",
+    "Count": 3
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Niscemi",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Nizza_Monferrato",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Nocciano",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Nocera_Inferiore",
+    "Ticket_Cost": "Free Entry",
+    "Count": 3
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Noceto",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Nola",
+    "Ticket_Cost": "Free Entry",
+    "Count": 3
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Nonantola",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Norma",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Nova_Ponente_Deutschnofen",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Novara",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Novate_Mezzola",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Novellara",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Novi_Ligure",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Noviglio",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Nusco",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Olevano_Romano",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Oliveto_Citra",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Oppido_Mamertina",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Orani",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Oria",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Orte",
+    "Ticket_Cost": "Free Entry",
+    "Count": 3
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ortona",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ortonovo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ostellato",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ostiano",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ostiglia",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ottone",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ozieri",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ozzano_dell_Emilia",
+    "Ticket_Cost": "Free Entry",
+    "Count": 5
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Paderno_Ponchielli",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Padula",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pagani",
+    "Ticket_Cost": "Free Entry",
+    "Count": 3
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Palazzo_San_Gervasio",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Palena",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Palermo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Palestrina",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Palmanova",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Palmi",
+    "Ticket_Cost": "Free Entry",
+    "Count": 4
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Palombara_Sabina",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Paluzza",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Parabiago",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Parabita",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Parma",
+    "Ticket_Cost": "Free Entry",
+    "Count": 13
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pavia",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pegognaga",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pellezzano",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pennabilli",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Perdifumo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Perinaldo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Perloz",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pertica_Bassa",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pertosa",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Perugia",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pesaro",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pescara",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pescarolo_ed_Uniti",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pescina",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Piacenza",
+    "Ticket_Cost": "Free Entry",
+    "Count": 9
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pianello_Val_Tidone",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pianezza",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Piano_di_Sorrento",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pianoro",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Piedimonte_Matese",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pietrabruna",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pietramelara",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pietrelcina",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pieve_Torina",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pieve_di_Cadore",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pieve_di_Cento",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pieve_di_Teco",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pignataro_Maggiore",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pisoniano",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pistoia",
+    "Ticket_Cost": "Free Entry",
+    "Count": 9
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pizzighettone",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Poggibonsi",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Poggio_Berni",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Polcenigo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Polla",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pollica",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pomezia",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pompei",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pompeiana",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pont-Canavese",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pont-Saint-Martin",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ponte_Nossa",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pontedassio",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pontelandolfo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ponti_sul_Mincio",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pontida",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pontinia",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ponza",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pordenone",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Porretta_Terme",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Portalbera",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Porto_Recanati",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Portovenere",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Posta_Fibreno",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Potenza",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Potenza_Picena",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Poviglio",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pozzolo_Formigaro",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pozzuoli",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pozzuolo_del_Friuli",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pragelato",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Prata_Sannita",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Prato",
+    "Ticket_Cost": "Free Entry",
+    "Count": 3
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Prato_Carnico",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pratola_Peligna",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Preci",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Predosa",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Prela",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Premilcuore",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Preone",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Priverno",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Proceno",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Procida",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Quistello",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Raddusa",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ragogna",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ragusa",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ramacca",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ranco",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ranzo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Rapallo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ravanusa",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ravello",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ravenna",
+    "Ticket_Cost": "Free Entry",
+    "Count": 8
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Reana_del_Rojale",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Reggio_di_Calabria",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Reggio_nell_Emilia",
+    "Ticket_Cost": "Free Entry",
+    "Count": 9
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Reggiolo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Remedello",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Resia",
+    "Ticket_Cost": "Free Entry",
+    "Count": 3
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Resiutta",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Rezzo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ribera",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Riccione",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Rieti",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Rimini",
+    "Ticket_Cost": "Free Entry",
+    "Count": 4
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Riolo_Terme",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ripe",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ripi",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Riposto",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Rocca_San_Felice",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Roccabianca",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Roccagloriosa",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Rolo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Roma",
+    "Ticket_Cost": "Free Entry",
+    "Count": 55
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Romagnese",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Romano_di_Lombardia",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ronchi_dei_Legionari",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ronco_Scrivia",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Roncofreddo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Rondanina",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Rosarno",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Roscigno",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Roseto_degli_Abruzzi",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Rosignano_Marittimo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Rossiglione",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Rubiera",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Russi",
+    "Ticket_Cost": "Free Entry",
+    "Count": 4
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Rutigliano",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ruviano",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ruvo_di_Puglia",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sabaudia",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sabbio_Chiese",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sacile",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Saint-Vincent",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sala_Bolognese",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sala_Consilina",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Salemi",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Salerno",
+    "Ticket_Cost": "Free Entry",
+    "Count": 8
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Salo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Salsomaggiore_Terme",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Saludecio",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sambuca_Pistoiese",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sambuca_di_Sicilia",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/San_Bartolomeo_in_Galdo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/San_Cesareo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/San_Colombano_Certenoli",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/San_Daniele_del_Friuli",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/San_Demetrio_ne__Vestini",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/San_Donato_Val_di_Comino",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/San_Felice_Circeo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/San_Felice_sul_Panaro",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/San_Giorgio_Canavese",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/San_Giorgio_della_Richinvelda",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/San_Giovanni_Bianco",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/San_Giovanni_Rotondo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/San_Giovanni_Valdarno",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/San_Giovanni_in_Fiore",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/San_Giovanni_in_Marignano",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/San_Giovanni_in_Persiceto",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/San_Lazzaro_di_Savena",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/San_Marcello_Piteglio",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/San_Marco_dei_Cavoti",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/San_Martino_in_Rio",
+    "Ticket_Cost": "Free Entry",
+    "Count": 3
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/San_Nicola_la_Strada",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/San_Pellegrino_Terme",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/San_Pietro_Avellana",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/San_Pietro_Infine",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/San_Pietro_al_Natisone",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/San_Pietro_in_Casale",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/San_Pietro_in_Cerro",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/San_Polo_d_Enza",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/San_Potito_Ultra",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/San_Salvatore_Telesino",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/San_Severo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/San_Teodoro",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/San_Vito_al_Tagliamento",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/San_Vito_dei_Normanni",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sanfront",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sanremo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 3
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sant_Agata_Feltria",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sant_Agostino",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sant_Anastasia",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sant_Angelo_Lodigiano",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sant_Arpino",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sant_Eusanio_del_Sangro",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Santa_Croce_del_Sannio",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Santa_Maria_Capua_Vetere",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Santa_Marinella",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Santa_Severina",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Santa_Sofia",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Santarcangelo_di_Romagna",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Santo_Stefano_di_Camastra",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sarnico",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sarno",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sarsina",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sassello",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sassuolo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 3
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sauris",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Savignano_sul_Panaro",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Savignano_sul_Rubicone",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Savignone",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Savona",
+    "Ticket_Cost": "Free Entry",
+    "Count": 4
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Scalea",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Scarlino",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Schio",
+    "Ticket_Cost": "Free Entry",
+    "Count": 4
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sciacca",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Scordia",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Seborga",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sedegliano",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sefro",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Senigallia",
+    "Ticket_Cost": "Free Entry",
+    "Count": 3
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sequals",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sermoneta",
+    "Ticket_Cost": "Free Entry",
+    "Count": 3
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Serra_San_Quirico",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Serramazzoni",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Serrapetrona",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Serravalle_Scrivia",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Serravalle_Sesia",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Serrone",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sessa_Aurunca",
+    "Ticket_Cost": "Free Entry",
+    "Count": 3
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sesto_Sexten",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sesto_al_Reghena",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sestola",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sezze",
+    "Ticket_Cost": "Free Entry",
+    "Count": 4
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Siena",
+    "Ticket_Cost": "Free Entry",
+    "Count": 4
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Siligo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Smerillo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sogliano_al_Rubicone",
+    "Ticket_Cost": "Free Entry",
+    "Count": 5
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Solarolo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Solopaca",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Somma_Vesuviana",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sondrio",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sora",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Soragna",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sordevolo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Soresina",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sorrento",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sotto_il_Monte_Giovanni_XXIII",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Spilamberto",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Spilimbergo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Spinetoli",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Stazzano",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Stigliano",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sulmona",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sutri",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Taggia",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Talamello",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Tarcento",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Tarquinia",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Tarvisio",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Taverna",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Teano",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Teggiano",
+    "Ticket_Cost": "Free Entry",
+    "Count": 4
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Teramo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Terlizzi",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Termini_Imerese",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Terracina",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Terranova_di_Pollino",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Terzigno",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Tirano",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Tolentino",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Tolfa",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Torgiano",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Torgnon",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Torino",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Torre_San_Giorgio",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Torre_del_Greco",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Tortoli",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Tortona",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Torviscosa",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Toscolano-Maderno",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Tradate",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Trani",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Travagliato",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Trequanda",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Trevico",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Treviglio",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Trevignano_Romano",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Tricarico",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Trieste",
+    "Ticket_Cost": "Free Entry",
+    "Count": 18
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Trivigliano",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Tuscania",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Udine",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Urbino",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Uscio",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ussita",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Vaiano",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Vaie",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Valfurva",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Vallecrosia",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Vallepietra",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Vallo_della_Lucania",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Valmontone",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Valmozzola",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Valvestino",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Varazze",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Vasanello",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Venaria_Reale",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Venegono_Inferiore",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ventimiglia",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ventotene",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Venzone",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Verdello",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Veroli",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Verucchio",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Verzegnis",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Vetto",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Viadana",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Viareggio",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Vicenza",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Vico_Equense",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Vigarano_Mainarda",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Vigevano",
+    "Ticket_Cost": "Free Entry",
+    "Count": 3
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Vignola",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Vigolzone",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Villa_Lagarina",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Villa_Minozzo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Villa_d_Alme",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Villadossola",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Virgilio",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Viterbo",
+    "Ticket_Cost": "Free Entry",
+    "Count": 8
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Vittoria",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Viu",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Vivaro",
+    "Ticket_Cost": "Free Entry",
+    "Count": 2
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Voghera",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Voghiera",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Zanica",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Zibello",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Zignago",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Zocca",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  },
+  {
+    "Museum_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Zogno",
+    "Ticket_Cost": "Free Entry",
+    "Count": 1
+  }
+]

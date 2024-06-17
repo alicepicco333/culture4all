@@ -1,0 +1,1447 @@
+[
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Abruzzo",
+    "Ticket_Cost": 1.00,
+    "Count": 6
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Abruzzo",
+    "Ticket_Cost": 1.50,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Abruzzo",
+    "Ticket_Cost": 1.70,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Abruzzo",
+    "Ticket_Cost": 2.00,
+    "Count": 6
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Abruzzo",
+    "Ticket_Cost": 2.50,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Abruzzo",
+    "Ticket_Cost": 3.00,
+    "Count": 11
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Abruzzo",
+    "Ticket_Cost": 3.50,
+    "Count": 2
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Abruzzo",
+    "Ticket_Cost": 3.60,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Abruzzo",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Abruzzo",
+    "Ticket_Cost": 5.00,
+    "Count": 7
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Abruzzo",
+    "Ticket_Cost": 6.00,
+    "Count": 3
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Abruzzo",
+    "Ticket_Cost": 7.00,
+    "Count": 2
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Basilicata",
+    "Ticket_Cost": 10.00,
+    "Count": 2
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Basilicata",
+    "Ticket_Cost": 2.50,
+    "Count": 2
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Basilicata",
+    "Ticket_Cost": 3.00,
+    "Count": 3
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Basilicata",
+    "Ticket_Cost": 4.00,
+    "Count": 6
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Basilicata",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Calabria",
+    "Ticket_Cost": 1.00,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Calabria",
+    "Ticket_Cost": 3.00,
+    "Count": 4
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Calabria",
+    "Ticket_Cost": 4.00,
+    "Count": 4
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Calabria",
+    "Ticket_Cost": 5.00,
+    "Count": 6
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Calabria",
+    "Ticket_Cost": 6.00,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Calabria",
+    "Ticket_Cost": 7.00,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Calabria",
+    "Ticket_Cost": 8.00,
+    "Count": 3
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Campania",
+    "Ticket_Cost": 10.00,
+    "Count": 3
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Campania",
+    "Ticket_Cost": 12.00,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Campania",
+    "Ticket_Cost": 15.00,
+    "Count": 4
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Campania",
+    "Ticket_Cost": 18.00,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Campania",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Campania",
+    "Ticket_Cost": 2.50,
+    "Count": 4
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Campania",
+    "Ticket_Cost": 22.00,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Campania",
+    "Ticket_Cost": 3.00,
+    "Count": 4
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Campania",
+    "Ticket_Cost": 4.00,
+    "Count": 3
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Campania",
+    "Ticket_Cost": 4.50,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Campania",
+    "Ticket_Cost": 5.00,
+    "Count": 14
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Campania",
+    "Ticket_Cost": 6.00,
+    "Count": 5
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Campania",
+    "Ticket_Cost": 7.00,
+    "Count": 2
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Campania",
+    "Ticket_Cost": 8.00,
+    "Count": 2
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Emilia-Romagna",
+    "Ticket_Cost": 10.00,
+    "Count": 4
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Emilia-Romagna",
+    "Ticket_Cost": 12.00,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Emilia-Romagna",
+    "Ticket_Cost": 15.00,
+    "Count": 2
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Emilia-Romagna",
+    "Ticket_Cost": 17.00,
+    "Count": 2
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Emilia-Romagna",
+    "Ticket_Cost": 18.00,
+    "Count": 4
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Emilia-Romagna",
+    "Ticket_Cost": 2.00,
+    "Count": 5
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Emilia-Romagna",
+    "Ticket_Cost": 2.50,
+    "Count": 5
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Emilia-Romagna",
+    "Ticket_Cost": 3.00,
+    "Count": 16
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Emilia-Romagna",
+    "Ticket_Cost": 3.50,
+    "Count": 3
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Emilia-Romagna",
+    "Ticket_Cost": 4.00,
+    "Count": 11
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Emilia-Romagna",
+    "Ticket_Cost": 4.50,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Emilia-Romagna",
+    "Ticket_Cost": 5.00,
+    "Count": 30
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Emilia-Romagna",
+    "Ticket_Cost": 5.50,
+    "Count": 2
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Emilia-Romagna",
+    "Ticket_Cost": 6.00,
+    "Count": 13
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Emilia-Romagna",
+    "Ticket_Cost": 7.00,
+    "Count": 9
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Emilia-Romagna",
+    "Ticket_Cost": 8.00,
+    "Count": 8
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Emilia-Romagna",
+    "Ticket_Cost": 9.00,
+    "Count": 2
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Friuli-Venezia_Giulia",
+    "Ticket_Cost": 10.00,
+    "Count": 3
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Friuli-Venezia_Giulia",
+    "Ticket_Cost": 12.00,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Friuli-Venezia_Giulia",
+    "Ticket_Cost": 13.00,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Friuli-Venezia_Giulia",
+    "Ticket_Cost": 3.00,
+    "Count": 11
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Friuli-Venezia_Giulia",
+    "Ticket_Cost": 3.50,
+    "Count": 2
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Friuli-Venezia_Giulia",
+    "Ticket_Cost": 3.60,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Friuli-Venezia_Giulia",
+    "Ticket_Cost": 4.00,
+    "Count": 4
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Friuli-Venezia_Giulia",
+    "Ticket_Cost": 4.50,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Friuli-Venezia_Giulia",
+    "Ticket_Cost": 5.00,
+    "Count": 5
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Friuli-Venezia_Giulia",
+    "Ticket_Cost": 6.00,
+    "Count": 9
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Friuli-Venezia_Giulia",
+    "Ticket_Cost": 7.00,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Friuli-Venezia_Giulia",
+    "Ticket_Cost": 8.00,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Friuli-Venezia_Giulia",
+    "Ticket_Cost": 9.00,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lazio",
+    "Ticket_Cost": 1.00,
+    "Count": 4
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lazio",
+    "Ticket_Cost": 10.00,
+    "Count": 6
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lazio",
+    "Ticket_Cost": 10.50,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lazio",
+    "Ticket_Cost": 11.00,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lazio",
+    "Ticket_Cost": 11.50,
+    "Count": 2
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lazio",
+    "Ticket_Cost": 12.00,
+    "Count": 5
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lazio",
+    "Ticket_Cost": 13.00,
+    "Count": 2
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lazio",
+    "Ticket_Cost": 14.00,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lazio",
+    "Ticket_Cost": 15.00,
+    "Count": 2
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lazio",
+    "Ticket_Cost": 16.00,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lazio",
+    "Ticket_Cost": 17.00,
+    "Count": 2
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lazio",
+    "Ticket_Cost": 2.00,
+    "Count": 10
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lazio",
+    "Ticket_Cost": 2.50,
+    "Count": 3
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lazio",
+    "Ticket_Cost": 3.00,
+    "Count": 20
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lazio",
+    "Ticket_Cost": 3.80,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lazio",
+    "Ticket_Cost": 4.00,
+    "Count": 6
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lazio",
+    "Ticket_Cost": 4.50,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lazio",
+    "Ticket_Cost": 5.00,
+    "Count": 18
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lazio",
+    "Ticket_Cost": 6.00,
+    "Count": 13
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lazio",
+    "Ticket_Cost": 6.50,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lazio",
+    "Ticket_Cost": 7.00,
+    "Count": 6
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lazio",
+    "Ticket_Cost": 8.00,
+    "Count": 6
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lazio",
+    "Ticket_Cost": 9.00,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lazio",
+    "Ticket_Cost": 9.50,
+    "Count": 2
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Liguria",
+    "Ticket_Cost": 1.60,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Liguria",
+    "Ticket_Cost": 10.00,
+    "Count": 3
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Liguria",
+    "Ticket_Cost": 11.00,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Liguria",
+    "Ticket_Cost": 12.00,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Liguria",
+    "Ticket_Cost": 17.00,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Liguria",
+    "Ticket_Cost": 2.00,
+    "Count": 5
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Liguria",
+    "Ticket_Cost": 2.50,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Liguria",
+    "Ticket_Cost": 3.00,
+    "Count": 10
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Liguria",
+    "Ticket_Cost": 4.00,
+    "Count": 7
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Liguria",
+    "Ticket_Cost": 4.20,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Liguria",
+    "Ticket_Cost": 4.50,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Liguria",
+    "Ticket_Cost": 5.00,
+    "Count": 18
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Liguria",
+    "Ticket_Cost": 5.50,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Liguria",
+    "Ticket_Cost": 6.00,
+    "Count": 10
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Liguria",
+    "Ticket_Cost": 7.00,
+    "Count": 5
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Liguria",
+    "Ticket_Cost": 8.00,
+    "Count": 4
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Liguria",
+    "Ticket_Cost": 9.00,
+    "Count": 4
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lombardia",
+    "Ticket_Cost": 1.00,
+    "Count": 2
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lombardia",
+    "Ticket_Cost": 1.50,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lombardia",
+    "Ticket_Cost": 10.00,
+    "Count": 19
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lombardia",
+    "Ticket_Cost": 11.00,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lombardia",
+    "Ticket_Cost": 12.00,
+    "Count": 10
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lombardia",
+    "Ticket_Cost": 15.00,
+    "Count": 5
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lombardia",
+    "Ticket_Cost": 2.00,
+    "Count": 17
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lombardia",
+    "Ticket_Cost": 2.50,
+    "Count": 8
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lombardia",
+    "Ticket_Cost": 3.00,
+    "Count": 23
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lombardia",
+    "Ticket_Cost": 3.50,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lombardia",
+    "Ticket_Cost": 3.60,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lombardia",
+    "Ticket_Cost": 4.00,
+    "Count": 13
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lombardia",
+    "Ticket_Cost": 4.50,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lombardia",
+    "Ticket_Cost": 5.00,
+    "Count": 42
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lombardia",
+    "Ticket_Cost": 6.00,
+    "Count": 15
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lombardia",
+    "Ticket_Cost": 7.00,
+    "Count": 7
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lombardia",
+    "Ticket_Cost": 7.50,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lombardia",
+    "Ticket_Cost": 8.00,
+    "Count": 17
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lombardia",
+    "Ticket_Cost": 8.50,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lombardia",
+    "Ticket_Cost": 9.00,
+    "Count": 2
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Marche",
+    "Ticket_Cost": 1.00,
+    "Count": 8
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Marche",
+    "Ticket_Cost": 1.50,
+    "Count": 2
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Marche",
+    "Ticket_Cost": 10.00,
+    "Count": 3
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Marche",
+    "Ticket_Cost": 2.00,
+    "Count": 19
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Marche",
+    "Ticket_Cost": 2.50,
+    "Count": 10
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Marche",
+    "Ticket_Cost": 20.00,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Marche",
+    "Ticket_Cost": 3.00,
+    "Count": 18
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Marche",
+    "Ticket_Cost": 3.10,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Marche",
+    "Ticket_Cost": 3.50,
+    "Count": 4
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Marche",
+    "Ticket_Cost": 4.00,
+    "Count": 15
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Marche",
+    "Ticket_Cost": 4.20,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Marche",
+    "Ticket_Cost": 5.00,
+    "Count": 13
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Marche",
+    "Ticket_Cost": 6.00,
+    "Count": 6
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Marche",
+    "Ticket_Cost": 7.00,
+    "Count": 2
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Marche",
+    "Ticket_Cost": 7.50,
+    "Count": 2
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Marche",
+    "Ticket_Cost": 8.00,
+    "Count": 2
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Marche",
+    "Ticket_Cost": 9.00,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Marche",
+    "Ticket_Cost": 9.50,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Molise",
+    "Ticket_Cost": 1.00,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Molise",
+    "Ticket_Cost": 10.00,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Molise",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Molise",
+    "Ticket_Cost": 2.50,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Molise",
+    "Ticket_Cost": 5.00,
+    "Count": 2
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Molise",
+    "Ticket_Cost": 6.00,
+    "Count": 5
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Piemonte",
+    "Ticket_Cost": 1.00,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Piemonte",
+    "Ticket_Cost": 10.00,
+    "Count": 10
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Piemonte",
+    "Ticket_Cost": 100.00,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Piemonte",
+    "Ticket_Cost": 11.00,
+    "Count": 2
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Piemonte",
+    "Ticket_Cost": 12.00,
+    "Count": 2
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Piemonte",
+    "Ticket_Cost": 15.00,
+    "Count": 3
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Piemonte",
+    "Ticket_Cost": 16.00,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Piemonte",
+    "Ticket_Cost": 2.00,
+    "Count": 6
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Piemonte",
+    "Ticket_Cost": 2.50,
+    "Count": 2
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Piemonte",
+    "Ticket_Cost": 2.60,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Piemonte",
+    "Ticket_Cost": 20.00,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Piemonte",
+    "Ticket_Cost": 3.00,
+    "Count": 13
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Piemonte",
+    "Ticket_Cost": 35.00,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Piemonte",
+    "Ticket_Cost": 4.00,
+    "Count": 3
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Piemonte",
+    "Ticket_Cost": 5.00,
+    "Count": 28
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Piemonte",
+    "Ticket_Cost": 6.00,
+    "Count": 5
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Piemonte",
+    "Ticket_Cost": 7.00,
+    "Count": 2
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Piemonte",
+    "Ticket_Cost": 8.00,
+    "Count": 5
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Piemonte",
+    "Ticket_Cost": 9.00,
+    "Count": 2
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Puglia",
+    "Ticket_Cost": 1.20,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Puglia",
+    "Ticket_Cost": 10.00,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Puglia",
+    "Ticket_Cost": 17.00,
+    "Count": 3
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Puglia",
+    "Ticket_Cost": 2.00,
+    "Count": 2
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Puglia",
+    "Ticket_Cost": 3.00,
+    "Count": 4
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Puglia",
+    "Ticket_Cost": 4.00,
+    "Count": 5
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Puglia",
+    "Ticket_Cost": 5.00,
+    "Count": 10
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Puglia",
+    "Ticket_Cost": 6.00,
+    "Count": 5
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Puglia",
+    "Ticket_Cost": 8.00,
+    "Count": 4
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sardegna",
+    "Ticket_Cost": 1.00,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sardegna",
+    "Ticket_Cost": 10.00,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sardegna",
+    "Ticket_Cost": 2.00,
+    "Count": 11
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sardegna",
+    "Ticket_Cost": 2.20,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sardegna",
+    "Ticket_Cost": 2.50,
+    "Count": 9
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sardegna",
+    "Ticket_Cost": 2.60,
+    "Count": 3
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sardegna",
+    "Ticket_Cost": 3.00,
+    "Count": 16
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sardegna",
+    "Ticket_Cost": 3.50,
+    "Count": 3
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sardegna",
+    "Ticket_Cost": 4.00,
+    "Count": 16
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sardegna",
+    "Ticket_Cost": 4.50,
+    "Count": 3
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sardegna",
+    "Ticket_Cost": 5.00,
+    "Count": 14
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sardegna",
+    "Ticket_Cost": 6.00,
+    "Count": 11
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sardegna",
+    "Ticket_Cost": 7.00,
+    "Count": 2
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sardegna",
+    "Ticket_Cost": 8.00,
+    "Count": 3
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sardegna",
+    "Ticket_Cost": 8.50,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sardegna",
+    "Ticket_Cost": 9.00,
+    "Count": 3
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sicilia",
+    "Ticket_Cost": 1.00,
+    "Count": 6
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sicilia",
+    "Ticket_Cost": 1.50,
+    "Count": 2
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sicilia",
+    "Ticket_Cost": 1.55,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sicilia",
+    "Ticket_Cost": 10.00,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sicilia",
+    "Ticket_Cost": 10.50,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sicilia",
+    "Ticket_Cost": 12.00,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sicilia",
+    "Ticket_Cost": 2.00,
+    "Count": 15
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sicilia",
+    "Ticket_Cost": 2.50,
+    "Count": 3
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sicilia",
+    "Ticket_Cost": 2.60,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sicilia",
+    "Ticket_Cost": 3.00,
+    "Count": 5
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sicilia",
+    "Ticket_Cost": 3.50,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sicilia",
+    "Ticket_Cost": 4.00,
+    "Count": 19
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sicilia",
+    "Ticket_Cost": 4.50,
+    "Count": 2
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sicilia",
+    "Ticket_Cost": 5.00,
+    "Count": 4
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sicilia",
+    "Ticket_Cost": 6.00,
+    "Count": 7
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sicilia",
+    "Ticket_Cost": 7.00,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sicilia",
+    "Ticket_Cost": 8.00,
+    "Count": 3
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sicilia",
+    "Ticket_Cost": 9.00,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Toscana",
+    "Ticket_Cost": 0.00,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Toscana",
+    "Ticket_Cost": 1.00,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Toscana",
+    "Ticket_Cost": 10.00,
+    "Count": 3
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Toscana",
+    "Ticket_Cost": 11.00,
+    "Count": 2
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Toscana",
+    "Ticket_Cost": 12.00,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Toscana",
+    "Ticket_Cost": 12.50,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Toscana",
+    "Ticket_Cost": 16.00,
+    "Count": 6
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Toscana",
+    "Ticket_Cost": 18.00,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Toscana",
+    "Ticket_Cost": 2.00,
+    "Count": 2
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Toscana",
+    "Ticket_Cost": 2.50,
+    "Count": 2
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Toscana",
+    "Ticket_Cost": 25.00,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Toscana",
+    "Ticket_Cost": 3.00,
+    "Count": 7
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Toscana",
+    "Ticket_Cost": 3.50,
+    "Count": 2
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Toscana",
+    "Ticket_Cost": 4.00,
+    "Count": 7
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Toscana",
+    "Ticket_Cost": 4.50,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Toscana",
+    "Ticket_Cost": 5.00,
+    "Count": 9
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Toscana",
+    "Ticket_Cost": 6.00,
+    "Count": 10
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Toscana",
+    "Ticket_Cost": 6.50,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Toscana",
+    "Ticket_Cost": 7.00,
+    "Count": 2
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Toscana",
+    "Ticket_Cost": 7.50,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Toscana",
+    "Ticket_Cost": 8.00,
+    "Count": 9
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Toscana",
+    "Ticket_Cost": 9.00,
+    "Count": 3
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Trentino-Alto_Adige",
+    "Ticket_Cost": 1.00,
+    "Count": 2
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Trentino-Alto_Adige",
+    "Ticket_Cost": 10.00,
+    "Count": 5
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Trentino-Alto_Adige",
+    "Ticket_Cost": 11.00,
+    "Count": 3
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Trentino-Alto_Adige",
+    "Ticket_Cost": 13.00,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Trentino-Alto_Adige",
+    "Ticket_Cost": 2.00,
+    "Count": 3
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Trentino-Alto_Adige",
+    "Ticket_Cost": 2.50,
+    "Count": 2
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Trentino-Alto_Adige",
+    "Ticket_Cost": 2.60,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Trentino-Alto_Adige",
+    "Ticket_Cost": 20.00,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Trentino-Alto_Adige",
+    "Ticket_Cost": 3.00,
+    "Count": 4
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Trentino-Alto_Adige",
+    "Ticket_Cost": 3.50,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Trentino-Alto_Adige",
+    "Ticket_Cost": 4.00,
+    "Count": 10
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Trentino-Alto_Adige",
+    "Ticket_Cost": 4.50,
+    "Count": 3
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Trentino-Alto_Adige",
+    "Ticket_Cost": 5.00,
+    "Count": 10
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Trentino-Alto_Adige",
+    "Ticket_Cost": 5.50,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Trentino-Alto_Adige",
+    "Ticket_Cost": 6.00,
+    "Count": 5
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Trentino-Alto_Adige",
+    "Ticket_Cost": 6.50,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Trentino-Alto_Adige",
+    "Ticket_Cost": 6.60,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Trentino-Alto_Adige",
+    "Ticket_Cost": 7.00,
+    "Count": 9
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Trentino-Alto_Adige",
+    "Ticket_Cost": 8.00,
+    "Count": 4
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Trentino-Alto_Adige",
+    "Ticket_Cost": 8.50,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Trentino-Alto_Adige",
+    "Ticket_Cost": 9.00,
+    "Count": 5
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Umbria",
+    "Ticket_Cost": 10.00,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Umbria",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Umbria",
+    "Ticket_Cost": 3.00,
+    "Count": 2
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Umbria",
+    "Ticket_Cost": 4.00,
+    "Count": 3
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Umbria",
+    "Ticket_Cost": 5.00,
+    "Count": 5
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Umbria",
+    "Ticket_Cost": 6.00,
+    "Count": 5
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Umbria",
+    "Ticket_Cost": 7.00,
+    "Count": 2
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Umbria",
+    "Ticket_Cost": 7.50,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Umbria",
+    "Ticket_Cost": 9.00,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Valle_d_Aosta_Vallee_d_Aoste",
+    "Ticket_Cost": 10.00,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Valle_d_Aosta_Vallee_d_Aoste",
+    "Ticket_Cost": 2.00,
+    "Count": 2
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Valle_d_Aosta_Vallee_d_Aoste",
+    "Ticket_Cost": 3.00,
+    "Count": 2
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Valle_d_Aosta_Vallee_d_Aoste",
+    "Ticket_Cost": 5.00,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Valle_d_Aosta_Vallee_d_Aoste",
+    "Ticket_Cost": 8.00,
+    "Count": 2
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Veneto",
+    "Ticket_Cost": 1.50,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Veneto",
+    "Ticket_Cost": 1.55,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Veneto",
+    "Ticket_Cost": 10.00,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Veneto",
+    "Ticket_Cost": 14.00,
+    "Count": 4
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Veneto",
+    "Ticket_Cost": 16.00,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Veneto",
+    "Ticket_Cost": 2.00,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Veneto",
+    "Ticket_Cost": 25.00,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Veneto",
+    "Ticket_Cost": 3.00,
+    "Count": 2
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Veneto",
+    "Ticket_Cost": 3.50,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Veneto",
+    "Ticket_Cost": 30.00,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Veneto",
+    "Ticket_Cost": 4.00,
+    "Count": 1
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Veneto",
+    "Ticket_Cost": 4.50,
+    "Count": 4
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Veneto",
+    "Ticket_Cost": 5.00,
+    "Count": 9
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Veneto",
+    "Ticket_Cost": 6.00,
+    "Count": 6
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Veneto",
+    "Ticket_Cost": 7.00,
+    "Count": 3
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Veneto",
+    "Ticket_Cost": 8.00,
+    "Count": 2
+  },
+  {
+    "Museum_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Veneto",
+    "Ticket_Cost": 9.00,
+    "Count": 2
+  }
+]

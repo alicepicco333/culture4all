@@ -1,0 +1,120 @@
+[
+  {
+    " OPERE PUBBLICATE, COPIE STAMPATE E TIRATURA MEDIA PER TIPO DI EDIZIONE, GENERE E TIPO DI EDITORE.": "Anno 2010"
+  },
+  {
+    " OPERE PUBBLICATE, COPIE STAMPATE E TIRATURA MEDIA PER TIPO DI EDIZIONE, GENERE E TIPO DI EDITORE.": "EDIZIONE\nGENERE\nTIPO DI EDITORE",
+    "#untitled": "Valori assoluti",
+    "#untitled--5": "Valori percentuali"
+  },
+  {
+    "#untitled": "Opere ",
+    "#untitled--2": "Copie ",
+    "#untitled--3": "Tiratura ",
+    "#untitled--5": "Opere ",
+    "#untitled--6": "Copie "
+  },
+  {
+    "#untitled": "pubblicate",
+    "#untitled--2": "stampate",
+    "#untitled--3": "media",
+    "#untitled--5": "pubblicate",
+    "#untitled--6": "stampate"
+  },
+  {
+    "#untitled": "N.",
+    "#untitled--2": "(in migliaia)",
+    "#untitled--3": "N.",
+    "#untitled--5": "%",
+    "#untitled--6": "%"
+  },
+  {
+    " OPERE PUBBLICATE, COPIE STAMPATE E TIRATURA MEDIA PER TIPO DI EDIZIONE, GENERE E TIPO DI EDITORE.": "Prime edizioni (a)",
+    "#untitled": "39,898",
+    "#untitled--2": "124,374",
+    "#untitled--3": "3,117",
+    "#untitled--5": 62.5,
+    "#untitled--6": 58.3
+  },
+  {
+    " OPERE PUBBLICATE, COPIE STAMPATE E TIRATURA MEDIA PER TIPO DI EDIZIONE, GENERE E TIPO DI EDITORE.": "Edizioni successive (a)",
+    "#untitled": "3,847",
+    "#untitled--2": "15,804",
+    "#untitled--3": "4,108",
+    "#untitled--5": 6.0,
+    "#untitled--6": 7.4
+  },
+  {
+    " OPERE PUBBLICATE, COPIE STAMPATE E TIRATURA MEDIA PER TIPO DI EDIZIONE, GENERE E TIPO DI EDITORE.": "Ristampe (a)",
+    "#untitled": "20,055",
+    "#untitled--2": "73,111",
+    "#untitled--3": "3,646",
+    "#untitled--5": 31.4,
+    "#untitled--6": 34.3
+  },
+  {
+    " OPERE PUBBLICATE, COPIE STAMPATE E TIRATURA MEDIA PER TIPO DI EDIZIONE, GENERE E TIPO DI EDITORE.": "Scolastiche (b)",
+    "#untitled": "4,686",
+    "#untitled--2": "36,752",
+    "#untitled--3": "7,843",
+    "#untitled--5": 7.3,
+    "#untitled--6": 17.2
+  },
+  {
+    " OPERE PUBBLICATE, COPIE STAMPATE E TIRATURA MEDIA PER TIPO DI EDIZIONE, GENERE E TIPO DI EDITORE.": "Per ragazzi",
+    "#untitled": "5,057",
+    "#untitled--2": "33,024",
+    "#untitled--3": "6,530",
+    "#untitled--5": 7.9,
+    "#untitled--6": 15.5
+  },
+  {
+    " OPERE PUBBLICATE, COPIE STAMPATE E TIRATURA MEDIA PER TIPO DI EDIZIONE, GENERE E TIPO DI EDITORE.": "Varia adulti",
+    "#untitled": "54,057",
+    "#untitled--2": "143,513",
+    "#untitled--3": "2,655",
+    "#untitled--5": 84.7,
+    "#untitled--6": 67.3
+  },
+  {
+    " OPERE PUBBLICATE, COPIE STAMPATE E TIRATURA MEDIA PER TIPO DI EDIZIONE, GENERE E TIPO DI EDITORE.": "Piccoli editori (c)",
+    "#untitled": "3,851",
+    "#untitled--2": "5,661",
+    "#untitled--3": "1,470",
+    "#untitled--5": 6.0,
+    "#untitled--6": 2.7
+  },
+  {
+    " OPERE PUBBLICATE, COPIE STAMPATE E TIRATURA MEDIA PER TIPO DI EDIZIONE, GENERE E TIPO DI EDITORE.": "Medi editori (c)",
+    "#untitled": "10,486",
+    "#untitled--2": "19,810",
+    "#untitled--3": "1,889",
+    "#untitled--5": 16.4,
+    "#untitled--6": 9.3
+  },
+  {
+    " OPERE PUBBLICATE, COPIE STAMPATE E TIRATURA MEDIA PER TIPO DI EDIZIONE, GENERE E TIPO DI EDITORE.": "Grandi editori (c)",
+    "#untitled": "49,463",
+    "#untitled--2": "187,818",
+    "#untitled--3": "3,797",
+    "#untitled--5": 77.5,
+    "#untitled--6": 88.1
+  },
+  {
+    " OPERE PUBBLICATE, COPIE STAMPATE E TIRATURA MEDIA PER TIPO DI EDIZIONE, GENERE E TIPO DI EDITORE.": "Totale",
+    "#untitled": "63,800",
+    "#untitled--2": "213,289",
+    "#untitled--3": "3,343",
+    "#untitled--5": 100.0,
+    "#untitled--6": 100.0
+  },
+  {
+    " OPERE PUBBLICATE, COPIE STAMPATE E TIRATURA MEDIA PER TIPO DI EDIZIONE, GENERE E TIPO DI EDITORE.": "(a)�� Per \"prima edizione\" si intende la prima pubblicazione di un manoscritto in lingua originale o tradotto; per \"edizione successiva\" quella che si differenzia dalle precedenti per la presenza di modifiche apportate nel testo originale o per variazioni nella veste tipografica; per \"ristampa\" l'edizione che non comporta alcuna modifica rispetto all'edizione  precedente."
+  },
+  {
+    " OPERE PUBBLICATE, COPIE STAMPATE E TIRATURA MEDIA PER TIPO DI EDIZIONE, GENERE E TIPO DI EDITORE.": "(b)�� Sono esclusi i testi universitari e parascolastici, in quanto compresi nelle opere di varia adulti."
+  },
+  {
+    " OPERE PUBBLICATE, COPIE STAMPATE E TIRATURA MEDIA PER TIPO DI EDIZIONE, GENERE E TIPO DI EDITORE.": "(c)�� Gli editori sono classificati, in base al numero di opere librarie pubblicate nel corso dell'anno, in: \"piccoli editori\" = da 1 a 10 opere; \"medi editori\" = da 11 a 50 opere; \"grandi editori\" = oltre 50 opere."
+  }
+]

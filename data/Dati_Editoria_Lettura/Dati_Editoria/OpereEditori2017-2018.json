@@ -1,0 +1,325 @@
+[
+  {},
+  {
+    "Tavola 1 - ": "TIPI DI EDIZIONE\nGENERI DI OPERA\nCLASSI DI PREZZO\nTIPI DI EDITORE",
+    "#untitled": 2017,
+    "#untitled--5": 2018,
+    "#untitled--9": "Composizione percentuale 2018",
+    "#untitled--12": "Variazione percentuale annua (b)"
+  },
+  {
+    "#untitled": "Opere pubblicate",
+    "#untitled--2": "Tiratura totale",
+    "#untitled--3": "Tiratura media per opera",
+    "#untitled--5": "Opere pubblicate",
+    "#untitled--6": "Tiratura totale",
+    "#untitled--7": "Tiratura media per opera",
+    "#untitled--9": "Opere pubblicate",
+    "#untitled--10": "Tiratura \ntotale",
+    "#untitled--12": "Opere pubblicate",
+    "#untitled--13": "Tiratura \ntotale"
+  },
+  {
+    "Tavola 1 - ": "TIPI DI EDIZIONE (c)"
+  },
+  {
+    "Tavola 1 - ": "Prime edizioni",
+    "#untitled": "42,803",
+    "#untitled--2": "96,687",
+    "#untitled--3": "2,259",
+    "#untitled--5": "46,718",
+    "#untitled--6": "99,746",
+    "#untitled--7": "2,135",
+    "#untitled--9": 61.7,
+    "#untitled--10": 59.4,
+    "#untitled--12": 1.1,
+    "#untitled--13": -3.7
+  },
+  {
+    "Tavola 1 - ": "Edizioni successive",
+    "#untitled": "3,736",
+    "#untitled--2": "11,350",
+    "#untitled--3": "3,038",
+    "#untitled--5": "4,250",
+    "#untitled--6": "10,103",
+    "#untitled--7": "2,377",
+    "#untitled--9": 5.6,
+    "#untitled--10": 6.0,
+    "#untitled--12": 11.1,
+    "#untitled--13": -12.0
+  },
+  {
+    "Tavola 1 - ": "Ristampe",
+    "#untitled": "23,620",
+    "#untitled--2": "53,051",
+    "#untitled--3": "2,245",
+    "#untitled--5": "24,790",
+    "#untitled--6": "58,112",
+    "#untitled--7": "2,344",
+    "#untitled--9": 32.7,
+    "#untitled--10": 34.6,
+    "#untitled--12": -0.2,
+    "#untitled--13": 0.6
+  },
+  {
+    "Tavola 1 - ": "Totale",
+    "#untitled": "70,159",
+    "#untitled--2": "161,088",
+    "#untitled--3": "2,296",
+    "#untitled--5": "75,758",
+    "#untitled--6": "167,961",
+    "#untitled--7": "2,217",
+    "#untitled--9": 100.0,
+    "#untitled--10": 100.0,
+    "#untitled--12": 1.1,
+    "#untitled--13": -2.9
+  },
+  {
+    "Tavola 1 - ": "GENERI  DI  OPERA"
+  },
+  {
+    "Tavola 1 - ": "Opere scolastiche (d)",
+    "#untitled": "8,310",
+    "#untitled--2": "46,226",
+    "#untitled--3": "5,563",
+    "#untitled--5": "9,786",
+    "#untitled--6": "58,339",
+    "#untitled--7": "5,961",
+    "#untitled--9": 12.9,
+    "#untitled--10": 34.7,
+    "#untitled--12": 2.8,
+    "#untitled--13": 11.8
+  },
+  {
+    "Tavola 1 - ": "Opere per ragazzi",
+    "#untitled": "6,141",
+    "#untitled--2": "22,641",
+    "#untitled--3": "3,687",
+    "#untitled--5": "6,440",
+    "#untitled--6": "22,675",
+    "#untitled--7": "3,521",
+    "#untitled--9": 8.5,
+    "#untitled--10": 13.5,
+    "#untitled--12": 2.3,
+    "#untitled--13": -1.6
+  },
+  {
+    "Tavola 1 - ": "Opere di varia adulti",
+    "#untitled": "55,708",
+    "#untitled--2": "92,221",
+    "#untitled--3": "1,655",
+    "#untitled--5": "59,532",
+    "#untitled--6": "86,947",
+    "#untitled--7": "1,461",
+    "#untitled--9": 78.6,
+    "#untitled--10": 51.8,
+    "#untitled--12": 0.7,
+    "#untitled--13": -10.6
+  },
+  {
+    "Tavola 1 - ": "Totale",
+    "#untitled": "70,159",
+    "#untitled--2": "161,088",
+    "#untitled--3": "2,296",
+    "#untitled--5": "75,758",
+    "#untitled--6": "167,961",
+    "#untitled--7": "2,217",
+    "#untitled--8": 0,
+    "#untitled--9": 100.0,
+    "#untitled--10": 100.0,
+    "#untitled--12": 1.1,
+    "#untitled--13": -2.9
+  },
+  {
+    "Tavola 1 - ": "CLASSI  DI  PREZZO"
+  },
+  {
+    "Tavola 1 - ": "Fino a 10,00 euro ",
+    "#untitled": "15,305",
+    "#untitled--2": "55,356",
+    "#untitled--3": "3,617",
+    "#untitled--5": "15,356",
+    "#untitled--6": "53,941",
+    "#untitled--7": "3,513",
+    "#untitled--9": 20.3,
+    "#untitled--10": 32.1,
+    "#untitled--12": -5.4,
+    "#untitled--13": -8.8
+  },
+  {
+    "Tavola 1 - ": "Da 10,01 a 15,00 ",
+    "#untitled": "19,250",
+    "#untitled--2": "31,674",
+    "#untitled--3": "1,645",
+    "#untitled--5": "21,000",
+    "#untitled--6": "35,727",
+    "#untitled--7": "1,701",
+    "#untitled--9": 27.7,
+    "#untitled--10": 21.3,
+    "#untitled--12": 1.7,
+    "#untitled--13": 5.6
+  },
+  {
+    "Tavola 1 - ": "Da 15,01 a 20,00 ",
+    "#untitled": "15,099",
+    "#untitled--2": "34,530",
+    "#untitled--3": "2,287",
+    "#untitled--5": "15,994",
+    "#untitled--6": "34,144",
+    "#untitled--7": "2,135",
+    "#untitled--9": 21.1,
+    "#untitled--10": 20.3,
+    "#untitled--12": 0.1,
+    "#untitled--13": -6.4
+  },
+  {
+    "Tavola 1 - ": "Da 20,01 a 30,00",
+    "#untitled": "11,251",
+    "#untitled--2": "14,091",
+    "#untitled--3": "1,252",
+    "#untitled--5": "12,622",
+    "#untitled--6": "18,482",
+    "#untitled--7": "1,464",
+    "#untitled--9": 16.7,
+    "#untitled--10": 11.0,
+    "#untitled--12": 4.0,
+    "#untitled--13": 11.7
+  },
+  {
+    "Tavola 1 - ": "Da 30,01 a 50,00",
+    "#untitled": "5,595",
+    "#untitled--2": "7,393",
+    "#untitled--3": "1,321",
+    "#untitled--5": "6,401",
+    "#untitled--6": "8,420",
+    "#untitled--7": "1,315",
+    "#untitled--9": 8.4,
+    "#untitled--10": 5.0,
+    "#untitled--12": 7.5,
+    "#untitled--13": 1.1
+  },
+  {
+    "Tavola 1 - ": "Oltre 50,00",
+    "#untitled": "2,241",
+    "#untitled--2": "11,359",
+    "#untitled--3": "5,069",
+    "#untitled--5": "2,010",
+    "#untitled--6": "5,132",
+    "#untitled--7": "2,553",
+    "#untitled--9": 2.7,
+    "#untitled--10": 3.1,
+    "#untitled--12": 1.7,
+    "#untitled--13": 5.0
+  },
+  {
+    "Tavola 1 - ": "Opere gratuite o fuori commercio",
+    "#untitled": "1,418",
+    "#untitled--2": "6,686",
+    "#untitled--3": "4,715",
+    "#untitled--5": "2,375",
+    "#untitled--6": "12,115",
+    "#untitled--7": "5,101",
+    "#untitled--9": 3.1,
+    "#untitled--10": 7.2,
+    "#untitled--12": 22.3,
+    "#untitled--13": -23.8
+  },
+  {
+    "Tavola 1 - ": "Non indicato",
+    "#untitled": "-",
+    "#untitled--2": "-",
+    "#untitled--3": "-",
+    "#untitled--9": "-",
+    "#untitled--10": "-"
+  },
+  {
+    "Tavola 1 - ": "Totale",
+    "#untitled": "70,159",
+    "#untitled--2": "161,088",
+    "#untitled--3": "2,296",
+    "#untitled--5": "75,758",
+    "#untitled--6": "167,961",
+    "#untitled--7": "2,217",
+    "#untitled--9": 100.0,
+    "#untitled--10": 100.0,
+    "#untitled--11": 0.0,
+    "#untitled--12": 1.1,
+    "#untitled--13": -2.9
+  },
+  {
+    "Tavola 1 - ": "  "
+  },
+  {
+    "Tavola 1 - ": "TIPI DI EDITORE (e)"
+  },
+  {
+    "Tavola 1 - ": "Piccoli editori",
+    "#untitled": "3,295",
+    "#untitled--2": "4,742",
+    "#untitled--3": "1,439",
+    "#untitled--5": "3,426",
+    "#untitled--6": "4,459",
+    "#untitled--7": "1,302",
+    "#untitled--9": 4.5,
+    "#untitled--10": 2.7,
+    "#untitled--12": -3.3,
+    "#untitled--13": -17.4
+  },
+  {
+    "Tavola 1 - ": "Medi editori",
+    "#untitled": "10,614",
+    "#untitled--2": "11,272",
+    "#untitled--3": "1,062",
+    "#untitled--5": "12,151",
+    "#untitled--6": "12,541",
+    "#untitled--7": "1,032",
+    "#untitled--9": 16.0,
+    "#untitled--10": 7.5,
+    "#untitled--12": 1.7,
+    "#untitled--13": -6.9
+  },
+  {
+    "Tavola 1 - ": "Grandi editori",
+    "#untitled": "56,250",
+    "#untitled--2": "145,074",
+    "#untitled--3": "2,579",
+    "#untitled--5": "60,181",
+    "#untitled--6": "150,960",
+    "#untitled--7": "2,508",
+    "#untitled--9": 79.4,
+    "#untitled--10": 89.9,
+    "#untitled--12": 1.2,
+    "#untitled--13": -2.2
+  },
+  {
+    "Tavola 1 - ": "Totale",
+    "#untitled": "70,159",
+    "#untitled--2": "161,088",
+    "#untitled--3": "2,296",
+    "#untitled--5": "75,758",
+    "#untitled--6": "167,961",
+    "#untitled--7": "2,217",
+    "#untitled--9": 100.0,
+    "#untitled--10": 100.0,
+    "#untitled--12": 1.1,
+    "#untitled--13": -2.9
+  },
+  {
+    "Tavola 1 - ": " "
+  },
+  {
+    "Tavola 1 - ": "(a) Per l'anno di riferimento 2018, ha risposto all'indagine il 90,7% per cento degli editori registrati in archivio. Il totale può differire dalla somma dei valori in colonna per arrotondamenti dei valori "
+  },
+  {
+    "Tavola 1 - ": "(b) Per consentire un confronto coerente con l'anno precedente e tenere sotto controllo la variazione nel numero di unità rispondenti, le variazioni percentuali sono calcolate assumendo come base di riferimento per la comparazione esclusivamente la produzione degli editori che sono risultati rispondenti sia nel 2017 sia nel 2018."
+  },
+  {
+    "Tavola 1 - ": "c) Per \"prima edizione\" si intende la prima pubblicazione di un manoscritto in lingua originale o tradotto; per \"edizione successiva\" quella che si differenzia dalle precedenti per modifiche apportate nel testo originale o per variazioni  nella veste tipografica; per \"ristampa\" l'edizione che non comporta alcuna modifica rispetto all'edizione precedente."
+  },
+  {
+    "Tavola 1 - ": "(d) Esclusi  i testi  universitari  ed  i  parascolastici, compresi  nelle opere  di varia adulti."
+  },
+  {
+    "Tavola 1 - ": "(e) Gli editori sono stati classificati, in base al numero di opere librarie pubblicate nel corso dell'anno, in: \"piccoli editori\" = da 1 a 10 opere; \"medi editori\" = da 11 a 50 opere; \"grandi editori\" = oltre 50 opere. "
+  }
+]

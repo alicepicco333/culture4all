@@ -1,0 +1,317 @@
+[
+  {},
+  {
+    "Tavola 1 - ": "TIPI DI EDIZIONE\nGENERI DI OPERA\nCLASSI DI PREZZO\nTIPI DI EDITORE",
+    "#untitled": 2011,
+    "#untitled--5": 2012,
+    "#untitled--9": "Composizioni percentuali (b)"
+  },
+  {
+    "#untitled": "Opere pubblicate",
+    "#untitled--2": "Tiratura totale",
+    "#untitled--3": "Tiratura media per opera",
+    "#untitled--5": "Opere pubblicate",
+    "#untitled--6": "Tiratura totale",
+    "#untitled--7": "Tiratura media per opera",
+    "#untitled--9": "Opere pubblicate",
+    "#untitled--12": "Tiratura totale"
+  },
+  {
+    "#untitled--9": 2011,
+    "#untitled--10": 2012,
+    "#untitled--12": 2011,
+    "#untitled--13": 2012
+  },
+  {
+    "Tavola 1 - ": "TIPI  DI  EDIZIONE (c)"
+  },
+  {
+    "Tavola 1 - ": "Prime edizioni",
+    "#untitled": "36,183",
+    "#untitled--2": "124,381",
+    "#untitled--3": "3,476",
+    "#untitled--5": "38,394",
+    "#untitled--6": "105,295",
+    "#untitled--7": "2,747",
+    "#untitled--9": 61.1,
+    "#untitled--10": 62.6,
+    "#untitled--12": 56.4,
+    "#untitled--13": 56.6
+  },
+  {
+    "Tavola 1 - ": "Edizioni successive",
+    "#untitled": "4,710",
+    "#untitled--2": "16,547",
+    "#untitled--3": "3,608",
+    "#untitled--5": "3,530",
+    "#untitled--6": "11,554",
+    "#untitled--7": "3,276",
+    "#untitled--9": 8.0,
+    "#untitled--10": 2.8,
+    "#untitled--12": 7.5,
+    "#untitled--13": 1.8
+  },
+  {
+    "Tavola 1 - ": "Ristampe",
+    "#untitled": "18,344",
+    "#untitled--2": "79,778",
+    "#untitled--3": "4,350",
+    "#untitled--5": "17,306",
+    "#untitled--6": "62,758",
+    "#untitled--7": "3,626",
+    "#untitled--9": 31.0,
+    "#untitled--10": 34.6,
+    "#untitled--12": 36.1,
+    "#untitled--13": 41.6
+  },
+  {
+    "Tavola 1 - ": "Totale",
+    "#untitled": "59,237",
+    "#untitled--2": "220,706",
+    "#untitled--3": "3,759",
+    "#untitled--5": "59,230",
+    "#untitled--6": "179,607",
+    "#untitled--7": "3,036",
+    "#untitled--9": 100.0,
+    "#untitled--10": 100.0,
+    "#untitled--12": 100.0,
+    "#untitled--13": 100.0
+  },
+  {
+    "Tavola 1 - ": "GENERI  DI  OPERA"
+  },
+  {
+    "Tavola 1 - ": "Opere scolastiche (d)",
+    "#untitled": "6,643",
+    "#untitled--2": "55,439",
+    "#untitled--3": "8,354",
+    "#untitled--5": "5,937",
+    "#untitled--6": "40,524",
+    "#untitled--7": "6,826",
+    "#untitled--9": 11.2,
+    "#untitled--10": 11.8,
+    "#untitled--12": 25.1,
+    "#untitled--13": 26.2
+  },
+  {
+    "Tavola 1 - ": "Opere per ragazzi",
+    "#untitled": "4,916",
+    "#untitled--2": "30,745",
+    "#untitled--3": "6,273",
+    "#untitled--5": "4,550",
+    "#untitled--6": "24,750",
+    "#untitled--7": "5,439",
+    "#untitled--9": 8.3,
+    "#untitled--10": 8.4,
+    "#untitled--12": 13.9,
+    "#untitled--13": 14.3
+  },
+  {
+    "Tavola 1 - ": "Opere di varia adulti",
+    "#untitled": "47,678",
+    "#untitled--2": "134,522",
+    "#untitled--3": "2,852",
+    "#untitled--5": "48,743",
+    "#untitled--6": "114,333",
+    "#untitled--7": "2,349",
+    "#untitled--9": 80.5,
+    "#untitled--10": 79.8,
+    "#untitled--12": 61.0,
+    "#untitled--13": 59.5
+  },
+  {
+    "Tavola 1 - ": "Totale",
+    "#untitled": "59,237",
+    "#untitled--2": "220,706",
+    "#untitled--3": "3,759",
+    "#untitled--4": 0,
+    "#untitled--5": "59,230",
+    "#untitled--6": "179,607",
+    "#untitled--7": "3,036",
+    "#untitled--9": 100.0,
+    "#untitled--10": 100.0,
+    "#untitled--12": 100.0,
+    "#untitled--13": 100.0
+  },
+  {
+    "Tavola 1 - ": "CLASSI  DI  PREZZO"
+  },
+  {
+    "Tavola 1 - ": "Fino a 10,00 euro ",
+    "#untitled": "16,910",
+    "#untitled--2": "89,659",
+    "#untitled--3": "5,302",
+    "#untitled--5": "15,262",
+    "#untitled--6": "70,373",
+    "#untitled--7": "4,612",
+    "#untitled--9": 28.5,
+    "#untitled--10": 28.7,
+    "#untitled--12": 40.6,
+    "#untitled--13": 41.1
+  },
+  {
+    "Tavola 1 - ": "Da 10,01 a 15,00 ",
+    "#untitled": "14,269",
+    "#untitled--2": "42,283",
+    "#untitled--3": "2,963",
+    "#untitled--5": "14,864",
+    "#untitled--6": "37,502",
+    "#untitled--7": "2,525",
+    "#untitled--9": 24.1,
+    "#untitled--10": 23.6,
+    "#untitled--12": 19.2,
+    "#untitled--13": 18.2
+  },
+  {
+    "Tavola 1 - ": "Da 15,01 a 20,00 ",
+    "#untitled": "10,633",
+    "#untitled--2": "38,745",
+    "#untitled--3": "3,644",
+    "#untitled--5": "10,581",
+    "#untitled--6": "28,345",
+    "#untitled--7": "2,684",
+    "#untitled--9": 17.9,
+    "#untitled--10": 17.7,
+    "#untitled--12": 17.6,
+    "#untitled--13": 17.5
+  },
+  {
+    "Tavola 1 - ": "Da 20,01 a 30,00",
+    "#untitled": "8,870",
+    "#untitled--2": "21,698",
+    "#untitled--3": "2,446",
+    "#untitled--5": "9,335",
+    "#untitled--6": "20,153",
+    "#untitled--7": "2,164",
+    "#untitled--9": 15.0,
+    "#untitled--10": 15.2,
+    "#untitled--12": 9.8,
+    "#untitled--13": 9.7
+  },
+  {
+    "Tavola 1 - ": "Da 30,01 a 50,00",
+    "#untitled": "4,726",
+    "#untitled--2": "11,716",
+    "#untitled--3": "2,479",
+    "#untitled--5": "5,065",
+    "#untitled--6": "9,427",
+    "#untitled--7": "1,865",
+    "#untitled--9": 8.0,
+    "#untitled--10": 8.3,
+    "#untitled--12": 5.3,
+    "#untitled--13": 5.7
+  },
+  {
+    "Tavola 1 - ": "Oltre 50,00",
+    "#untitled": "2,381",
+    "#untitled--2": "12,725",
+    "#untitled--3": "5,344",
+    "#untitled--5": "2,335",
+    "#untitled--6": "9,568",
+    "#untitled--7": "4,098",
+    "#untitled--9": 4.0,
+    "#untitled--10": 4.1,
+    "#untitled--12": 5.8,
+    "#untitled--13": 6.0
+  },
+  {
+    "Tavola 1 - ": "Opere gratuite o fuori commercio",
+    "#untitled": "1,091",
+    "#untitled--2": "3,297",
+    "#untitled--3": "3,022",
+    "#untitled--5": "1,185",
+    "#untitled--6": "3,331",
+    "#untitled--7": "2,811",
+    "#untitled--9": 1.8,
+    "#untitled--10": 1.9,
+    "#untitled--12": 1.5,
+    "#untitled--13": 1.6
+  },
+  {
+    "Tavola 1 - ": "Non indicato",
+    "#untitled": 357,
+    "#untitled--2": 583,
+    "#untitled--3": "1,633",
+    "#untitled--5": 603,
+    "#untitled--6": 907,
+    "#untitled--7": "1,505",
+    "#untitled--9": 0.6,
+    "#untitled--10": 0.5,
+    "#untitled--12": 0.3,
+    "#untitled--13": 0.3
+  },
+  {
+    "Tavola 1 - ": "Totale",
+    "#untitled": "59,237",
+    "#untitled--2": "220,706",
+    "#untitled--3": "3,759",
+    "#untitled--5": "59,230",
+    "#untitled--6": "179,607",
+    "#untitled--7": "3,036",
+    "#untitled--9": 100.0,
+    "#untitled--10": 100.0,
+    "#untitled--12": 100.0,
+    "#untitled--13": 100.0
+  },
+  {
+    "Tavola 1 - ": "  "
+  },
+  {
+    "Tavola 1 - ": "TIPI DI EDITORE (e)"
+  },
+  {
+    "Tavola 1 - ": "Piccoli editori",
+    "#untitled": "3,603",
+    "#untitled--2": "5,891",
+    "#untitled--3": "1,691",
+    "#untitled--5": "3,944",
+    "#untitled--6": "5,011",
+    "#untitled--7": "1,271",
+    "#untitled--9": 6.1,
+    "#untitled--10": 5.5,
+    "#untitled--12": 2.7,
+    "#untitled--13": 2.0
+  },
+  {
+    "Tavola 1 - ": "Medi editori",
+    "#untitled": "10,721",
+    "#untitled--2": "18,985",
+    "#untitled--3": "1,818",
+    "#untitled--5": "11,237",
+    "#untitled--6": "17,786",
+    "#untitled--7": "1,583",
+    "#untitled--9": 18.1,
+    "#untitled--10": 18.2,
+    "#untitled--12": 8.6,
+    "#untitled--13": 8.7
+  },
+  {
+    "Tavola 1 - ": "Grandi editori",
+    "#untitled": "44,913",
+    "#untitled--2": "195,830",
+    "#untitled--3": "4,373",
+    "#untitled--5": "44,049",
+    "#untitled--6": "156,810",
+    "#untitled--7": "3,565",
+    "#untitled--9": 75.8,
+    "#untitled--10": 76.3,
+    "#untitled--12": 88.7,
+    "#untitled--13": 89.3
+  },
+  {
+    "Tavola 1 - ": "Totale",
+    "#untitled": "59,237",
+    "#untitled--2": "220,706",
+    "#untitled--3": "3,759",
+    "#untitled--5": "59,230",
+    "#untitled--6": "179,607",
+    "#untitled--7": "3,036",
+    "#untitled--9": 100.0,
+    "#untitled--10": 100.0,
+    "#untitled--12": 100.0,
+    "#untitled--13": 100.0
+  },
+  {
+    "Tavola 1 - ": " "
+  }
+]

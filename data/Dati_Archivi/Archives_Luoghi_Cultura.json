@@ -1,0 +1,1122 @@
+[
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/125234",
+    "Archive_Name": "Archivio di Stato di Trento",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Trento",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Trentino-Alto_Adige",
+    "Archive_Latitude": 46.08832,
+    "Archive_Longitude": 11.109711
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/116648",
+    "Archive_Name": "Archivio di Stato di Bologna, Sezione di Imola",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Imola",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Emilia-Romagna",
+    "Archive_Latitude": 44.35559,
+    "Archive_Longitude": 11.711252
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/133053",
+    "Archive_Name": "Archivio centrale dello Stato",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Roma",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lazio",
+    "Archive_Latitude": 41.82904,
+    "Archive_Longitude": 12.47538
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/20710",
+    "Archive_Name": "Archivio di Stato di Ancona. Sede distaccata",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ancona",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Marche",
+    "Archive_Latitude": 43.595825,
+    "Archive_Longitude": 13.503158
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/116654",
+    "Archive_Name": "Archivio di Stato di Catanzaro",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Catanzaro",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Calabria",
+    "Archive_Latitude": 38.90427,
+    "Archive_Longitude": 16.59281
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/120709",
+    "Archive_Name": "Archivio di Stato di Siena",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Siena",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Toscana",
+    "Archive_Latitude": 43.318954,
+    "Archive_Longitude": 11.332974
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/20682",
+    "Archive_Name": "Archivio di Stato di Roma. Sede distaccata",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Roma",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lazio",
+    "Archive_Latitude": 41.902256,
+    "Archive_Longitude": 12.543108
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/157959",
+    "Archive_Name": "Archivio di Stato di Messina",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Messina",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sicilia",
+    "Archive_Latitude": 41.86956,
+    "Archive_Longitude": 12.568359
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/135674",
+    "Archive_Name": "Archivio di Stato di Perugia. Sezione di Spoleto",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Spoleto",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Umbria",
+    "Archive_Latitude": 42.73376,
+    "Archive_Longitude": 12.730961
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/110857",
+    "Archive_Name": "Archivio di Stato di Vercelli",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Vercelli",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Piemonte",
+    "Archive_Latitude": 45.32302,
+    "Archive_Longitude": 8.421451
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/111932",
+    "Archive_Name": "Archivio di Stato di Enna",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Enna",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sicilia",
+    "Archive_Latitude": 37.56559,
+    "Archive_Longitude": 14.275127
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/136273",
+    "Archive_Name": "Archivio di Stato dell'Aquila. Sezione di Sulmona",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sulmona",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Abruzzo",
+    "Archive_Latitude": 42.04231,
+    "Archive_Longitude": 13.927826
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/108166",
+    "Archive_Name": "Archivio di Stato di Latina",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Latina",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lazio",
+    "Archive_Latitude": 41.458515,
+    "Archive_Longitude": 12.929457
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/113120",
+    "Archive_Name": "Archivio di Stato di Trieste",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Trieste",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Friuli-Venezia_Giulia",
+    "Archive_Latitude": 45.64025,
+    "Archive_Longitude": 13.796879
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/20703",
+    "Archive_Name": "Archivio di Stato di Brescia",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Brescia",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lombardia",
+    "Archive_Latitude": 45.547943,
+    "Archive_Longitude": 10.22724
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/20771",
+    "Archive_Name": "Archivio di Stato di Teramo",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Teramo",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Abruzzo",
+    "Archive_Latitude": 42.66049,
+    "Archive_Longitude": 13.702663
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/116655",
+    "Archive_Name": "Archivio di Stato di Catanzaro. Sezione di Lamezia Terme",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Lamezia_Terme",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Calabria",
+    "Archive_Latitude": 38.968933,
+    "Archive_Longitude": 16.310665
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/102296",
+    "Archive_Name": "Archivio storico",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Acquaviva_delle_Fonti",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Puglia",
+    "Archive_Latitude": 40.898926,
+    "Archive_Longitude": 16.843462
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/20702",
+    "Archive_Name": "Archivio di Stato di Brindisi",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Brindisi",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Puglia",
+    "Archive_Latitude": 40.64142,
+    "Archive_Longitude": 17.943987
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/150317",
+    "Archive_Name": "Archivio di Stato di Agrigento. Deposito sussidiario",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Agrigento",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sicilia",
+    "Archive_Latitude": 41.86956,
+    "Archive_Longitude": 12.568359
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/116642",
+    "Archive_Name": "Archivio di Stato di Bergamo",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bergamo",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lombardia",
+    "Archive_Latitude": 45.702747,
+    "Archive_Longitude": 9.687128
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/123670",
+    "Archive_Name": "Archivio di Stato di Milano",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Milano",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lombardia",
+    "Archive_Latitude": 45.47033,
+    "Archive_Longitude": 9.19893
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/20708",
+    "Archive_Name": "Archivio di Stato di Ancona. Sede distaccata",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ancona",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Marche",
+    "Archive_Latitude": 43.597897,
+    "Archive_Longitude": 13.503655
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/116652",
+    "Archive_Name": "Archivio di Stato di Catania",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Catania",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sicilia",
+    "Archive_Latitude": 37.503033,
+    "Archive_Longitude": 15.089244
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/120075",
+    "Archive_Name": "Archivio di Stato di Forlì-Cesena",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Forli",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Emilia-Romagna",
+    "Archive_Latitude": 44.22725,
+    "Archive_Longitude": 12.04019
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/20782",
+    "Archive_Name": "Archivio di Stato di Pavia",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pavia",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lombardia",
+    "Archive_Latitude": 45.183517,
+    "Archive_Longitude": 9.153047
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/118926",
+    "Archive_Name": "Archivio di Stato di Udine",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Udine",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Friuli-Venezia_Giulia",
+    "Archive_Latitude": 46.06828,
+    "Archive_Longitude": 13.223159
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/116635",
+    "Archive_Name": "Archivio di Stato di Ascoli Piceno",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ascoli_Piceno",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Marche",
+    "Archive_Latitude": 42.85747,
+    "Archive_Longitude": 13.566855
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/110858",
+    "Archive_Name": "Archivio di Stato di Vercelli. Sezione di Varallo",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Varallo",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Piemonte",
+    "Archive_Latitude": 45.815533,
+    "Archive_Longitude": 8.248424
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/126366",
+    "Archive_Name": "Archivio di Stato di Padova",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Padova",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Veneto",
+    "Archive_Latitude": 45.39771,
+    "Archive_Longitude": 11.83697
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/117164",
+    "Archive_Name": "Archivio di Stato di Modena",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Modena",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Emilia-Romagna",
+    "Archive_Latitude": 44.65001,
+    "Archive_Longitude": 10.927906
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/151589",
+    "Archive_Name": "Archivio di Stato di Savona",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Savona",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Liguria",
+    "Archive_Latitude": 41.86956,
+    "Archive_Longitude": 12.568359
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/20687",
+    "Archive_Name": "Archivio di Stato di Pesaro-Urbino. Sezione di Fano",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Fano",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Marche",
+    "Archive_Latitude": 43.844112,
+    "Archive_Longitude": 13.020979
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/123557",
+    "Archive_Name": "Archivio di Stato di Treviso",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Treviso",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Veneto",
+    "Archive_Latitude": 45.66231,
+    "Archive_Longitude": 12.247523
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/142865",
+    "Archive_Name": "Archivio di Stato di Massa",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Massa",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Toscana",
+    "Archive_Latitude": 44.03734,
+    "Archive_Longitude": 10.137896
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/124434",
+    "Archive_Name": "Archivio di Stato di Pisa",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pisa",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Toscana",
+    "Archive_Latitude": 43.71544,
+    "Archive_Longitude": 10.405775
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/116650",
+    "Archive_Name": "Archivio di Stato di Caltanissetta",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Caltanissetta",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sicilia",
+    "Archive_Latitude": 37.49377,
+    "Archive_Longitude": 14.045966
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/106694",
+    "Archive_Name": "Archivio di Stato di Torino",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Torino",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Piemonte",
+    "Archive_Latitude": 45.070824,
+    "Archive_Longitude": 7.687118
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/135675",
+    "Archive_Name": "Archivio di Stato di Perugia. Sezione di Foligno",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Foligno",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Umbria",
+    "Archive_Latitude": 42.956306,
+    "Archive_Longitude": 12.701936
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/116641",
+    "Archive_Name": "Archivio di Stato di Bari. Sezione di Barletta",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Barletta",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Puglia",
+    "Archive_Latitude": 41.317566,
+    "Archive_Longitude": 16.289242
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/116637",
+    "Archive_Name": "Archivio di Stato di Bari",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bari",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Puglia",
+    "Archive_Latitude": 41.12879,
+    "Archive_Longitude": 16.846931
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/121406",
+    "Archive_Name": "Archivio di Stato di Foggia",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Foggia",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Puglia",
+    "Archive_Latitude": 41.462063,
+    "Archive_Longitude": 15.545069
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/108210",
+    "Archive_Name": "Archivio di Stato di Salerno",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Salerno",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Campania",
+    "Archive_Latitude": 40.68073,
+    "Archive_Longitude": 14.75826
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/20683",
+    "Archive_Name": "Archivio di Stato di Roma",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Roma",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lazio",
+    "Archive_Latitude": 41.89824,
+    "Archive_Longitude": 12.473882
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/126361",
+    "Archive_Name": "Archivio di Stato di Fermo",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Fermo",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Marche",
+    "Archive_Latitude": 43.16053,
+    "Archive_Longitude": 13.719018
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/126806",
+    "Archive_Name": "Archivio di Stato di Piacenza",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Piacenza",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Emilia-Romagna",
+    "Archive_Latitude": 45.05549,
+    "Archive_Longitude": 9.69531
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/116632",
+    "Archive_Name": "Archivio di Stato di Ragusa",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ragusa",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sicilia",
+    "Archive_Latitude": 36.922356,
+    "Archive_Longitude": 14.72605
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/20709",
+    "Archive_Name": "Archivio di Stato di Ancona. Sede distaccata",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ancona",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Marche",
+    "Archive_Latitude": 43.59782,
+    "Archive_Longitude": 13.504486
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/20001",
+    "Archive_Name": "Archivio di Stato di Nuoro",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Nuoro",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sardegna",
+    "Archive_Latitude": 40.31839,
+    "Archive_Longitude": 9.335217
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/108514",
+    "Archive_Name": "Archivio di Stato di Avellino",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Avellino",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Campania",
+    "Archive_Latitude": 40.914284,
+    "Archive_Longitude": 14.787931
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/150069",
+    "Archive_Name": "Archivio di Stato di Sassari",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sassari",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sardegna",
+    "Archive_Latitude": 40.726524,
+    "Archive_Longitude": 8.526445
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/120161",
+    "Archive_Name": "Archivio di Stato di Frosinone",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Frosinone",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lazio",
+    "Archive_Latitude": 41.64492,
+    "Archive_Longitude": 13.346511
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/20701",
+    "Archive_Name": "Archivio di stato di Cagliari",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cagliari",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sardegna",
+    "Archive_Latitude": 39.213512,
+    "Archive_Longitude": 9.119642
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/104153",
+    "Archive_Name": "Archivio storico comunale",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sant_Elpidio_a_Mare",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Marche",
+    "Archive_Latitude": 43.312115,
+    "Archive_Longitude": 13.639325
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/106566",
+    "Archive_Name": "Archivio di Stato di Novara",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Novara",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Piemonte",
+    "Archive_Latitude": 45.44711,
+    "Archive_Longitude": 8.624424
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/135707",
+    "Archive_Name": "Archivio di Stato di Verbania, Auditorium",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Vercelli",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Piemonte",
+    "Archive_Latitude": 45.32259,
+    "Archive_Longitude": 8.421118
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/126358",
+    "Archive_Name": "Archivio di Stato di Cuneo",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cuneo",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Piemonte",
+    "Archive_Latitude": 44.390583,
+    "Archive_Longitude": 7.544007
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/116633",
+    "Archive_Name": "Archivio di Stato di Ragusa. Sezione di Modica",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Modica",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sicilia",
+    "Archive_Latitude": 36.860718,
+    "Archive_Longitude": 14.758959
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/111772",
+    "Archive_Name": "Archivio di Stato di Ferrara",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ferrara",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Emilia-Romagna",
+    "Archive_Latitude": 44.834713,
+    "Archive_Longitude": 11.626828
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/121751",
+    "Archive_Name": "Archivio di Stato di Trapani",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Trapani",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sicilia",
+    "Archive_Latitude": 38.017067,
+    "Archive_Longitude": 12.503297
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/111862",
+    "Archive_Name": "Soprintendenza Archivistica della Sicilia - Archivio di Stato di Palermo",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Palermo",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sicilia",
+    "Archive_Latitude": 38.114704,
+    "Archive_Longitude": 13.37019
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/126365",
+    "Archive_Name": "Archivio di Stato di Mantova",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Mantova",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lombardia",
+    "Archive_Latitude": 45.158237,
+    "Archive_Longitude": 10.796815
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/20697",
+    "Archive_Name": "Archivio di Stato di Grosseto",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Grosseto",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Toscana",
+    "Archive_Latitude": 42.761597,
+    "Archive_Longitude": 11.112967
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/116649",
+    "Archive_Name": "Archivio di Stato di Bolzano",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bolzano_Bozen",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Trentino-Alto_Adige",
+    "Archive_Latitude": 46.502975,
+    "Archive_Longitude": 11.343086
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/20699",
+    "Archive_Name": "Archivio di Stato di Genova",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Genova",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Liguria",
+    "Archive_Latitude": 44.403217,
+    "Archive_Longitude": 8.936816
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/143832",
+    "Archive_Name": "Archivio di Stato di Ravenna",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ravenna",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Emilia-Romagna",
+    "Archive_Latitude": 44.42035,
+    "Archive_Longitude": 12.19539
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/110914",
+    "Archive_Name": "Archivio di Stato di Rovigo",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Rovigo",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Veneto",
+    "Archive_Latitude": 45.067497,
+    "Archive_Longitude": 11.791019
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/123533",
+    "Archive_Name": "Archivio di Stato di Taranto",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Taranto",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Puglia",
+    "Archive_Latitude": 40.47115,
+    "Archive_Longitude": 17.24369
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/116636",
+    "Archive_Name": "Archivio di Stato di Asti",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Asti",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Piemonte",
+    "Archive_Latitude": 44.895737,
+    "Archive_Longitude": 8.199068
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/128686",
+    "Archive_Name": "Archivio di Stato di Parma",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Parma",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Emilia-Romagna",
+    "Archive_Latitude": 44.803387,
+    "Archive_Longitude": 10.319287
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/126364",
+    "Archive_Name": "Archivio di Stato di La Spezia",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/La_Spezia",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Liguria",
+    "Archive_Latitude": 44.114082,
+    "Archive_Longitude": 9.826226
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/126367",
+    "Archive_Name": "Archivio di Stato di Potenza",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Potenza",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Basilicata",
+    "Archive_Latitude": 40.635277,
+    "Archive_Longitude": 15.806273
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/136272",
+    "Archive_Name": "Archivio di Stato dell'Aquila. Sezione di Avezzano",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Avezzano",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Abruzzo",
+    "Archive_Latitude": 42.02814,
+    "Archive_Longitude": 13.425312
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/20684",
+    "Archive_Name": "Archivio di Stato di Prato",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Prato",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Toscana",
+    "Archive_Latitude": 43.880455,
+    "Archive_Longitude": 11.095691
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/122173",
+    "Archive_Name": "Archivio di Stato di Siracusa",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Siracusa",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sicilia",
+    "Archive_Latitude": 37.09222,
+    "Archive_Longitude": 15.279879
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/116719",
+    "Archive_Name": "Archivio di Stato di Cremona",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cremona",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lombardia",
+    "Archive_Latitude": 45.139275,
+    "Archive_Longitude": 10.022932
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/116659",
+    "Archive_Name": "Archivio di Stato di Como",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Como",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lombardia",
+    "Archive_Latitude": 45.80579,
+    "Archive_Longitude": 9.097112
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/20705",
+    "Archive_Name": "Archivio di Stato di Benevento",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Benevento",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Campania",
+    "Archive_Latitude": 41.132366,
+    "Archive_Longitude": 14.777433
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/128159",
+    "Archive_Name": "Archivio di Stato di Macerata - Sezione di Camerino",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Camerino",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Marche",
+    "Archive_Latitude": 43.13815,
+    "Archive_Longitude": 13.071067
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/120074",
+    "Archive_Name": "Archivio di Stato di Forlì-Cesena. Sezione di Cesena",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cesena",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Emilia-Romagna",
+    "Archive_Latitude": 44.139317,
+    "Archive_Longitude": 12.243858
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/158251",
+    "Archive_Name": "Archivio di Stato di Rimini",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Rimini",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Emilia-Romagna",
+    "Archive_Latitude": 41.86956,
+    "Archive_Longitude": 12.568359
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/114594",
+    "Archive_Name": "Archivio di Stato di Terni",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Terni",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Umbria",
+    "Archive_Latitude": 42.56264,
+    "Archive_Longitude": 12.645044
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/105206",
+    "Archive_Name": "Archivio storico delle Arti contemporanee (ASAC)",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Venezia",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Veneto",
+    "Archive_Latitude": 45.472282,
+    "Archive_Longitude": 12.252407
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/20694",
+    "Archive_Name": "Archivio di Stato di Isernia",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Isernia",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Molise",
+    "Archive_Latitude": 41.596725,
+    "Archive_Longitude": 14.240231
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/116627",
+    "Archive_Name": "Archivio di Stato di Agrigento",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Agrigento",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sicilia",
+    "Archive_Latitude": 37.322704,
+    "Archive_Longitude": 13.591668
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/116657",
+    "Archive_Name": "Archivio di Stato di Chieti",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Chieti",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Abruzzo",
+    "Archive_Latitude": 42.350945,
+    "Archive_Longitude": 14.184178
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/136281",
+    "Archive_Name": "Archivio di Stato di Reggio Calabria. Sezione di Locri",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Locri",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Calabria",
+    "Archive_Latitude": 38.229637,
+    "Archive_Longitude": 16.257322
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/114711",
+    "Archive_Name": "Archivio di Stato di Imperia",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Imperia",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Liguria",
+    "Archive_Latitude": 43.88186,
+    "Archive_Longitude": 8.019999
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/105130",
+    "Archive_Name": "Archivio di Stato di Reggio Calabria",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Reggio_di_Calabria",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Calabria",
+    "Archive_Latitude": 38.114628,
+    "Archive_Longitude": 15.650204
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/158253",
+    "Archive_Name": "Archivio di Stato di Bologna",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bologna",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Emilia-Romagna",
+    "Archive_Latitude": 41.86956,
+    "Archive_Longitude": 12.568359
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/20706",
+    "Archive_Name": "Archivio di Stato di Belluno",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Belluno",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Veneto",
+    "Archive_Latitude": 46.13688,
+    "Archive_Longitude": 12.219967
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/116716",
+    "Archive_Name": "Archivio di Stato di Cosenza",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cosenza",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Calabria",
+    "Archive_Latitude": 39.291817,
+    "Archive_Longitude": 16.260363
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/20688",
+    "Archive_Name": "Archivio di Stato di Pesaro-Urbino",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pesaro",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Marche",
+    "Archive_Latitude": 43.913143,
+    "Archive_Longitude": 12.907632
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/126369",
+    "Archive_Name": "Archivio di Stato di Venezia",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Venezia",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Veneto",
+    "Archive_Latitude": 45.43846,
+    "Archive_Longitude": 12.326616
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/104704",
+    "Archive_Name": "Archivio Storico",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Vicopisano",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Toscana",
+    "Archive_Latitude": 43.6991,
+    "Archive_Longitude": 10.586713
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/123698",
+    "Archive_Name": "Archivio di Stato di Rieti",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Rieti",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lazio",
+    "Archive_Latitude": 42.40484,
+    "Archive_Longitude": 12.85913
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/123722",
+    "Archive_Name": "Archivio di Stato di Livorno",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Livorno",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Toscana",
+    "Archive_Latitude": 43.55091,
+    "Archive_Longitude": 10.30743
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/20695",
+    "Archive_Name": "Archivio di Stato di Imperia. Sezione di Ventimiglia",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ventimiglia",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Liguria",
+    "Archive_Latitude": 43.79229,
+    "Archive_Longitude": 7.609091
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/20698",
+    "Archive_Name": "Archivio di Stato di Gorizia",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Gorizia",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Friuli-Venezia_Giulia",
+    "Archive_Latitude": 45.949993,
+    "Archive_Longitude": 13.621326
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/126370",
+    "Archive_Name": "Archivio di Stato di Vibo Valentia",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Vibo_Valentia",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Calabria",
+    "Archive_Latitude": 45.82864,
+    "Archive_Longitude": 10.098383
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/135677",
+    "Archive_Name": "Archivio di Stato di Perugia. Sezione di Gubbio",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Gubbio",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Umbria",
+    "Archive_Latitude": 43.352547,
+    "Archive_Longitude": 12.576854
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/20110",
+    "Archive_Name": "Archivio di Stato di Vicenza. Sezione di Bassano del Grappa",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bassano_del_Grappa",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Veneto",
+    "Archive_Latitude": 45.76381,
+    "Archive_Longitude": 11.736915
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/122334",
+    "Archive_Name": "Archivio di Stato di Perugia",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Perugia",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Umbria",
+    "Archive_Latitude": 43.10703,
+    "Archive_Longitude": 12.391462
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/116658",
+    "Archive_Name": "Archivio di Stato di Chieti. Sezione di Lanciano",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Lanciano",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Abruzzo",
+    "Archive_Latitude": 42.222633,
+    "Archive_Longitude": 14.384823
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/116651",
+    "Archive_Name": "Archivio di Stato di Campobasso",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Campobasso",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Molise",
+    "Archive_Latitude": 41.56199,
+    "Archive_Longitude": 14.659993
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/20700",
+    "Archive_Name": "Archivio di Stato di Caserta",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Caserta",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Campania",
+    "Archive_Latitude": 41.073475,
+    "Archive_Longitude": 14.351263
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/116634",
+    "Archive_Name": "Archivio di Stato di Alessandria",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Alessandria",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Piemonte",
+    "Archive_Latitude": 44.91333,
+    "Archive_Longitude": 8.625687
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/110810",
+    "Archive_Name": "Archivio di Stato di Biella",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Biella",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Piemonte",
+    "Archive_Latitude": 45.56464,
+    "Archive_Longitude": 8.049731
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/108550",
+    "Archive_Name": "Archivio di Stato di Napoli",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Napoli",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Campania",
+    "Archive_Latitude": 40.848297,
+    "Archive_Longitude": 14.259622
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/116717",
+    "Archive_Name": "Archivio di Stato di Cosenza. Sezione di Castrovillari",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Castrovillari",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Calabria",
+    "Archive_Latitude": 39.809044,
+    "Archive_Longitude": 16.207563
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/135676",
+    "Archive_Name": "Archivio di Stato di Perugia. Sezione di Assisi",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Assisi",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Umbria",
+    "Archive_Latitude": 43.070557,
+    "Archive_Longitude": 12.615787
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/113140",
+    "Archive_Name": "Archivio di Stato di Arezzo",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Arezzo",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Toscana",
+    "Archive_Latitude": 43.463284,
+    "Archive_Longitude": 11.879634
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/116653",
+    "Archive_Name": "Archivio di Stato di Catania. Sezione di Caltagirone",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Caltagirone",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sicilia",
+    "Archive_Latitude": 37.22468,
+    "Archive_Longitude": 14.51886
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/20686",
+    "Archive_Name": "Archivio di Stato di Pesaro-Urbino. Sezione di Urbino",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Urbino",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Marche",
+    "Archive_Latitude": 43.674824,
+    "Archive_Longitude": 12.514355
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/103628",
+    "Archive_Name": "Archivio storico camerale",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cremona",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lombardia",
+    "Archive_Latitude": 45.13354,
+    "Archive_Longitude": 10.023437
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/126371",
+    "Archive_Name": "Archivio di Stato di Vicenza",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Vicenza",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Veneto",
+    "Archive_Latitude": 45.545357,
+    "Archive_Longitude": 11.559923
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/20004",
+    "Archive_Name": "Archivio di stato di Oristano",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Oristano",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sardegna",
+    "Archive_Latitude": 39.90618,
+    "Archive_Longitude": 8.588387
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/121584",
+    "Archive_Name": "Archivio di Stato di Lucca",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Lucca",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Toscana",
+    "Archive_Latitude": 43.84421,
+    "Archive_Longitude": 10.504594
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/126356",
+    "Archive_Name": "Archivio di Stato dell'Aquila",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/L_Aquila",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Abruzzo",
+    "Archive_Latitude": 42.341587,
+    "Archive_Longitude": 13.461116
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/20685",
+    "Archive_Name": "Archivio di Stato di Pescara",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pescara",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Abruzzo",
+    "Archive_Latitude": 42.454334,
+    "Archive_Longitude": 14.235692
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/116629",
+    "Archive_Name": "Archivio di Stato di Agrigento. Sezione di Sciacca",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sciacca",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sicilia",
+    "Archive_Latitude": 37.506287,
+    "Archive_Longitude": 13.089525
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/126372",
+    "Archive_Name": "Archivio di Stato di Viterbo",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Viterbo",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lazio",
+    "Archive_Latitude": 42.428642,
+    "Archive_Longitude": 12.102955
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/145986",
+    "Archive_Name": "Archivio di Stato di Verbania",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Verbania",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Piemonte",
+    "Archive_Latitude": 41.86956,
+    "Archive_Longitude": 12.568359
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/20681",
+    "Archive_Name": "Archivio di Stato di Verona",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Verona",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Veneto",
+    "Archive_Latitude": 45.420124,
+    "Archive_Longitude": 10.985052
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/116639",
+    "Archive_Name": "Archivio di Stato di Bari. Sezione di Trani�",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Trani",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Puglia",
+    "Archive_Latitude": 41.28131,
+    "Archive_Longitude": 16.41848
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/136277",
+    "Archive_Name": "Archivio di Stato di Matera",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Matera",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Basilicata",
+    "Archive_Latitude": 40.668716,
+    "Archive_Longitude": 16.60802
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/136283",
+    "Archive_Name": "Archivio di Stato di Reggio Calabria. Sezione di Palmi",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Palmi",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Calabria",
+    "Archive_Latitude": 38.36082,
+    "Archive_Longitude": 15.857681
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/20711",
+    "Archive_Name": "Archivio di Stato di Ancona",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ancona",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Marche",
+    "Archive_Latitude": 43.597733,
+    "Archive_Longitude": 13.503542
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/127086",
+    "Archive_Name": "Archivio di Stato di Firenze",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Firenze",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Toscana",
+    "Archive_Latitude": 43.76833,
+    "Archive_Longitude": 11.26954
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/143840",
+    "Archive_Name": "Archivio storico del Patriarcato di Venezia",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Venezia",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Veneto",
+    "Archive_Latitude": 45.43079,
+    "Archive_Longitude": 12.33519
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/103147",
+    "Archive_Name": "Domus mazziniana",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pisa",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Toscana",
+    "Archive_Latitude": 43.711628,
+    "Archive_Longitude": 10.398145
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/100439",
+    "Archive_Name": "Archivio della fotografia",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/La_Spezia",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Liguria",
+    "Archive_Latitude": 44.11465,
+    "Archive_Longitude": 9.810335
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/105056",
+    "Archive_Name": "Archvio storico del Comune di San Benedetto del Tronto",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/San_Benedetto_del_Tronto",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Marche",
+    "Archive_Latitude": 42.94985,
+    "Archive_Longitude": 13.87608
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/150879",
+    "Archive_Name": "Villa Vicentini Miniussi",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ronchi_dei_Legionari",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Friuli-Venezia_Giulia",
+    "Archive_Latitude": 41.86956,
+    "Archive_Longitude": 12.568359
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/110933",
+    "Archive_Name": "Parco letterario \"Carlo Levi\"",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Aliano",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Basilicata",
+    "Archive_Latitude": 40.314644,
+    "Archive_Longitude": 16.232006
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/126368",
+    "Archive_Name": "Archivio di Stato di Varese",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Varese",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lombardia",
+    "Archive_Latitude": 45.816025,
+    "Archive_Longitude": 8.815864
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/133728",
+    "Archive_Name": "Casa Zegna",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Trivero",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Piemonte",
+    "Archive_Latitude": 45.67137,
+    "Archive_Longitude": 8.157712
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/101958",
+    "Archive_Name": "Collezione storica ATC Bologna",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bologna",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Emilia-Romagna",
+    "Archive_Latitude": 44.507275,
+    "Archive_Longitude": 11.350482
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/108242",
+    "Archive_Name": "Raccolta Archivio Toraldo di Francia",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Tropea",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Calabria",
+    "Archive_Latitude": 38.677116,
+    "Archive_Longitude": 15.897367
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/132097",
+    "Archive_Name": "Fondazione Memofonte",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Firenze",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Toscana",
+    "Archive_Latitude": 43.769054,
+    "Archive_Longitude": 11.248381
+  }
+]

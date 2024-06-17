@@ -1,0 +1,807 @@
+[
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/7183",
+    "Archive_Name": "Archivio di Stato di Reggio Emilia",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Reggio_nell_Emilia",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Emilia-Romagna",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/125234",
+    "Archive_Name": "Archivio di Stato di Trento",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Trento",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Trentino-Alto_Adige",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/116648",
+    "Archive_Name": "Archivio di Stato di Bologna, Sezione di Imola",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Imola",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Emilia-Romagna",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/133053",
+    "Archive_Name": "Archivio centrale dello Stato",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Roma",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lazio",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/20710",
+    "Archive_Name": "Archivio di Stato di Ancona. Sede distaccata",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ancona",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Marche",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/116654",
+    "Archive_Name": "Archivio di Stato di Catanzaro",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Catanzaro",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Calabria",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/7182",
+    "Archive_Name": "Archivio di Stato di Ravenna. Sezione di Faenza",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Faenza",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Emilia-Romagna",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/120709",
+    "Archive_Name": "Archivio di Stato di Siena",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Siena",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Toscana",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/20682",
+    "Archive_Name": "Archivio di Stato di Roma. Sede distaccata",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Roma",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lazio",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/157959",
+    "Archive_Name": "Archivio di Stato di Messina",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Messina",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sicilia",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/135674",
+    "Archive_Name": "Archivio di Stato di Perugia. Sezione di Spoleto",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Spoleto",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Umbria",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/110857",
+    "Archive_Name": "Archivio di Stato di Vercelli",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Vercelli",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Piemonte",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/136273",
+    "Archive_Name": "Archivio di Stato dell'Aquila. Sezione di Sulmona",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sulmona",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Abruzzo",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/108166",
+    "Archive_Name": "Archivio di Stato di Latina",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Latina",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lazio",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/113120",
+    "Archive_Name": "Archivio di Stato di Trieste",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Trieste",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Friuli-Venezia_Giulia",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/20703",
+    "Archive_Name": "Archivio di Stato di Brescia",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Brescia",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lombardia",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/20771",
+    "Archive_Name": "Archivio di Stato di Teramo",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Teramo",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Abruzzo",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/7108",
+    "Archive_Name": "Archivio di Stato di Pistoia",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pistoia",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Toscana",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/20702",
+    "Archive_Name": "Archivio di Stato di Brindisi",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Brindisi",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Puglia",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/116642",
+    "Archive_Name": "Archivio di Stato di Bergamo",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bergamo",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lombardia",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/123670",
+    "Archive_Name": "Archivio di Stato di Milano",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Milano",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lombardia",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/116652",
+    "Archive_Name": "Archivio di Stato di Catania",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Catania",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sicilia",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/120075",
+    "Archive_Name": "Archivio di Stato di Forlì-Cesena",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Forli",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Emilia-Romagna",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/20782",
+    "Archive_Name": "Archivio di Stato di Pavia",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pavia",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lombardia",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/118926",
+    "Archive_Name": "Archivio di Stato di Udine",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Udine",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Friuli-Venezia_Giulia",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/116635",
+    "Archive_Name": "Archivio di Stato di Ascoli Piceno",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ascoli_Piceno",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Marche",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/110858",
+    "Archive_Name": "Archivio di Stato di Vercelli. Sezione di Varallo",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Varallo",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Piemonte",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/117164",
+    "Archive_Name": "Archivio di Stato di Modena",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Modena",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Emilia-Romagna",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/20687",
+    "Archive_Name": "Archivio di Stato di Pesaro-Urbino. Sezione di Fano",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Fano",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Marche",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/123557",
+    "Archive_Name": "Archivio di Stato di Treviso",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Treviso",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Veneto",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/135675",
+    "Archive_Name": "Archivio di Stato di Perugia. Sezione di Foligno",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Foligno",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Umbria",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/116637",
+    "Archive_Name": "Archivio di Stato di Bari",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bari",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Puglia",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/121406",
+    "Archive_Name": "Archivio di Stato di Foggia",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Foggia",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Puglia",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/108210",
+    "Archive_Name": "Archivio di Stato di Salerno",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Salerno",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Campania",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/20683",
+    "Archive_Name": "Archivio di Stato di Roma",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Roma",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lazio",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/126361",
+    "Archive_Name": "Archivio di Stato di Fermo",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Fermo",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Marche",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/116632",
+    "Archive_Name": "Archivio di Stato di Ragusa",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ragusa",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sicilia",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/20709",
+    "Archive_Name": "Archivio di Stato di Ancona. Sede distaccata",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ancona",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Marche",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/20001",
+    "Archive_Name": "Archivio di Stato di Nuoro",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Nuoro",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sardegna",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/108514",
+    "Archive_Name": "Archivio di Stato di Avellino",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Avellino",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Campania",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/150069",
+    "Archive_Name": "Archivio di Stato di Sassari",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sassari",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sardegna",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/6795",
+    "Archive_Name": "Archivio di Stato di Siracusa. Sezione di Noto",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Noto",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sicilia",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/120161",
+    "Archive_Name": "Archivio di Stato di Frosinone",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Frosinone",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lazio",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/20701",
+    "Archive_Name": "Archivio di stato di Cagliari",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cagliari",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sardegna",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/106566",
+    "Archive_Name": "Archivio di Stato di Novara",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Novara",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Piemonte",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/126358",
+    "Archive_Name": "Archivio di Stato di Cuneo",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cuneo",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Piemonte",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/116633",
+    "Archive_Name": "Archivio di Stato di Ragusa. Sezione di Modica",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Modica",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sicilia",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/111772",
+    "Archive_Name": "Archivio di Stato di Ferrara",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ferrara",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Emilia-Romagna",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/7036",
+    "Archive_Name": "Archivio di Stato di Lucca - Sede distaccata",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Lucca",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Toscana",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/150148",
+    "Archive_Name": "Archivio di Stato di Pordenone",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pordenone",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Friuli-Venezia_Giulia",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/126365",
+    "Archive_Name": "Archivio di Stato di Mantova",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Mantova",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lombardia",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/20697",
+    "Archive_Name": "Archivio di Stato di Grosseto",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Grosseto",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Toscana",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/116649",
+    "Archive_Name": "Archivio di Stato di Bolzano",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bolzano_Bozen",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Trentino-Alto_Adige",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/20699",
+    "Archive_Name": "Archivio di Stato di Genova",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Genova",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Liguria",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/143832",
+    "Archive_Name": "Archivio di Stato di Ravenna",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ravenna",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Emilia-Romagna",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/110914",
+    "Archive_Name": "Archivio di Stato di Rovigo",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Rovigo",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Veneto",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/116636",
+    "Archive_Name": "Archivio di Stato di Asti",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Asti",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Piemonte",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/128686",
+    "Archive_Name": "Archivio di Stato di Parma",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Parma",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Emilia-Romagna",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/126364",
+    "Archive_Name": "Archivio di Stato di La Spezia",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/La_Spezia",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Liguria",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/126367",
+    "Archive_Name": "Archivio di Stato di Potenza",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Potenza",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Basilicata",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/136272",
+    "Archive_Name": "Archivio di Stato dell'Aquila. Sezione di Avezzano",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Avezzano",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Abruzzo",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/20684",
+    "Archive_Name": "Archivio di Stato di Prato",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Prato",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Toscana",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/122173",
+    "Archive_Name": "Archivio di Stato di Siracusa",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Siracusa",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sicilia",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/116719",
+    "Archive_Name": "Archivio di Stato di Cremona",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cremona",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lombardia",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/116659",
+    "Archive_Name": "Archivio di Stato di Como",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Como",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lombardia",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/20705",
+    "Archive_Name": "Archivio di Stato di Benevento",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Benevento",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Campania",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/128159",
+    "Archive_Name": "Archivio di Stato di Macerata - Sezione di Camerino",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Camerino",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Marche",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/120074",
+    "Archive_Name": "Archivio di Stato di Forlì-Cesena. Sezione di Cesena",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cesena",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Emilia-Romagna",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/158251",
+    "Archive_Name": "Archivio di Stato di Rimini",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Rimini",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Emilia-Romagna",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/114594",
+    "Archive_Name": "Archivio di Stato di Terni",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Terni",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Umbria",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/20694",
+    "Archive_Name": "Archivio di Stato di Isernia",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Isernia",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Molise",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/116627",
+    "Archive_Name": "Archivio di Stato di Agrigento",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Agrigento",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sicilia",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/116657",
+    "Archive_Name": "Archivio di Stato di Chieti",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Chieti",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Abruzzo",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/136281",
+    "Archive_Name": "Archivio di Stato di Reggio Calabria. Sezione di Locri",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Locri",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Calabria",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/114711",
+    "Archive_Name": "Archivio di Stato di Imperia",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Imperia",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Liguria",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/105130",
+    "Archive_Name": "Archivio di Stato di Reggio Calabria",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Reggio_di_Calabria",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Calabria",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/158253",
+    "Archive_Name": "Archivio di Stato di Bologna",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bologna",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Emilia-Romagna",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/20706",
+    "Archive_Name": "Archivio di Stato di Belluno",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Belluno",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Veneto",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/116716",
+    "Archive_Name": "Archivio di Stato di Cosenza",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cosenza",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Calabria",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/20688",
+    "Archive_Name": "Archivio di Stato di Pesaro-Urbino",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pesaro",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Marche",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/126369",
+    "Archive_Name": "Archivio di Stato di Venezia",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Venezia",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Veneto",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/123698",
+    "Archive_Name": "Archivio di Stato di Rieti",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Rieti",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lazio",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/20698",
+    "Archive_Name": "Archivio di Stato di Gorizia",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Gorizia",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Friuli-Venezia_Giulia",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/126370",
+    "Archive_Name": "Archivio di Stato di Vibo Valentia",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Vibo_Valentia",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Calabria",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/135677",
+    "Archive_Name": "Archivio di Stato di Perugia. Sezione di Gubbio",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Gubbio",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Umbria",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/898",
+    "Archive_Name": "Archivio di Stato di Ancona. Sezione di Fabriano",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Fabriano",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Marche",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/20110",
+    "Archive_Name": "Archivio di Stato di Vicenza. Sezione di Bassano del Grappa",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bassano_del_Grappa",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Veneto",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/122334",
+    "Archive_Name": "Archivio di Stato di Perugia",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Perugia",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Umbria",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/116658",
+    "Archive_Name": "Archivio di Stato di Chieti. Sezione di Lanciano",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Lanciano",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Abruzzo",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/116651",
+    "Archive_Name": "Archivio di Stato di Campobasso",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Campobasso",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Molise",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/116634",
+    "Archive_Name": "Archivio di Stato di Alessandria",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Alessandria",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Piemonte",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/110810",
+    "Archive_Name": "Archivio di Stato di Biella",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Biella",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Piemonte",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/108550",
+    "Archive_Name": "Archivio di Stato di Napoli",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Napoli",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Campania",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/116717",
+    "Archive_Name": "Archivio di Stato di Cosenza. Sezione di Castrovillari",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Castrovillari",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Calabria",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/135676",
+    "Archive_Name": "Archivio di Stato di Perugia. Sezione di Assisi",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Assisi",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Umbria",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/113140",
+    "Archive_Name": "Archivio di Stato di Arezzo",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Arezzo",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Toscana",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/116653",
+    "Archive_Name": "Archivio di Stato di Catania. Sezione di Caltagirone",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Caltagirone",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sicilia",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/20686",
+    "Archive_Name": "Archivio di Stato di Pesaro-Urbino. Sezione di Urbino",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Urbino",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Marche",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/20004",
+    "Archive_Name": "Archivio di stato di Oristano",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Oristano",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sardegna",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/121584",
+    "Archive_Name": "Archivio di Stato di Lucca",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Lucca",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Toscana",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/126356",
+    "Archive_Name": "Archivio di Stato dell'Aquila",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/L_Aquila",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Abruzzo",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/20685",
+    "Archive_Name": "Archivio di Stato di Pescara",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pescara",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Abruzzo",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/6868",
+    "Archive_Name": "Archivio di Stato di Pistoia. Sezione di Pescia",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pescia",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Toscana",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/126372",
+    "Archive_Name": "Archivio di Stato di Viterbo",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Viterbo",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lazio",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/145986",
+    "Archive_Name": "Archivio di Stato di Verbania",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Verbania",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Piemonte",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/20681",
+    "Archive_Name": "Archivio di Stato di Verona",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Verona",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Veneto",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/136277",
+    "Archive_Name": "Archivio di Stato di Matera",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Matera",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Basilicata",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/136283",
+    "Archive_Name": "Archivio di Stato di Reggio Calabria. Sezione di Palmi",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Palmi",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Calabria",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/20711",
+    "Archive_Name": "Archivio di Stato di Ancona",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ancona",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Marche",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/127086",
+    "Archive_Name": "Archivio di Stato di Firenze",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Firenze",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Toscana",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/103147",
+    "Archive_Name": "Domus mazziniana",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pisa",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Toscana",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/100439",
+    "Archive_Name": "Archivio della fotografia",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/La_Spezia",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Liguria",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/154896",
+    "Archive_Name": "Archivio Storico Regione Liguria",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Genova",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Liguria",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/150879",
+    "Archive_Name": "Villa Vicentini Miniussi",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ronchi_dei_Legionari",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Friuli-Venezia_Giulia",
+    "Ticket_Cost": "Free Entry"
+  },
+  {
+    "Archive_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/101958",
+    "Archive_Name": "Collezione storica ATC Bologna",
+    "Archive_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bologna",
+    "Archive_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Emilia-Romagna",
+    "Ticket_Cost": "Free Entry"
+  }
+]

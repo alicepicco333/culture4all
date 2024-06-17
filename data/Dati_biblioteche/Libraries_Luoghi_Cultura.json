@@ -1,0 +1,490 @@
+[
+  {
+    "Library_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/105560",
+    "Library_Name": "Centro dantesco dei Frati Minori Conventuali",
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ravenna",
+    "Library_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Emilia-Romagna",
+    "Library_Latitude": 44.41629,
+    "Library_Longitude": 12.200871
+  },
+  {
+    "Library_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/104655",
+    "Library_Name": "Biblioteca 'Mario Gromo'",
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Torino",
+    "Library_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Piemonte",
+    "Library_Latitude": 45.081963,
+    "Library_Longitude": 7.681357
+  },
+  {
+    "Library_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/104508",
+    "Library_Name": "Biblioteca comunale",
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Casalvieri",
+    "Library_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lazio",
+    "Library_Latitude": 41.63192,
+    "Library_Longitude": 13.71498
+  },
+  {
+    "Library_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/104615",
+    "Library_Name": "Biblioteca comunale - Museo",
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Carpignano_Salentino",
+    "Library_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Puglia",
+    "Library_Latitude": 40.184994,
+    "Library_Longitude": 18.35104
+  },
+  {
+    "Library_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/107878",
+    "Library_Name": "Biblioteca Classense",
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Ravenna",
+    "Library_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Emilia-Romagna",
+    "Library_Latitude": 44.414177,
+    "Library_Longitude": 12.200108
+  },
+  {
+    "Library_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/105775",
+    "Library_Name": "Biblioteca capitolare di Verona",
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Verona",
+    "Library_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Veneto",
+    "Library_Latitude": 45.446835,
+    "Library_Longitude": 10.996819
+  },
+  {
+    "Library_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/133748",
+    "Library_Name": "Fondazione Spadolini Nuova Antologia",
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Firenze",
+    "Library_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Toscana",
+    "Library_Latitude": 43.744686,
+    "Library_Longitude": 11.266779
+  },
+  {
+    "Library_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/102335",
+    "Library_Name": "Biblioteca - Pinacoteca \"Gennaro Trisorio Liuzzi\"",
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Terlizzi",
+    "Library_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Puglia",
+    "Library_Latitude": 41.130306,
+    "Library_Longitude": 16.540142
+  },
+  {
+    "Library_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/117195",
+    "Library_Name": "Biblioteca Civica Multimediale Cesare Gasti",
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Settimo_Torinese",
+    "Library_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Piemonte",
+    "Library_Latitude": 45.136,
+    "Library_Longitude": 7.76564
+  },
+  {
+    "Library_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/126373",
+    "Library_Name": "Biblioteca Universitaria di Bologna",
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Bologna",
+    "Library_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Emilia-Romagna",
+    "Library_Latitude": 44.497025,
+    "Library_Longitude": 11.352819
+  },
+  {
+    "Library_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/101425",
+    "Library_Name": "Biblioteca Giovardiana",
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Veroli",
+    "Library_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lazio",
+    "Library_Latitude": 41.6424,
+    "Library_Longitude": 13.473557
+  },
+  {
+    "Library_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/117445",
+    "Library_Name": "Biblioteca di Archeologia e Storia dell’Arte",
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Roma",
+    "Library_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lazio",
+    "Library_Latitude": 41.896255,
+    "Library_Longitude": 12.481825
+  },
+  {
+    "Library_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/104796",
+    "Library_Name": "Biblioteca Livia Simoni",
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Milano",
+    "Library_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lombardia",
+    "Library_Latitude": 45.4657,
+    "Library_Longitude": 9.170796
+  },
+  {
+    "Library_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/111310",
+    "Library_Name": "Biblioteca S. Giuseppe",
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Viterbo",
+    "Library_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lazio",
+    "Library_Latitude": 42.383717,
+    "Library_Longitude": 12.263809
+  },
+  {
+    "Library_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/105935",
+    "Library_Name": "Biblioteca Lancisiana della ASL Roma 1",
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Roma",
+    "Library_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lazio",
+    "Library_Latitude": 41.901497,
+    "Library_Longitude": 12.461162
+  },
+  {
+    "Library_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/100357",
+    "Library_Name": "Museo civico biblioteca dell'attore",
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Genova",
+    "Library_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Liguria",
+    "Library_Latitude": 44.407124,
+    "Library_Longitude": 8.941868
+  },
+  {
+    "Library_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/113127",
+    "Library_Name": "Biblioteca nazionale Marciana - Sale monumentali e Ridotti dei Procuratori",
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Venezia",
+    "Library_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Veneto",
+    "Library_Latitude": 45.434067,
+    "Library_Longitude": 12.334472
+  },
+  {
+    "Library_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/118181",
+    "Library_Name": "Biblioteca Nazionale di Cosenza",
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cosenza",
+    "Library_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Calabria",
+    "Library_Latitude": 39.288624,
+    "Library_Longitude": 16.26098
+  },
+  {
+    "Library_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/20546",
+    "Library_Name": "Biblioteca Casanatense",
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Roma",
+    "Library_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lazio",
+    "Library_Latitude": 41.898148,
+    "Library_Longitude": 12.479639
+  },
+  {
+    "Library_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/117300",
+    "Library_Name": "Biblioteca Statale di Lucca",
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Lucca",
+    "Library_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Toscana",
+    "Library_Latitude": 43.8449,
+    "Library_Longitude": 10.501189
+  },
+  {
+    "Library_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/117246",
+    "Library_Name": "Biblioteca Riccardiana",
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Firenze",
+    "Library_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Toscana",
+    "Library_Latitude": 43.77558,
+    "Library_Longitude": 11.255349
+  },
+  {
+    "Library_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/110370",
+    "Library_Name": "Biblioteca Medicea Laurenziana",
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Firenze",
+    "Library_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Toscana",
+    "Library_Latitude": 43.774815,
+    "Library_Longitude": 11.254537
+  },
+  {
+    "Library_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/118289",
+    "Library_Name": "Biblioteca Statale del Monumento Nazionale di Trisulti",
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Collepardo",
+    "Library_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lazio",
+    "Library_Latitude": 41.76406,
+    "Library_Longitude": 13.37067
+  },
+  {
+    "Library_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/117729",
+    "Library_Name": "Biblioteca Medica Statale di Roma",
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Roma",
+    "Library_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lazio",
+    "Library_Latitude": 0.040255,
+    "Library_Longitude": -0.010042
+  },
+  {
+    "Library_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/116763",
+    "Library_Name": "Biblioteca Universitaria di Padova",
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Padova",
+    "Library_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Veneto",
+    "Library_Latitude": 45.40711,
+    "Library_Longitude": 11.880526
+  },
+  {
+    "Library_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/117389",
+    "Library_Name": "Biblioteca statale di Macerata",
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Macerata",
+    "Library_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Marche",
+    "Library_Latitude": 43.30105,
+    "Library_Longitude": 13.448922
+  },
+  {
+    "Library_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/117127",
+    "Library_Name": "Biblioteca Vallicelliana",
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Roma",
+    "Library_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lazio",
+    "Library_Latitude": 41.898186,
+    "Library_Longitude": 12.469432
+  },
+  {
+    "Library_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/118286",
+    "Library_Name": "Biblioteca Statale del Monumento Nazionale di Santa Scolastica",
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Subiaco",
+    "Library_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lazio",
+    "Library_Latitude": 41.925537,
+    "Library_Longitude": 13.104736
+  },
+  {
+    "Library_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/20007",
+    "Library_Name": "Biblioteca Universitaria di Cagliari",
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cagliari",
+    "Library_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sardegna",
+    "Library_Latitude": 39.217236,
+    "Library_Longitude": 9.115117
+  },
+  {
+    "Library_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/20547",
+    "Library_Name": "Biblioteca Angelica",
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Roma",
+    "Library_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lazio",
+    "Library_Latitude": 41.9007,
+    "Library_Longitude": 12.474194
+  },
+  {
+    "Library_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/117488",
+    "Library_Name": "Biblioteca statale Antonio Baldini",
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Roma",
+    "Library_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lazio",
+    "Library_Latitude": 41.91954,
+    "Library_Longitude": 12.48609
+  },
+  {
+    "Library_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/118200",
+    "Library_Name": "Biblioteca Statale del Monumento Nazionale di Montecassino",
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cassino",
+    "Library_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lazio",
+    "Library_Latitude": 41.490738,
+    "Library_Longitude": 13.82541
+  },
+  {
+    "Library_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/111278",
+    "Library_Name": "Biblioteca statale di Cremona",
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cremona",
+    "Library_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lombardia",
+    "Library_Latitude": 45.138042,
+    "Library_Longitude": 10.021977
+  },
+  {
+    "Library_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/111046",
+    "Library_Name": "Biblioteca di storia moderna e contemporanea",
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Roma",
+    "Library_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lazio",
+    "Library_Latitude": 41.894035,
+    "Library_Longitude": 12.478293
+  },
+  {
+    "Library_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/117596",
+    "Library_Name": "Complesso monumentale della Pilotta - Biblioteca Palatina di Parma",
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Parma",
+    "Library_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Emilia-Romagna",
+    "Library_Latitude": 44.80498,
+    "Library_Longitude": 10.3259
+  },
+  {
+    "Library_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/117102",
+    "Library_Name": "Biblioteca Statale Annessa al Monumento Nazionale di Grottaferrata",
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Grottaferrata",
+    "Library_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lazio",
+    "Library_Latitude": 41.787067,
+    "Library_Longitude": 12.667435
+  },
+  {
+    "Library_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/116818",
+    "Library_Name": "Pinacoteca di Brera - Biblioteca Nazionale Braidense di Milano",
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Milano",
+    "Library_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lombardia",
+    "Library_Latitude": 45.471947,
+    "Library_Longitude": 9.187837
+  },
+  {
+    "Library_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/117406",
+    "Library_Name": "Biblioteca nazionale centrale di Roma",
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Roma",
+    "Library_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lazio",
+    "Library_Latitude": 41.906784,
+    "Library_Longitude": 12.504962
+  },
+  {
+    "Library_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/117087",
+    "Library_Name": "Biblioteca Universitaria Alessandrina",
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Roma",
+    "Library_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lazio",
+    "Library_Latitude": 41.90336,
+    "Library_Longitude": 12.515426
+  },
+  {
+    "Library_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/118282",
+    "Library_Name": "Biblioteca Statale del Monumento Nazionale di Praglia",
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Teolo",
+    "Library_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Veneto",
+    "Library_Latitude": 45.36541,
+    "Library_Longitude": 11.73515
+  },
+  {
+    "Library_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/20013",
+    "Library_Name": "Biblioteca Statale del Monumento nazionale di Montevergine",
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Mercogliano",
+    "Library_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Campania",
+    "Library_Latitude": 40.91894,
+    "Library_Longitude": 14.749575
+  },
+  {
+    "Library_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/108165",
+    "Library_Name": "Biblioteca statale Isontina di Gorizia",
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Gorizia",
+    "Library_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Friuli-Venezia_Giulia",
+    "Library_Latitude": 45.946304,
+    "Library_Longitude": 13.62364
+  },
+  {
+    "Library_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/115217",
+    "Library_Name": "Biblioteca Universitaria di Genova",
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Genova",
+    "Library_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Liguria",
+    "Library_Latitude": 44.41616,
+    "Library_Longitude": 8.924084
+  },
+  {
+    "Library_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/117364",
+    "Library_Name": "Biblioteca Universitaria di Pavia",
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pavia",
+    "Library_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lombardia",
+    "Library_Latitude": 45.18673,
+    "Library_Longitude": 9.155909
+  },
+  {
+    "Library_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/118201",
+    "Library_Name": "Biblioteca Statale del Monumento Nazionale di Santa Giustina",
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Padova",
+    "Library_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Veneto",
+    "Library_Latitude": 45.395912,
+    "Library_Longitude": 11.879983
+  },
+  {
+    "Library_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/117123",
+    "Library_Name": "Biblioteca Universitaria di Napoli",
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Napoli",
+    "Library_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Campania",
+    "Library_Latitude": 40.847164,
+    "Library_Longitude": 14.25703
+  },
+  {
+    "Library_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/111605",
+    "Library_Name": "Biblioteca nazionale Marciana",
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Venezia",
+    "Library_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Veneto",
+    "Library_Latitude": 45.43377,
+    "Library_Longitude": 12.338424
+  },
+  {
+    "Library_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/106119",
+    "Library_Name": "Biblioteca Statale del monumento nazionale di Farfa",
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Fara_in_Sabina",
+    "Library_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lazio",
+    "Library_Latitude": 42.207504,
+    "Library_Longitude": 12.729794
+  },
+  {
+    "Library_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/117604",
+    "Library_Name": "Biblioteca Nazionale di Napoli \"Vittorio Emanuele III\"",
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Napoli",
+    "Library_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Campania",
+    "Library_Latitude": 40.83619,
+    "Library_Longitude": 14.249669
+  },
+  {
+    "Library_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/118197",
+    "Library_Name": "Biblioteca statale del monumento nazionale della Badia di Cava",
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Cava_de__Tirreni",
+    "Library_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Campania",
+    "Library_Latitude": 40.68232,
+    "Library_Longitude": 14.691221
+  },
+  {
+    "Library_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/111411",
+    "Library_Name": "Gallerie estensi - Biblioteca estense universitaria",
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Modena",
+    "Library_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Emilia-Romagna",
+    "Library_Latitude": 44.64811,
+    "Library_Longitude": 10.921424
+  },
+  {
+    "Library_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/117796",
+    "Library_Name": "Biblioteca Nazionale Centrale di Firenze",
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Firenze",
+    "Library_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Toscana",
+    "Library_Latitude": 43.766922,
+    "Library_Longitude": 11.262235
+  },
+  {
+    "Library_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/112086",
+    "Library_Name": "Biblioteca statale del Monumento nazionale di Casamari",
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Veroli",
+    "Library_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Lazio",
+    "Library_Latitude": 41.667736,
+    "Library_Longitude": 13.436525
+  },
+  {
+    "Library_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/112037",
+    "Library_Name": "Biblioteca universitaria di Pisa",
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pisa",
+    "Library_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Toscana",
+    "Library_Latitude": 43.7152,
+    "Library_Longitude": 10.407801
+  },
+  {
+    "Library_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/106567",
+    "Library_Name": "Biblioteca nazionale universitaria di Torino",
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Torino",
+    "Library_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Piemonte",
+    "Library_Latitude": 45.068684,
+    "Library_Longitude": 7.68633
+  },
+  {
+    "Library_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/108223",
+    "Library_Name": "Biblioteca Marucelliana",
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Firenze",
+    "Library_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Toscana",
+    "Library_Latitude": 43.771034,
+    "Library_Longitude": 11.248
+  },
+  {
+    "Library_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/20011",
+    "Library_Name": "Biblioteca Universitaria di Sassari",
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Sassari",
+    "Library_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Sardegna",
+    "Library_Latitude": 40.722702,
+    "Library_Longitude": 8.563728
+  },
+  {
+    "Library_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/106568",
+    "Library_Name": "Musei Reali - Biblioteca Reale",
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Torino",
+    "Library_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Piemonte",
+    "Library_Latitude": 45.07285,
+    "Library_Longitude": 7.686345
+  },
+  {
+    "Library_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/117148",
+    "Library_Name": "Biblioteca Statale Stelio Crise di Trieste",
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Trieste",
+    "Library_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Friuli-Venezia_Giulia",
+    "Library_Latitude": 45.64559,
+    "Library_Longitude": 13.763095
+  },
+  {
+    "Library_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/116027",
+    "Library_Name": "San Matteo - Sede distaccata Biblioteca Universitaria di Pisa",
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Pisa",
+    "Library_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Toscana",
+    "Library_Latitude": 43.7152,
+    "Library_Longitude": 10.407801
+  },
+  {
+    "Library_ID": "http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/117350",
+    "Library_Name": "Biblioteca Nazionale di Potenza",
+    "Library_City": "http://dati.beniculturali.it/mibact/luoghi/resource/City/Potenza",
+    "Library_Region": "http://dati.beniculturali.it/mibact/luoghi/resource/Region/Basilicata",
+    "Library_Latitude": 40.634987,
+    "Library_Longitude": 15.786017
+  }
+]
