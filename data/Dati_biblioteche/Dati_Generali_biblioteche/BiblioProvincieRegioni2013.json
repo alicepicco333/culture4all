@@ -1,0 +1,557 @@
+[
+  {},
+  {
+    "Tavola 4.1 -": "PROVINCE E REGIONI                                                     ",
+    "#untitled--2": "Numero di \nbiblioteche",
+    "#untitled--3": "Biblioteche per \n10.000 abitanti",
+    "#untitled--10": "PROVINCE E REGIONI                                                     ",
+    "#untitled--12": "Numero di \nbiblioteche",
+    "#untitled--13": "Biblioteche per \n10.000 abitanti"
+  },
+  {
+    "Tavola 4.1 -": "Alessandria",
+    "#untitled--2": 131,
+    "#untitled--3": 3.0,
+    "#untitled--10": "Ancona",
+    "#untitled--12": 94,
+    "#untitled--13": 2.0
+  },
+  {
+    "Tavola 4.1 -": "Asti",
+    "#untitled--2": 56,
+    "#untitled--3": 2.5,
+    "#untitled--10": "Ascoli Piceno",
+    "#untitled--12": 33,
+    "#untitled--13": 1.6
+  },
+  {
+    "Tavola 4.1 -": "Biella",
+    "#untitled--2": 53,
+    "#untitled--3": 2.9,
+    "#untitled--10": "Fermo",
+    "#untitled--12": 28,
+    "#untitled--13": 1.6
+  },
+  {
+    "Tavola 4.1 -": "Cuneo",
+    "#untitled--2": 142,
+    "#untitled--3": 2.4,
+    "#untitled--10": "Macerata",
+    "#untitled--12": 88,
+    "#untitled--13": 2.7
+  },
+  {
+    "Tavola 4.1 -": "Novara",
+    "#untitled--2": 85,
+    "#untitled--3": 2.3,
+    "#untitled--10": "Pesaro e Urbino",
+    "#untitled--12": 93,
+    "#untitled--13": 2.6
+  },
+  {
+    "Tavola 4.1 -": "Torino",
+    "#untitled--2": 528,
+    "#untitled--3": 2.3,
+    "#untitled--10": "Marche",
+    "#untitled--12": 336,
+    "#untitled--13": 2.2
+  },
+  {
+    "Tavola 4.1 -": "Verbano-Cusio-Ossola",
+    "#untitled--2": 25,
+    "#untitled--3": 1.5,
+    "#untitled--10": "Frosinone",
+    "#untitled--12": 113,
+    "#untitled--13": 2.3
+  },
+  {
+    "Tavola 4.1 -": "Vercelli",
+    "#untitled--2": 50,
+    "#untitled--3": 2.8,
+    "#untitled--10": "Latina",
+    "#untitled--12": 46,
+    "#untitled--13": 0.8
+  },
+  {
+    "Tavola 4.1 -": "Piemonte",
+    "#untitled--2": "1,070",
+    "#untitled--3": 2.4,
+    "#untitled--10": "Rieti",
+    "#untitled--12": 53,
+    "#untitled--13": 3.3
+  },
+  {
+    "Tavola 4.1 -": "Valle d'Aosta/Vallée d'Aoste",
+    "#untitled--2": 56,
+    "#untitled--3": 4.4,
+    "#untitled--10": "Roma",
+    "#untitled--12": 927,
+    "#untitled--13": 2.1
+  },
+  {
+    "Tavola 4.1 -": "Valle d'Aosta/Vallée d'Aoste",
+    "#untitled--2": 56,
+    "#untitled--3": 4.4,
+    "#untitled--10": "Viterbo",
+    "#untitled--12": 70,
+    "#untitled--13": 2.2
+  },
+  {
+    "Tavola 4.1 -": "Bergamo",
+    "#untitled--2": 290,
+    "#untitled--3": 2.6,
+    "#untitled--10": "Lazio",
+    "#untitled--12": "1,209",
+    "#untitled--13": 2.1
+  },
+  {
+    "Tavola 4.1 -": "Brescia",
+    "#untitled--2": 270,
+    "#untitled--3": 2.1,
+    "#untitled--10": "L'Aquila",
+    "#untitled--12": 80,
+    "#untitled--13": 2.6
+  },
+  {
+    "Tavola 4.1 -": "Como",
+    "#untitled--2": 143,
+    "#untitled--3": 2.4,
+    "#untitled--10": "Chieti",
+    "#untitled--12": 94,
+    "#untitled--13": 2.4
+  },
+  {
+    "Tavola 4.1 -": "Cremona",
+    "#untitled--2": 137,
+    "#untitled--3": 3.8,
+    "#untitled--10": "Pescara",
+    "#untitled--12": 32,
+    "#untitled--13": 1.0
+  },
+  {
+    "Tavola 4.1 -": "Lecco",
+    "#untitled--2": 83,
+    "#untitled--3": 2.4,
+    "#untitled--10": "Teramo",
+    "#untitled--12": 34,
+    "#untitled--13": 1.1
+  },
+  {
+    "Tavola 4.1 -": "Lodi",
+    "#untitled--2": 51,
+    "#untitled--3": 2.2,
+    "#untitled--10": "Abruzzo",
+    "#untitled--12": 240,
+    "#untitled--13": 1.8
+  },
+  {
+    "Tavola 4.1 -": "Mantova",
+    "#untitled--2": 108,
+    "#untitled--3": 2.6,
+    "#untitled--10": "Campobasso",
+    "#untitled--12": 82,
+    "#untitled--13": 3.6
+  },
+  {
+    "Tavola 4.1 -": "Milano",
+    "#untitled--2": 579,
+    "#untitled--3": 1.8,
+    "#untitled--10": "Isernia",
+    "#untitled--12": 33,
+    "#untitled--13": 3.8
+  },
+  {
+    "Tavola 4.1 -": "Monza e della Brianza",
+    "#untitled--2": 80,
+    "#untitled--3": 0.9,
+    "#untitled--10": "Molise",
+    "#untitled--12": 115,
+    "#untitled--13": 3.7
+  },
+  {
+    "Tavola 4.1 -": "Pavia",
+    "#untitled--2": 207,
+    "#untitled--3": 3.8,
+    "#untitled--10": "Avellino",
+    "#untitled--12": 126,
+    "#untitled--13": 2.9
+  },
+  {
+    "Tavola 4.1 -": "Sondrio",
+    "#untitled--2": 61,
+    "#untitled--3": 3.3,
+    "#untitled--10": "Benevento",
+    "#untitled--12": 73,
+    "#untitled--13": 2.6
+  },
+  {
+    "Tavola 4.1 -": "Varese",
+    "#untitled--2": 145,
+    "#untitled--3": 1.6,
+    "#untitled--10": "Caserta",
+    "#untitled--12": 96,
+    "#untitled--13": 1.0
+  },
+  {
+    "Tavola 4.1 -": "Lombardia",
+    "#untitled--2": "2,154",
+    "#untitled--3": 2.2,
+    "#untitled--10": "Napoli",
+    "#untitled--12": 426,
+    "#untitled--13": 1.4
+  },
+  {
+    "Tavola 4.1 -": "Bolzano/Bozen",
+    "#untitled--2": 223,
+    "#untitled--3": 4.3,
+    "#untitled--10": "Salerno",
+    "#untitled--12": 171,
+    "#untitled--13": 1.5
+  },
+  {
+    "Tavola 4.1 -": "Trento",
+    "#untitled--2": 176,
+    "#untitled--3": 3.3,
+    "#untitled--10": "Campania",
+    "#untitled--12": 892,
+    "#untitled--13": 1.5
+  },
+  {
+    "Tavola 4.1 -": "Trentino-Alto Adige",
+    "#untitled--2": 399,
+    "#untitled--3": 3.8,
+    "#untitled--10": "Bari",
+    "#untitled--12": 236,
+    "#untitled--13": 1.9
+  },
+  {
+    "Tavola 4.1 -": "Belluno",
+    "#untitled--2": 70,
+    "#untitled--3": 3.3,
+    "#untitled--10": "Barletta-Andria-Trani",
+    "#untitled--12": 27,
+    "#untitled--13": 0.7
+  },
+  {
+    "Tavola 4.1 -": "Padova",
+    "#untitled--2": 216,
+    "#untitled--3": 2.3,
+    "#untitled--10": "Brindisi",
+    "#untitled--12": 46,
+    "#untitled--13": 1.1
+  },
+  {
+    "Tavola 4.1 -": "Rovigo",
+    "#untitled--2": 62,
+    "#untitled--3": 2.5,
+    "#untitled--10": "Foggia",
+    "#untitled--12": 88,
+    "#untitled--13": 1.4
+  },
+  {
+    "Tavola 4.1 -": "Treviso",
+    "#untitled--2": 120,
+    "#untitled--3": 1.4,
+    "#untitled--10": "Lecce",
+    "#untitled--12": 162,
+    "#untitled--13": 2.0
+  },
+  {
+    "Tavola 4.1 -": "Venezia",
+    "#untitled--2": 165,
+    "#untitled--3": 1.9,
+    "#untitled--10": "Taranto",
+    "#untitled--12": 63,
+    "#untitled--13": 1.1
+  },
+  {
+    "Tavola 4.1 -": "Vicenza",
+    "#untitled--2": 125,
+    "#untitled--3": 1.4,
+    "#untitled--10": "Puglia",
+    "#untitled--12": 622,
+    "#untitled--13": 1.5
+  },
+  {
+    "Tavola 4.1 -": "Verona",
+    "#untitled--2": 140,
+    "#untitled--3": 1.5,
+    "#untitled--10": "Matera",
+    "#untitled--12": 39,
+    "#untitled--13": 1.9
+  },
+  {
+    "Tavola 4.1 -": "Veneto",
+    "#untitled--2": 898,
+    "#untitled--3": 1.8,
+    "#untitled--10": "Potenza",
+    "#untitled--12": 86,
+    "#untitled--13": 2.3
+  },
+  {
+    "Tavola 4.1 -": "Gorizia",
+    "#untitled--2": 47,
+    "#untitled--3": 3.3,
+    "#untitled--10": "Basilicata",
+    "#untitled--12": 125,
+    "#untitled--13": 2.2
+  },
+  {
+    "Tavola 4.1 -": "Pordenone",
+    "#untitled--2": 67,
+    "#untitled--3": 2.1,
+    "#untitled--10": "Catanzaro",
+    "#untitled--12": 49,
+    "#untitled--13": 1.3
+  },
+  {
+    "Tavola 4.1 -": "Trieste",
+    "#untitled--2": 125,
+    "#untitled--3": 5.3,
+    "#untitled--10": "Cosenza",
+    "#untitled--12": 203,
+    "#untitled--13": 2.8
+  },
+  {
+    "Tavola 4.1 -": "Udine",
+    "#untitled--2": 141,
+    "#untitled--3": 2.6,
+    "#untitled--10": "Crotone",
+    "#untitled--12": 22,
+    "#untitled--13": 1.3
+  },
+  {
+    "Tavola 4.1 -": "Friuli-Venezia Giulia",
+    "#untitled--2": 380,
+    "#untitled--3": 3.1,
+    "#untitled--10": "Reggio di Calabria",
+    "#untitled--12": 72,
+    "#untitled--13": 1.3
+  },
+  {
+    "Tavola 4.1 -": "Genova",
+    "#untitled--2": 232,
+    "#untitled--3": 2.7,
+    "#untitled--10": "Vibo Valentia",
+    "#untitled--12": 49,
+    "#untitled--13": 3.0
+  },
+  {
+    "Tavola 4.1 -": "Imperia",
+    "#untitled--2": 40,
+    "#untitled--3": 1.8,
+    "#untitled--10": "Calabria",
+    "#untitled--12": 395,
+    "#untitled--13": 2.0
+  },
+  {
+    "Tavola 4.1 -": "La Spezia",
+    "#untitled--2": 53,
+    "#untitled--3": 2.4,
+    "#untitled--10": "Agrigento",
+    "#untitled--12": 55,
+    "#untitled--13": 1.2
+  },
+  {
+    "Tavola 4.1 -": "Savona",
+    "#untitled--2": 77,
+    "#untitled--3": 2.7,
+    "#untitled--10": "Caltanissetta",
+    "#untitled--12": 29,
+    "#untitled--13": 1.1
+  },
+  {
+    "Tavola 4.1 -": "Liguria",
+    "#untitled--2": 402,
+    "#untitled--3": 2.5,
+    "#untitled--10": "Catania",
+    "#untitled--12": 180,
+    "#untitled--13": 1.6
+  },
+  {
+    "Tavola 4.1 -": "Bologna",
+    "#untitled--2": 333,
+    "#untitled--3": 3.3,
+    "#untitled--10": "Enna",
+    "#untitled--12": 28,
+    "#untitled--13": 1.6
+  },
+  {
+    "Tavola 4.1 -": "Ferrara",
+    "#untitled--2": 91,
+    "#untitled--3": 2.6,
+    "#untitled--10": "Messina",
+    "#untitled--12": 215,
+    "#untitled--13": 3.3
+  },
+  {
+    "Tavola 4.1 -": "Forlì-Cesena",
+    "#untitled--2": 82,
+    "#untitled--3": 2.1,
+    "#untitled--10": "Palermo",
+    "#untitled--12": 260,
+    "#untitled--13": 2.0
+  },
+  {
+    "Tavola 4.1 -": "Modena",
+    "#untitled--2": 115,
+    "#untitled--3": 1.6,
+    "#untitled--10": "Ragusa",
+    "#untitled--12": 25,
+    "#untitled--13": 0.8
+  },
+  {
+    "Tavola 4.1 -": "Parma",
+    "#untitled--2": 157,
+    "#untitled--3": 3.5,
+    "#untitled--10": "Siracusa",
+    "#untitled--12": 42,
+    "#untitled--13": 1.0
+  },
+  {
+    "Tavola 4.1 -": "Piacenza",
+    "#untitled--2": 58,
+    "#untitled--3": 2.0,
+    "#untitled--10": "Trapani",
+    "#untitled--12": 47,
+    "#untitled--13": 1.1
+  },
+  {
+    "Tavola 4.1 -": "Ravenna",
+    "#untitled--2": 106,
+    "#untitled--3": 2.7,
+    "#untitled--10": "Sicilia",
+    "#untitled--12": 881,
+    "#untitled--13": 1.7
+  },
+  {
+    "Tavola 4.1 -": "Reggio nell'Emilia",
+    "#untitled--2": 79,
+    "#untitled--3": 1.5,
+    "#untitled--10": "Cagliari",
+    "#untitled--12": 124,
+    "#untitled--13": 2.2
+  },
+  {
+    "Tavola 4.1 -": "Rimini",
+    "#untitled--2": 37,
+    "#untitled--3": 1.1,
+    "#untitled--10": "Carbonia-Iglesias",
+    "#untitled--12": 16,
+    "#untitled--13": 1.2
+  },
+  {
+    "Tavola 4.1 -": "Emilia-Romagna",
+    "#untitled--2": "1,058",
+    "#untitled--3": 2.4,
+    "#untitled--10": "Medio Campidano",
+    "#untitled--12": 28,
+    "#untitled--13": 2.8
+  },
+  {
+    "Tavola 4.1 -": "Arezzo",
+    "#untitled--2": 71,
+    "#untitled--3": 2.0,
+    "#untitled--10": "Nuoro",
+    "#untitled--12": 48,
+    "#untitled--13": 3.0
+  },
+  {
+    "Tavola 4.1 -": "Firenze",
+    "#untitled--2": 386,
+    "#untitled--3": 3.8,
+    "#untitled--10": "Ogliastra",
+    "#untitled--12": 19,
+    "#untitled--13": 3.3
+  },
+  {
+    "Tavola 4.1 -": "Grosseto",
+    "#untitled--2": 36,
+    "#untitled--3": 1.6,
+    "#untitled--10": "Olbia-Tempio",
+    "#untitled--12": 25,
+    "#untitled--13": 1.6
+  },
+  {
+    "Tavola 4.1 -": "Livorno",
+    "#untitled--2": 50,
+    "#untitled--3": 1.5,
+    "#untitled--10": "Oristano",
+    "#untitled--12": 64,
+    "#untitled--13": 3.9
+  },
+  {
+    "Tavola 4.1 -": "Lucca",
+    "#untitled--2": 67,
+    "#untitled--3": 1.7,
+    "#untitled--10": "Sassari",
+    "#untitled--12": 154,
+    "#untitled--13": 4.6
+  },
+  {
+    "Tavola 4.1 -": "Massa-Carrara",
+    "#untitled--2": 35,
+    "#untitled--3": 1.7,
+    "#untitled--10": "Sardegna",
+    "#untitled--12": 478,
+    "#untitled--13": 2.9
+  },
+  {
+    "Tavola 4.1 -": "Pisa",
+    "#untitled--2": 158,
+    "#untitled--3": 3.8
+  },
+  {
+    "Tavola 4.1 -": "Pistoia",
+    "#untitled--2": 40,
+    "#untitled--3": 1.4,
+    "#untitled--10": "ITALIA",
+    "#untitled--12": "12,936",
+    "#untitled--13": 2.1
+  },
+  {
+    "Tavola 4.1 -": "Prato",
+    "#untitled--2": 35,
+    "#untitled--3": 1.4,
+    "#untitled--10": "Nord",
+    "#untitled--12": "6,417",
+    "#untitled--13": 2.3
+  },
+  {
+    "Tavola 4.1 -": "Siena",
+    "#untitled--2": 71,
+    "#untitled--3": 2.6,
+    "#untitled--10": "Centro",
+    "#untitled--12": "2,771",
+    "#untitled--13": 2.3
+  },
+  {
+    "Tavola 4.1 -": "Toscana",
+    "#untitled--2": 949,
+    "#untitled--3": 2.5,
+    "#untitled--10": "Mezzogiorno",
+    "#untitled--12": "3,748",
+    "#untitled--13": 1.8
+  },
+  {
+    "Tavola 4.1 -": "Perugia",
+    "#untitled--2": 236,
+    "#untitled--3": 3.5
+  },
+  {
+    "Tavola 4.1 -": "Terni",
+    "#untitled--2": 41,
+    "#untitled--3": 1.8
+  },
+  {
+    "Tavola 4.1 -": "Umbria",
+    "#untitled--2": 277,
+    "#untitled--3": 3.1
+  },
+  {
+    "Tavola 4.1 -": "Fonte: Istituto centrale per il catalogo unico delle biblioteche (Iccu)"
+  },
+  {
+    "Tavola 4.1 -": "(a)  I dati presentati nelle tavole riguardano le biblioteche descritte nell’Anagrafe dell’Iccu al 31 dicembre dell'anno di riferimento."
+  }
+]
