@@ -1,28 +1,34 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Initialize Leaflet map
-    const map = L.map('map').setView([41.8719, 12.5674], 5); // Center on Italy
+    const map = L.map('map', {
+        center: [41.8719, 12.5674],
+        zoom: 6,
+        zoomControl: false,
+        attributionControl: false,
+        zoomSnap: 0.1
+    });
 
-    // Add base tile layer
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '&copy; OpenStreetMap contributors'
+    document.getElementById('map').style.backgroundColor = 'transparent';
+
+    L.tileLayer('', {
+        attribution: '&copy; OpenStreetMap contributors',
+        pane: 'tilePane'
     }).addTo(map);
 
-    // Function to get color based on data value
     function getColor(d) {
-        return d > 100000 ? '#800026' :
-               d > 50000  ? '#BD0026' :
-               d > 20000  ? '#E31A1C' :
-               d > 10000  ? '#FC4E2A' :
-               d > 5000   ? '#FD8D3C' :
-               d > 2000   ? '#FEB24C' :
-                            '#FFEDA0';
+        return d > 10000 ? '#800026' :
+               d > 5000  ? '#BD0026' :
+               d > 4000  ? '#E31A1C' :
+               d > 3000  ? '#FC4E2A' :
+               d > 2000  ? '#FD8D3C' :
+               d > 1000  ? '#FEB24C' :
+                           '#FFEDA0';
     }
 
-    // Function to style each feature
     function style(feature) {
-        const provinceName = feature.properties.name;
-        const data = getBibliotecheData(provinceName); // Function to retrieve data for this province
-        const value = data !== null && data['Column3'] !== "-" ? data['Column3'] : 0; // Assuming 'Column3' is the biblioteche count
+        const provinceName = feature.properties.prov_name;
+        const data = getBibliotecheData(provinceName);
+        const value = data !== null && data['Column3'] !== "-" ? +data['Column3'] : 0;
+
         return {
             fillColor: getColor(value),
             weight: 2,
@@ -33,7 +39,6 @@ document.addEventListener('DOMContentLoaded', function() {
         };
     }
 
-    // Control for showing info on hover
     const info = L.control();
 
     info.onAdd = function(map) {
@@ -43,14 +48,13 @@ document.addEventListener('DOMContentLoaded', function() {
     };
 
     info.update = function(props) {
-        this._div.innerHTML = '<h4>Biblioteche</h4>' +  (props ?
-            '<b>' + props.name + '</b><br />' + props.value + ' biblioteche'
-            : 'Hover over a region');
+        this._div.innerHTML = '<h4>Biblioteche</h4>' + (props ?
+            `<b>${props.prov_name}</b><br />${props.value} persone ammesse al prestito`
+            : 'Click on a province');
     };
 
     info.addTo(map);
 
-    // Function to highlight feature on hover
     function highlightFeature(e) {
         const layer = e.target;
 
@@ -58,7 +62,7 @@ document.addEventListener('DOMContentLoaded', function() {
             weight: 5,
             color: '#666',
             dashArray: '',
-            fillOpacity: 0.7
+            fillOpacity: 0.4
         });
 
         if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
@@ -66,53 +70,53 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         info.update(layer.feature.properties);
+
+        const data = getBibliotecheData(layer.feature.properties.prov_name);
+        const value = data !== null && data['Column3'] !== "-" ? +data['Column3'] : 'Data not available';
+
+        const popupContent = `<b>${layer.feature.properties.prov_name}</b><br />${value} persone ammesse al prestito`;
+        const popup = L.popup()
+            .setLatLng(layer.getBounds().getCenter())
+            .setContent(popupContent)
+            .openOn(map);
     }
 
-    // Function to reset highlight
     function resetHighlight(e) {
         geojson.resetStyle(e.target);
         info.update();
     }
 
-    // Function to zoom to feature
-    function zoomToFeature(e) {
-        map.fitBounds(e.target.getBounds());
-    }
-
-    // Function to handle each feature's events
     function onEachFeature(feature, layer) {
         layer.on({
-            mouseover: highlightFeature,
+            click: highlightFeature,
             mouseout: resetHighlight,
-            click: zoomToFeature
         });
     }
 
     let geojson;
-    let data;
+    let globalData;
 
-    // Function to load data and update map
     function loadData(filePath) {
         console.log('Attempting to load data from:', filePath);
 
         d3.json(filePath)
             .then(data => {
                 console.log('Data loaded successfully:', data);
-                processBibliotecheData(data, filePath);
+                globalData = data;
+                processBibliotecheData(filePath);
             })
             .catch(error => {
                 console.error('Error loading JSON:', error);
+                alert('Failed to load JSON data. Please check console for details.');
             });
     }
 
-    // Function to process the data for the given file path
-    function processBibliotecheData(data, filePath) {
-        const year = filePath.substr(-8, 4); // Extract year from the last 4 characters of the file path
+    function processBibliotecheData(filePath) {
+        const year = filePath.substr(-9, 4);
         const key = `Tav. 1 - Numero di Biblioteche statali dipendenti dal MiBact per regioni e provincie, opere consultate e prestiti a privati e altre biblioteche - Anno ${year}`;
-        const tavData = data[key];
+        const tavData = globalData[key];
 
-        // Load provinces GeoJSON data
-        fetch('../geojson/georef-italy-provincia.geojson') // Adjust path to your GeoJSON file
+        fetch('geojson/georef-italy-provincia.geojson')
             .then(response => {
                 if (!response.ok) {
                     throw new Error('Network response was not ok');
@@ -133,28 +137,35 @@ document.addEventListener('DOMContentLoaded', function() {
             })
             .catch(error => {
                 console.error('Error loading GeoJSON:', error);
+                alert('Failed to load GeoJSON data. Please check console for details.');
             });
     }
 
-    // Function to get biblioteche data for a specific province
     function getBibliotecheData(provinceName) {
-        for (let i = 0; i < data.length; i++) {
-            const entry = data[i];
-            if (entry && entry[`Tav. 1 - Numero di Biblioteche statali dipendenti dal MiBact per regioni e provincie, opere consultate e prestiti a privati e altre biblioteche - Anno ${year}`] === provinceName) {
+        console.log(`Looking for province: ${provinceName}`);
+    
+        // Iterate through years from 2010 to 2018 (or any range you have data for)
+        for (let year = 2010; year <= 2018; year++) {
+            const key = `Tav. 1 - Numero di Biblioteche statali dipendenti dal MiBact per regioni e provincie, opere consultate e prestiti a privati e altre biblioteche - Anno ${year}`;
+            const entry = globalData.find(entry => entry[key] === provinceName);
+    
+            if (entry) {
                 return entry;
             }
         }
-        return null;
+    
+        return null; // Return null if data for the province is not found in any year
     }
+    
 
-    // Initial load
-    const initialFilePath = 'data/Dati_biblioteche/Json_Biblioteche_Mibact/df_tav_1_prestiti__2010.json'; // Adjust this to the desired initial file path
+    const initialFilePath = 'data/Dati_biblioteche/Json_Biblioteche_Mibact/df_tav_1_prestiti_2010.json';
     loadData(initialFilePath);
 
-    // Load initial data
     document.getElementById('year').addEventListener('change', function() {
         const selectedYear = this.value;
-        const filePath = `data/Dati_biblioteche/Json_Biblioteche_Mibact/df_tav_1_prestiti__${selectedYear}.json`;
+        const filePath = `data/Dati_biblioteche/Json_Biblioteche_Mibact/df_tav_1_prestiti_${selectedYear}.json`;
         loadData(filePath);
     });
+
+    map.scrollWheelZoom.disable();
 });
