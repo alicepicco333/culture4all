@@ -4,7 +4,8 @@ document.addEventListener('DOMContentLoaded', function() {
         zoom: 6,
         zoomControl: false,
         attributionControl: false,
-        zoomSnap: 0.1
+        zoomSnap: 0.1,
+        dragging: false // Disable dragging
     });
 
     document.getElementById('map').style.backgroundColor = 'transparent';
@@ -15,19 +16,19 @@ document.addEventListener('DOMContentLoaded', function() {
     }).addTo(map);
 
     function getColor(d) {
-        return d > 10000 ? '#800026' :
-               d > 5000  ? '#BD0026' :
-               d > 4000  ? '#E31A1C' :
-               d > 3000  ? '#FC4E2A' :
-               d > 2000  ? '#FD8D3C' :
-               d > 1000  ? '#FEB24C' :
-                           '#FFEDA0';
+        return d > 800 ? '#08306b' :
+               d > 500 ? '#08519c' :
+               d > 300 ? '#2171b5' :
+               d > 200 ? '#4292c6' :
+               d > 100 ? '#6baed6' :
+               d > 50  ? '#9ecae1' :
+                         '#c6dbef';
     }
 
     function style(feature) {
         const provinceName = feature.properties.prov_name;
         const data = getBibliotecheData(provinceName);
-        const value = data !== null && data['Column3'] !== "-" ? +data['Column3'] : 0;
+        const value = data !== null ? +data : 0;
 
         return {
             fillColor: getColor(value),
@@ -49,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     info.update = function(props) {
         this._div.innerHTML = '<h4>Biblioteche</h4>' + (props ?
-            `<b>${props.prov_name}</b><br />${props.value} persone ammesse al prestito`
+            `<b>${props.prov_name}</b><br />${props.value} biblioteche`
             : 'Click on a province');
     };
 
@@ -69,12 +70,16 @@ document.addEventListener('DOMContentLoaded', function() {
             layer.bringToFront();
         }
 
-        info.update(layer.feature.properties);
-
         const data = getBibliotecheData(layer.feature.properties.prov_name);
-        const value = data !== null && data['Column3'] !== "-" ? +data['Column3'] : 'Data not available';
+        const value = data !== null ? +data : 'Data not available';
+        const props = {
+            prov_name: layer.feature.properties.prov_name,
+            value: value
+        };
 
-        const popupContent = `<b>${layer.feature.properties.prov_name}</b><br />${value} persone ammesse al prestito`;
+        info.update(props);
+
+        const popupContent = `<b>${layer.feature.properties.prov_name}</b><br />${value} biblioteche`;
         const popup = L.popup()
             .setLatLng(layer.getBounds().getCenter())
             .setContent(popupContent)
@@ -94,7 +99,20 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     let geojson;
-    let globalData;
+
+    const provinceMapping = {
+        "Forli'-Cesena": "Forlì-Cesena",
+        "Aosta": "Valle d'Aosta/Vallée d'Aoste",
+        "Bolzano": "Bolzano/Bozen",
+        "Reggio di Calabria": "Reggio Calabria",
+        "Massa Carrara": "Massa-Carrara"
+    };
+
+    function getBibliotecheData(provinceName) {
+        console.log(`Looking for province: ${provinceName}`);
+        const mappedName = provinceMapping[provinceName] || provinceName;
+        return globalData[mappedName] || null;
+    }
 
     function loadData(filePath) {
         console.log('Attempting to load data from:', filePath);
@@ -103,7 +121,7 @@ document.addEventListener('DOMContentLoaded', function() {
             .then(data => {
                 console.log('Data loaded successfully:', data);
                 globalData = data;
-                processBibliotecheData(filePath);
+                processBibliotecheData();
             })
             .catch(error => {
                 console.error('Error loading JSON:', error);
@@ -111,11 +129,7 @@ document.addEventListener('DOMContentLoaded', function() {
             });
     }
 
-    function processBibliotecheData(filePath) {
-        const year = filePath.substr(-9, 4);
-        const key = `Tav. 1 - Numero di Biblioteche statali dipendenti dal MiBact per regioni e provincie, opere consultate e prestiti a privati e altre biblioteche - Anno ${year}`;
-        const tavData = globalData[key];
-
+    function processBibliotecheData() {
         fetch('geojson/georef-italy-provincia.geojson')
             .then(response => {
                 if (!response.ok) {
@@ -141,31 +155,8 @@ document.addEventListener('DOMContentLoaded', function() {
             });
     }
 
-    function getBibliotecheData(provinceName) {
-        console.log(`Looking for province: ${provinceName}`);
-    
-        // Iterate through years from 2010 to 2018 (or any range you have data for)
-        for (let year = 2010; year <= 2018; year++) {
-            const key = `Tav. 1 - Numero di Biblioteche statali dipendenti dal MiBact per regioni e provincie, opere consultate e prestiti a privati e altre biblioteche - Anno ${year}`;
-            const entry = globalData.find(entry => entry[key] === provinceName);
-    
-            if (entry) {
-                return entry;
-            }
-        }
-    
-        return null; // Return null if data for the province is not found in any year
-    }
-    
-
-    const initialFilePath = 'data/Dati_biblioteche/Json_Biblioteche_Mibact/df_tav_1_prestiti_2010.json';
+    const initialFilePath = 'data/Dati_biblioteche/provincia_n_biblioteche_2022.json';
     loadData(initialFilePath);
-
-    document.getElementById('year').addEventListener('change', function() {
-        const selectedYear = this.value;
-        const filePath = `data/Dati_biblioteche/Json_Biblioteche_Mibact/df_tav_1_prestiti_${selectedYear}.json`;
-        loadData(filePath);
-    });
 
     map.scrollWheelZoom.disable();
 });
