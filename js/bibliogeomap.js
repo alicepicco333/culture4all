@@ -1,144 +1,164 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const map1Element = document.getElementById('map1');
-    if (!map1Element) {
+    const mapElement = document.getElementById('map1');
+    if (!mapElement) {
         console.error('Element with ID map1 not found.');
         return;
     }
 
-    const map1 = L.map('map1', {
+    const map = L.map('map1', {
         center: [41.8719, 12.5674],
         zoom: 6,
         zoomControl: false,
         attributionControl: false,
         zoomSnap: 0.1,
-        dragging: true // Enable dragging
+        dragging: true
     });
 
-    // Set transparent background for the map
-    map1Element.style.backgroundColor = 'transparent';
+    // Set transparent background for the map container
+    mapElement.style.backgroundColor = 'transparent';
 
-    // Add tile layer (replace '' with your desired tile URL)
+    // Add a base tile layer
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '&copy; OpenStreetMap contributors',
         pane: 'tilePane'
-    }).addTo(map1);
+    }).addTo(map);
 
-    let geojsonMarkers;
-    let geojsonProvinces;
+    let geojsonLayer = null;
 
-    function loadData(filePath) {
-        console.log('Attempting to load data from:', filePath);
+    // Load initial data on page load
+    const initialDataset = 'libraries';
+    loadData(initialDataset);
 
-        d3.csv(filePath)
+    // Function to load data based on selected dataset
+    function loadData(dataset) {
+        let filePath;
+        let latitudeField, longitudeField, nameField;
+
+        switch (dataset) {
+            case 'libraries':
+                filePath = 'data/Dati_biblioteche/Libraries_Luoghi_Cultura.json';
+                latitudeField = 'Library_Latitude';
+                longitudeField = 'Library_Longitude';
+                nameField = 'Library_Name';
+                break;
+            case 'archives':
+                filePath = 'data/Dati_Archivi/Archives_Luoghi_Cultura.json';
+                latitudeField = 'Archive_Latitude';
+                longitudeField = 'Archive_Longitude';
+                nameField = 'Archive_Name';
+                break;
+            case 'museums':
+                filePath = 'data/Dati_Musei/Museums_complete.json';
+                latitudeField = 'Museum_Latitude';
+                longitudeField = 'Museum_Longitude';
+                nameField = 'Museum_Name';
+                break;
+            default:
+                console.error('Invalid dataset selection.');
+                return;
+        }
+
+        // Fetch and process JSON data
+        fetch(filePath)
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
             .then(data => {
-                console.log('CSV data loaded successfully:', data);
-                processData(data);
+                console.log(`${dataset} JSON data loaded successfully:`, data);
+                processData(data, latitudeField, longitudeField, nameField);
             })
             .catch(error => {
-                console.error('Error loading CSV:', error);
-                alert('Failed to load CSV data. Please check console for details.');
+                console.error(`Error loading ${dataset} JSON:`, error);
+                alert(`Failed to load ${dataset} JSON data. Please check console for details.`);
             });
     }
 
-    function processData(data) {
-        // Filter out the "Biblioteca Medica Statale di Roma" if it exists
-        const filteredData = data.filter(row => row.Library_Name !== "Biblioteca Medica Statale di Roma");
-
-        const markersGeoJSON = {
-            type: 'FeatureCollection',
-            features: filteredData.map(row => ({
-                type: 'Feature',
-                properties: {
-                    id: row.Library_ID,
-                    name: row.Library_Name,
-                    city: row.Library_City,
-                    region: row.Library_Region
-                },
-                geometry: {
-                    type: 'Point',
-                    coordinates: [
-                        parseFloat(row.Library_Longitude),
-                        parseFloat(row.Library_Latitude)
-                    ]
-                }
-            }))
-        };
-
-        console.log('Markers GeoJSON data processed:', markersGeoJSON);
-
-        // Remove existing markers layer if it exists
-        if (geojsonMarkers) {
-            map1.removeLayer(geojsonMarkers);
+    // Function to process loaded data and create GeoJSON layer
+    function processData(data, latitudeField, longitudeField, nameField) {
+        // Clear existing GeoJSON layer if it exists
+        if (geojsonLayer) {
+            map.removeLayer(geojsonLayer);
         }
 
-        geojsonMarkers = L.geoJson(markersGeoJSON, {
+        // Create GeoJSON structure
+        const geojsonData = {
+            type: 'FeatureCollection',
+            features: data.map(item => {
+                const latitude = parseFloat(item[latitudeField]);
+                const longitude = parseFloat(item[longitudeField]);
+
+                // Check for valid coordinates
+                if (isNaN(latitude) || isNaN(longitude)) {
+                    console.warn(`Invalid coordinates for item:`, item);
+                    return null;
+                }
+
+                return {
+                    type: 'Feature',
+                    properties: {
+                        name: item[nameField],
+                        city: item.City, // Adjust based on dataset structure
+                        region: item.Region // Adjust based on dataset structure
+                    },
+                    geometry: {
+                        type: 'Point',
+                        coordinates: [longitude, latitude]
+                    }
+                };
+            }).filter(feature => feature !== null) // Filter out invalid features
+        };
+
+        // Create new GeoJSON layer
+        geojsonLayer = L.geoJson(geojsonData, {
             pointToLayer: function (feature, latlng) {
-                const marker = L.circleMarker(latlng, {
+                return L.circleMarker(latlng, {
                     radius: 8,
-                    fillColor: getColor(), // Using getColor function for marker fill color
+                    fillColor: getColor(feature.properties.name), // Color based on name
                     color: '#000',
                     weight: 1,
                     opacity: 1,
                     fillOpacity: 0.8
-                });
-
-                // Bind popup with Library_Name on marker hover
-                marker.bindPopup(feature.properties.name);
-
-                // Event listeners for showing/hiding popup
-                marker.on('mouseover', function(event) {
-                    marker.openPopup();
-                });
-
-                marker.on('mouseout', function(event) {
-                    marker.closePopup();
-                });
-
-                return marker;
+                }).bindPopup(`<b>${feature.properties.name}</b><br>${feature.properties.city}, ${feature.properties.region}`);
             }
-        }).addTo(map1);
+        }).addTo(map);
 
-        // Fit map to the bounds of the markers GeoJSON layer
-        map1.fitBounds(geojsonMarkers.getBounds());
+        // Fit map to the bounds of the GeoJSON layer
+        map.fitBounds(geojsonLayer.getBounds());
     }
 
-    // Example getColor function for generating intermediate color
-    function getColor() {
-        const color1 = '#08306b'; // Darker color from the provided palette
-        const color2 = '#c6dbef'; // Lighter color from the provided palette
-        
-        // Interpolate color between color1 and color2
-        return interpolateColor(color1, color2, 0.5); // 0.5 for midpoint (adjust as needed)
+    // Function to get color based on name (placeholder function)
+    function getColor(name) {
+        // Modify this function as per your color requirements
+        return '#3388ff'; // Default color
     }
 
-    // Function to interpolate between two colors
-    function interpolateColor(color1, color2, factor) {
-        if (factor > 1) factor = 1;
-        if (factor < 0) factor = 0;
-
-        const result = color1.slice(1).match(/.{2}/g).map(function(channel, index) {
-            return Math.round(parseInt(channel, 16) + factor * (parseInt(color2.slice(1).match(/.{2}/g)[index], 16) - parseInt(channel, 16))).toString(16).padStart(2, '0');
+    // Event listener for dataset select dropdown
+    const datasetSelect = document.getElementById('datasetSelect');
+    if (datasetSelect) {
+        datasetSelect.addEventListener('change', function(event) {
+            const selectedDataset = event.target.value;
+            loadData(selectedDataset);
         });
-
-        return '#' + result.join('');
+    } else {
+        console.error('Dataset select element not found.');
     }
 
-    const initialFilePath = 'data/Dati_biblioteche/Libraries_luoghi_Cultura.csv';
-    loadData(initialFilePath);
-
-    // Add custom zoom control buttons
+    // Custom zoom control buttons
     const zoomInBtn = document.createElement('button');
     zoomInBtn.textContent = '+';
-    zoomInBtn.className = 'zoom-btn'; // Custom class for styling
+    zoomInBtn.className = 'zoom-btn';
     zoomInBtn.addEventListener('click', function() {
-        map1.zoomIn();
+        map.zoomIn();
     });
 
     const zoomOutBtn = document.createElement('button');
     zoomOutBtn.textContent = '-';
-    zoomOutBtn.className = 'zoom-btn'; // Custom class for styling
+    zoomOutBtn.className = 'zoom-btn';
     zoomOutBtn.addEventListener('click', function() {
-        map1.zoomOut();
+        map.zoomOut();
     });
 
     const zoomControls = document.createElement('div');
@@ -146,7 +166,7 @@ document.addEventListener('DOMContentLoaded', function() {
     zoomControls.appendChild(zoomInBtn);
     zoomControls.appendChild(zoomOutBtn);
 
-    map1Element.appendChild(zoomControls);
+    mapElement.appendChild(zoomControls);
 
-    map1.scrollWheelZoom.disable(); // Disable scroll wheel zoom
+    map.scrollWheelZoom.disable(); // Disable scroll wheel zoom
 });
