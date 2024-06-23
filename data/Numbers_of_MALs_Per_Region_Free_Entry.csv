@@ -1,0 +1,23 @@
+"Numbers per region of Museums, Archives, Libraries with a free entry cost",,,
+Region,Museums_Number,Archives_Number,Libraries_Number
+Abruzzo,27,7,0
+Basilicata,7,2,1
+Calabria,26,7,0
+Campania,161,4,3
+Emilia-Romagna,347,10,2
+Friuli-Venezia_Giulia,104,4,2
+Lazio,177,7,12
+Liguria,107,4,1
+Lombardia,157,7,3
+Marche,54,9,1
+Molise,5,2,0
+Piemonte,45,8,1
+Puglia,31,3,0
+Sardegna,20,4,2
+Sicilia,27,7,0
+Toscana,43,7,6
+Trentino-Alto_Adige,6,2,0
+Umbria,7,6,0
+Valle_d_Aosta_Vallee_d_Aoste,9,0,0
+Veneto,10,6,3
+TOTAL,1370,106,37
