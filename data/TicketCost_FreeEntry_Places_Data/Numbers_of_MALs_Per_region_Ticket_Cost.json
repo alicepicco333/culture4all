@@ -1,0 +1,134 @@
+[
+ {
+   "Numbers per region of Museums, Archives, Libraries with a ticket entry cost": "Region",
+   "FIELD2": "Museums_Number",
+   "FIELD3": "Archives_Number",
+   "FIELD4": "Libraries_Number"
+ },
+ {
+   "Numbers per region of Museums, Archives, Libraries with a ticket entry cost": "Abruzzo",
+   "FIELD2": "40",
+   "FIELD3": "0",
+   "FIELD4": "0"
+ },
+ {
+   "Numbers per region of Museums, Archives, Libraries with a ticket entry cost": "Basilicata",
+   "FIELD2": "14",
+   "FIELD3": "0",
+   "FIELD4": "0"
+ },
+ {
+   "Numbers per region of Museums, Archives, Libraries with a ticket entry cost": "Calabria",
+   "FIELD2": "20",
+   "FIELD3": "0",
+   "FIELD4": "0"
+ },
+ {
+   "Numbers per region of Museums, Archives, Libraries with a ticket entry cost": "Campania",
+   "FIELD2": "45",
+   "FIELD3": "0",
+   "FIELD4": "0"
+ },
+ {
+   "Numbers per region of Museums, Archives, Libraries with a ticket entry cost": "Emilia-Romagna",
+   "FIELD2": "112",
+   "FIELD3": "0",
+   "FIELD4": "0"
+ },
+ {
+   "Numbers per region of Museums, Archives, Libraries with a ticket entry cost": "Friuli-Venezia_Giulia",
+   "FIELD2": "39",
+   "FIELD3": "0",
+   "FIELD4": "0"
+ },
+ {
+   "Numbers per region of Museums, Archives, Libraries with a ticket entry cost": "Lazio",
+   "FIELD2": "107",
+   "FIELD3": "0",
+   "FIELD4": "0"
+ },
+ {
+   "Numbers per region of Museums, Archives, Libraries with a ticket entry cost": "Liguria",
+   "FIELD2": "74",
+   "FIELD3": "0",
+   "FIELD4": "0"
+ },
+ {
+   "Numbers per region of Museums, Archives, Libraries with a ticket entry cost": "Lombardia",
+   "FIELD2": "181",
+   "FIELD3": "0",
+   "FIELD4": "0"
+ },
+ {
+   "Numbers per region of Museums, Archives, Libraries with a ticket entry cost": "Marche",
+   "FIELD2": "96",
+   "FIELD3": "0",
+   "FIELD4": "0"
+ },
+ {
+   "Numbers per region of Museums, Archives, Libraries with a ticket entry cost": "Molise",
+   "FIELD2": "10",
+   "FIELD3": "0",
+   "FIELD4": "0"
+ },
+ {
+   "Numbers per region of Museums, Archives, Libraries with a ticket entry cost": "Piemonte",
+   "FIELD2": "83",
+   "FIELD3": "1",
+   "FIELD4": "0"
+ },
+ {
+   "Numbers per region of Museums, Archives, Libraries with a ticket entry cost": "Puglia",
+   "FIELD2": "30",
+   "FIELD3": "0",
+   "FIELD4": "0"
+ },
+ {
+   "Numbers per region of Museums, Archives, Libraries with a ticket entry cost": "Sardegna",
+   "FIELD2": "95",
+   "FIELD3": "0",
+   "FIELD4": "0"
+ },
+ {
+   "Numbers per region of Museums, Archives, Libraries with a ticket entry cost": "Sicilia",
+   "FIELD2": "54",
+   "FIELD3": "0",
+   "FIELD4": "0"
+ },
+ {
+   "Numbers per region of Museums, Archives, Libraries with a ticket entry cost": "Toscana",
+   "FIELD2": "67",
+   "FIELD3": "0",
+   "FIELD4": "0"
+ },
+ {
+   "Numbers per region of Museums, Archives, Libraries with a ticket entry cost": "Trentino-Alto_Adige",
+   "FIELD2": "52",
+   "FIELD3": "0",
+   "FIELD4": "0"
+ },
+ {
+   "Numbers per region of Museums, Archives, Libraries with a ticket entry cost": "Umbria",
+   "FIELD2": "21",
+   "FIELD3": "0",
+   "FIELD4": "0"
+ },
+ {
+   "Numbers per region of Museums, Archives, Libraries with a ticket entry cost": "Valle_d_Aosta_Vallee_d_Aoste",
+   "FIELD2": "8",
+   "FIELD3": "0",
+   "FIELD4": "0"
+ },
+ {
+   "Numbers per region of Museums, Archives, Libraries with a ticket entry cost": "Veneto",
+   "FIELD2": "38",
+   "FIELD3": "0",
+   "FIELD4": "1"
+ },
+ {
+   "Numbers per region of Museums, Archives, Libraries with a ticket entry cost": "TOTAL",
+   "FIELD2": "1186",
+   "FIELD3": "1",
+   "FIELD4": "1"
+ }
+]
