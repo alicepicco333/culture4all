@@ -1,2 +1,2 @@
-Archive_ID,Archive_Name,Archive_City,Archive_Region,Ticket_Cost
-http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/133728,Casa Zegna,http://dati.beniculturali.it/mibact/luoghi/resource/City/Trivero,http://dati.beniculturali.it/mibact/luoghi/resource/Region/Piemonte,3.00
+Archive_ID,Archive_Name,Archive_City,Archive_Region,Archive_Latitude,Archive_Longitude,Ticket_Cost
+http://dati.beniculturali.it/mibact/luoghi/resource/CulturalInstituteOrSite/133728,Casa Zegna,http://dati.beniculturali.it/mibact/luoghi/resource/City/Trivero,http://dati.beniculturali.it/mibact/luoghi/resource/Region/Piemonte,45.67137,8.157712,3.00
