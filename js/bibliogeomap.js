@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Initialize the map
     const map = L.map('map1', {
         center: [41.8719, 13.5674], // Center of the map
-        zoom: 6, // Initial zoom level
+        zoom: 5, // Initial zoom level
         zoomControl: true, // Display zoom controls
         attributionControl: false, // Hide attribution control
         zoomSnap: 0.1, // Adjust zoom snapping to be more fine-grained
