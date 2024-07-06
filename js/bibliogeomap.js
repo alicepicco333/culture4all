@@ -5,13 +5,16 @@ document.addEventListener('DOMContentLoaded', function() {
         return;
     }
 
+    // Initialize the map
     const map = L.map('map1', {
-        center: [41.8719, 13.5674],
-        zoom: 6.5,
-        zoomControl: false,
-        attributionControl: false,
-        zoomSnap: 0.1,
-        dragging: true
+        center: [41.8719, 13.5674], // Center of the map
+        zoom: 6, // Initial zoom level
+        zoomControl: true, // Display zoom controls
+        attributionControl: false, // Hide attribution control
+        zoomSnap: 0.1, // Adjust zoom snapping to be more fine-grained
+        dragging: true, // Allow dragging of the map
+        minZoom: 4, // Set minimum zoom level
+        maxZoom: 12 // Set maximum zoom level
     });
 
     // Set transparent background for the map container
@@ -26,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Custom icon using SVG
     const customIcon = L.divIcon({
         html: `
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="white" stroke="#516d97" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="#e0e7ff" stroke="#516d97" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin">
                 <path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"></path>
                 <circle cx="12" cy="10" r="3"></circle>
             </svg>
@@ -63,9 +66,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 break;
             case 'libraries':
                 filePath = 'data/Dati_biblioteche/lat_long.json';
-                latitudeField = 'latitudine'; // Replace with correct field names if different
-                longitudeField = 'longitudine'; // Replace with correct field names if different
-                nameField = 'denominazione'; // Replace with correct field names if different
+                latitudeField = 'latitudine';
+                longitudeField = 'longitudine';
+                nameField = 'denominazione';
                 break;
             default:
                 console.error('Invalid dataset selection.');
@@ -125,15 +128,15 @@ document.addEventListener('DOMContentLoaded', function() {
                     type: 'Feature',
                     properties: {
                         name: item[nameField],
-                        city: item.City || '', // Use empty string if City is undefined
-                        region: item.Region || '' // Use empty string if Region is undefined
+                        city: item.City || '',
+                        region: item.Region || ''
                     },
                     geometry: {
                         type: 'Point',
                         coordinates: [longitude, latitude]
                     }
                 };
-            }).filter(feature => feature !== null) // Filter out invalid features
+            }).filter(feature => feature !== null)
         };
 
         // Create new GeoJSON layer
@@ -147,13 +150,12 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         }).addTo(map);
 
-        // Fit map to the bounds of the GeoJSON layer
-        map.fitBounds(geojsonLayer.getBounds());
+        // Fit map to the bounds of the GeoJSON layer with padding
+        map.fitBounds(geojsonLayer.getBounds(), { padding: [60, 60] }); // Adjust padding as needed
     }
 
     // Function to get color based on name (placeholder function)
     function getColor(name) {
-        // Modify this function as per your color requirements
         return '#3388ff'; // Default color
     }
 
@@ -164,11 +166,11 @@ document.addEventListener('DOMContentLoaded', function() {
             L.geoJson(geojson, {
                 style: function (feature) {
                     return {
-                        color: 'white', // Outline color
+                        color: 'white',
                         weight: 2,
                         opacity: 1,
-                        fillColor: '#98FB98', // Pale green color
-                        fillOpacity: 0.5 // Adjust fill opacity as needed
+                        fillColor: '#98FB98',
+                        fillOpacity: 0.5
                     };
                 }
             }).addTo(map);
@@ -188,28 +190,6 @@ document.addEventListener('DOMContentLoaded', function() {
     } else {
         console.error('Dataset select element not found.');
     }
-
-    // Custom zoom control buttons
-    const zoomInBtn = document.createElement('button');
-    zoomInBtn.textContent = '+';
-    zoomInBtn.className = 'zoom-btn';
-    zoomInBtn.addEventListener('click', function() {
-        map.zoomIn();
-    });
-
-    const zoomOutBtn = document.createElement('button');
-    zoomOutBtn.textContent = '-';
-    zoomOutBtn.className = 'zoom-btn';
-    zoomOutBtn.addEventListener('click', function() {
-        map.zoomOut();
-    });
-
-    const zoomControls = document.createElement('div');
-    zoomControls.className = 'leaflet-control leaflet-bar';
-    zoomControls.appendChild(zoomInBtn);
-    zoomControls.appendChild(zoomOutBtn);
-
-    mapElement.appendChild(zoomControls);
 
     map.scrollWheelZoom.disable(); // Disable scroll wheel zoom
 });

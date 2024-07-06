@@ -26,11 +26,20 @@
             src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"
         ></script>
 
+        <script src="https://cdn.jsdelivr.net/npm/chroma-js@2.4.2/chroma.min.js"></script>
+
    
     <!-- D3.js -->
     <script src="https://d3js.org/d3.v6.min.js"></script>
     <!-- Leaflet JS -->
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+       <!-- Leaflet JS -->
+       <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+       <!-- Plotly.js -->
+       <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+       <script src="https://cdn.jsdelivr.net/npm/papaparse@5/papaparse.min.js"></script> <!-- PapaParse for CSV parsing -->
+     
     </head>
 
     <body>
@@ -43,7 +52,7 @@
                     <div class="flex items-center mb-10 lg:mb-0">
 
                         <button
-                            class="w-10 h-10 lg:hidden ml-auto flex items-center justify-center text-indigo-800 border border-indigo-800 rounded-md"
+                            class="w-10 h-10 lg:hidden ml-auto flex items-center justify-center text-indigo-900 border border-indigo-900 rounded-md"
                             @click="navbarOpen = !navbarOpen"
                         >
                             <i data-feather="menu"></i>
@@ -54,85 +63,56 @@
                         class="lg:flex flex-col lg:flex-row lg:items-center lg:space-x-20 mb-10 xl:mb-0"
                         :class="{'hidden':!navbarOpen,'flex':navbarOpen}"
                     >
+                 
                         <li
-                            class="font-medium text-gray-500 text-lg hover:text-gray-400 transiton ease-in-out duration-300 mb-5 lg:mb-0"
-                        >
-                            <a href="#">Maps</a>
-                        </li>
-                        <li
-                            class="font-medium text-gray-500 text-lg hover:text-gray-400 transiton ease-in-out duration-300 mb-5 lg:mb-0"
-                        >
-                            <a href="#">Graphs</a>
-                        </li>
-                        <li
-                            class="font-medium text-gray-500 text-lg hover:text-gray-400 transiton ease-in-out duration-300 mb-5 lg:mb-0"
-                        >
-                            <a href="#">Networks</a>
-                        </li>
-                        <li
-                            class="px-8 py-3 font-medium text-indigo-800 text-lg text-center border-2 border-indigo-800 rounded-md hover:bg-indigo-800 hover:text-white transiton ease-linear duration-300"
+                            class="px-8 py-3 font-medium text-indigo-900 text-lg text-center border-2 border-indigo-900 rounded-md hover:bg-indigo-900 hover:text-white transiton ease-linear duration-300"
                         >
                             <a href="#">View on Github</a>
                         </li>
                     </ul>
                 </nav>
-
-                <header
-                    class="flex flex-col lg:flex-row justify-between lg:mb-20"
-                >
-                    <div class="text-center lg:text-left mb-20 lg:mb-0">
-                        <div
-                            class="flex items-center justify-center lg:justify-start gap-2 mb-10"
-                        >
-                            <span class="w-20 h-0.5 bg-indigo-700"></span>
-
-                            <p class="font-medium text-indigo-700 text-xl">
-                                A Data Visualization Project for Culture Lovers
+                <section>
+                    <!-- container.// -->
+                    <header class="flex flex-col lg:flex-row items-center lg:items-start justify-between lg:mb-20">
+                        <div class="text-center lg:text-left mb-10 lg:mb-0 lg:w-1/2">
+                            <div class="flex items-center justify-center lg:justify-start gap-2 mb-6">
+                                <p class="font-medium text-indigo-900 text-xl">
+                                    A Data Visualization Project for Culture Lovers
+                                </p>
+                            </div>
+            
+                            <h1 class="font-semibold text-gray-700 text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-left leading-tight mb-8">
+                                C4A /<br> Culture for All
+                            </h1>
+            
+                            <p class="font-normal text-gray-500 text-sm md:text-md xl:text-lg mb-8">
+                                This is the repository for the final project of the course Information Visualization at University of Bologna, <br>
+                                Digital Humanities and Digital Knowledge MA 2023/2024. 
                             </p>
+            
+                            <div class="space-y-4 lg:space-x-4 lg:space-y-0 mb-8">
+                                <a href="#" class="block md:inline px-8 py-3 font-medium bg-indigo-900 text-white text-lg rounded-md hover:bg-indigo-800 transition ease-in-out duration-300">
+                                    Get Started
+                                </a>
+                                <a href="#" class="block md:inline px-8 py-3 font-medium text-indigo-900 text-lg border-2 border-indigo-900 rounded-md hover:bg-indigo-900 hover:text-white transition ease-linear duration-300">
+                                    View on Github
+                                </a>
+                             
+                            </div>
+
+                            <span class="font-normal text-gray-500 text-sm mt-20 xl:mt-40 mb-20 xl:mb-40">
+                                This project has been developed by <br>Alice Picco, Corrado Consiglio and Salvatore Di Marzo.
+                            </span>
+            
+            
+            
                         </div>
-
-                        <h1
-                    class="font-semibold text-gray-700 text-6xl md:text-6xl xl:text-7xl text-left leading-tight mb-20 xl:mb-30"
-                >
-                        
-                        C4A /<br> Culture for All
-                        </h1>
-
-                        <p
-                            class="font-normal text-gray-500 text-sm md:text-md xl:text-lg mb-10"
-                        >
-                        This is the repository for the final project of the course Information Visualization at University of Bologna, <br>
-                        Digital Humanities and Digital Knowledge MA 2023/2024. 
-                        </p>
-
-                        <div class="space-y-5 lg:space-x-5 mb-10">
-                            <a
-                                href="#"
-                                class="block md:inline px-8 py-3 font-medium bg-indigo-800 text-white text-lg rounded-md hover:bg-indigo-600 transiton ease-in-out duration-300"
-                                >Get Started</a
-                            >
-
-                            <a
-                                href="#"
-                                class="block md:inline px-8 py-3 font-medium text-indigo-800 text-lg border-2 border-indigo-800 rounded-md hover:bg-indigo-600 hover:text-white transiton ease-linear duration-300"
-                                >View on Github</a
-                            >
+            
+                        <div class="lg:w-1/2 flex justify-center lg:justify-end">
+                            <img src="assets/image/library-488690_1920-800x500.jpg" alt="Image" class="opacity-90 w-full h-auto max-w-full max-h-[600px] object-cover"/>
                         </div>
-
-                        <hr class="text-gray-500 mb-5" />
-
-                        <span class="font-normal text-gray-500 text-sm"
-                            >This project has been developed by Alice Picco, Corrado Consiglio and Salvatore Di Marzo.</span
-                        >
-                    </div>
-
-                    <div class="mx-auto lg:mx-0 max-h-100">
-                        <img src="assets/image/libri-1.png" alt="Image" class="opacity-70"/>
-                    </div>
-                </header>
-            </div>
-            <!-- container.// -->
-        </section>
+                    </header>
+                </section>
 
         <section class="py-16 lg:mb-20">
             <div class="container max-w-screen-xl mx-auto px-4">
@@ -141,7 +121,7 @@
                 >
             "Culture is the arts elevated to 
 
-                    <span class="text-indigo-800"
+                    <span class="text-indigo-900"
                         > a set of beliefs."
                         </span
                     >
@@ -164,7 +144,7 @@
                     <div class="grid grid-cols-2 gap-20">
                         <div class="col-span-1">
                             <h1
-                            class="font-semibold text-indigo-800 text-4xl md:text-4xl xl:text-5xl text-center leading-tight mb-20 xl:mb-30"
+                            class="font-semibold text-indigo-900 text-4xl md:text-4xl xl:text-5xl text-center leading-tight mb-20 xl:mb-30"
                         >                                The Concept
                             </h1>
                             <p class="text-left text-gray-500 mb-20 xl:mb-40">
@@ -186,7 +166,7 @@
                         </div>
                         <div class="col-span-1">
                             <h1
-                            class="font-semibold text-indigo-800 text-4xl md:text-4xl xl:text-5xl text-center leading-tight mb-20 xl:mb-30"
+                            class="font-semibold text-indigo-900 text-4xl md:text-4xl xl:text-5xl text-center leading-tight mb-20 xl:mb-30"
                         >                                Objectives
                             </h1>
                             <ul class="list-disc text-left text-gray-500 mb-20 xl:mb-40">
@@ -199,105 +179,70 @@
                         </div>
                     </div>
 
-                    <hr class="text-gray-500 mb-10 xl:mb-20" />
-
+                    <hr class="text-gray-500 mb-10 xl:mb-20"/>
                     
-                    <h1
-                    class="font-semibold text-gray-700 text-4xl md:text-4xl xl:text-5xl text-center leading-tight mb-20 xl:mb-30"
-                >                        Methodology
-                    </h1>
-
-                <div class="flex flex-col xl:flex-row gap-16">
-                    <div class="mx-auto xl:mx-0">
-                        <img src="assets/image/libri-2.png" alt="Image" class="opacity-70"/>
-                    </div>
-
-                    <div
-                        class="grid grid-cols-2 text-center xl:text-left xl:gap-x-24 mt-10"
-                    >
-                        <div class="mb-16 xl:mb-0">
-                            <h4
-                                class="font-semibold text-gray-800 text-md md:text-lg mb-5"
-                            >
-                                1. Data Collection
-                            </h4>
-
-                            <p
-                                class="font-normal text-gray-500 text-xs md:text-sm mb-5"
-                            >
-                            Gather data from national statistics agencies, cultural institutions, publishing houses, and digital platforms.
-                            </p>
-
-                    
+                    <section>
+                        <hr class="text-gray-500 mb-10 xl:mb-20" />
+                
+                        <h1 class="font-semibold text-gray-700 text-4xl md:text-4xl xl:text-5xl text-center leading-tight mb-10 xl:mb-20">
+                            Methodology
+                        </h1>
+                
+                        <div class="flex flex-col xl:flex-row gap-10">
+                            <div class="flex-grow mx-auto xl:mx-0 mb-25 xl:mb-40">
+                                <img src="https://www.smartworld.it/images/2023/04/26/leggere-libri-app_1200x675.jpg" alt="Image" class="opacity-90 w-full h-auto max-w-[1000px] max-h-[800px] object-cover"/>
+                            </div>
+                
+                            <div class="grid grid-cols-1 xl:grid-cols-2 text-center xl:text-left xl:gap-x-4">
+                                <div class="mb-16 xl:mb-0">
+                                    <h4 class="font-semibold text-gray-800 text-md md:text-lg">
+                                        1. Data Collection
+                                    </h4>
+                                    <p class="font-normal text-gray-500 text-xs md:text-sm mb-5">
+                                        Gather data from national statistics agencies, cultural institutions, publishing houses, and digital platforms.
+                                    </p>
+                                </div>
+                
+                                <div class="mb-16 xl:mb-0">
+                                    <h4 class="font-semibold text-gray-800 text-md md:text-lg">
+                                        4. Data Interpretation and Storytelling
+                                    </h4>
+                                    <p class="font-normal text-gray-500 text-xs md:text-sm mb-5">
+                                        Create a narrative based on the emerging insights.
+                                    </p>
+                                </div>
+                
+                                <div class="mb-16 xl:mb-0">
+                                    <h4 class="font-semibold text-gray-800 text-md md:text-lg">
+                                        2. Data Processing
+                                    </h4>
+                                    <p class="font-normal text-gray-500 text-xs md:text-sm mb-5">
+                                        Clean and preprocess the data to ensure accuracy and consistency.
+                                    </p>
+                                </div>
+                
+                                <div class="mb-16 xl:mb-0">
+                                    <h4 class="font-semibold text-gray-800 text-md md:text-lg">
+                                        5. Draw Conclusions
+                                    </h4>
+                                    <p class="font-normal text-gray-500 text-xs md:text-sm mb-5">
+                                        Elaborate an answer to the research questions based on the interpretation of data, facilitated by the visualizations.
+                                    </p>
+                                </div>
+                
+                                <div>
+                                    <h4 class="font-semibold text-gray-800 text-md md:text-lg">
+                                        3. Visualization Design and Development
+                                    </h4>
+                                    <p class="font-normal text-gray-500 text-xs md:text-sm mb-25 xl:mb-40">
+                                        According to the nature and structure of the data, design and develop interactive visualizations.
+                                    </p>
+                                </div>
+                            </div>
                         </div>
-
-                        <div class="mb-16 xl:mb-0">
-                            <h4
-                                class="font-semibold text-gray-800 text-md md:text-lg mb-5"
-                            >
-                                4. Data Interpretation and Storytelling
-                            </h4>
-
-                            <p
-                                class="font-normal text-gray-500 text-xs md:text-sm mb-5"
-                            >
-                            Create a narrative based on the emerging insights.
-                            </p>
-                        </div>
-
-                        <div class="mb-16 xl:mb-0">
-                            <h4
-                                class="font-semibold text-gray-800 text-md md:text-lg mb-5"
-                            >
-                                2. Data Processing
-                            </h4>
-
-                            <p
-                                class="font-normal text-gray-500 text-xs md:text-sm mb-5"
-                            >
-                            Clean and preprocess the data to ensure accuracy and consistency.
-                            </p>
-
-                        </div>
-
-                        <div class="mb-16 xl:mb-0">
-                            <h4
-                                class="font-semibold text-gray-800 text-md md:text-lg mb-5"
-                            >
-                                5. Draw Conclusions
-                            </h4>
-
-                            <p
-                                class="font-normal text-gray-500 text-xs md:text-sm mb-5"
-                            >
-                               Elaborate an answer to the research questions based on the interpretation of data, facilitated by the visualizations.
-                            </p>
-
-                          
-                        </div>
-
-                        <div>
-                            <h4
-                                class="font-semibold text-gray-800 text-md md:text-lg mb-5"
-                            >
-                               3.  Visualization Design and Development
-                            </h4>
-
-                            <p
-                                class="font-normal text-gray-500 text-xs md:text-sm mb-5"
-                            >
-                               According to the nature and structure of the data, design and develop interactive visualizations.
-                            </p>
-
-                         
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            <!-- container.// -->
-        </section>
-        <hr class="text-gray-500 mb-10 xl:mb-20" />
+                        
+                        <hr class="text-gray-500 mb-10 xl:mb-20" />
+                    </section>
 
 
         <section class="py-16 lg:mb-20">
@@ -326,17 +271,80 @@ In addition to major cities, smaller towns and rural areas also host libraries, 
 
                 <div class="container mx-auto py-8">
                     <h1 class="text-2xl text-gray-700 font-bold mb-4">Geographical Distribution of Libraries in Italian Provinces- 2022</h1>
+                    <div class="bg-indigo-100 p-4 rounded-md inline-block">
                 <p class="text-gray-500">
-                Choropleth Map</p>
-                    <div id="map"></div>
+                Choropleth Map</p></div>
+                    <div id="map">
                 </div>
 
                 <p class="text-gray-500 mb-10 xl:mb-20 text-justify">
                 This choropleth map illustrates the density and distribution of libraries across the provinces of Italy. Provinces are color-coded to represent the number of libraries, with darker shades indicating a higher concentration and lighter shades indicating fewer libraries. The provinces of Turin and Rome stand out with the darkest shades, indicating they have the highest number of libraries. Other provinces with notable library concentrations are also highlighted, while several provinces, particularly in more rural or less populated areas, show lighter shades, reflecting a lower density of libraries. This map provides a clear visual representation of how library resources are distributed across Italy's provinces, showcasing areas of both high and low library concentrations.</p>
 
+
+                <div class="container mx-auto py-8">
+                    <h1 class="text-2xl text-gray-700 font-bold mb-4">Library Holdings Distribution by Region and Year</h1>
+                
+                    <div class="bg-indigo-100 p-4 rounded-md inline-block mb-5">
+                    <p class="text-gray-500">Pie Chart </p></div>
+
+                    <div>
+           
+                        <div class="grid-container">
+                            <!-- Div for the pie chart -->
+                            <div class="select-container">
+                                      <!-- Add your dropdowns or other content here -->
+                                      <label for="year-select">Select Year:</label>
+                                      <select id="year-select">
+                                          <!-- Options will be populated by JavaScript -->
+                                      </select>
+                          
+                                      <label for="region-select">Select Region:</label>
+                                      <select id="region-select">
+                                          <!-- Options will be populated by JavaScript -->
+                                      </select>
+                                      </div>
+                                      <div class="chart-container">
+
+                                <canvas id="chart"></canvas>
+                            </div>
+                            <!-- Div for the dropdowns or additional information -->
+                            <div class="info-container">
+                                <p class="text-gray-500 mb-10 xl:mb-20 text-justify">
+
+                                    This interactive pie chart provides a visual representation of library data across different regions and years.<br>
+                                    It allows users to select a specific year and region to explore the distribution of library volumes within various categories.<br><br>
+                                    
+                                    <b>To use the chart:</b><br><br>
+                                    
+                                    Begin by selecting a year from the dropdown menu labeled "Select Year." <br>
+                                    This menu offers options for the years 2010-11, 2012, 2013, and 2014. <br>
+                                    Upon choosing a year, the regions available for that year will be automatically updated in the "Select Region" dropdown menu.<br>
+                                    
+                                    After selecting a year, choose a region from the updated dropdown menu. 
+                                    The pie chart will then display the data specific to the selected year and region.
+                                    Each segment of the pie chart represents a different category of library institutions according to the volume of library material they possess. <br><br>
+                                    
+                                    When you hover over any segment of the pie chart, a tooltip will appear showing the detailed volume value for that segment.
+                                    
+                                    The value indicates the number of libraries in the selected region and year who have the range of volumes indicated by the corresponding label.
+                                    
+                                    </p>
+                            </div>
+                        </div>
+
+                        <p class="text-gray-500 mt-20 xl:mt-40 mb-10 xl:mb-20 text-justify">The chart is designed to be responsive, meaning it will adjust its size based on the dimensions of its container to ensure a proper display across different devices.
+                                    
+                            For technical details, the data is sourced from JSON files specific to each year,
+                             containing information about library volumes across various regions and categories.
+                              The chart is created using Chart.js, a JavaScript library known for its interactive and responsive chart capabilities.</p>
+                  </p>
+
+
                 <div class="container mx-auto py-8">
                     <h1 class="text-2xl text-gray-700 font-bold mb-4">Geographical Distribution of Libraries associated with Ministry of Cultural Heritage, Archives and Museums</h1>
-                <p class="text-gray-500 mb-5 xl:mb-10">Map</p>
+                
+                    <div class="bg-indigo-100 p-4 rounded-md inline-block mb-5">
+                    <p class="text-gray-500">Pin Map</p></div>
                 <div id="controls">
                     <label for="Institution" class="text-gray-700 mb-5 xl:mb-10">Select Institution Type</label>
                     <select id="datasetSelect" class="text-gray-700 mb-5 xl:mb-10">
@@ -345,8 +353,21 @@ In addition to major cities, smaller towns and rural areas also host libraries, 
                         <option value="archives">Archives</option>
                         <option value="museums">Museums</option>
                     </select>
+                    
                     <div id="map1"></div>
+                    </div>
                 </div>
+
+
+
+                <label for="category-select">Select Category:</label>
+                <select id="category-select">
+                    <option value="region">Per Regione</option>
+                    <option value="geographical">Ripartizione Geografica</option>
+                    <option value="population">Ampiezza Demografica</option>
+                    <option value="classification">Classificazione e Urbanizzazione</option>
+                </select>
+                <canvas id="myChart"></canvas>
 
 
         
@@ -378,5 +399,9 @@ In addition to major cities, smaller towns and rural areas also host libraries, 
 <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
 <script src="js/viz_map1.js"></script>
 <script src="js/bibliogeomap.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="js/piechart.js" ></script>
+ <script src="js/chart2.js"></script>
+
     </body>
 </html>

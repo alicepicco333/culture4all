@@ -584,6 +584,7 @@ object {
 img,
 video {
   max-width: 100%;
+  
   height: auto;
 }
 
@@ -193713,7 +193714,9 @@ video {
             z-index: 10; 
             pointer-events: none; 
 
-        }
+        };
+
+        
 
 
         .zoom-btn {
@@ -193722,3 +193725,38 @@ video {
           font-size: 18px;
       }
       
+
+  /* Grid container to define the layout */
+.grid-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr; /* Adjusts the width ratio of the columns */
+  gap: 10px; /* Optional: Adds space between columns */
+  height: 80vh; /* Optional: Full viewport height */
+}
+
+/* Style for the chart container */
+.chart-container {
+  grid-column: 1; /* Places this div in the first column */
+  display: flex;
+  max-width: 30vw;
+  align-items: center; /* Centers the chart vertically */
+  justify-content: center; /* Centers the chart horizontally */
+}
+
+/* Style for the info container */
+.info-container {
+  grid-column: 2; /* Places this div in the second column */
+  display: flex;
+  flex-direction: column; /* Stacks dropdowns vertically */
+  gap: 10px; /* Adds space between dropdowns */
+}
+
+/* Style for the canvas element */
+#chart {
+  max-width: 100%; /* Ensures the chart scales with the container */
+  height: auto; /* Keeps the aspect ratio of the chart */
+}
+
+.text-custom-blue {
+  color: #516d97; /* Define your custom text color */
+}
