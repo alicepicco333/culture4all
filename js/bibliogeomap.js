@@ -17,17 +17,25 @@ document.addEventListener('DOMContentLoaded', function() {
     // Set transparent background for the map container
     mapElement.style.backgroundColor = 'transparent';
 
-    // Add a base tile layer
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '&copy; OpenStreetMap contributors',
-        pane: 'tilePane'
-    }).addTo(map);
-
     let geojsonLayer = null;
 
     // Load initial data on page load
-    const initialDataset = 'libraries';
+    const initialDataset = 'archives';
     loadData(initialDataset);
+
+    // Custom icon using SVG
+    const customIcon = L.divIcon({
+        html: `
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="white" stroke="#516d97" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin">
+                <path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+        `,
+        className: 'custom-marker-icon',
+        iconSize: [32, 32],
+        iconAnchor: [16, 32],
+        popupAnchor: [0, -32]
+    });
 
     // Function to load data based on selected dataset
     function loadData(dataset) {
@@ -35,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function() {
         let latitudeField, longitudeField, nameField;
 
         switch (dataset) {
-            case 'libraries':
+            case 'MIBAC libraries':
                 filePath = 'data/Dati_biblioteche/Libraries_Luoghi_Cultura.json';
                 latitudeField = 'Library_Latitude';
                 longitudeField = 'Library_Longitude';
@@ -53,6 +61,12 @@ document.addEventListener('DOMContentLoaded', function() {
                 longitudeField = 'Museum_Longitude';
                 nameField = 'Museum_Name';
                 break;
+            case 'libraries':
+                filePath = 'data/Dati_biblioteche/lat_long.json';
+                latitudeField = 'latitudine'; // Replace with correct field names if different
+                longitudeField = 'longitudine'; // Replace with correct field names if different
+                nameField = 'denominazione'; // Replace with correct field names if different
+                break;
             default:
                 console.error('Invalid dataset selection.');
                 return;
@@ -68,7 +82,7 @@ document.addEventListener('DOMContentLoaded', function() {
             })
             .then(data => {
                 console.log(`${dataset} JSON data loaded successfully:`, data);
-                processData(data, latitudeField, longitudeField, nameField);
+                processData(data, latitudeField, longitudeField, nameField, dataset);
             })
             .catch(error => {
                 console.error(`Error loading ${dataset} JSON:`, error);
@@ -77,11 +91,22 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Function to process loaded data and create GeoJSON layer
-    function processData(data, latitudeField, longitudeField, nameField) {
+    function processData(data, latitudeField, longitudeField, nameField, dataset) {
         // Clear existing GeoJSON layer if it exists
         if (geojsonLayer) {
             map.removeLayer(geojsonLayer);
         }
+
+        // Filter out specific outliers
+        data = data.filter(item => {
+            if (dataset === 'MIBAC libraries' && item[nameField] === 'Biblioteca Medica Statale di Roma') {
+                return false;
+            }
+            if (dataset === 'museums' && item[nameField] === 'Museo civico preistorico "Pietro Fedele') {
+                return false;
+            }
+            return true;
+        });
 
         // Create GeoJSON structure
         const geojsonData = {
@@ -100,8 +125,8 @@ document.addEventListener('DOMContentLoaded', function() {
                     type: 'Feature',
                     properties: {
                         name: item[nameField],
-                        city: item.City, // Adjust based on dataset structure
-                        region: item.Region // Adjust based on dataset structure
+                        city: item.City || '', // Use empty string if City is undefined
+                        region: item.Region || '' // Use empty string if Region is undefined
                     },
                     geometry: {
                         type: 'Point',
@@ -114,14 +139,11 @@ document.addEventListener('DOMContentLoaded', function() {
         // Create new GeoJSON layer
         geojsonLayer = L.geoJson(geojsonData, {
             pointToLayer: function (feature, latlng) {
-                return L.circleMarker(latlng, {
-                    radius: 8,
-                    fillColor: getColor(feature.properties.name), // Color based on name
-                    color: '#000',
-                    weight: 1,
-                    opacity: 1,
-                    fillOpacity: 0.8
-                }).bindPopup(`<b>${feature.properties.name}</b><br>${feature.properties.city}, ${feature.properties.region}`);
+                const popupContent = `<b>${feature.properties.name}</b>`;
+                const city = feature.properties.city ? `<br>${feature.properties.city}` : '';
+                const region = feature.properties.region ? `, ${feature.properties.region}` : '';
+                return L.marker(latlng, { icon: customIcon })
+                    .bindPopup(popupContent + city + region);
             }
         }).addTo(map);
 
@@ -134,6 +156,27 @@ document.addEventListener('DOMContentLoaded', function() {
         // Modify this function as per your color requirements
         return '#3388ff'; // Default color
     }
+
+    // Add GeoJSON layer for region outlines and fill Italy with pale green color
+    fetch('geojson/limits_IT_provinces.geojson')
+        .then(response => response.json())
+        .then(geojson => {
+            L.geoJson(geojson, {
+                style: function (feature) {
+                    return {
+                        color: 'white', // Outline color
+                        weight: 2,
+                        opacity: 1,
+                        fillColor: '#98FB98', // Pale green color
+                        fillOpacity: 0.5 // Adjust fill opacity as needed
+                    };
+                }
+            }).addTo(map);
+        })
+        .catch(error => {
+            console.error('Error loading region outlines:', error);
+            alert('Failed to load region outlines. Please check console for details.');
+        });
 
     // Event listener for dataset select dropdown
     const datasetSelect = document.getElementById('datasetSelect');
