@@ -339,7 +339,27 @@ In addition to major cities, smaller towns and rural areas also host libraries, 
 
 
                 <div class="container mx-auto py-8">
-                    <h1 class="text-2xl text-gray-700 font-bold mb-4">Geographical Distribution of Libraries associated with Ministry of Cultural Heritage, Archives and Museums</h1>
+                    <h1 class="text-2xl text-gray-700 font-bold ">Geographical Distribution of Libraries, Archives and Museums</h1>
+                    <p class="text-gray-500 text-justify">Libraries, archives, and museums are vital cultural and educational institutions that enrich communities by providing access to knowledge, history, and art.
+                         To better understand the distribution of these institutions, we can visualize their locations on a map. This geographic representation will help highlight areas with high concentrations of cultural institutions and identify regions that may be underserved.
+                        
+                        The pin map will feature pins indicating the locations of libraries, archives, and museums. This visualization will categorize the institutions as follows:</p>
+                    
+                        <ul class="text-gray-500 text-justify mt-5 mb-5 mt:xl-10 mb:xl-10">
+                            <li><b>Libraries:</b> Public, academic, and special libraries.</li>
+                            <li><b>MIBAC Associated Libraries:</b> Libraries associated with the Ministry of Cultural Heritage.</li>
+
+                                <li><b>Archives: </b>Repositories of historical documents and records.</li>
+                                    <li><b>Museums: </b>Institutions that preserve and exhibit collections of art, history, and science.</li></ul>
+                        
+                        <p class="text-gray-500 text-justify">By displaying this information on a map, we can achieve several goals:</p>
+
+                        <ul class="text-gray-500 text-justify mt-5 mb-5 mt:xl-10 mb:xl-10">
+                        
+                        <li><b>Identify Concentrations: </b>Highlight areas with a high density of cultural institutions, indicating regions with abundant access to these resources.</li>
+                            <li><b>Spot Gaps:</b> Reveal regions that lack sufficient libraries, archives, or museums, suggesting areas where additional resources may be needed.</li>
+                                <li><b>Analyze Accessibility: </b>Assess the geographic accessibility of cultural institutions for different populations, considering factors like urbanization and population density. </li></ul>
+                        
                 
                     <div class="bg-indigo-100 p-4 rounded-md inline-block mb-5">
                     <p class="text-gray-500">Pin Map</p></div>
@@ -356,7 +376,32 @@ In addition to major cities, smaller towns and rural areas also host libraries, 
                     </div>
                 </div>
 
+<div class="container">
+    <h1 class="text-2xl text-gray-700 font-bold">Geographical Distribution of Library Loans according to Region, Geographic Partition, Population Demographics and Urban Area Classification</h1>
+    <p class="text-gray-500 text-justify">
 
+        Libraries serve as essential hubs for education, culture, and community engagement, offering invaluable resources to residents across various regions.
+        To optimize library services and ensure equitable access, it is crucial to understand how library loans are distributed among different populations and areas.
+        This analysis focuses on the number of library loans categorized by region, geographic partition, population demographics, and urban area classification.<br><br>
+        
+        The bar graph presented will visualize the data to highlight key patterns and differences in library usage. Specifically, the categories analyzed include:<br><br></p>
+        <ul class="text-gray-500 text-justify">
+        <li> <b>Region:</b> Broad areas such as North, South, East, and West.</li>
+            <li><b>Geographic Partition: </b>Specific subdivisions within regions, like Northeast, South, and Islands.</li>
+                <li><b>Population Demographics:</b> Number of inhabitants in an area, offering insights into how population density impacts library usage.</li>
+                    <li><b>Urban Area Classification:</b> Types of areas, including Urban, Suburban, and Rural, to examine the influence of urbanization on library loans.</li>
+        </ul><br>
+        <p class="text-gray-500 mb-10 xl:mb-20 text-justify">
+        By breaking down the number of library loans in this manner, we aim to identify trends that can inform library policy and resource allocation.
+         This data-driven approach will help ensure that library services are effectively meeting the needs of diverse populations, regardless of their demographic or geographic characteristics.</p>
+
+</div>
+
+
+<div class="bg-indigo-100 p-4 rounded-md inline-block mb-5">
+    <p class="text-gray-500">Bar Chart</p></div>
+
+    <div>
 
                 <label for="category-select">Select Category:</label>
                 <select id="category-select">
@@ -364,8 +409,9 @@ In addition to major cities, smaller towns and rural areas also host libraries, 
                     <option value="geographical">Ripartizione Geografica</option>
                     <option value="population">Ampiezza Demografica</option>
                     <option value="classification">Classificazione e Urbanizzazione</option>
-                </select>
-                <canvas id="myChart"></canvas>
+                </select></div>
+                <canvas id="myChart" class="mb-20 xl:mb-40"></canvas>
+
 
 
         
@@ -376,12 +422,36 @@ In addition to major cities, smaller towns and rural areas also host libraries, 
                     <h1
                         class="font-medium text-gray-700 text-2xl md:text-5xl mb-5"
                     >
-                        Contact with me
+                        Our Team
                     </h1>
+                    <div class="grid grid-cols-3 gap-4">
+                        <div class="col-span-1">
 
-                    <p class="font-normal text-gray-400 text-sm md:text-lg mb-20">
-                
-                    </p>
+
+                            <h1 class="font-normal text-indigo-800 text-xl md:text-2xl">
+                                Corrado Consiglio
+                            </h1>
+                            <p class="text-gray-500">Data Gathering - Data Cleaning</p>
+                        </div>
+                    
+                        <div class="col-span-1">
+
+                            <h4 class="font-normal text-indigo-800 text-xl md:text-2xl">
+                                Salvatore Di Marzo
+                            </h4>
+                            <p class="text-gray-500">Data Gathering - Data Cleaning</p>
+                        </div>
+                    
+                        <div class="col-span-1">
+
+                            <h4 class="font-normal text-indigo-800 text-xl md:text-2xl">
+                                Alice Picco
+                            </h4>
+                            <p class="text-gray-500">Data Visualization and Web Development</p>
+                        </div>
+                    </div>
+                    
+                  
 
                     
                 </div>
