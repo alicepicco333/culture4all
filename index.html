@@ -173,12 +173,12 @@
                         >                                Objectives
                             </h1>
                             <ul class="list-disc text-left text-gray-500 mb-20 xl:mb-40">
-                                <li><b>Assess Accessibility</b>: Evaluate the accessibility of cultural events and initiatives based on their cost.</li><br>
-                                <li><b>Compare Participation Rates</b>: Compare attendance and participation rates between free and paid cultural events.</li><br>
-                                <li><b>Economic Impact</b>: Analyze the economic impact of cultural events on different demographics.</li><br>
-                                <li><b>Cultural Value Perception</b>: Understand public perception of value associated with free vs. paid cultural events.</li><br>
-                                <li><b>Support Policy Making</b>: Provide data-driven insights for policymakers to support equitable cultural funding and access.</li><br>
-                            </ul>
+                                <li><b>Geographical Distribution of Cultural Institutions</b>: Analyze the distribution and density of libraries, archives, and museums across different regions of Italy, highlighting areas of high and low concentration.</li><br>
+                                <li><b>Library Usage Patterns</b>: Examine patterns in library loans across various regions, demographic groups, and urban classifications to understand how library services are utilized.</li><br>
+                                <li><b>Regional Reading Habits</b>: Assess reading behaviors across different regions, focusing on the percentage of individuals engaged in various levels of reading and their format preferences.</li><br>
+                                <li><b>Access and Equity</b>: Evaluate the accessibility of cultural institutions in urban versus rural areas, identifying regions with limited access to cultural resources and proposing targeted improvements.</li><br>
+                                <li><b>Support Policy Making</b>: Provide data-driven insights for policymakers to enhance cultural infrastructure and address disparities in cultural access and library services.</li><br>
+                                
                         </div>
                     </div>
 
@@ -450,7 +450,7 @@ In addition to major cities, smaller towns and rural areas also host libraries, 
                         <p class="text-gray-500">Line Chart</p></div>
                     
                         <div>
-                <div id="visualization" class="mb-20 w-full">
+                <div id="visualization" class="mb-20 ">
                     <canvas id="readingChart"></canvas>
                 </div>
 
@@ -461,56 +461,68 @@ In addition to major cities, smaller towns and rural areas also host libraries, 
             >
 Conclusions </h1>
 
- <h1 class="text-2xl text-gray-700 font-bold">Reading Habits in Italy by Region - 2021</h1>
 
 
+<p class="text-gray-500 text-justify">
+
+    The <b>Culture for All (C4A)</b> project has offered a rich and detailed analysis of Italy’s cultural landscape, focusing on the distribution of cultural institutions and reading habits. This comprehensive examination has illuminated significant patterns and disparities that are essential for fostering a more inclusive and accessible cultural environment.</p><br><br>
+    
+    <p class="text-gray-500 text-justify"><b>Distribution of Cultural Institutions:</b> The project's findings reveal a clear concentration of libraries, archives, and museums in major urban centers and historically significant regions, such as Lombardy, Veneto, Tuscany, and Lazio. This clustering reflects the economic and cultural prominence of these areas. However, the analysis also highlights a substantial presence of cultural institutions in smaller towns and rural areas, which ensures that cultural engagement extends beyond metropolitan centers. Despite this widespread distribution, certain regions, particularly in remote or less populated areas, exhibit lower concentrations of these vital institutions. This uneven distribution indicates a need for targeted efforts to improve cultural access in underserved regions. Enhancing the presence of cultural institutions in these areas could contribute to a more equitable cultural landscape across the country.</p><br><br>
+    
+    <p class="text-gray-500 text-justify"><b>Library Usage Patterns:</b> The detailed analysis of library loans reveals significant variations in library usage based on region, demographic groups, and urban classification. Urban areas generally demonstrate higher library loan rates compared to rural regions, suggesting that population density and urbanization significantly impact library service utilization. Additionally, demographic factors play a crucial role in library usage patterns. Understanding these variations is essential for optimizing library services and ensuring that they meet the diverse needs of different communities. The data suggests that libraries in urban areas are more frequently used, while rural areas may require additional support to boost library engagement. Tailoring library services to address these regional and demographic differences can help ensure more effective and equitable resource distribution.</p><br><br>
+    
+    <p class="text-gray-500 text-justify"><b>Regional Reading Habits:</b> The examination of reading habits across various regions of Italy provides valuable insights into how reading behaviors differ geographically. The data highlights several key metrics, such as the percentage of individuals reading one to three books versus twelve or more books, and preferences for printed versus digital formats. These insights reveal diverse reading engagement levels and format preferences across different regions. For instance, some regions may show a higher percentage of avid readers, while others may have a more moderate reading engagement. Additionally, the preference for printed versus digital books varies, reflecting broader trends in reading habits. Understanding these regional differences is crucial for developing targeted reading initiatives and promoting reading culture effectively. Tailored programs that address specific regional needs and preferences can help foster a stronger reading culture and encourage greater literary engagement.</p><br><br>
+    
+    <p class="text-gray-500 text-justify mb-20 xl:mb-20">In summary, the C4A project underscores the importance of addressing disparities in cultural access and optimizing library services to meet diverse needs. The findings highlight the need for targeted interventions to enhance the cultural infrastructure, particularly in underserved regions. By leveraging the insights gained from this project, policymakers and cultural stakeholders can make informed decisions to support a more inclusive and vibrant cultural ecosystem in Italy. These efforts will contribute to a richer cultural experience for all Italians, regardless of their geographic or demographic characteristics.</p>
+    
+
+    <p class="text-gray-500 text-justify"><b>Technologies used:</b>
+        <ul class="text-gray-500 text-justify mb-20 xl:mb-20">
+            <li>GeoJSON files</li>
+            <li>Leaflet.js</li>
+            <li>Chart.js</li>
 
 
+        </ul>
         
 
-        <footer class="bg-indigo-50 py-16 mb-10">
-            <div class="container max-w-screen-xl mx-auto px-4">
-                <div class="text-center">
-                    <h1
-                        class="font-medium text-gray-700 text-2xl md:text-5xl mb-5"
-                    >
+      
+            <div class="container max-w-screen-xl mt-20 mx-auto px-4">
+                <div class="text-center mt-8 mb-20">
+                    <h1 class="font-medium text-gray-700 text-2xl md:text-5xl mb-5">
                         Our Team
                     </h1>
-                    <div class="grid grid-cols-3 gap-4">
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mx-4 mb-20">
                         <div class="col-span-1">
-
-
-                            <h1 class="font-normal text-indigo-800 text-xl md:text-2xl">
+                            <h2 class="font-normal text-indigo-800 text-xl md:text-2xl mb-2">
                                 Corrado Consiglio
-                            </h1>
+                            </h2>
+                            <img src="assets/image/image1.jpeg" alt="Corrado Consiglio" class="w-40 h-40 object-cover mx-auto mb-2 rounded-lg border border-gray-300">
                             <p class="text-gray-500">Data Gathering - Data Cleaning</p>
                         </div>
-                    
+                        
                         <div class="col-span-1">
-
-                            <h4 class="font-normal text-indigo-800 text-xl md:text-2xl">
+                            <h2 class="font-normal text-indigo-800 text-xl md:text-2xl mb-2">
                                 Salvatore Di Marzo
-                            </h4>
+                            </h2>
+                            <img src="assets/image/image0.jpeg" alt="Salvatore Di Marzo" class="w-40 h-40 object-cover mx-auto mb-2 rounded-lg border border-gray-300">
                             <p class="text-gray-500">Data Gathering - Data Cleaning</p>
                         </div>
-                    
+                        
                         <div class="col-span-1">
-
-                            <h4 class="font-normal text-indigo-800 text-xl md:text-2xl">
+                            <h2 class="font-normal text-indigo-800 text-xl md:text-2xl mb-2">
                                 Alice Picco
-                            </h4>
+                            </h2>
+                            <img src="assets/image/alice.jpg" alt="Alice Picco" class="w-40 h-40 object-cover mx-auto mb-2 rounded-lg border border-gray-300">
                             <p class="text-gray-500">Data Visualization and Web Development</p>
                         </div>
                     </div>
-                    
-                  
-
-                    
                 </div>
-            </div>
 
-        </footer>
 
+                <footer class="bg-indigo-100 text-gray-600 text-xs py-4 text-center w-full">
+                    <p>This project was created for the Information Visualization course at the University of Bologna and will not be maintained.</p>
+                </footer>
         <script>
             feather.replace();
         </script>
