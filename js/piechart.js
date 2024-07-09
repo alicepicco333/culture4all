@@ -26,17 +26,28 @@ const labelColorMapping = {
 // Function to fetch data from a given URL
 async function fetchData(year) {
     if (allData[year]) {
+        console.log(`Data for year ${year} is already fetched.`);
         return; // Data already fetched
     }
 
+    console.log(`Fetching data for year ${year}...`);
     try {
         const response = await fetch(urls[year]);
+        console.log(`Response status for year ${year}: ${response.status}`);
+
         if (!response.ok) {
             throw new Error(`Network response was not ok for year ${year}`);
         }
+
         const data = await response.json();
+        console.log(`Raw data for year ${year}:`, data);
+
+        if (typeof data !== 'object' || data === null) {
+            throw new Error(`Invalid data format for year ${year}`);
+        }
+
         allData[year] = data;
-        console.log(`Data for ${year} loaded successfully:`, data);
+        console.log(`Data for ${year} loaded successfully and stored in allData:`, allData[year]);
     } catch (error) {
         console.error(`Fetching data failed for year ${year}:`, error);
     }
@@ -47,6 +58,7 @@ async function populateRegionSelect(year) {
     console.log(`Populating region select for year: ${year}`);
 
     if (!allData[year]) {
+        console.log(`Data for year ${year} not found in allData. Fetching data...`);
         await fetchData(year); // Data not yet available, fetch it
     }
 
