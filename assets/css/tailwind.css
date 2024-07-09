@@ -193764,7 +193764,7 @@ video {
 
 
 #visualization {
-    width: 960px;
+    width: 1360px;
     margin: 0 auto;
 }
 
@@ -193787,3 +193787,6 @@ video {
 .x.axis path {
     display: none;
 }
+
+
+
