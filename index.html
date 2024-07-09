@@ -31,6 +31,7 @@
    
     <!-- D3.js -->
     <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
     <!-- Leaflet JS -->
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 
@@ -39,6 +40,8 @@
        <!-- Plotly.js -->
        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
        <script src="https://cdn.jsdelivr.net/npm/papaparse@5/papaparse.min.js"></script> <!-- PapaParse for CSV parsing -->
+       <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
      
     </head>
 
@@ -248,13 +251,13 @@
                 <h1
                     class="font-semibold text-gray-700 text-6xl md:text-6xl xl:text-7xl text-center leading-tight mb-20 xl:mb-30"
                 >
-            Visualizations
+            Data Visualizations
                     
                 </h1>
                 <h1
                 class="font-semibold text-gray-700 text-4xl md:text-4xl xl:text-5xl text-left leading-tight mb-0 xl:mb-5"
             >
-        Libraries, Archives, Museums
+       1. Cultural Institutions in Italy: Libraries, Archives, Museums
  </h1>
         <p class="text-gray-500 text-justify mb-0 xl:mb-5">
 
@@ -376,6 +379,11 @@ In addition to major cities, smaller towns and rural areas also host libraries, 
                     </div>
                 </div>
 
+                <h1
+                class="font-semibold text-gray-700 text-4xl md:text-4xl xl:text-5xl text-left leading-tight mb-0 xl:mb-5"
+                >
+                2. Library Loans and Reading Habits
+                </h1>
 <div class="container">
     <h1 class="text-2xl text-gray-700 font-bold">Geographical Distribution of Library Loans according to Region, Geographic Partition, Population Demographics and Urban Area Classification</h1>
     <p class="text-gray-500 text-justify">
@@ -398,6 +406,8 @@ In addition to major cities, smaller towns and rural areas also host libraries, 
 </div>
 
 
+
+
 <div class="bg-indigo-100 p-4 rounded-md inline-block mb-5">
     <p class="text-gray-500">Bar Chart</p></div>
 
@@ -411,6 +421,38 @@ In addition to major cities, smaller towns and rural areas also host libraries, 
                     <option value="classification">Classificazione e Urbanizzazione</option>
                 </select></div>
                 <canvas id="myChart" class="mb-20 xl:mb-40"></canvas>
+
+
+
+                <h1 class="text-2xl text-gray-700 font-bold">Reading Habits in Italy by Region - 2021</h1>
+
+                <p class="text-gray-500 text-justify">
+
+                    The following bar graph provides a comprehensive visualization of reading habits across various regions in Italy for the year 2021. This data sheds light on the reading behaviors of individuals aged 6 and above, highlighting several key metrics:</p>
+                    
+                    <ol class="text-gray-500 text-justify mt-5 xl:mt-10 mb-5 xl:mb-10">
+                   <li> 1. Percentage of Individuals Reading At Least One Book: This metric shows the proportion of people who read at least one book in the past year, indicating overall reading engagement.</li>
+                    
+                   <li> 2. Percentage of Individuals Reading One to Three Books: This figure represents the share of individuals who read between one and three books, reflecting moderate reading habits. </li>
+                    
+                   <li> 3. Percentage of Individuals Reading Twelve or More Books: This statistic highlights the percentage of avid readers who have read twelve or more books, showcasing high levels of reading enthusiasm.</li>
+                    
+                 <li>   4. Percentage of Individuals Reading Only Printed Books: This data point illustrates the percentage of readers who exclusively consumed printed books, indicating a preference for traditional book formats.</li>
+                    
+                   <li> 5. Percentage of Individuals Reading Only Digital Books: This metric reveals the proportion of readers who only used digital formats, reflecting trends in digital reading preferences.</li>
+                    
+                   <li> 6. Percentage of Individuals Reading Both Printed and Digital Books: This figure shows the share of readers who engaged with both printed and digital books, representing a hybrid approach to reading.</ol>
+                    
+                   <p class="text-gray-500 text-justify mb-5 xl:mb-10"> The bar graph displays these metrics across Italy's diverse regions, allowing for a comparative analysis of regional reading habits. It provides valuable insights into how reading preferences vary geographically and helps understand regional differences in reading behavior within Italy.
+                    
+                    This visualization serves as a useful tool for policymakers, educators, and cultural organizations aiming to foster reading culture and tailor their strategies to regional needs.</p>
+                    <div class="bg-indigo-100 p-4 rounded-md inline-block mb-5">
+                        <p class="text-gray-500">Line Chart</p></div>
+                    
+                        <div>
+                <div id="visualization">
+                    <canvas id="readingChart"></canvas>
+                </div>
 
 
 
@@ -470,6 +512,8 @@ In addition to major cities, smaller towns and rural areas also host libraries, 
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="js/piechart.js" ></script>
  <script src="js/chart2.js"></script>
+ <script src="https://d3js.org/d3.v7.min.js"></script>
+ <script src="js/read.js" defer></script>
 
     </body>
 </html>

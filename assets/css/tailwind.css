@@ -193760,3 +193760,30 @@ video {
 .text-custom-blue {
   color: #516d97; /* Define your custom text color */
 }
+
+
+
+#visualization {
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+
+.axis path,
+.axis line {
+    fill: none;
+    shape-rendering: crispEdges;
+}
+
+.bar {
+    fill: steelblue;
+}
+
+.bar:hover {
+    fill: orange;
+}
+
+.x.axis path {
+    display: none;
+}
