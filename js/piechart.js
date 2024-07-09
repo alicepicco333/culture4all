@@ -37,12 +37,6 @@ async function fetchData(year) {
         const data = await response.json();
         allData[year] = data;
         console.log(`Data for ${year} loaded successfully:`, data);
-
-        // If this is the first data load, initialize the chart
-        if (year === document.getElementById('year-select').value) {
-            await populateRegionSelect(year);
-            updateChart();
-        }
     } catch (error) {
         console.error(`Fetching data failed for year ${year}:`, error);
     }
@@ -54,6 +48,11 @@ async function populateRegionSelect(year) {
 
     if (!allData[year]) {
         await fetchData(year); // Data not yet available, fetch it
+    }
+
+    if (!allData[year]) {
+        console.error(`Data for year ${year} is still not available after fetching.`);
+        return;
     }
 
     const regionSelect = document.getElementById('region-select');
