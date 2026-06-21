@@ -1,541 +1,705 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>C4A / Culture for All</title>
-        <link rel="stylesheet" href="assets/css/tailwind.css" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
-            rel="stylesheet"
-        />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>C4A — Culture for All</title>
 
-    <!-- Leaflet CSS -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-        <script
-            src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.28.0/feather.min.js"
-            integrity="sha512-7x3zila4t2qNycrtZ31HO0NnJr8kg2VI67YLoRSyi9hGhRN66FHYWr7Axa9Y1J9tGYHVBPqIjSE1ogHrJTz51g=="
-            crossorigin="anonymous"
-            referrerpolicy="no-referrer"
-        ></script>
-        <script
-            defer
-            src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"
-        ></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
 
-        <script src="https://cdn.jsdelivr.net/npm/chroma-js@2.4.2/chroma.min.js"></script>
+  <style>
+    /* ── Tokens ── */
+    :root {
+      --bg:        #f7f6f2;
+      --surface:   #ffffff;
+      --text:      #1c1f2e;
+      --text-2:    #5a6072;
+      --text-3:    #9aa0b3;
+      --accent:    #1e3a6e;
+      --accent-bg: #eef2fb;
+      --border:    #e2dfd8;
+      --radius:    12px;
+      --nav-h:     60px;
+    }
 
-   
-    <!-- D3.js -->
-    <script src="https://d3js.org/d3.v6.min.js"></script>
-    <script src="https://d3js.org/d3.v7.min.js"></script>
-    <!-- Leaflet JS -->
-    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
 
-       <!-- Leaflet JS -->
-       <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-       <!-- Plotly.js -->
-       <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-       <script src="https://cdn.jsdelivr.net/npm/papaparse@5/papaparse.min.js"></script> <!-- PapaParse for CSV parsing -->
-       <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    body {
+      font-family: 'Poppins', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      font-size: 1rem;
+    }
 
-     
-    </head>
+    /* ── Nav ── */
+    .nav {
+      position: sticky;
+      top: 0;
+      z-index: 500;
+      height: var(--nav-h);
+      background: rgba(247, 246, 242, 0.9);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 2.5rem;
+    }
+    .nav-logo {
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--accent);
+      letter-spacing: -0.02em;
+      text-decoration: none;
+    }
+    .nav-logo span { font-weight: 300; color: var(--text-3); }
+    .nav-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-size: 0.8rem;
+      font-weight: 500;
+      color: var(--text);
+      border: 1.5px solid var(--border);
+      padding: 0.38rem 1rem;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: border-color 0.2s, color 0.2s, background 0.2s;
+    }
+    .nav-link:hover { border-color: var(--accent); color: var(--accent); background: var(--accent-bg); }
 
-    <body>
-        <section class="py-16">
-            <div class="container max-w-screen-xl mx-auto px-4">
-                <nav
-                    class="flex-wrap lg:flex items-center justify-between mb-24 xl:mb-48"
-                    x-data="{navbarOpen:false}"
-                >
-                    <div class="flex items-center mb-10 lg:mb-0">
+    /* ── Shared ── */
+    .wrap { max-width: 1180px; margin: 0 auto; padding: 0 2.5rem; }
+    .divider { border: none; border-top: 1px solid var(--border); }
+    .eyebrow {
+      display: inline-block;
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 0.6rem;
+    }
+    .display {
+      font-size: clamp(2.8rem, 6vw, 5.2rem);
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      line-height: 1.05;
+    }
+    .heading-2 {
+      font-size: clamp(1.5rem, 2.8vw, 2.2rem);
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      line-height: 1.2;
+    }
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      font-size: 0.65rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 0.2rem 0.55rem;
+      background: var(--accent-bg);
+      color: var(--accent);
+      border-radius: 4px;
+      margin-bottom: 0.35rem;
+    }
+    .body-text { font-size: 0.9rem; color: var(--text-2); line-height: 1.8; }
+    .body-small { font-size: 0.8rem; color: var(--text-2); line-height: 1.7; }
 
-                        <button
-                            class="w-10 h-10 lg:hidden ml-auto flex items-center justify-center text-indigo-900 border border-indigo-900 rounded-md"
-                            @click="navbarOpen = !navbarOpen"
-                        >
-                            <i data-feather="menu"></i>
-                        </button>
-                    </div>
+    /* ── Controls ── */
+    .ctrl-label {
+      display: block;
+      font-size: 0.68rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 0.35rem;
+    }
+    .ctrl-select {
+      width: 100%;
+      padding: 0.45rem 2rem 0.45rem 0.7rem;
+      border: 1.5px solid var(--border);
+      border-radius: 7px;
+      font-family: 'Poppins', sans-serif;
+      font-size: 0.8rem;
+      color: var(--text);
+      background: var(--bg);
+      outline: none;
+      cursor: pointer;
+      appearance: none;
+      -webkit-appearance: none;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='11' height='11' viewBox='0 0 24 24' fill='none' stroke='%235a6072' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 0.6rem center;
+      transition: border-color 0.2s;
+      margin-bottom: 1rem;
+    }
+    .ctrl-select:focus { border-color: var(--accent); }
 
-                    <ul
-                        class="lg:flex flex-col lg:flex-row lg:items-center lg:space-x-20 mb-10 xl:mb-0"
-                        :class="{'hidden':!navbarOpen,'flex':navbarOpen}"
-                    >
-                 
-                        <li
-                            class="px-8 py-3 font-medium text-indigo-900 text-lg text-center border-2 border-indigo-900 rounded-md hover:bg-indigo-900 hover:text-white transiton ease-linear duration-300"
-                        >
-                            <a href="https://github.com/alicepicco333/culture4all">View on Github</a>
-                        </li>
-                    </ul>
-                </nav>
-                <section>
-                    <!-- container.// -->
-                    <header class="flex flex-col lg:flex-row items-center lg:items-start justify-between lg:mb-20">
-                        <div class="text-center lg:text-left mb-10 lg:mb-0 lg:w-1/2">
-                            <div class="flex items-center justify-center lg:justify-start gap-2 mb-6">
-                                <p class="font-medium text-indigo-900 text-xl">
-                                    A Data Visualization Project for Culture Lovers
-                                </p>
-                            </div>
-            
-                            <h1 class="font-semibold text-gray-700 text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-left leading-tight mb-8">
-                                C4A /<br> Culture for All
-                            </h1>
-            
-                            <p class="font-normal text-gray-500 text-sm md:text-md xl:text-lg mb-8">
-                                This is the repository for the final project of the course Information Visualization at University of Bologna, <br>
-                                Digital Humanities and Digital Knowledge MA 2023/2024. 
-                            </p>
-            
-                            <div class="space-y-4 lg:space-x-4 lg:space-y-0 mb-8">
-                              
-                                <a href="https://github.com/alicepicco333/culture4all" class="block md:inline px-8 py-3 font-medium text-indigo-900 text-lg border-2 border-indigo-900 rounded-md hover:bg-indigo-900 hover:text-white transition ease-linear duration-300">
-                                    View on Github
-                                </a>
-                             
-                            </div>
+    /* ── Hero ── */
+    .hero {
+      min-height: calc(100vh - var(--nav-h));
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3rem;
+      align-items: center;
+      padding: 4rem 2.5rem;
+      max-width: 1180px;
+      margin: 0 auto;
+    }
+    .hero-quote {
+      font-size: 0.95rem;
+      font-style: italic;
+      color: var(--text-3);
+      margin-top: 2rem;
+      padding-left: 1rem;
+      border-left: 2px solid var(--border);
+      line-height: 1.6;
+    }
+    .hero-image { border-radius: var(--radius); overflow: hidden; aspect-ratio: 4 / 3; }
+    .hero-image img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .btn-outline {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      margin-top: 2rem;
+      padding: 0.6rem 1.4rem;
+      border: 1.5px solid var(--accent);
+      border-radius: 7px;
+      font-size: 0.8rem;
+      font-weight: 500;
+      color: var(--accent);
+      text-decoration: none;
+      transition: background 0.2s, color 0.2s;
+    }
+    .btn-outline:hover { background: var(--accent); color: #fff; }
 
-                            <span class="font-normal text-gray-500 text-sm mt-20 xl:mt-40 mb-20 xl:mb-40">
-                                This project has been developed by <br>Alice Picco, Corrado Consiglio and Salvatore Di Marzo.
-                            </span>
-            
-            
-            
-                        </div>
-            
-                        <div class="lg:w-1/2 flex justify-center lg:justify-end">
-                            <img src="assets/image/library-488690_1920-800x500.jpg" alt="Image" class="opacity-90 w-full h-auto max-w-full max-h-[600px] object-cover"/>
-                        </div>
-                    </header>
-                </section>
+    /* ── Static sections ── */
+    .section { padding: 5rem 0; }
+    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: start; margin-top: 2.5rem; }
+    .objectives-list { list-style: none; display: flex; flex-direction: column; gap: 0.75rem; }
+    .objectives-list li { display: flex; gap: 0.75rem; align-items: flex-start; font-size: 0.875rem; color: var(--text-2); line-height: 1.65; }
+    .objectives-list li::before { content: ''; flex-shrink: 0; width: 5px; height: 5px; border-radius: 50%; background: var(--accent); margin-top: 0.6rem; }
+    .method-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 1rem; margin-top: 2.5rem; }
+    .method-step { background: var(--surface); border-radius: var(--radius); padding: 1.25rem; border: 1px solid var(--border); }
+    .step-num { display: inline-flex; align-items: center; justify-content: center; width: 1.75rem; height: 1.75rem; border-radius: 50%; background: var(--accent-bg); color: var(--accent); font-size: 0.75rem; font-weight: 700; margin-bottom: 0.75rem; }
+    .conclusion-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; margin-top: 2.5rem; }
+    .conclusion-card { background: var(--surface); border-radius: var(--radius); border: 1px solid var(--border); padding: 1.5rem; }
+    .conclusion-card h3 { font-size: 0.9rem; font-weight: 600; margin-bottom: 0.6rem; }
+    .team-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; margin-top: 2.5rem; }
+    .team-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.5rem; text-align: center; }
+    .team-card img { width: 72px; height: 72px; object-fit: cover; border-radius: 50%; margin: 0 auto 0.75rem; display: block; border: 2px solid var(--border); }
+    .team-card h3 { font-size: 0.9rem; font-weight: 600; margin-bottom: 0.2rem; }
+    .team-card p { font-size: 0.78rem; color: var(--text-3); }
+    footer { border-top: 1px solid var(--border); padding: 2rem 2.5rem; text-align: center; font-size: 0.75rem; color: var(--text-3); line-height: 1.9; }
 
-        <section class="py-16 lg:mb-20">
-            <div class="container max-w-screen-xl mx-auto px-4">
-                <h1
-                    class="font-semibold text-gray-700 text-2xl md:text-3xl xl:text-5xl text-center leading-tight mb-5 xl:mb-10"
-                >
-            "Culture is the arts elevated to 
+    /* ══ FULL-HEIGHT VIZ SECTIONS ══ */
+    .viz-full {
+      height: 100vh;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      scroll-margin-top: var(--nav-h);
+    }
+    .viz-full-inner {
+      flex: 1;
+      min-height: 0;
+      display: flex;
+      flex-direction: column;
+      max-width: 1180px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 1.25rem 2.5rem 1.5rem;
+    }
+    .viz-hdr { flex-shrink: 0; margin-bottom: 0.75rem; }
+    .viz-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+    }
+    .inline-ctrl {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      flex-shrink: 0;
+    }
+    .inline-ctrl label {
+      font-size: 0.68rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--accent);
+      white-space: nowrap;
+    }
+    .inline-ctrl select {
+      padding: 0.38rem 1.8rem 0.38rem 0.6rem;
+      border: 1.5px solid var(--border);
+      border-radius: 7px;
+      font-family: 'Poppins', sans-serif;
+      font-size: 0.8rem;
+      color: var(--text);
+      background: var(--bg);
+      outline: none;
+      cursor: pointer;
+      appearance: none;
+      -webkit-appearance: none;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='11' height='11' viewBox='0 0 24 24' fill='none' stroke='%235a6072' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 0.5rem center;
+      transition: border-color 0.2s;
+    }
+    .inline-ctrl select:focus { border-color: var(--accent); }
 
-                    <span class="text-indigo-900"
-                        > a set of beliefs."
-                        </span
-                    >
-                </h1>
+    /* Split layout (viz 1 & 3): left = map/chart, right = info panel */
+    .viz-split {
+      flex: 1;
+      min-height: 0;
+      display: grid;
+      grid-template-columns: 60fr 40fr;
+      gap: 1.25rem;
+    }
+    .viz-split > * { min-height: 0; }
 
-                <p class="text-center text-gray-400 mb-20 xl:mb-40">
-                
-                    Thomas Wolfe</p>
+    #map, #map1 {
+      height: 100%;
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      z-index: 0;
+    }
 
-                    <h1
-                    class="font-semibold text-gray-700 text-6xl md:text-6xl xl:text-7xl text-center leading-tight mb-10 xl:mb-20"
-                >                        Introducing C4A
-                    </h1>
+    /* Info panel (right side of split) */
+    .info-panel {
+      overflow-y: auto;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.25rem 1.5rem;
+      display: flex;
+      flex-direction: column;
+    }
 
-                    <hr class="text-gray-500 mb-10 xl:mb-20" />
+    /* Pie layout (viz 2) */
+    .viz-pie-layout {
+      flex: 1;
+      min-height: 0;
+      display: grid;
+      grid-template-columns: 220px 1fr;
+      gap: 1.25rem;
+    }
+    .viz-pie-layout > * { min-height: 0; }
+    .controls-panel {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.1rem 1.25rem;
+      display: flex;
+      flex-direction: column;
+      overflow-y: auto;
+    }
+    .ctrl-hint {
+      margin-top: auto;
+      padding-top: 1rem;
+      font-size: 0.75rem;
+      color: var(--text-3);
+      line-height: 1.6;
+      border-top: 1px solid var(--border);
+    }
+    .pie-chart-area {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1rem;
+      position: relative;
+      min-height: 0;
+    }
+    .pie-chart-area canvas { display: block; }
 
+    /* D3 chart areas (viz 4 & 5) */
+    .viz-chart-area {
+      flex: 1;
+      min-height: 0;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1rem 1.25rem;
+      position: relative;
+    }
+    .viz-chart-area > div { width: 100%; height: 100%; }
 
-                    
+    /* D3 tooltip shared */
+    .d3-tip {
+      position: absolute;
+      pointer-events: none;
+      opacity: 0;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 0.45rem 0.75rem;
+      font-family: 'Poppins', sans-serif;
+      font-size: 0.78rem;
+      color: var(--text);
+      box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+      white-space: nowrap;
+      z-index: 10;
+      transition: opacity 0.12s;
+    }
 
-                    <div class="grid grid-cols-2 gap-20">
-                        <div class="col-span-1">
-                            <h1
-                            class="font-semibold text-indigo-900 text-4xl md:text-4xl xl:text-5xl text-center leading-tight mb-20 xl:mb-30"
-                        >                                The Concept
-                            </h1>
-                            <p class="text-left text-gray-500 mb-20 xl:mb-40">
-                                Utilizing a blend of datasets, the project provides a comprehensive overview of habits,
-                                 preferences, and regional disparities in cultural engagement across the country. 
-                                 <br><br>
-                    
-                                 By leveraging data visualization techniques, we aim to make complex data accessible and engaging,
-                                  fostering a deeper understanding of Italy's cultural landscape.<br> Through interactive visualizations 
-                                  and insightful interpretations, this project seeks to highlight the interconnectedness of cultural 
-                                  activities and demographic factors, thereby enriching the discourse on cultural policy and societal engagement. 
-                    
-                                <br><br>
-                                The findings from this research endeavor will contribute to academia, 
-                                providing empirical evidence to inform policymakers and stakeholders in the cultural sector.
-                                 Ultimately, this project aims to promote a more inclusive and vibrant cultural ecosystem in Italy, 
-                                 fostering appreciation for literature, arts, and cultural heritage among its diverse population.
-                            </p>
-                        </div>
-                        <div class="col-span-1">
-                            <h1
-                            class="font-semibold text-indigo-900 text-4xl md:text-4xl xl:text-5xl text-center leading-tight mb-20 xl:mb-30"
-                        >                                Objectives
-                            </h1>
-                            <ul class="list-disc text-left text-gray-500 mb-20 xl:mb-40">
-                                <li><b>Geographical Distribution of Cultural Institutions</b>: Analyze the distribution and density of libraries, archives, and museums across different regions of Italy, highlighting areas of high and low concentration.</li><br>
-                                <li><b>Library Usage Patterns</b>: Examine patterns in library loans across various regions, demographic groups, and urban classifications to understand how library services are utilized.</li><br>
-                                <li><b>Regional Reading Habits</b>: Assess reading behaviors across different regions, focusing on the percentage of individuals engaged in various levels of reading and their format preferences.</li><br>
-                                <li><b>Access and Equity</b>: Evaluate the accessibility of cultural institutions in urban versus rural areas, identifying regions with limited access to cultural resources and proposing targeted improvements.</li><br>
-                                <li><b>Support Policy Making</b>: Provide data-driven insights for policymakers to enhance cultural infrastructure and address disparities in cultural access and library services.</li><br>
-                                
-                        </div>
-                    </div>
+    /* Leaflet overrides */
+    .leaflet-container .info {
+      padding: 0.5rem 0.7rem;
+      background: var(--surface);
+      border-radius: 8px;
+      font-size: 0.78rem;
+      color: var(--text);
+      border: 1px solid var(--border);
+      font-family: 'Poppins', sans-serif;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
 
-                    
-                    <section>
-                
-                        <h1 class="font-semibold text-gray-700 text-4xl md:text-4xl xl:text-5xl text-center leading-tight mb-10 xl:mb-20">
-                            Methodology
-                        </h1>
-                
-                        <div class="flex flex-col xl:flex-row gap-10">
-                            <div class="flex-grow mx-auto xl:mx-0 mb-25 xl:mb-40">
-                                <img src="https://www.smartworld.it/images/2023/04/26/leggere-libri-app_1200x675.jpg" alt="Image" class="opacity-90 w-full h-auto max-w-[1000px] max-h-[800px] object-cover"/>
-                            </div>
-                
-                            <div class="grid grid-cols-1 xl:grid-cols-2 text-center xl:text-left xl:gap-x-4">
-                                <div class="mb-16 xl:mb-0">
-                                    <h4 class="font-semibold text-gray-800 text-md md:text-lg">
-                                        1. Data Collection
-                                    </h4>
-                                    <p class="font-normal text-gray-500 text-xs md:text-sm mb-5">
-                                        Gather data from national statistics agencies, cultural institutions, publishing houses, and digital platforms.
-                                    </p>
-                                </div>
-                
-                                <div class="mb-16 xl:mb-0">
-                                    <h4 class="font-semibold text-gray-800 text-md md:text-lg">
-                                        4. Data Interpretation and Storytelling
-                                    </h4>
-                                    <p class="font-normal text-gray-500 text-xs md:text-sm mb-5">
-                                        Create a narrative based on the emerging insights.
-                                    </p>
-                                </div>
-                
-                                <div class="mb-16 xl:mb-0">
-                                    <h4 class="font-semibold text-gray-800 text-md md:text-lg">
-                                        2. Data Processing
-                                    </h4>
-                                    <p class="font-normal text-gray-500 text-xs md:text-sm mb-5">
-                                        Clean and preprocess the data to ensure accuracy and consistency.
-                                    </p>
-                                </div>
-                
-                                <div class="mb-16 xl:mb-0">
-                                    <h4 class="font-semibold text-gray-800 text-md md:text-lg">
-                                        5. Draw Conclusions
-                                    </h4>
-                                    <p class="font-normal text-gray-500 text-xs md:text-sm mb-5">
-                                        Elaborate an answer to the research questions based on the interpretation of data, facilitated by the visualizations.
-                                    </p>
-                                </div>
-                
-                                <div>
-                                    <h4 class="font-semibold text-gray-800 text-md md:text-lg">
-                                        3. Visualization Design and Development
-                                    </h4>
-                                    <p class="font-normal text-gray-500 text-xs md:text-sm mb-25 xl:mb-40">
-                                        According to the nature and structure of the data, design and develop interactive visualizations.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <hr class="text-gray-500 mb-10 xl:mb-20" />
-                    </section>
+    /* ── Responsive ── */
+    @media (max-width: 1024px) {
+      .method-grid { grid-template-columns: repeat(3, 1fr); }
+    }
+    @media (max-width: 768px) {
+      .hero { grid-template-columns: 1fr; min-height: auto; padding-top: 3rem; }
+      .hero-image { display: none; }
+      .two-col { grid-template-columns: 1fr; gap: 2rem; }
+      .method-grid { grid-template-columns: repeat(2, 1fr); }
+      .viz-split { grid-template-columns: 1fr; }
+      .viz-split .info-panel { display: none; }
+      .viz-pie-layout { grid-template-columns: 1fr; }
+      .conclusion-grid { grid-template-columns: 1fr; }
+      .team-grid { grid-template-columns: 1fr 1fr; }
+      .wrap { padding: 0 1.25rem; }
+      .nav { padding: 0 1.25rem; }
+      .viz-full-inner { padding: 1rem 1.25rem; }
+    }
+    @media (max-width: 480px) {
+      .method-grid { grid-template-columns: 1fr; }
+      .team-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
 
+<body>
 
-        <section class="py-16 lg:mb-20">
-            <div class="container max-w-screen-xl mx-auto px-4">
-                <h1
-                    class="font-semibold text-gray-700 text-6xl md:text-6xl xl:text-7xl text-center leading-tight mb-20 xl:mb-30"
-                >
-            Data Visualizations
-                    
-                </h1>
-                <h1
-                class="font-semibold text-gray-700 text-4xl md:text-4xl xl:text-5xl text-left leading-tight mb-0 xl:mb-5"
-            >
-       1. Cultural Institutions in Italy: Libraries, Archives, Museums
- </h1>
-        <p class="text-gray-500 text-justify mb-0 xl:mb-5">
+  <!-- ─── Navigation ─── -->
+  <nav class="nav">
+    <a href="#" class="nav-logo">C4A <span>/ Culture for All</span></a>
+    <a href="https://github.com/alicepicco333/culture4all" class="nav-link" target="_blank" rel="noopener">
+      View on GitHub ↗
+    </a>
+  </nav>
 
-        In Italy, the distribution of libraries, archives, and museums reflects the country's rich cultural and historical heritage. These institutions are predominantly clustered in major cities and regions that have played significant roles in Italy's history. The concentration is particularly high in urban centers known for their historical, artistic, and political significance. <br><br>
-
-The northern regions, such as Lombardy and Veneto, host numerous libraries and museums, reflecting their economic and cultural importance. Central Italy, with its profound Renaissance influence, is another major hub, particularly in Tuscany and Lazio. Southern regions, including Campania and Sicily, also feature a considerable number of these institutions, preserving the rich and diverse history of the area. <br><br>
-
-In addition to major cities, smaller towns and rural areas also host libraries, archives, and museums, though on a smaller scale, ensuring that cultural access and preservation extend throughout the country. This widespread distribution supports educational and cultural engagement, making Italy a treasure trove for researchers, historians, and art enthusiasts alike. The presence of these institutions across different regions highlights Italy's commitment to preserving its extensive cultural heritage and making it accessible to the public.
-                
-            </p>
-            
-
-                <div class="container mx-auto py-8">
-                    <h1 class="text-2xl text-gray-700 font-bold mb-4">Geographical Distribution of Libraries in Italian Provinces- 2022</h1>
-                    <div class="bg-indigo-100 p-4 rounded-md inline-block">
-                <p class="text-gray-500">
-                Choropleth Map</p></div>
-                    <div id="map">
-                </div>
-
-                <p class="text-gray-500 mb-10 xl:mb-20 text-justify">
-                This choropleth map illustrates the density and distribution of libraries across the provinces of Italy. Provinces are color-coded to represent the number of libraries, with darker shades indicating a higher concentration and lighter shades indicating fewer libraries. The provinces of Turin and Rome stand out with the darkest shades, indicating they have the highest number of libraries. Other provinces with notable library concentrations are also highlighted, while several provinces, particularly in more rural or less populated areas, show lighter shades, reflecting a lower density of libraries. This map provides a clear visual representation of how library resources are distributed across Italy's provinces, showcasing areas of both high and low library concentrations.</p>
-
-
-                <div class="container mx-auto py-8">
-                    <h1 class="text-2xl text-gray-700 font-bold mb-4">Library Holdings Distribution by Region and Year</h1>
-                
-                    <div class="bg-indigo-100 p-4 rounded-md inline-block mb-5">
-                    <p class="text-gray-500">Pie Chart </p></div>
-
-                    <div>
-           
-                        <div class="grid-container">
-                            <!-- Div for the pie chart -->
-                            <div class="select-container">
-                                      <!-- Add your dropdowns or other content here -->
-                                      <label for="year-select">Select Year:</label>
-                                      <select id="year-select">
-                                          <!-- Options will be populated by JavaScript -->
-                                      </select>
-                          
-                                      <label for="region-select">Select Region:</label>
-                                      <select id="region-select">
-                                          <!-- Options will be populated by JavaScript -->
-                                      </select>
-                                      </div>
-                                      <div class="chart-container">
-
-                                <canvas id="chart"></canvas>
-                            </div>
-                            <!-- Div for the dropdowns or additional information -->
-                            <div class="info-container">
-                                <p class="text-gray-500 mb-10 xl:mb-20 text-justify">
-
-                                    This interactive pie chart provides a visual representation of library data across different regions and years.<br>
-                                    It allows users to select a specific year and region to explore the distribution of library volumes within various categories.<br><br>
-                                    
-                                    <b>To use the chart:</b><br><br>
-                                    
-                                    Begin by selecting a year from the dropdown menu labeled "Select Year." <br>
-                                    This menu offers options for the years 2010-11, 2012, 2013, and 2014. <br>
-                                    Upon choosing a year, the regions available for that year will be automatically updated in the "Select Region" dropdown menu.<br>
-                                    
-                                    After selecting a year, choose a region from the updated dropdown menu. 
-                                    The pie chart will then display the data specific to the selected year and region.
-                                    Each segment of the pie chart represents a different category of library institutions according to the volume of library material they possess. <br><br>
-                                    
-                                    When you hover over any segment of the pie chart, a tooltip will appear showing the detailed volume value for that segment.
-                                    
-                                    The value indicates the number of libraries in the selected region and year who have the range of volumes indicated by the corresponding label.
-                                    
-                                    </p>
-                            </div>
-                        </div>
-
-                        <p class="text-gray-500 mt-20 xl:mt-40 mb-10 xl:mb-20 text-justify">The chart is designed to be responsive, meaning it will adjust its size based on the dimensions of its container to ensure a proper display across different devices.
-                                    
-                            For technical details, the data is sourced from JSON files specific to each year,
-                             containing information about library volumes across various regions and categories.
-                              The chart is created using Chart.js, a JavaScript library known for its interactive and responsive chart capabilities.</p>
-                  </p>
-
-
-                <div class="container mx-auto py-8">
-                    <h1 class="text-2xl text-gray-700 font-bold ">Geographical Distribution of Libraries, Archives and Museums</h1>
-                    <p class="text-gray-500 text-justify">Libraries, archives, and museums are vital cultural and educational institutions that enrich communities by providing access to knowledge, history, and art.
-                         To better understand the distribution of these institutions, we can visualize their locations on a map. This geographic representation will help highlight areas with high concentrations of cultural institutions and identify regions that may be underserved.
-                        
-                        The pin map will feature pins indicating the locations of libraries, archives, and museums. This visualization will categorize the institutions as follows:</p>
-                    
-                        <ul class="text-gray-500 text-justify mt-5 mb-5 mt:xl-10 mb:xl-10">
-                            <li><b>Libraries:</b> Public, academic, and special libraries.</li>
-                            <li><b>MIBAC Associated Libraries:</b> Libraries associated with the Ministry of Cultural Heritage.</li>
-
-                                <li><b>Archives: </b>Repositories of historical documents and records.</li>
-                                    <li><b>Museums: </b>Institutions that preserve and exhibit collections of art, history, and science.</li></ul>
-                        
-                        <p class="text-gray-500 text-justify">By displaying this information on a map, we can achieve several goals:</p>
-
-                        <ul class="text-gray-500 text-justify mt-5 mb-5 mt:xl-10 mb:xl-10">
-                        
-                        <li><b>Identify Concentrations: </b>Highlight areas with a high density of cultural institutions, indicating regions with abundant access to these resources.</li>
-                            <li><b>Spot Gaps:</b> Reveal regions that lack sufficient libraries, archives, or museums, suggesting areas where additional resources may be needed.</li>
-                                <li><b>Analyze Accessibility: </b>Assess the geographic accessibility of cultural institutions for different populations, considering factors like urbanization and population density. </li></ul>
-                        
-                
-                    <div class="bg-indigo-100 p-4 rounded-md inline-block mb-5">
-                    <p class="text-gray-500">Pin Map</p></div>
-                <div id="controls">
-                    <label for="Institution" class="text-gray-700 mb-5 xl:mb-10">Select Institution Type</label>
-                    <select id="datasetSelect" class="text-gray-700 mb-5 xl:mb-10">
-                        <option value="libraries">All Libraries</option>
-                        <option value="MIBAC libraries">MIBAC associated Libraries</option>
-                        <option value="archives">Archives</option>
-                        <option value="museums">Museums</option>
-                    </select>
-                    
-                    <div id="map1"></div>
-                    </div>
-                </div>
-
-                <h1
-                class="font-semibold text-gray-700 text-4xl md:text-4xl xl:text-5xl text-left leading-tight mb-0 xl:mb-5"
-                >
-                2. Library Loans and Reading Habits
-                </h1>
-<div class="container">
-    <h1 class="text-2xl text-gray-700 font-bold">Geographical Distribution of Library Loans according to Region, Geographic Partition, Population Demographics and Urban Area Classification</h1>
-    <p class="text-gray-500 text-justify">
-
-        Libraries serve as essential hubs for education, culture, and community engagement, offering invaluable resources to residents across various regions.
-        To optimize library services and ensure equitable access, it is crucial to understand how library loans are distributed among different populations and areas.
-        This analysis focuses on the number of library loans categorized by region, geographic partition, population demographics, and urban area classification.<br><br>
-        
-        The bar graph presented will visualize the data to highlight key patterns and differences in library usage. Specifically, the categories analyzed include:<br><br></p>
-        <ul class="text-gray-500 text-justify">
-        <li> <b>Region:</b> Broad areas such as North, South, East, and West.</li>
-            <li><b>Geographic Partition: </b>Specific subdivisions within regions, like Northeast, South, and Islands.</li>
-                <li><b>Population Demographics:</b> Number of inhabitants in an area, offering insights into how population density impacts library usage.</li>
-                    <li><b>Urban Area Classification:</b> Types of areas, including Urban, Suburban, and Rural, to examine the influence of urbanization on library loans.</li>
-        </ul><br>
-        <p class="text-gray-500 mb-10 xl:mb-20 text-justify">
-        By breaking down the number of library loans in this manner, we aim to identify trends that can inform library policy and resource allocation.
-         This data-driven approach will help ensure that library services are effectively meeting the needs of diverse populations, regardless of their demographic or geographic characteristics.</p>
-
-</div>
-
-
-
-
-<div class="bg-indigo-100 p-4 rounded-md inline-block mb-5">
-    <p class="text-gray-500">Bar Chart</p></div>
-
+  <!-- ─── Hero ─── -->
+  <div class="hero">
     <div>
+      <span class="eyebrow">Information Visualization · Bologna 2023/24</span>
+      <h1 class="display">Culture<br>for All</h1>
+      <p class="hero-quote">
+        "Culture is the arts elevated to a set of beliefs."<br>
+        <span style="font-style:normal;font-size:0.8rem;color:var(--text-3)">— Thomas Wolfe</span>
+      </p>
+      <a href="https://github.com/alicepicco333/culture4all" class="btn-outline" target="_blank" rel="noopener">
+        View on GitHub ↗
+      </a>
+      <p style="margin-top:2rem;font-size:0.78rem;color:var(--text-3);letter-spacing:0.03em">
+        Alice Picco · Corrado Consiglio · Salvatore Di Marzo
+      </p>
+    </div>
+    <div class="hero-image">
+      <img src="assets/image/library-488690_1920-800x500.jpg" alt="Library interior" />
+    </div>
+  </div>
 
-                <label for="category-select">Select Category:</label>
-                <select id="category-select">
-                    <option value="region">Per Regione</option>
-                    <option value="geographical">Ripartizione Geografica</option>
-                    <option value="population">Ampiezza Demografica</option>
-                    <option value="classification">Classificazione e Urbanizzazione</option>
-                </select></div>
-                <canvas id="myChart" class="mb-20 xl:mb-40"></canvas>
+  <hr class="divider" />
 
+  <!-- ─── About ─── -->
+  <section class="section">
+    <div class="wrap">
+      <span class="eyebrow">About the Project</span>
+      <h2 class="heading-2">Introducing C4A</h2>
+      <div class="two-col">
+        <div>
+          <p style="font-size:1rem;font-weight:600;color:var(--accent);margin-bottom:0.75rem">The Concept</p>
+          <p class="body-text">
+            Utilizing a blend of open datasets, this project offers a comprehensive overview of habits,
+            preferences, and regional disparities in cultural engagement across Italy.
+          </p>
+          <p class="body-text" style="margin-top:0.9rem">
+            Through interactive visualizations we aim to make complex data accessible and engaging,
+            fostering a deeper understanding of Italy's cultural landscape — and contributing
+            empirical evidence to inform policymakers in the cultural sector.
+          </p>
+        </div>
+        <div>
+          <p style="font-size:1rem;font-weight:600;color:var(--accent);margin-bottom:0.75rem">Objectives</p>
+          <ul class="objectives-list">
+            <li><span><strong>Geographical Distribution</strong> — Map the density of libraries, archives, and museums across Italian regions.</span></li>
+            <li><span><strong>Library Usage Patterns</strong> — Examine loan patterns by region, demographics, and urban classification.</span></li>
+            <li><span><strong>Regional Reading Habits</strong> — Assess reading engagement and format preferences by region.</span></li>
+            <li><span><strong>Access &amp; Equity</strong> — Identify regions with limited cultural access and propose improvements.</span></li>
+            <li><span><strong>Policy Support</strong> — Provide data-driven insights to strengthen cultural infrastructure.</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <hr class="divider" />
 
-                <h1 class="text-2xl text-gray-700 font-bold">Reading Habits in Italy by Region - 2021</h1>
+  <!-- ─── Methodology ─── -->
+  <section class="section">
+    <div class="wrap">
+      <span class="eyebrow">How We Worked</span>
+      <h2 class="heading-2">Methodology</h2>
+      <div class="method-grid">
+        <div class="method-step">
+          <div class="step-num">1</div>
+          <h4 style="font-size:0.85rem;font-weight:600;margin-bottom:0.3rem">Data Collection</h4>
+          <p class="body-small">Gathered data from national statistics agencies, cultural institutions, publishing houses, and digital platforms.</p>
+        </div>
+        <div class="method-step">
+          <div class="step-num">2</div>
+          <h4 style="font-size:0.85rem;font-weight:600;margin-bottom:0.3rem">Data Processing</h4>
+          <p class="body-small">Cleaned and preprocessed all datasets to ensure accuracy and consistency across sources.</p>
+        </div>
+        <div class="method-step">
+          <div class="step-num">3</div>
+          <h4 style="font-size:0.85rem;font-weight:600;margin-bottom:0.3rem">Visualization Design</h4>
+          <p class="body-small">Designed and developed interactive charts and maps suited to each dataset's structure.</p>
+        </div>
+        <div class="method-step">
+          <div class="step-num">4</div>
+          <h4 style="font-size:0.85rem;font-weight:600;margin-bottom:0.3rem">Interpretation</h4>
+          <p class="body-small">Built a narrative from emerging insights, connecting patterns to broader cultural themes.</p>
+        </div>
+        <div class="method-step">
+          <div class="step-num">5</div>
+          <h4 style="font-size:0.85rem;font-weight:600;margin-bottom:0.3rem">Conclusions</h4>
+          <p class="body-small">Developed data-driven answers to research questions to inform cultural policy recommendations.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-                <p class="text-gray-500 text-justify">
+  <hr class="divider" />
 
-                    The following bar graph provides a comprehensive visualization of reading habits across various regions in Italy for the year 2021. This data sheds light on the reading behaviors of individuals aged 6 and above, highlighting several key metrics:</p>
-                    
-                    <ol class="text-gray-500 text-justify mt-5 xl:mt-10 mb-5 xl:mb-10">
-                   <li> 1. Percentage of Individuals Reading At Least One Book: This metric shows the proportion of people who read at least one book in the past year, indicating overall reading engagement.</li>
-                    
-                   <li> 2. Percentage of Individuals Reading One to Three Books: This figure represents the share of individuals who read between one and three books, reflecting moderate reading habits. </li>
-                    
-                   <li> 3. Percentage of Individuals Reading Twelve or More Books: This statistic highlights the percentage of avid readers who have read twelve or more books, showcasing high levels of reading enthusiasm.</li>
-                    
-                 <li>   4. Percentage of Individuals Reading Only Printed Books: This data point illustrates the percentage of readers who exclusively consumed printed books, indicating a preference for traditional book formats.</li>
-                    
-                   <li> 5. Percentage of Individuals Reading Only Digital Books: This metric reveals the proportion of readers who only used digital formats, reflecting trends in digital reading preferences.</li>
-                    
-                   <li> 6. Percentage of Individuals Reading Both Printed and Digital Books: This figure shows the share of readers who engaged with both printed and digital books, representing a hybrid approach to reading.</ol>
-                    
-                   <p class="text-gray-500 text-justify mb-5 xl:mb-10"> The bar graph displays these metrics across Italy's diverse regions, allowing for a comparative analysis of regional reading habits. It provides valuable insights into how reading preferences vary geographically and helps understand regional differences in reading behavior within Italy.
-                    
-                    This visualization serves as a useful tool for policymakers, educators, and cultural organizations aiming to foster reading culture and tailor their strategies to regional needs.</p>
-                    <div class="bg-indigo-100 p-4 rounded-md inline-block mb-5">
-                        <p class="text-gray-500">Line Chart</p></div>
-                    
-                        <div>
-                <div id="visualization" class="mb-20 ">
-                    <canvas id="readingChart"></canvas>
-                </div>
+  <!-- ══════════════ VISUALIZATIONS ══════════════ -->
 
+  <!-- ─── Viz 1 · Choropleth Map ─── -->
+  <section class="viz-full" id="viz-1">
+    <div class="viz-full-inner">
+      <div class="viz-hdr">
+        <span class="eyebrow">Visualization 1 · Cultural Institutions</span>
+        <div class="tag">Choropleth Map</div>
+        <h2 class="heading-2">Libraries by Province, 2022</h2>
+      </div>
+      <div class="viz-split">
+        <div id="map"></div>
+        <div class="info-panel" id="map-info-panel">
+          <!-- populated by viz_map1.js -->
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <!-- ─── Viz 2 · Pie Chart ─── -->
+  <section class="viz-full" id="viz-2" style="background:var(--surface)">
+    <div class="viz-full-inner">
+      <div class="viz-hdr">
+        <span class="eyebrow">Visualization 2 · Library Holdings</span>
+        <div class="tag">Pie Chart</div>
+        <h2 class="heading-2">Holdings Distribution by Region &amp; Year</h2>
+      </div>
+      <div class="viz-pie-layout">
+        <div class="controls-panel">
+          <label class="ctrl-label" for="year-select">Year</label>
+          <select id="year-select" class="ctrl-select"></select>
+          <label class="ctrl-label" for="region-select">Region</label>
+          <select id="region-select" class="ctrl-select"></select>
+          <div class="ctrl-hint">
+            Each slice represents the number of libraries in the selected region holding volumes within that size category. Hover a slice to see the exact count.
+          </div>
+        </div>
+        <div class="pie-chart-area">
+          <canvas id="chart"></canvas>
+        </div>
+      </div>
+    </div>
+  </section>
 
-                <h1
-                class="font-semibold text-gray-700 text-4xl md:text-4xl xl:text-5xl text-left leading-tight mb-0 xl:mb-5 mt-10 xl:mt-20"
-            >
-Conclusions </h1>
+  <!-- ─── Viz 3 · Pin Map ─── -->
+  <section class="viz-full" id="viz-3">
+    <div class="viz-full-inner">
+      <div class="viz-hdr">
+        <span class="eyebrow">Visualization 3 · Institution Locations</span>
+        <div class="viz-row" style="margin-top:0.35rem">
+          <div>
+            <div class="tag">Pin Map</div>
+            <h2 class="heading-2">Libraries, Archives &amp; Museums</h2>
+          </div>
+          <div class="inline-ctrl">
+            <label for="datasetSelect">Institution type</label>
+            <select id="datasetSelect">
+              <option value="libraries">All Libraries</option>
+              <option value="MIBAC libraries">MIBAC Libraries</option>
+              <option value="archives">Archives</option>
+              <option value="museums">Museums</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="viz-split">
+        <div id="map1"></div>
+        <div class="info-panel" id="map1-info-panel">
+          <!-- populated by bibliogeomap.js -->
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <!-- ─── Viz 4 · Bar Chart ─── -->
+  <section class="viz-full" id="viz-4" style="background:var(--surface)">
+    <div class="viz-full-inner">
+      <div class="viz-hdr">
+        <span class="eyebrow">Visualization 4 · Library Loans</span>
+        <div class="viz-row" style="margin-top:0.35rem">
+          <div>
+            <div class="tag">Bar Chart</div>
+            <h2 class="heading-2">Library Loans by Category, 2022</h2>
+          </div>
+          <div class="inline-ctrl">
+            <label for="category-select">Group by</label>
+            <select id="category-select">
+              <option value="region">By Region</option>
+              <option value="geographical">By Geographic Area</option>
+              <option value="population">By Population Size</option>
+              <option value="classification">By Urban Classification</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="viz-chart-area">
+        <div id="myChart"></div>
+      </div>
+    </div>
+  </section>
 
+  <!-- ─── Viz 5 · Reading Habits ─── -->
+  <section class="viz-full" id="viz-5">
+    <div class="viz-full-inner">
+      <div class="viz-hdr">
+        <span class="eyebrow">Visualization 5 · Reading Habits</span>
+        <div class="viz-row" style="margin-top:0.35rem">
+          <div>
+            <div class="tag">Line Chart</div>
+            <h2 class="heading-2">Reading Habits by Region, 2021</h2>
+          </div>
+          <p style="font-size:0.8rem;color:var(--text-2);max-width:380px;line-height:1.6">
+            Six metrics for population aged 6+. Hover any point to compare values across regions.
+          </p>
+        </div>
+      </div>
+      <div class="viz-chart-area">
+        <div id="readingChart"></div>
+      </div>
+    </div>
+  </section>
 
-<p class="text-gray-500 text-justify">
+  <hr class="divider" />
 
-    The <b>Culture for All (C4A)</b> project has offered a rich and detailed analysis of Italy’s cultural landscape, focusing on the distribution of cultural institutions and reading habits. This comprehensive examination has illuminated significant patterns and disparities that are essential for fostering a more inclusive and accessible cultural environment.</p><br><br>
-    
-    <p class="text-gray-500 text-justify"><b>Distribution of Cultural Institutions:</b> The project's findings reveal a clear concentration of libraries, archives, and museums in major urban centers and historically significant regions, such as Lombardy, Veneto, Tuscany, and Lazio. This clustering reflects the economic and cultural prominence of these areas. However, the analysis also highlights a substantial presence of cultural institutions in smaller towns and rural areas, which ensures that cultural engagement extends beyond metropolitan centers. Despite this widespread distribution, certain regions, particularly in remote or less populated areas, exhibit lower concentrations of these vital institutions. This uneven distribution indicates a need for targeted efforts to improve cultural access in underserved regions. Enhancing the presence of cultural institutions in these areas could contribute to a more equitable cultural landscape across the country.</p><br><br>
-    
-    <p class="text-gray-500 text-justify"><b>Library Usage Patterns:</b> The detailed analysis of library loans reveals significant variations in library usage based on region, demographic groups, and urban classification. Urban areas generally demonstrate higher library loan rates compared to rural regions, suggesting that population density and urbanization significantly impact library service utilization. Additionally, demographic factors play a crucial role in library usage patterns. Understanding these variations is essential for optimizing library services and ensuring that they meet the diverse needs of different communities. The data suggests that libraries in urban areas are more frequently used, while rural areas may require additional support to boost library engagement. Tailoring library services to address these regional and demographic differences can help ensure more effective and equitable resource distribution.</p><br><br>
-    
-    <p class="text-gray-500 text-justify"><b>Regional Reading Habits:</b> The examination of reading habits across various regions of Italy provides valuable insights into how reading behaviors differ geographically. The data highlights several key metrics, such as the percentage of individuals reading one to three books versus twelve or more books, and preferences for printed versus digital formats. These insights reveal diverse reading engagement levels and format preferences across different regions. For instance, some regions may show a higher percentage of avid readers, while others may have a more moderate reading engagement. Additionally, the preference for printed versus digital books varies, reflecting broader trends in reading habits. Understanding these regional differences is crucial for developing targeted reading initiatives and promoting reading culture effectively. Tailored programs that address specific regional needs and preferences can help foster a stronger reading culture and encourage greater literary engagement.</p><br><br>
-    
-    <p class="text-gray-500 text-justify mb-20 xl:mb-20">In summary, the C4A project underscores the importance of addressing disparities in cultural access and optimizing library services to meet diverse needs. The findings highlight the need for targeted interventions to enhance the cultural infrastructure, particularly in underserved regions. By leveraging the insights gained from this project, policymakers and cultural stakeholders can make informed decisions to support a more inclusive and vibrant cultural ecosystem in Italy. These efforts will contribute to a richer cultural experience for all Italians, regardless of their geographic or demographic characteristics.</p>
-    
+  <!-- ─── Conclusions ─── -->
+  <section class="section">
+    <div class="wrap">
+      <span class="eyebrow">Key Findings</span>
+      <h2 class="heading-2">Conclusions</h2>
+      <div class="conclusion-grid">
+        <div class="conclusion-card">
+          <h3>Cultural Institution Distribution</h3>
+          <p class="body-small">Institutions cluster in major urban centers — Lombardy, Veneto, Tuscany, and Lazio — while remote areas show lower concentrations, highlighting equity gaps that call for targeted policy.</p>
+        </div>
+        <div class="conclusion-card">
+          <h3>Library Usage Patterns</h3>
+          <p class="body-small">Urban areas consistently show higher loan rates than rural regions. Demographic and geographic factors shape usage significantly — tailored outreach could improve equity in service delivery.</p>
+        </div>
+        <div class="conclusion-card">
+          <h3>Regional Reading Habits</h3>
+          <p class="body-small">Reading engagement and format preferences vary considerably by region. Some regions exhibit high concentrations of avid readers, pointing to opportunities for region-specific cultural programs.</p>
+        </div>
+      </div>
+      <p class="body-text" style="margin-top:2rem;max-width:700px">
+        These findings underscore the need for targeted investment in cultural infrastructure,
+        particularly in underserved regions, to foster a more inclusive and vibrant cultural ecosystem across Italy.
+      </p>
+    </div>
+  </section>
 
-    <p class="text-gray-500 text-justify"><b>Technologies used:</b>
-        <ul class="text-gray-500 text-justify mb-20 xl:mb-20">
-            <li>GeoJSON files</li>
-            <li>Leaflet.js</li>
-            <li>Chart.js</li>
+  <hr class="divider" />
 
+  <!-- ─── Team ─── -->
+  <section class="section">
+    <div class="wrap">
+      <span class="eyebrow">The Team</span>
+      <h2 class="heading-2">Our Team</h2>
+      <div class="team-grid">
+        <div class="team-card">
+          <img src="assets/image/image1.jpeg" alt="Corrado Consiglio" />
+          <h3>Corrado Consiglio</h3>
+          <p>Data Gathering · Data Cleaning</p>
+        </div>
+        <div class="team-card">
+          <img src="assets/image/image0.jpeg" alt="Salvatore Di Marzo" />
+          <h3>Salvatore Di Marzo</h3>
+          <p>Data Gathering · Data Cleaning</p>
+        </div>
+        <div class="team-card">
+          <img src="assets/image/alice.jpg" alt="Alice Picco" />
+          <h3>Alice Picco</h3>
+          <p>Data Visualization · Web Development</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-        </ul>
-        
+  <!-- ─── Footer ─── -->
+  <footer>
+    <p>Developed as part of the Information Visualization course · University of Bologna</p>
+    <p>Digital Humanities and Digital Knowledge MA 2023/24 · Academic project, not actively maintained</p>
+    <p style="margin-top:0.4rem;color:var(--border)">Leaflet.js · D3.js · Chart.js · GeoJSON</p>
+  </footer>
 
-      
-            <div class="container max-w-screen-xl mt-20 mx-auto px-4">
-                <div class="text-center mt-8 mb-5">
-                    <h1 class="font-bold text-gray-700 text-2xl md:text-5xl mb-5">
-                        Our Team
-                    </h1>
-                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mx-4 mb-20">
-                        <div class="col-span-1">
-                            <h2 class="font-bold text-indigo-800 text-xl md:text-2xl mb-2">
-                                Corrado Consiglio
-                            </h2>
-                            <img src="assets/image/image1.jpeg" alt="Corrado Consiglio" class="w-40 h-40 object-cover mx-auto mb-2 rounded-lg border border-gray-300">
-                            <p class="text-gray-500">Data Gathering - Data Cleaning</p>
-                        </div>
-                        
-                        <div class="col-span-1">
-                            <h2 class="font-bold text-indigo-800 text-xl md:text-2xl mb-2">
-                                Salvatore Di Marzo
-                            </h2>
-                            <img src="assets/image/image0.jpeg" alt="Salvatore Di Marzo" class="w-40 h-40 object-cover mx-auto mb-2 rounded-lg border border-gray-300">
-                            <p class="text-gray-500">Data Gathering - Data Cleaning</p>
-                        </div>
-                        
-                        <div class="col-span-1">
-                            <h2 class="font-bold text-indigo-800 text-xl md:text-2xl mb-2">
-                                Alice Picco
-                            </h2>
-                            <img src="assets/image/alice.jpg" alt="Alice Picco" class="w-40 h-40 object-cover mx-auto mb-2 rounded-lg border border-gray-300">
-                            <p class="text-gray-500">Data Visualization and Web Development</p>
-                        </div>
-                    </div>
-                </div>
+  <!-- ─── Scripts ─── -->
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chroma-js@2.4.2/chroma.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5/papaparse.min.js"></script>
 
-                <footer class="bg-indigo-100 text-gray-600 text-xs py-4 text-center w-full">
-                    <p>
-                        This project was developed as part of the Information Visualization course at the University of Bologna, specifically for the Digital Humanities and Digital Knowledge MA program. Please note that this project is intended for academic purposes only and will not be actively maintained or updated beyond its initial submission. We hope the insights and visualizations provided offer valuable contributions to the study of cultural data and inspire further exploration in the field.
-                    </p>
-                </footer>
-                
-        <script>
-            feather.replace();
-        </script>
+  <script src="js/viz_map1.js"></script>
+  <script src="js/bibliogeomap.js"></script>
+  <script src="js/piechart.js"></script>
+  <script src="js/chart2.js"></script>
+  <script src="js/read.js" defer></script>
 
-<script src="https://d3js.org/d3.v6.min.js"></script>
-<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
-<script src="js/viz_map1.js"></script>
-<script src="js/bibliogeomap.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-  <script src="js/piechart.js" ></script>
- <script src="js/chart2.js"></script>
- <script src="https://d3js.org/d3.v7.min.js"></script>
- <script src="js/read.js" defer></script>
+  <!-- Prevent ctrl+scroll browser zoom; maps handle their own scroll events -->
+  <script>
+    document.addEventListener('wheel', function(e) {
+      if (e.ctrlKey) e.preventDefault();
+    }, { passive: false });
+  </script>
 
-    </body>
+</body>
 </html>

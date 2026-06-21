@@ -11,16 +11,16 @@ const urls = {
 // Initialize an empty object to store all data
 const allData = {};
 
-// Define fixed colors for each label (reversed order)
+// Define fixed colors for each label
 const labelColorMapping = {
-    "Non indicato": '#c6dbef',
-    "Fino a 2.000 volumi": '#9ecae1',
-    "Da 2.001 a 5.000": '#6baed6',
-    "Da 5.001 a 10.000": '#4292c6',
-    "Da 10.001 a 100.000": '#2171b5',
-    "Da 100.001 a 500.000": '#08519c',
-    "Da 500.001 a 1.000.000": '#08519c', // Same color as above, adjust if needed
-    "Oltre 1.000.000 di volumi": '#08519c' // Same color as above, adjust if needed
+    "Not specified":          '#c6dbef',
+    "Up to 2,000 volumes":    '#9ecae1',
+    "2,001–5,000":            '#6baed6',
+    "5,001–10,000":           '#4292c6',
+    "10,001–100,000":         '#2171b5',
+    "100,001–500,000":        '#08519c',
+    "500,001–1,000,000":      '#08306b',
+    "Over 1,000,000 volumes": '#03224c'
 };
 
 // Function to fetch data from a given URL
@@ -120,14 +120,14 @@ function getDataForRegionYear(region, year) {
     }
 
     const labels = [
-        "Non indicato",
-        "Fino a 2.000 volumi",
-        "Da 2.001 a 5.000",
-        "Da 5.001 a 10.000",
-        "Da 10.001 a 100.000",
-        "Da 100.001 a 500.000",
-        "Da 500.001 a 1.000.000",
-        "Oltre 1.000.000 di volumi"
+        "Not specified",
+        "Up to 2,000 volumes",
+        "2,001–5,000",
+        "5,001–10,000",
+        "10,001–100,000",
+        "100,001–500,000",
+        "500,001–1,000,000",
+        "Over 1,000,000 volumes"
     ];
 
     const data = labels.map((label, index) => {

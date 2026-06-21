@@ -1,169 +1,189 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const csvUrl = 'data/Dati_biblioteche/Dati_Generali_biblioteche/PrestitiBiblioRegioni2022.csv'; // Path to your CSV file
-    let chartInstance = null; // Variable to store the Chart.js instance
+  const csvUrl = 'data/Dati_biblioteche/Dati_Generali_biblioteche/PrestitiBiblioRegioni2022.csv';
+  let allData = null;
 
-    // Function to fetch and parse CSV
-    async function fetchCSV() {
-        try {
-            const response = await fetch(csvUrl);
-            if (!response.ok) {
-                throw new Error('Network response was not ok');
-            }
-            const text = await response.text();
-            return parseCSV(text);
-        } catch (error) {
-            console.error('Error fetching CSV data:', error);
-            return { regions: {}, geographical: {}, population: {}, classification: {} }; // Return empty objects on error
-        }
+  /* ── Parse CSV ── */
+  function parseCSV(text) {
+    const data = { regions: {}, geographical: {}, population: {}, classification: {} };
+    const rows = text.trim().split('\n');
+
+    const regionsOfInterest = [
+      "Piemonte", "Valle d'Aosta - Vallée d'Aoste", "Lombardia", "Trentino-Alto Adige",
+      "Veneto", "Friuli-Venezia Giulia", "Liguria", "Emilia-Romagna", "Toscana",
+      "Umbria", "Marche", "Lazio", "Abruzzo", "Molise", "Campania", "Puglia",
+      "Basilicata", "Calabria", "Sicilia", "Sardegna"
+    ];
+    const geographicalCategories = ["Nord-ovest", "Nord-est", "Centro", "Sud", "Isole"];
+    const populationRanges = [
+      "Fino a 2.000 abitanti", "Da 2.001 a 5.000 abitanti", "Da 5.001 a 10.000 abitanti",
+      "Da 10.001 a 30.000 abitanti", "Da 30.001 a 50.000 abitanti", "Più di 50.000 abitanti"
+    ];
+    const classificationCategories = [
+      "Città metropolitane", "Comune Polo", "Polo intercomunale", "Comune cintura",
+      "Comune intermedio", "Comune periferico", "Comune ultra-periferico",
+      "Città o zone densamente popolate",
+      "Piccole città e sobborghi a densità intermedia di popolazione",
+      "Zone rurali o scarsamente popolate"
+    ];
+
+    for (const row of rows) {
+      const m = row.match(/"([^"]+)"/);
+      if (!m) continue;
+      const columns = row.split(',').map(s => s.trim().replace(/"/g, ''));
+      const category = columns[0];
+      if (!category) continue;
+      const cleanValue = m[1].replace(/,/g, '');
+      if      (regionsOfInterest.includes(category))          data.regions[category]        = cleanValue;
+      else if (geographicalCategories.includes(category))     data.geographical[category]   = cleanValue;
+      else if (populationRanges.includes(category))           data.population[category]     = cleanValue;
+      else if (classificationCategories.includes(category))   data.classification[category] = cleanValue;
     }
+    return data;
+  }
 
-    // Function to parse CSV text into an object
-    function parseCSV(text) {
-        const data = {
-            regions: {},
-            geographical: {},
-            population: {},
-            classification: {}
-        };
+  /* ── Label translation ── */
+  const labelMap = {
+    "Nord-ovest": "Northwest", "Nord-est": "Northeast", "Centro": "Centre",
+    "Sud": "South", "Isole": "Islands",
+    "Fino a 2.000 abitanti": "Up to 2,000 inhab.",
+    "Da 2.001 a 5.000 abitanti": "2,001 – 5,000",
+    "Da 5.001 a 10.000 abitanti": "5,001 – 10,000",
+    "Da 10.001 a 30.000 abitanti": "10,001 – 30,000",
+    "Da 30.001 a 50.000 abitanti": "30,001 – 50,000",
+    "Più di 50.000 abitanti": "Over 50,000",
+    "Città metropolitane": "Metropolitan cities",
+    "Comune Polo": "Hub municipality",
+    "Polo intercomunale": "Inter-municipal hub",
+    "Comune cintura": "Belt municipality",
+    "Comune intermedio": "Intermediate municipality",
+    "Comune periferico": "Peripheral municipality",
+    "Comune ultra-periferico": "Ultra-peripheral",
+    "Città o zone densamente popolate": "Densely populated",
+    "Piccole città e sobborghi a densità intermedia di popolazione": "Mid-density suburbs",
+    "Zone rurali o scarsamente popolate": "Rural / sparse",
+    "Valle d'Aosta - Vallée d'Aoste": "Valle d'Aosta"
+  };
+  function translate(l) { return labelMap[l] || l; }
 
-        // Split text into rows
-        const rows = text.trim().split('\n');
+  /* ── D3 horizontal bar chart ── */
+  function drawChart(rawData) {
+    const container = document.getElementById('myChart');
+    if (!container) return;
+    container.innerHTML = '';
 
-        // Define categories of interest
-        const regionsOfInterest = [
-            'Piemonte', 'Valle d\'Aosta - Vallée d\'Aoste', 'Lombardia', 'Trentino-Alto Adige',
-            'Veneto', 'Friuli-Venezia Giulia', 'Liguria', 'Emilia-Romagna', 'Toscana',
-            'Umbria', 'Marche', 'Lazio', 'Abruzzo', 'Molise', 'Campania', 'Puglia',
-            'Basilicata', 'Calabria', 'Sicilia', 'Sardegna'
-        ];
+    const entries = Object.entries(rawData)
+      .map(([label, val]) => ({
+        label: translate(label),
+        value: parseInt(String(val).replace(/\./g, ''), 10) || 0
+      }))
+      .filter(d => d.value > 0)
+      .sort((a, b) => b.value - a.value);
 
-        const geographicalCategories = [
-            'Nord-ovest', 'Nord-est', 'Centro', 'Sud', 'Isole'
-        ];
+    if (!entries.length) return;
 
-        const populationRanges = [
-            'Fino a 2.000 abitanti', 'Da 2.001 a 5.000 abitanti', 'Da 5.001 a 10.000 abitanti',
-            'Da 10.001 a 30.000 abitanti', 'Da 30.001 a 50.000 abitanti', 'Più di 50.000 abitanti'
-        ];
+    const W = container.clientWidth  || 800;
+    const H = container.clientHeight || 500;
+    const margin = { top: 8, right: 100, bottom: 28, left: 200 };
+    const iW = W - margin.left - margin.right;
+    const iH = H - margin.top  - margin.bottom;
 
-        const classificationCategories = [
-            'Città metropolitane', 'Comune Polo', 'Polo intercomunale', 'Comune cintura',
-            'Comune intermedio', 'Comune periferico', 'Comune ultra-periferico',
-            'Città o zone densamente popolate', 'Piccole città e sobborghi a densità intermedia di popolazione',
-            'Zone rurali o scarsamente popolate'
-        ];
+    const svg = d3.select(container).append('svg')
+      .attr('width', W).attr('height', H)
+      .style('overflow', 'visible');
 
-        for (let row of rows) {
-            // Find the value inside the first double quotes
-            const matches = row.match(/"([^"]+)"/);
-            const valueInsideQuotes = matches ? matches[1] : null;
+    const g = svg.append('g').attr('transform', `translate(${margin.left},${margin.top})`);
 
-            // Split the row by commas
-            const columns = row.split(',').map(s => s.trim().replace(/"/g, ''));
-            const category = columns[0];
+    const maxVal = d3.max(entries, d => d.value);
+    const x = d3.scaleLinear().domain([0, maxVal]).range([0, iW]).nice();
+    const y = d3.scaleBand().domain(entries.map(d => d.label)).range([0, iH]).padding(0.28);
+    const colorScale = d3.scaleSequential()
+      .domain([0, maxVal])
+      .interpolator(d3.interpolate('#b8cff0', '#1e3a6e'));
 
-            if (!category || !valueInsideQuotes) continue;
+    /* Grid */
+    g.append('g')
+      .call(d3.axisBottom(x).ticks(5).tickSize(iH).tickFormat(''))
+      .call(gg => gg.select('.domain').remove())
+      .call(gg => gg.selectAll('line').attr('stroke', '#f0ede8').attr('stroke-dasharray', '3,3'));
 
-            const cleanValue = valueInsideQuotes.replace(/,/g, ''); // Clean up value
+    /* Bars */
+    const bars = g.selectAll('.bar').data(entries).join('rect')
+      .attr('class', 'bar')
+      .attr('y', d => y(d.label))
+      .attr('height', y.bandwidth())
+      .attr('x', 0).attr('width', 0)
+      .attr('rx', 5)
+      .attr('fill', d => colorScale(d.value))
+      .style('cursor', 'default');
 
-            // Categorize data based on lists of interest
-            if (regionsOfInterest.includes(category)) {
-                data.regions[category] = cleanValue;
-            } else if (geographicalCategories.includes(category)) {
-                data.geographical[category] = cleanValue;
-            } else if (populationRanges.includes(category)) {
-                data.population[category] = cleanValue;
-            } else if (classificationCategories.includes(category)) {
-                data.classification[category] = cleanValue;
-            }
-        }
+    bars.transition().duration(650).ease(d3.easeCubicOut)
+      .attr('width', d => x(d.value));
 
-        return data;
-    }
+    /* Value labels */
+    g.selectAll('.val-lbl').data(entries).join('text')
+      .attr('class', 'val-lbl')
+      .attr('y', d => y(d.label) + y.bandwidth() / 2)
+      .attr('x', d => x(d.value) + 8)
+      .attr('dy', '0.35em')
+      .style('font-family', 'Poppins, sans-serif')
+      .style('font-size', '0.68rem')
+      .style('fill', 'var(--text-3)')
+      .text(d => d.value.toLocaleString('it-IT'));
 
-    // Function to initialize the chart based on selected category
-    async function initializeChart() {
-        const data = await fetchCSV();
+    /* Y axis */
+    g.append('g')
+      .call(d3.axisLeft(y).tickSize(0))
+      .call(gg => gg.select('.domain').remove())
+      .call(gg => gg.selectAll('text')
+        .style('font-family', 'Poppins, sans-serif')
+        .style('font-size', '0.72rem')
+        .style('fill', 'var(--text-2)')
+        .attr('dx', -8));
 
-        console.log('Fetched Data:', data); // Debug: Check the entire fetched data
+    /* X axis */
+    g.append('g').attr('transform', `translate(0,${iH})`)
+      .call(d3.axisBottom(x).ticks(5)
+        .tickFormat(d => d >= 1e6 ? (d/1e6).toFixed(1)+'M' : d >= 1e3 ? (d/1e3).toFixed(0)+'k' : d))
+      .call(gg => gg.select('.domain').remove())
+      .call(gg => gg.selectAll('line').remove())
+      .call(gg => gg.selectAll('text')
+        .style('font-family', 'Poppins, sans-serif')
+        .style('font-size', '0.68rem')
+        .style('fill', 'var(--text-3)'));
 
-        if (!data || typeof data !== 'object' || Object.keys(data).length === 0) {
-            console.error('Fetched data is not an object or is empty:', data);
-            return;
-        }
+    /* Hover highlight only — value labels already visible on each bar */
+    bars
+      .on('mouseover', function () {
+        d3.select(this).transition().duration(80).attr('opacity', 0.75);
+      })
+      .on('mouseout', function () {
+        d3.select(this).transition().duration(80).attr('opacity', 1);
+      });
+  }
 
-        // Get the selected category from the dropdown
-        const selectedCategory = document.getElementById('category-select').value;
-        console.log('Selected Category:', selectedCategory); // Debug: Check the selected category
+  function getCategoryData(cat) {
+    if (!allData) return {};
+    return cat === 'region'       ? allData.regions
+         : cat === 'geographical' ? allData.geographical
+         : cat === 'population'   ? allData.population
+         : allData.classification;
+  }
 
-        let filteredData = {};
+  document.getElementById('category-select')?.addEventListener('change', function () {
+    drawChart(getCategoryData(this.value));
+  });
 
-        switch (selectedCategory) {
-            case 'region':
-                filteredData = data.regions;
-                break;
-            case 'geographical':
-                filteredData = data.geographical;
-                break;
-            case 'population':
-                filteredData = data.population;
-                break;
-            case 'classification':
-                filteredData = data.classification;
-                break;
-            default:
-                console.error('Invalid category selected:', selectedCategory);
-                filteredData = {}; // Ensure filteredData is an empty object
-                break;
-        }
+  fetch(csvUrl)
+    .then(r => { if (!r.ok) throw new Error('CSV fetch failed'); return r.text(); })
+    .then(text => {
+      allData = parseCSV(text);
+      /* Wait for flex layout to compute actual container dimensions */
+      requestAnimationFrame(() => drawChart(allData.regions));
+    })
+    .catch(err => console.error('chart2 error:', err));
 
-        console.log('Filtered Data:', filteredData); // Debug: Check filtered data
-
-        // Check if filteredData is a valid object and not empty
-        if (typeof filteredData !== 'object' || filteredData === null || Object.keys(filteredData).length === 0) {
-            console.error('Filtered data is not an object or is empty:', filteredData);
-            return;
-        }
-
-        // Destroy the existing chart if it exists
-        if (chartInstance) {
-            chartInstance.destroy();
-        }
-
-        // Create new chart
-        const ctx = document.getElementById('myChart').getContext('2d');
-        const chartData = {
-            labels: Object.keys(filteredData),
-            datasets: [{
-                label: 'Number of Loans',
-                data: Object.values(filteredData).map(value => parseInt(value, 10) || 0), // Handle non-integer values
-                backgroundColor: 'rgba(54, 162, 235, 0.2)', // Light blue
-                borderColor: 'rgba(54, 162, 235, 1)', // Darker blue
-                borderWidth: 1
-            }]
-        };
-
-        const config = {
-            type: 'bar',
-            data: chartData,
-            options: {
-                scales: {
-                    x: {
-                        beginAtZero: true
-                    }
-                }
-            }
-        };
-
-        chartInstance = new Chart(ctx, config); // Save the new chart instance
-    }
-
-    // Event listener to update chart on category change
-    document.getElementById('category-select').addEventListener('change', function () {
-        console.log('Category changed to:', this.value); // Debug: Check the changed value
-        initializeChart();
-    });
-
-    // Initialize chart on page load
-    initializeChart();
+  window.addEventListener('resize', () => {
+    const cat = document.getElementById('category-select')?.value || 'region';
+    drawChart(getCategoryData(cat));
+  });
 });
