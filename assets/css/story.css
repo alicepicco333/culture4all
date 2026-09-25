@@ -216,7 +216,7 @@ td.r, th.r { text-align: right; font-variant-numeric: tabular-nums; }
 }
 
 footer { margin-top: 96px; padding: 24px 0 48px; font-size: 14px; color: var(--ink-2); }
-footer .wrap { border-top: 1px solid var(--rule-strong); padding-top: 24px; }
+footer .wrap { padding-top: 24px; background: linear-gradient(var(--rule-strong), var(--rule-strong)) no-repeat var(--gutter) 0 / calc(100% - 2 * var(--gutter)) 1px; }
 footer .row > div { grid-column: 1 / -1; margin-bottom: 12px; }
 @media (min-width: 960px) { footer .row > div:first-child { grid-column: 1 / span 6; } footer .row > div:last-child { grid-column: 7 / -1; } }
 footer p { margin: 0 0 4px; }

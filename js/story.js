@@ -8,6 +8,8 @@
   const SOUTH = "South & islands";
   const fixName = (s) => s.replace("Forl�", "Forlì").replace("Vall�e", "Vallée");
   const tip = document.getElementById("tip");
+  const SHORT = { "Trentino-Alto Adige": "Trentino-A. Adige", "Friuli-Venezia Giulia": "Friuli-V. Giulia" };
+  const short = (l, narrow) => (narrow && SHORT[l]) || l;
 
   // ---------- tooltip (hover + keyboard focus) ----------
   function showTip(html, evt, el) {
@@ -63,7 +65,7 @@
       .attr("x1", x).attr("x2", x).attr("y1", top - 4).attr("y2", top + rows.length * band);
     const g = svg.append("g").selectAll("g").data(rows).join("g").attr("transform", (d, i) => `translate(0,${top + i * band})`);
     g.append("text").attr("class", "lbl").attr("x", labelW - 10).attr("y", band / 2).attr("dy", "0.35em").attr("text-anchor", "end")
-      .text((d) => d.label);
+      .text((d) => short(d.label, narrow));
     // bar with 4px rounded data end, square at baseline
     g.append("path").attr("class", "bar").attr("fill", (d) => (d.hi ? "var(--accent)" : "var(--rest)"))
       .attr("d", (d) => {
@@ -113,7 +115,7 @@
       svg.append("line").attr("class", "gridline").attr("x1", 0).attr("x2", W).attr("y1", l.y + 8).attr("y2", l.y + 8).style("stroke", "var(--rule)");
     });
     const g = svg.append("g").selectAll("g").data(layout.filter((l) => l.r)).join("g").attr("transform", (l) => `translate(0,${l.y})`);
-    g.append("text").attr("class", "lbl").attr("x", labelW - 12).attr("dy", "0.35em").attr("text-anchor", "end").text((l) => l.r.label);
+    g.append("text").attr("class", "lbl").attr("x", labelW - 12).attr("dy", "0.35em").attr("text-anchor", "end").text((l) => short(l.r.label, narrow));
     g.append("line").attr("x1", labelW).attr("x2", (l) => x(l.r.value)).attr("stroke", "var(--grid)").attr("stroke-width", 1);
     g.append("circle").attr("class", "dot").attr("cx", (l) => x(l.r.value)).attr("r", 5)
       .attr("fill", (l) => (l.r.hi ? "var(--accent)" : "var(--rest)")).attr("stroke", "var(--paper)").attr("stroke-width", 2);
