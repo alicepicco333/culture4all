@@ -2,704 +2,283 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>C4A — Culture for All</title>
-
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Culture for All</title>
+  <meta name="description" content="A data story about unequal access to culture across Italian regions: libraries per inhabitant, municipalities without a library, library loans, reading habits and museum entry. Information Visualization, University of Bologna, 2023/24." />
+  <meta name="theme-color" content="#f6f5f1" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' fill='%231f3fd1'/%3E%3C/svg%3E" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
-
-  <style>
-    /* ── Tokens ── */
-    :root {
-      --bg:        #f7f6f2;
-      --surface:   #ffffff;
-      --text:      #1c1f2e;
-      --text-2:    #5a6072;
-      --text-3:    #9aa0b3;
-      --accent:    #1e3a6e;
-      --accent-bg: #eef2fb;
-      --border:    #e2dfd8;
-      --radius:    12px;
-      --nav-h:     60px;
-    }
-
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    html { scroll-behavior: smooth; }
-
-    body {
-      font-family: 'Poppins', system-ui, sans-serif;
-      background: var(--bg);
-      color: var(--text);
-      line-height: 1.7;
-      font-size: 1rem;
-    }
-
-    /* ── Nav ── */
-    .nav {
-      position: sticky;
-      top: 0;
-      z-index: 500;
-      height: var(--nav-h);
-      background: rgba(247, 246, 242, 0.9);
-      backdrop-filter: blur(14px);
-      -webkit-backdrop-filter: blur(14px);
-      border-bottom: 1px solid var(--border);
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 0 2.5rem;
-    }
-    .nav-logo {
-      font-size: 1rem;
-      font-weight: 700;
-      color: var(--accent);
-      letter-spacing: -0.02em;
-      text-decoration: none;
-    }
-    .nav-logo span { font-weight: 300; color: var(--text-3); }
-    .nav-link {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.4rem;
-      font-size: 0.8rem;
-      font-weight: 500;
-      color: var(--text);
-      border: 1.5px solid var(--border);
-      padding: 0.38rem 1rem;
-      border-radius: 6px;
-      text-decoration: none;
-      transition: border-color 0.2s, color 0.2s, background 0.2s;
-    }
-    .nav-link:hover { border-color: var(--accent); color: var(--accent); background: var(--accent-bg); }
-
-    /* ── Shared ── */
-    .wrap { max-width: 1180px; margin: 0 auto; padding: 0 2.5rem; }
-    .divider { border: none; border-top: 1px solid var(--border); }
-    .eyebrow {
-      display: inline-block;
-      font-size: 0.7rem;
-      font-weight: 600;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-      color: var(--accent);
-      margin-bottom: 0.6rem;
-    }
-    .display {
-      font-size: clamp(2.8rem, 6vw, 5.2rem);
-      font-weight: 700;
-      letter-spacing: -0.03em;
-      line-height: 1.05;
-    }
-    .heading-2 {
-      font-size: clamp(1.5rem, 2.8vw, 2.2rem);
-      font-weight: 700;
-      letter-spacing: -0.02em;
-      line-height: 1.2;
-    }
-    .tag {
-      display: inline-flex;
-      align-items: center;
-      font-size: 0.65rem;
-      font-weight: 600;
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-      padding: 0.2rem 0.55rem;
-      background: var(--accent-bg);
-      color: var(--accent);
-      border-radius: 4px;
-      margin-bottom: 0.35rem;
-    }
-    .body-text { font-size: 0.9rem; color: var(--text-2); line-height: 1.8; }
-    .body-small { font-size: 0.8rem; color: var(--text-2); line-height: 1.7; }
-
-    /* ── Controls ── */
-    .ctrl-label {
-      display: block;
-      font-size: 0.68rem;
-      font-weight: 600;
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-      color: var(--accent);
-      margin-bottom: 0.35rem;
-    }
-    .ctrl-select {
-      width: 100%;
-      padding: 0.45rem 2rem 0.45rem 0.7rem;
-      border: 1.5px solid var(--border);
-      border-radius: 7px;
-      font-family: 'Poppins', sans-serif;
-      font-size: 0.8rem;
-      color: var(--text);
-      background: var(--bg);
-      outline: none;
-      cursor: pointer;
-      appearance: none;
-      -webkit-appearance: none;
-      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='11' height='11' viewBox='0 0 24 24' fill='none' stroke='%235a6072' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
-      background-repeat: no-repeat;
-      background-position: right 0.6rem center;
-      transition: border-color 0.2s;
-      margin-bottom: 1rem;
-    }
-    .ctrl-select:focus { border-color: var(--accent); }
-
-    /* ── Hero ── */
-    .hero {
-      min-height: calc(100vh - var(--nav-h));
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 3rem;
-      align-items: center;
-      padding: 4rem 2.5rem;
-      max-width: 1180px;
-      margin: 0 auto;
-    }
-    .hero-quote {
-      font-size: 0.95rem;
-      font-style: italic;
-      color: var(--text-3);
-      margin-top: 2rem;
-      padding-left: 1rem;
-      border-left: 2px solid var(--border);
-      line-height: 1.6;
-    }
-    .hero-image { border-radius: var(--radius); overflow: hidden; aspect-ratio: 4 / 3; }
-    .hero-image img { width: 100%; height: 100%; object-fit: cover; display: block; }
-    .btn-outline {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.4rem;
-      margin-top: 2rem;
-      padding: 0.6rem 1.4rem;
-      border: 1.5px solid var(--accent);
-      border-radius: 7px;
-      font-size: 0.8rem;
-      font-weight: 500;
-      color: var(--accent);
-      text-decoration: none;
-      transition: background 0.2s, color 0.2s;
-    }
-    .btn-outline:hover { background: var(--accent); color: #fff; }
-
-    /* ── Static sections ── */
-    .section { padding: 5rem 0; }
-    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: start; margin-top: 2.5rem; }
-    .objectives-list { list-style: none; display: flex; flex-direction: column; gap: 0.75rem; }
-    .objectives-list li { display: flex; gap: 0.75rem; align-items: flex-start; font-size: 0.875rem; color: var(--text-2); line-height: 1.65; }
-    .objectives-list li::before { content: ''; flex-shrink: 0; width: 5px; height: 5px; border-radius: 50%; background: var(--accent); margin-top: 0.6rem; }
-    .method-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 1rem; margin-top: 2.5rem; }
-    .method-step { background: var(--surface); border-radius: var(--radius); padding: 1.25rem; border: 1px solid var(--border); }
-    .step-num { display: inline-flex; align-items: center; justify-content: center; width: 1.75rem; height: 1.75rem; border-radius: 50%; background: var(--accent-bg); color: var(--accent); font-size: 0.75rem; font-weight: 700; margin-bottom: 0.75rem; }
-    .conclusion-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; margin-top: 2.5rem; }
-    .conclusion-card { background: var(--surface); border-radius: var(--radius); border: 1px solid var(--border); padding: 1.5rem; }
-    .conclusion-card h3 { font-size: 0.9rem; font-weight: 600; margin-bottom: 0.6rem; }
-    .team-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; margin-top: 2.5rem; }
-    .team-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.5rem; text-align: center; }
-    .team-card img { width: 72px; height: 72px; object-fit: cover; border-radius: 50%; margin: 0 auto 0.75rem; display: block; border: 2px solid var(--border); }
-    .team-card h3 { font-size: 0.9rem; font-weight: 600; margin-bottom: 0.2rem; }
-    .team-card p { font-size: 0.78rem; color: var(--text-3); }
-    footer { border-top: 1px solid var(--border); padding: 2rem 2.5rem; text-align: center; font-size: 0.75rem; color: var(--text-3); line-height: 1.9; }
-
-    /* ══ FULL-HEIGHT VIZ SECTIONS ══ */
-    .viz-full {
-      height: 100vh;
-      overflow: hidden;
-      display: flex;
-      flex-direction: column;
-      scroll-margin-top: var(--nav-h);
-    }
-    .viz-full-inner {
-      flex: 1;
-      min-height: 0;
-      display: flex;
-      flex-direction: column;
-      max-width: 1180px;
-      width: 100%;
-      margin: 0 auto;
-      padding: 1.25rem 2.5rem 1.5rem;
-    }
-    .viz-hdr { flex-shrink: 0; margin-bottom: 0.75rem; }
-    .viz-row {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 1.5rem;
-      flex-wrap: wrap;
-    }
-    .inline-ctrl {
-      display: flex;
-      align-items: center;
-      gap: 0.6rem;
-      flex-shrink: 0;
-    }
-    .inline-ctrl label {
-      font-size: 0.68rem;
-      font-weight: 600;
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-      color: var(--accent);
-      white-space: nowrap;
-    }
-    .inline-ctrl select {
-      padding: 0.38rem 1.8rem 0.38rem 0.6rem;
-      border: 1.5px solid var(--border);
-      border-radius: 7px;
-      font-family: 'Poppins', sans-serif;
-      font-size: 0.8rem;
-      color: var(--text);
-      background: var(--bg);
-      outline: none;
-      cursor: pointer;
-      appearance: none;
-      -webkit-appearance: none;
-      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='11' height='11' viewBox='0 0 24 24' fill='none' stroke='%235a6072' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
-      background-repeat: no-repeat;
-      background-position: right 0.5rem center;
-      transition: border-color 0.2s;
-    }
-    .inline-ctrl select:focus { border-color: var(--accent); }
-
-    /* Split layout (viz 1 & 3): left = map/chart, right = info panel */
-    .viz-split {
-      flex: 1;
-      min-height: 0;
-      display: grid;
-      grid-template-columns: 60fr 40fr;
-      gap: 1.25rem;
-    }
-    .viz-split > * { min-height: 0; }
-
-    #map, #map1 {
-      height: 100%;
-      border-radius: var(--radius);
-      border: 1px solid var(--border);
-      z-index: 0;
-    }
-
-    /* Info panel (right side of split) */
-    .info-panel {
-      overflow-y: auto;
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 1.25rem 1.5rem;
-      display: flex;
-      flex-direction: column;
-    }
-
-    /* Pie layout (viz 2) */
-    .viz-pie-layout {
-      flex: 1;
-      min-height: 0;
-      display: grid;
-      grid-template-columns: 220px 1fr;
-      gap: 1.25rem;
-    }
-    .viz-pie-layout > * { min-height: 0; }
-    .controls-panel {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 1.1rem 1.25rem;
-      display: flex;
-      flex-direction: column;
-      overflow-y: auto;
-    }
-    .ctrl-hint {
-      margin-top: auto;
-      padding-top: 1rem;
-      font-size: 0.75rem;
-      color: var(--text-3);
-      line-height: 1.6;
-      border-top: 1px solid var(--border);
-    }
-    .pie-chart-area {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 1rem;
-      position: relative;
-      min-height: 0;
-    }
-    .pie-chart-area canvas { display: block; }
-
-    /* D3 chart areas (viz 4 & 5) */
-    .viz-chart-area {
-      flex: 1;
-      min-height: 0;
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 1rem 1.25rem;
-      position: relative;
-    }
-    .viz-chart-area > div { width: 100%; height: 100%; }
-
-    /* D3 tooltip shared */
-    .d3-tip {
-      position: absolute;
-      pointer-events: none;
-      opacity: 0;
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      padding: 0.45rem 0.75rem;
-      font-family: 'Poppins', sans-serif;
-      font-size: 0.78rem;
-      color: var(--text);
-      box-shadow: 0 2px 10px rgba(0,0,0,0.08);
-      white-space: nowrap;
-      z-index: 10;
-      transition: opacity 0.12s;
-    }
-
-    /* Leaflet overrides */
-    .leaflet-container .info {
-      padding: 0.5rem 0.7rem;
-      background: var(--surface);
-      border-radius: 8px;
-      font-size: 0.78rem;
-      color: var(--text);
-      border: 1px solid var(--border);
-      font-family: 'Poppins', sans-serif;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-    }
-
-    /* ── Responsive ── */
-    @media (max-width: 1024px) {
-      .method-grid { grid-template-columns: repeat(3, 1fr); }
-    }
-    @media (max-width: 768px) {
-      .hero { grid-template-columns: 1fr; min-height: auto; padding-top: 3rem; }
-      .hero-image { display: none; }
-      .two-col { grid-template-columns: 1fr; gap: 2rem; }
-      .method-grid { grid-template-columns: repeat(2, 1fr); }
-      .viz-split { grid-template-columns: 1fr; }
-      .viz-split .info-panel { display: none; }
-      .viz-pie-layout { grid-template-columns: 1fr; }
-      .conclusion-grid { grid-template-columns: 1fr; }
-      .team-grid { grid-template-columns: 1fr 1fr; }
-      .wrap { padding: 0 1.25rem; }
-      .nav { padding: 0 1.25rem; }
-      .viz-full-inner { padding: 1rem 1.25rem; }
-    }
-    @media (max-width: 480px) {
-      .method-grid { grid-template-columns: 1fr; }
-      .team-grid { grid-template-columns: 1fr; }
-    }
-  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/story.css" />
 </head>
-
 <body>
+<a class="skip" href="#main">Skip to content</a>
 
-  <!-- ─── Navigation ─── -->
-  <nav class="nav">
-    <a href="#" class="nav-logo">C4A <span>/ Culture for All</span></a>
-    <a href="https://github.com/alicepicco333/culture4all" class="nav-link" target="_blank" rel="noopener">
-      View on GitHub ↗
-    </a>
-  </nav>
-
-  <!-- ─── Hero ─── -->
-  <div class="hero">
-    <div>
-      <span class="eyebrow">Information Visualization · Bologna 2023/24</span>
-      <h1 class="display">Culture<br>for All</h1>
-      <p class="hero-quote">
-        "Culture is the arts elevated to a set of beliefs."<br>
-        <span style="font-style:normal;font-size:0.8rem;color:var(--text-3)">— Thomas Wolfe</span>
-      </p>
-      <a href="https://github.com/alicepicco333/culture4all" class="btn-outline" target="_blank" rel="noopener">
-        View on GitHub ↗
-      </a>
-      <p style="margin-top:2rem;font-size:0.78rem;color:var(--text-3);letter-spacing:0.03em">
-        Alice Picco · Corrado Consiglio · Salvatore Di Marzo
-      </p>
-    </div>
-    <div class="hero-image">
-      <img src="assets/image/library-488690_1920-800x500.jpg" alt="Library interior" />
-    </div>
+<nav class="nav" aria-label="Sections">
+  <div class="wrap">
+    <a class="brand" href="#top">C4A / Culture for All</a>
+    <ul>
+      <li><a href="#supply">Libraries</a></li>
+      <li><a href="#reach">Reach</a></li>
+      <li><a href="#use">Loans</a></li>
+      <li><a href="#reading">Reading</a></li>
+      <li><a href="#price">Museums</a></li>
+      <li><a href="#findings">Findings</a></li>
+      <li><a href="#method">Method</a></li>
+    </ul>
+    <a class="gh" href="https://github.com/alicepicco333/culture4all">GitHub</a>
   </div>
+</nav>
 
-  <hr class="divider" />
+<main id="main">
+  <header class="hero wrap" id="top">
+    <div class="row">
+      <p class="kicker" style="grid-column:1/-1">Culture for All · Information Visualization · University of Bologna 2023/24</p>
+      <h1>Where you live in Italy decides how much culture you can reach.</h1>
+      <p class="lede">Italy has more than thirteen thousand libraries and four and a half thousand museums, but they are not spread, used or priced evenly. This story follows public data from ISTAT and the Ministry of Culture region by region, and adjusts for population wherever the data allows.</p>
+      <p class="hero-meta">Corrado Consiglio, Salvatore Di Marzo and Alice Picco</p>
+    </div>
 
-  <!-- ─── About ─── -->
-  <section class="section">
-    <div class="wrap">
-      <span class="eyebrow">About the Project</span>
-      <h2 class="heading-2">Introducing C4A</h2>
-      <div class="two-col">
-        <div>
-          <p style="font-size:1rem;font-weight:600;color:var(--accent);margin-bottom:0.75rem">The Concept</p>
-          <p class="body-text">
-            Utilizing a blend of open datasets, this project offers a comprehensive overview of habits,
-            preferences, and regional disparities in cultural engagement across Italy.
-          </p>
-          <p class="body-text" style="margin-top:0.9rem">
-            Through interactive visualizations we aim to make complex data accessible and engaging,
-            fostering a deeper understanding of Italy's cultural landscape — and contributing
-            empirical evidence to inform policymakers in the cultural sector.
-          </p>
-        </div>
-        <div>
-          <p style="font-size:1rem;font-weight:600;color:var(--accent);margin-bottom:0.75rem">Objectives</p>
-          <ul class="objectives-list">
-            <li><span><strong>Geographical Distribution</strong> — Map the density of libraries, archives, and museums across Italian regions.</span></li>
-            <li><span><strong>Library Usage Patterns</strong> — Examine loan patterns by region, demographics, and urban classification.</span></li>
-            <li><span><strong>Regional Reading Habits</strong> — Assess reading engagement and format preferences by region.</span></li>
-            <li><span><strong>Access &amp; Equity</strong> — Identify regions with limited cultural access and propose improvements.</span></li>
-            <li><span><strong>Policy Support</strong> — Provide data-driven insights to strengthen cultural infrastructure.</span></li>
-          </ul>
-        </div>
+    <div class="stats" role="list">
+      <div class="stat lead" role="listitem">
+        <span class="kicker">Library loans</span>
+        <div class="v">68&times;</div>
+        <p>A public library in Emilia-Romagna made <b>10,137</b> local loans in 2022 on average. One in Campania made <b>149</b>.</p>
+        <a href="#use">Loans per library</a>
+      </div>
+      <div class="stat" role="listitem">
+        <span class="kicker">Reading</span>
+        <div class="v">27.4<small>%</small></div>
+        <p>of people aged 6 and over in Sicily read at least one book in 2021, against 50.3% in Trentino-Alto Adige.</p>
+        <a href="#reading">Reading by region</a>
+      </div>
+      <div class="stat" role="listitem">
+        <span class="kicker">Reach</span>
+        <div class="v">2,040</div>
+        <p>of 7,899 municipalities have no library in the 2022 register: about one in four.</p>
+        <a href="#reach">Municipalities without a library</a>
+      </div>
+      <div class="stat" role="listitem">
+        <span class="kicker">Supply</span>
+        <div class="v">1.5</div>
+        <p>libraries per 10,000 inhabitants in Campania and Puglia (2012), against 3.8 in Trentino-Alto Adige. Italy: 2.1.</p>
+        <a href="#supply">Libraries per inhabitant</a>
       </div>
     </div>
-  </section>
+  </header>
 
-  <hr class="divider" />
+  <!-- 01 SUPPLY -->
+  <section class="chapter wrap" id="supply" aria-labelledby="h-supply">
+    <div class="row">
+      <div class="label-col"><span class="n">01</span><span class="t">Supply</span></div>
+      <div class="body-col">
+        <h2 id="h-supply">Counting libraries rewards big provinces. Per inhabitant, the map changes.</h2>
+        <p class="prose">A map of raw counts mostly shows where people live: Rome has the most libraries simply because it has the most residents. ISTAT's 2012 table gives both the count and the rate <strong>per 10,000 inhabitants</strong> for every province, so the two can be set side by side on the same boundaries. The rate is the fairer measure of how close a library is to each resident.</p>
 
-  <!-- ─── Methodology ─── -->
-  <section class="section">
-    <div class="wrap">
-      <span class="eyebrow">How We Worked</span>
-      <h2 class="heading-2">Methodology</h2>
-      <div class="method-grid">
-        <div class="method-step">
-          <div class="step-num">1</div>
-          <h4 style="font-size:0.85rem;font-weight:600;margin-bottom:0.3rem">Data Collection</h4>
-          <p class="body-small">Gathered data from national statistics agencies, cultural institutions, publishing houses, and digital platforms.</p>
-        </div>
-        <div class="method-step">
-          <div class="step-num">2</div>
-          <h4 style="font-size:0.85rem;font-weight:600;margin-bottom:0.3rem">Data Processing</h4>
-          <p class="body-small">Cleaned and preprocessed all datasets to ensure accuracy and consistency across sources.</p>
-        </div>
-        <div class="method-step">
-          <div class="step-num">3</div>
-          <h4 style="font-size:0.85rem;font-weight:600;margin-bottom:0.3rem">Visualization Design</h4>
-          <p class="body-small">Designed and developed interactive charts and maps suited to each dataset's structure.</p>
-        </div>
-        <div class="method-step">
-          <div class="step-num">4</div>
-          <h4 style="font-size:0.85rem;font-weight:600;margin-bottom:0.3rem">Interpretation</h4>
-          <p class="body-small">Built a narrative from emerging insights, connecting patterns to broader cultural themes.</p>
-        </div>
-        <div class="method-step">
-          <div class="step-num">5</div>
-          <h4 style="font-size:0.85rem;font-weight:600;margin-bottom:0.3rem">Conclusions</h4>
-          <p class="body-small">Developed data-driven answers to research questions to inform cultural policy recommendations.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <hr class="divider" />
-
-  <!-- ══════════════ VISUALIZATIONS ══════════════ -->
-
-  <!-- ─── Viz 1 · Choropleth Map ─── -->
-  <section class="viz-full" id="viz-1">
-    <div class="viz-full-inner">
-      <div class="viz-hdr">
-        <span class="eyebrow">Visualization 1 · Cultural Institutions</span>
-        <div class="tag">Choropleth Map</div>
-        <h2 class="heading-2">Libraries by Province, 2022</h2>
-      </div>
-      <div class="viz-split">
-        <div id="map"></div>
-        <div class="info-panel" id="map-info-panel">
-          <!-- populated by viz_map1.js -->
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ─── Viz 2 · Pie Chart ─── -->
-  <section class="viz-full" id="viz-2" style="background:var(--surface)">
-    <div class="viz-full-inner">
-      <div class="viz-hdr">
-        <span class="eyebrow">Visualization 2 · Library Holdings</span>
-        <div class="tag">Pie Chart</div>
-        <h2 class="heading-2">Holdings Distribution by Region &amp; Year</h2>
-      </div>
-      <div class="viz-pie-layout">
-        <div class="controls-panel">
-          <label class="ctrl-label" for="year-select">Year</label>
-          <select id="year-select" class="ctrl-select"></select>
-          <label class="ctrl-label" for="region-select">Region</label>
-          <select id="region-select" class="ctrl-select"></select>
-          <div class="ctrl-hint">
-            Each slice represents the number of libraries in the selected region holding volumes within that size category. Hover a slice to see the exact count.
+        <figure class="figure" id="fig-maps">
+          <div class="fig-head"><h3>Libraries by province, 2012</h3><span class="unit">Same data, two measures</span></div>
+          <p class="finding">Rome has the most libraries (<b>928</b>) but only an average rate (<b>2.3</b> per 10,000). The lowest rates are in the south and in dense commuter provinces: Barletta-Andria-Trani <b>0.6</b>, Latina and Ragusa <b>0.8</b>, Monza e della Brianza <b>0.9</b>. Trieste leads with <b>5.2</b>.</p>
+          <div class="two">
+            <div>
+              <p class="panel-title">Number of libraries</p>
+              <div class="ramp" id="ramp-count" aria-hidden="true"></div>
+              <div class="chart" id="map-count" role="img" aria-label="Choropleth map of Italian provinces by number of libraries in 2012. Rome, Milan, Turin and Naples are darkest."></div>
+            </div>
+            <div>
+              <p class="panel-title">Libraries per 10,000 inhabitants</p>
+              <div class="ramp" id="ramp-rate" aria-hidden="true"></div>
+              <div class="chart" id="map-rate" role="img" aria-label="Choropleth map of Italian provinces by libraries per 10,000 inhabitants in 2012. Alpine provinces, Trieste, Sassari and Oristano are darkest; much of Campania, Puglia and Sicily is lightest."></div>
+            </div>
           </div>
-        </div>
-        <div class="pie-chart-area">
-          <canvas id="chart"></canvas>
-        </div>
+          <p class="ramp-na"><i></i> Sud Sardegna: created in 2016, no 2012 value. Other Sardinian provinces are drawn on today's borders.</p>
+          <details class="data"><summary>Show the data table (110 provinces)</summary><div class="tbl-wrap" id="tbl-prov"></div></details>
+          <p class="source">Source: ISTAT on the ICCU register of libraries (Anagrafe delle biblioteche italiane), 31 December 2012, table 4.1. The rate is ISTAT's own figure. 2012 is the latest year in this repository that includes population-based rates; the 2022 register gives counts only.</p>
+        </figure>
+
+        <figure class="figure" id="fig-rate-regions">
+          <div class="fig-head"><h3>Libraries per 10,000 inhabitants, by region, 2012</h3><span class="unit">Grouped by area, ranked</span></div>
+          <p class="finding">The south is not uniformly under-served: small regions such as <b>Molise (3.7)</b> and <b>Sardegna (2.8)</b> rank high. The gap is in the big southern regions, where most southerners live: <b>Campania and Puglia (1.5)</b> and <b>Sicilia (1.7)</b>. ISTAT's area averages: north 2.3, centre 2.3, south and islands 1.8.</p>
+          <div class="chart" id="dots-rate"></div>
+          <details class="data"><summary>Show the data table</summary><div class="tbl-wrap" id="tbl-rate"></div></details>
+        </figure>
       </div>
     </div>
   </section>
 
-  <!-- ─── Viz 3 · Pin Map ─── -->
-  <section class="viz-full" id="viz-3">
-    <div class="viz-full-inner">
-      <div class="viz-hdr">
-        <span class="eyebrow">Visualization 3 · Institution Locations</span>
-        <div class="viz-row" style="margin-top:0.35rem">
-          <div>
-            <div class="tag">Pin Map</div>
-            <h2 class="heading-2">Libraries, Archives &amp; Museums</h2>
+  <!-- 02 REACH -->
+  <section class="chapter wrap" id="reach" aria-labelledby="h-reach">
+    <div class="row">
+      <div class="label-col"><span class="n">02</span><span class="t">Reach</span></div>
+      <div class="body-col">
+        <h2 id="h-reach">One municipality in four has no library of its own.</h2>
+        <p class="prose">We placed each of the <strong>13,319</strong> geolocated libraries in the 2022 register inside the municipal boundary that contains it. <strong>2,040</strong> of the <strong>7,899</strong> municipalities in the boundary file contain none. This gap does not follow the north–south line: Abruzzo and Piemonte have the highest shares, Sardegna and Sicilia some of the lowest.</p>
+
+        <figure class="figure" id="fig-reach">
+          <div class="fig-head"><h3>Where the cultural institutions are</h3><span class="unit">One dot per institution</span></div>
+          <div class="two">
+            <div>
+              <div class="seg" role="group" aria-label="Institution type">
+                <button type="button" data-set="libraries" aria-pressed="true">Libraries</button>
+                <button type="button" data-set="museums" aria-pressed="false">Museums</button>
+                <button type="button" data-set="archives" aria-pressed="false">State archives</button>
+              </div>
+              <p class="panel-sub" id="dotmap-count" aria-live="polite">13,319 libraries (2022)</p>
+              <div class="chart" id="dotmap" role="img" aria-label="Dot map of Italy with one dot per cultural institution."></div>
+            </div>
+            <div>
+              <p class="panel-title">Municipalities with no library, share by region</p>
+              <p class="panel-sub">Percentage of municipalities; count in the table</p>
+              <div class="chart" id="bars-reach"></div>
+            </div>
           </div>
-          <div class="inline-ctrl">
-            <label for="datasetSelect">Institution type</label>
-            <select id="datasetSelect">
-              <option value="libraries">All Libraries</option>
-              <option value="MIBAC libraries">MIBAC Libraries</option>
-              <option value="archives">Archives</option>
-              <option value="museums">Museums</option>
-            </select>
+          <p class="finding" style="margin-top:20px"><b>Abruzzo: 170 of 305 municipalities (56%)</b> have no library. Piemonte (42%) and Liguria (41%) follow. At the other end, Sardegna (6%), Sicilia and Emilia-Romagna (9%) have a library in almost every municipality.</p>
+          <details class="data"><summary>Show the data table</summary><div class="tbl-wrap" id="tbl-reach"></div></details>
+          <p class="source">Sources: library coordinates from the 2022 register (<code>data/Dati_biblioteche/lat_long.json</code>); museums and state archives from dati.cultura.gov.it "Luoghi della cultura"; municipal boundaries from <code>geojson/comuni.geojson</code>. 7 records without coordinates and 43 points outside every boundary were left out. Computed by <code>scripts/build_story_data.py</code>.</p>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- 03 USE -->
+  <section class="chapter wrap" id="use" aria-labelledby="h-use">
+    <div class="row">
+      <div class="label-col"><span class="n">03</span><span class="t">Use</span></div>
+      <div class="body-col">
+        <h2 id="h-use">Southern libraries lend a fraction of what northern ones do.</h2>
+        <p class="prose">Having a library is not the same as using one. ISTAT's 2022 survey reports the average number of local loans per library that answered, which already removes the effect of how many libraries a region has. We use <strong>public libraries</strong> for the ranking: in Lazio a few private libraries account for 5.5 million loans, which would push its all-library average to 18,218.</p>
+
+        <figure class="figure" id="fig-loans">
+          <div class="fig-head"><h3>Local loans per public library, 2022</h3><span class="unit">Average per library; south and islands highlighted</span></div>
+          <p class="finding">The eight southern and island regions all sit at the bottom. <b>Campania's 149 loans a year</b> are fewer than three a week; <b>Emilia-Romagna's 10,137</b> are almost 200 a week. Across areas, a public library in the north-east lends 7,631 times a year, one in the south 441: <b>17 times fewer</b>.</p>
+          <div class="legend"><span class="k"><i class="sw" style="background:var(--accent)"></i>South &amp; islands</span><span class="k"><i class="sw" style="background:var(--rest)"></i>North &amp; centre</span><span class="k"><i class="sw" style="width:1px;height:14px;background:var(--ink)"></i>Italy 5,148</span></div>
+          <div class="chart" id="bars-loans"></div>
+          <details class="data"><summary>Show the data table</summary><div class="tbl-wrap" id="tbl-loans"></div></details>
+          <p class="source">Source: ISTAT, Indagine sulle biblioteche pubbliche e private, year 2022, table 4.12 (<code>PrestitiBiblioRegioni2022.csv</code>). Loans exclude renewals and inter-library loans. Trentino-Alto Adige covers Trento only; Bolzano's figure is not available.</p>
+        </figure>
+
+        <figure class="figure" id="fig-urban">
+          <div class="fig-head"><h3>Loans per public library by type of place, 2022</h3><span class="unit">Same survey, two groupings</span></div>
+          <p class="finding">Libraries in cities lend <b>9 times</b> more than rural ones (12,655 against 1,429). The Italian "inner areas" classification tells the same story: the further a municipality is from services, the less its library lends.</p>
+          <div class="two">
+            <div><p class="panel-title">Degree of urbanisation</p><div class="chart" id="bars-urban"></div></div>
+            <div><p class="panel-title">Distance from services (inner-areas class)</p><div class="chart" id="bars-inner"></div></div>
           </div>
-        </div>
-      </div>
-      <div class="viz-split">
-        <div id="map1"></div>
-        <div class="info-panel" id="map1-info-panel">
-          <!-- populated by bibliogeomap.js -->
-        </div>
+          <details class="data"><summary>Show the data table</summary><div class="tbl-wrap" id="tbl-urban"></div></details>
+        </figure>
       </div>
     </div>
   </section>
 
-  <!-- ─── Viz 4 · Bar Chart ─── -->
-  <section class="viz-full" id="viz-4" style="background:var(--surface)">
-    <div class="viz-full-inner">
-      <div class="viz-hdr">
-        <span class="eyebrow">Visualization 4 · Library Loans</span>
-        <div class="viz-row" style="margin-top:0.35rem">
-          <div>
-            <div class="tag">Bar Chart</div>
-            <h2 class="heading-2">Library Loans by Category, 2022</h2>
+  <!-- 04 READING -->
+  <section class="chapter wrap" id="reading" aria-labelledby="h-reading">
+    <div class="row">
+      <div class="label-col"><span class="n">04</span><span class="t">Reading</span></div>
+      <div class="body-col">
+        <h2 id="h-reading">Where libraries lend less, fewer people read.</h2>
+        <p class="prose">The reading survey is already a share of the population (people aged 6 and over, reading outside school and work), so regions can be compared directly. The two panels share one order: regions ranked by the share who read at least one book.</p>
+
+        <figure class="figure" id="fig-read">
+          <div class="fig-head"><h3>Reading habits by region, 2021</h3><span class="unit">% of people aged 6+</span></div>
+          <p class="finding">In <b>Sicilia, Campania, Calabria and Puglia</b> fewer than 3 in 10 people read a single book in 2021; in <b>Trentino-Alto Adige</b> it was half. Strong readers (12 or more books) are <b>2.0%</b> in Molise and <b>11.3%</b> in Trentino-Alto Adige.</p>
+          <div class="legend"><span class="k"><i class="dot" style="background:var(--accent)"></i>South &amp; islands</span><span class="k"><i class="dot" style="background:var(--rest)"></i>North &amp; centre</span><span class="k"><i class="sw" style="width:1px;height:14px;background:var(--ink)"></i>Italy average</span></div>
+          <div class="two">
+            <div><p class="panel-title">Read at least one book</p><div class="chart" id="dots-read-any"></div></div>
+            <div><p class="panel-title">Read 12 books or more</p><div class="chart" id="dots-read-12"></div></div>
           </div>
-          <div class="inline-ctrl">
-            <label for="category-select">Group by</label>
-            <select id="category-select">
-              <option value="region">By Region</option>
-              <option value="geographical">By Geographic Area</option>
-              <option value="population">By Population Size</option>
-              <option value="classification">By Urban Classification</option>
-            </select>
-          </div>
-        </div>
-      </div>
-      <div class="viz-chart-area">
-        <div id="myChart"></div>
+          <details class="data"><summary>Show the data table (all six measures)</summary><div class="tbl-wrap" id="tbl-read"></div></details>
+          <p class="source">Source: ISTAT, reading for reasons other than school or work, 2021 (<code>Dati-Abitudini-lettura-regioni-2021.csv</code>). The survey also splits print, digital and mixed readers; those figures are in the table.</p>
+        </figure>
+
+        <figure class="figure" id="fig-scatter">
+          <div class="fig-head"><h3>Loans per public library (2022) and share of readers (2021)</h3><span class="unit">One dot per region; horizontal scale is logarithmic</span></div>
+          <p class="finding">The regions line up: where libraries lend more, more people read. This shows association, not cause: many other things differ between these regions.</p>
+          <div class="chart" id="scatter"></div>
+          <p class="source">Pearson correlation between the log of loans and the share of readers across the 20 regions: 0.92. A log scale is used because loans range from 149 to 10,137, a factor of 68. Trentino-Alto Adige loans cover Trento only.</p>
+        </figure>
       </div>
     </div>
   </section>
 
-  <!-- ─── Viz 5 · Reading Habits ─── -->
-  <section class="viz-full" id="viz-5">
-    <div class="viz-full-inner">
-      <div class="viz-hdr">
-        <span class="eyebrow">Visualization 5 · Reading Habits</span>
-        <div class="viz-row" style="margin-top:0.35rem">
-          <div>
-            <div class="tag">Line Chart</div>
-            <h2 class="heading-2">Reading Habits by Region, 2021</h2>
-          </div>
-          <p style="font-size:0.8rem;color:var(--text-2);max-width:380px;line-height:1.6">
-            Six metrics for population aged 6+. Hover any point to compare values across regions.
-          </p>
-        </div>
-      </div>
-      <div class="viz-chart-area">
-        <div id="readingChart"></div>
+  <!-- 05 PRICE -->
+  <section class="chapter wrap" id="price" aria-labelledby="h-price">
+    <div class="row">
+      <div class="label-col"><span class="n">05</span><span class="t">Price</span></div>
+      <div class="body-col">
+        <h2 id="h-price">Price is not where the gap is.</h2>
+        <p class="prose">Of the 4,559 museums in the Ministry's open register, 2,556 state their entry conditions: <strong>1,370 free</strong> and <strong>1,186 with a ticket</strong>. Free entry does not follow the north–south line.</p>
+        <figure class="figure" id="fig-museums">
+          <div class="fig-head"><h3>Museums with free entry, share by region</h3><span class="unit">% of museums whose record states free entry or a ticket</span></div>
+          <p class="finding"><b>Campania (78%)</b> and <b>Emilia-Romagna (76%)</b> have the highest share of free museums, <b>Trentino-Alto Adige (10%)</b> and <b>Sardegna (17%)</b> the lowest. In this data, the southern gap shows up in how libraries are used, not in what museums charge.</p>
+          <div class="legend"><span class="k"><i class="sw" style="background:var(--accent)"></i>South &amp; islands</span><span class="k"><i class="sw" style="background:var(--rest)"></i>North &amp; centre</span></div>
+          <div class="chart" id="bars-museums"></div>
+          <details class="data"><summary>Show the data table</summary><div class="tbl-wrap" id="tbl-museums"></div></details>
+          <p class="source">Source: dati.cultura.gov.it, "Luoghi della cultura" (<code>Numbers_of_MALs_Per_Region_Free_Entry.csv</code>, <code>…_Ticket_Cost.csv</code>). Share = free ÷ (free + ticket). Museums whose record gives neither are left out, so small regions rest on few records (Molise: 15).</p>
+        </figure>
       </div>
     </div>
   </section>
 
-  <hr class="divider" />
-
-  <!-- ─── Conclusions ─── -->
-  <section class="section">
-    <div class="wrap">
-      <span class="eyebrow">Key Findings</span>
-      <h2 class="heading-2">Conclusions</h2>
-      <div class="conclusion-grid">
-        <div class="conclusion-card">
-          <h3>Cultural Institution Distribution</h3>
-          <p class="body-small">Institutions cluster in major urban centers — Lombardy, Veneto, Tuscany, and Lazio — while remote areas show lower concentrations, highlighting equity gaps that call for targeted policy.</p>
-        </div>
-        <div class="conclusion-card">
-          <h3>Library Usage Patterns</h3>
-          <p class="body-small">Urban areas consistently show higher loan rates than rural regions. Demographic and geographic factors shape usage significantly — tailored outreach could improve equity in service delivery.</p>
-        </div>
-        <div class="conclusion-card">
-          <h3>Regional Reading Habits</h3>
-          <p class="body-small">Reading engagement and format preferences vary considerably by region. Some regions exhibit high concentrations of avid readers, pointing to opportunities for region-specific cultural programs.</p>
-        </div>
-      </div>
-      <p class="body-text" style="margin-top:2rem;max-width:700px">
-        These findings underscore the need for targeted investment in cultural infrastructure,
-        particularly in underserved regions, to foster a more inclusive and vibrant cultural ecosystem across Italy.
-      </p>
-    </div>
-  </section>
-
-  <hr class="divider" />
-
-  <!-- ─── Team ─── -->
-  <section class="section">
-    <div class="wrap">
-      <span class="eyebrow">The Team</span>
-      <h2 class="heading-2">Our Team</h2>
-      <div class="team-grid">
-        <div class="team-card">
-          <img src="assets/image/image1.jpeg" alt="Corrado Consiglio" />
-          <h3>Corrado Consiglio</h3>
-          <p>Data Gathering · Data Cleaning</p>
-        </div>
-        <div class="team-card">
-          <img src="assets/image/image0.jpeg" alt="Salvatore Di Marzo" />
-          <h3>Salvatore Di Marzo</h3>
-          <p>Data Gathering · Data Cleaning</p>
-        </div>
-        <div class="team-card">
-          <img src="assets/image/alice.jpg" alt="Alice Picco" />
-          <h3>Alice Picco</h3>
-          <p>Data Visualization · Web Development</p>
-        </div>
+  <!-- FINDINGS -->
+  <section class="chapter wrap" id="findings" aria-labelledby="h-findings">
+    <div class="row">
+      <div class="label-col"><span class="n">06</span><span class="t">Findings</span></div>
+      <div class="body-col">
+        <h2 id="h-findings">What the data says</h2>
+        <ol class="findings">
+          <li><div><h3>Use is the widest gap.</h3><p>Libraries are only somewhat scarcer in the south (1.8 against 2.3 per 10,000), but they lend 17 times less. The gap in use is far wider than the gap in supply, so more buildings alone would not close it. <a href="#fig-loans">See loans per library</a></p></div></li>
+          <li><div><h3>Small places are left out, north and south.</h3><p>One municipality in four has no library; the share is highest in Abruzzo (56%), Piemonte (42%) and Liguria (41%). Rural libraries lend 9 times less than urban ones. <a href="#fig-reach">See reach</a></p></div></li>
+          <li><div><h3>Reading follows the same line.</h3><p>The four largest southern regions have the fewest readers (27–29%), and the regions where libraries lend least read least. <a href="#fig-scatter">See reading and loans</a></p></div></li>
+          <li><div><h3>Counts mislead; rates help.</h3><p>Absolute counts crown Rome and Milan. Per inhabitant, Trieste, the Alpine provinces and parts of Sardinia lead, and the densest commuter provinces fall behind. <a href="#fig-maps">See the two maps</a></p></div></li>
+        </ol>
       </div>
     </div>
   </section>
 
-  <!-- ─── Footer ─── -->
-  <footer>
-    <p>Developed as part of the Information Visualization course · University of Bologna</p>
-    <p>Digital Humanities and Digital Knowledge MA 2023/24 · Academic project, not actively maintained</p>
-    <p style="margin-top:0.4rem;color:var(--border)">Leaflet.js · D3.js · Chart.js · GeoJSON</p>
-  </footer>
+  <!-- METHOD -->
+  <section class="chapter wrap" id="method" aria-labelledby="h-method">
+    <div class="row">
+      <div class="label-col"><span class="n">07</span><span class="t">Method &amp; sources</span></div>
+      <div class="body-col">
+        <h2 id="h-method">How the numbers were made</h2>
+        <dl class="defs">
+          <div><dt>Data</dt><dd>ISTAT tables on libraries (2010–2022), library loans (2019–2022) and reading habits (2011–2021); the ICCU register of libraries; the Ministry of Culture's open "Luoghi della cultura" dataset on dati.cultura.gov.it (museums, archives, libraries, entry prices). All files are in the <a href="https://github.com/alicepicco333/culture4all">repository</a>.</dd></div>
+          <div><dt>Per capita</dt><dd>Libraries per 10,000 inhabitants are ISTAT's own rates for 2012. The repository has no population figures for other years, so we did not compute rates ourselves. Loans are ISTAT's average per library; reading figures are already shares of the population.</dd></div>
+          <div><dt>Headline figures</dt><dd>68× = 10,137 ÷ 149 (loans per public library, Emilia-Romagna ÷ Campania, 2022). 17× = 7,631 ÷ 441 (north-east ÷ south). 9× = 12,655 ÷ 1,429 (cities ÷ rural areas). One in four = 2,040 ÷ 7,899 municipalities.</dd></div>
+          <div><dt>Areas</dt><dd>North: Piemonte, Valle d'Aosta, Lombardia, Trentino-Alto Adige, Veneto, Friuli-Venezia Giulia, Liguria, Emilia-Romagna. Centre: Toscana, Umbria, Marche, Lazio. South &amp; islands: Abruzzo, Molise, Campania, Puglia, Basilicata, Calabria, Sicilia, Sardegna (ISTAT's "Mezzogiorno").</dd></div>
+          <div><dt>Processing</dt><dd>Data gathering and cleaning in Python notebooks (in <code>data/</code>). The figures on this page are rebuilt from those files by <code>scripts/build_story_data.py</code>, which also simplifies the province boundaries and runs the point-in-polygon count.</dd></div>
+          <div><dt>Licence</dt><dd>Data from dati.cultura and ISTAT: CC BY 4.0. Project: CC0 1.0, by Alice Picco, Salvatore Di Marzo and Corrado Consiglio.</dd></div>
+          <div><dt>Built with</dt><dd>D3.js, GeoJSON, HTML and CSS. No tracking.</dd></div>
+        </dl>
+      </div>
+    </div>
+  </section>
 
-  <!-- ─── Scripts ─── -->
-  <script src="https://d3js.org/d3.v7.min.js"></script>
-  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/chroma-js@2.4.2/chroma.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/papaparse@5/papaparse.min.js"></script>
+  <!-- TEAM -->
+  <section class="chapter wrap" id="team" aria-labelledby="h-team">
+    <div class="row">
+      <div class="label-col"><span class="n">08</span><span class="t">Team</span></div>
+      <div class="body-col">
+        <h2 id="h-team">Team</h2>
+        <div class="team">
+          <div class="person"><img src="assets/image/image1.jpeg" alt="" width="200" height="200" loading="lazy" /><div><h3>Corrado Consiglio</h3><p>Data gathering, data curation and cleaning, data investigation</p></div></div>
+          <div class="person"><img src="assets/image/image0.jpeg" alt="" width="200" height="200" loading="lazy" /><div><h3>Salvatore Di Marzo</h3><p>Data gathering, data curation and cleaning, data investigation</p></div></div>
+          <div class="person"><img src="assets/image/alice.jpg" alt="" width="200" height="200" loading="lazy" /><div><h3>Alice Picco</h3><p>Data gathering, data visualisation, web development</p></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
 
-  <script src="js/viz_map1.js"></script>
-  <script src="js/bibliogeomap.js"></script>
-  <script src="js/piechart.js"></script>
-  <script src="js/chart2.js"></script>
-  <script src="js/read.js" defer></script>
+<footer>
+  <div class="wrap row">
+    <div><p><b>Culture for All (C4A)</b></p><p>Final project for Information Visualization, Digital Humanities and Digital Knowledge MA, University of Bologna, 2023/24. Academic project, not actively maintained.</p></div>
+    <div><p><a href="https://github.com/alicepicco333/culture4all">Source code and data on GitHub</a></p><p>Redesigned 2026.</p></div>
+  </div>
+</footer>
 
-  <!-- Prevent ctrl+scroll browser zoom; maps handle their own scroll events -->
-  <script>
-    document.addEventListener('wheel', function(e) {
-      if (e.ctrlKey) e.preventDefault();
-    }, { passive: false });
-  </script>
-
+<div class="tip" id="tip" role="status" aria-live="polite"></div>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+<script src="js/story.js"></script>
 </body>
 </html>
