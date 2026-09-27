@@ -169,12 +169,12 @@
       <div class="label-col"><span class="n">Chapter II</span><span class="t">The atlas</span></div>
       <div class="body-col">
         <h2 id="h-atlas">Every library, museum and archive we could place on a map.</h2>
-        <p class="prose">This map joins two public registers: the Ministry of Culture's <strong>"Luoghi della cultura"</strong> (museums, archives, state libraries, monuments and archaeological sites, with address, opening hours and ticket price) and the <strong>ICCU register of libraries</strong> (name and position). Search for a place, filter by type or free entry, and open any dot to read its record.</p>
+        <p class="prose">This map joins two public registers: the Ministry of Culture's <strong>"Luoghi della cultura"</strong> (museums, archives, state libraries, monuments and archaeological sites, with address, opening hours and full ticket price) and the <strong>ICCU register of libraries</strong> (name and position). Search for a place, filter by type or free entry, and open any dot to read its record.</p>
 
       </div>
       <div class="full-col">
         <div class="atlas" id="atlas-ui">
-          <div class="atlas-side">
+          <div class="atlas-side atlas-controls">
             <div class="search" id="search">
               <label class="field" for="q">Search by name or town
                 <input type="search" id="q" autocomplete="off" placeholder="e.g. Biblioteca Malatestiana, Matera" role="combobox" aria-expanded="false" aria-controls="q-results" aria-autocomplete="list" />
@@ -197,14 +197,6 @@
                 <option value="ticket">Ticket stated in the record</option>
               </select>
             </label>
-            <div id="card-slot">
-              <p class="card-empty" id="card-empty">Choose a dot on the map, a search result or a place from the list to open its record card.</p>
-              <article class="card" id="card" hidden aria-live="polite"></article>
-            </div>
-            <details class="inview" id="inview">
-              <summary id="inview-sum">Places in view</summary>
-              <ul id="inview-list"></ul>
-            </details>
           </div>
           <div class="atlas-map">
             <div class="map-frame" id="map-frame" tabindex="0" role="application" aria-roledescription="map" aria-label="Atlas of cultural institutions. Use arrow keys to move between places, Enter to open one, plus and minus to zoom." aria-describedby="map-help">
@@ -215,6 +207,16 @@
             <p class="map-status"><span id="atlas-count" aria-live="polite">Loading the atlas…</span><span id="atlas-mode"></span></p>
             <p class="map-help" id="map-help">Zoomed out, each hexagon counts the places inside it; click one to zoom in. Zoomed in, each mark is one place. Keyboard: focus the map, <kbd>&larr;</kbd><kbd>&uarr;</kbd><kbd>&rarr;</kbd><kbd>&darr;</kbd> move to the nearest place, <kbd>Enter</kbd> opens it, <kbd>+</kbd>/<kbd>&minus;</kbd> zoom, <kbd>Shift</kbd>+arrows pan, <kbd>Esc</kbd> closes the card.</p>
             <p class="sr-status vh" id="atlas-live" aria-live="assertive"></p>
+          </div>
+          <div class="atlas-side atlas-card">
+            <div id="card-slot">
+              <p class="card-empty" id="card-empty">Choose a dot on the map, a search result or a place from the list to open its record card.</p>
+              <article class="card" id="card" hidden aria-live="polite"></article>
+            </div>
+            <details class="inview" id="inview">
+              <summary id="inview-sum">Places in view</summary>
+              <ul id="inview-list"></ul>
+            </details>
           </div>
         </div>
         <p class="source">Sources: dati.cultura.gov.it, "Luoghi della cultura", 2022 export (<code>data/Dataset_luoghi_cultura/dataset_luoghi_cultura_2022.rdf</code>, 6,122 places with coordinates); ICCU Anagrafe delle biblioteche, 2022 (<code>data/Dati_biblioteche/lat_long.json</code>, 13,046 libraries after removing 238 that sit within about 150 m of a Ministry library record). Municipality, province and region on each card are computed by placing the point in <code>geojson/comuni.geojson</code>. Entry is shown only where the record states a price or "Gratuito". Contact e-mails and phone numbers are left out because some are personal.</p>
@@ -369,7 +371,7 @@
           <div><dt>Data</dt><dd>ISTAT tables on libraries (2010–2022), library loans (2019–2022) and reading habits (2011–2021); the ICCU register of libraries; the Ministry of Culture's open "Luoghi della cultura" dataset on dati.cultura.gov.it (museums, archives, libraries, heritage sites, entry prices). All files are in the <a href="https://github.com/alicepicco333/culture4all">repository</a>.</dd></div>
           <div><dt>Per capita</dt><dd>Libraries per 10,000 inhabitants are ISTAT's own rates for 2012. The repository has no population figures for other years, so we did not compute rates ourselves. Loans are ISTAT's average per library; reading figures are already shares of the population.</dd></div>
           <div><dt>Headline figures</dt><dd>68× = 10,137 ÷ 149 (loans per public library, Emilia-Romagna ÷ Campania, 2022). 17× = 7,631 ÷ 441 (north-east ÷ south). 9× = 12,655 ÷ 1,429 (cities ÷ rural areas). One in four = 2,040 ÷ 7,899 municipalities.</dd></div>
-          <div><dt>The atlas</dt><dd>Each record card shows the fields the source provides: name, type, address and postcode, town, province and region as recorded, website, opening hours (in Italian, as recorded), full and reduced ticket price, a short excerpt of the description, the record's own source and last update. ICCU libraries carry only a name and a position. The municipality line is computed from the coordinates. Zoomed out, points are counted into hexagons about 20 pixels across.</dd></div>
+          <div><dt>The atlas</dt><dd>Each record card shows the fields the source provides: name, type, address and postcode, town, province and region as recorded, website, opening hours (in Italian, as recorded), the full ticket price, a short excerpt of the description, the record's own source and last update. The export also lists a reduced price, but it equals the full price in all 1,326 records, so it is not shown. Phone numbers and e-mails are left out. ICCU libraries carry only a name and a position. The municipality line is computed from the coordinates. Zoomed out, points are counted into hexagons about 20 pixels across.</dd></div>
           <div><dt>Your place</dt><dd>Ranks use the same figures as the charts: 20 regions, or the provinces that have a value. Counts of places are computed from the atlas and are counts, not rates.</dd></div>
           <div><dt>Areas</dt><dd>North: Piemonte, Valle d'Aosta, Lombardia, Trentino-Alto Adige, Veneto, Friuli-Venezia Giulia, Liguria, Emilia-Romagna. Centre: Toscana, Umbria, Marche, Lazio. South &amp; islands: Abruzzo, Molise, Campania, Puglia, Basilicata, Calabria, Sicilia, Sardegna (ISTAT's "Mezzogiorno").</dd></div>
           <div><dt>Processing</dt><dd>Data gathering and cleaning in Python notebooks (in <code>data/</code>). The figures on this page are rebuilt from those files by <code>scripts/build_story_data.py</code>, which also simplifies the province boundaries, runs the point-in-polygon counts and extracts the atlas records from the RDF export.</dd></div>

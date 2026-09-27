@@ -291,6 +291,8 @@ dump("municipalities.json", {"regions": regs, "municipalities": tot, "with_libra
 #   data/story/atlas/<region>.json record details, loaded only when a card is opened
 #   data/story/places.json         per-region / per-province aggregates for "your place"
 # Contact e-mails and phone numbers are deliberately NOT copied: some are personal.
+# The export's "Riduzione" (reduced) price equals the full price in every one of its 1,326
+# records, which looks like an export artefact, so only the full price is published.
 import xml.etree.ElementTree as ET
 
 RDFNS = "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}"
@@ -484,7 +486,7 @@ for d in dc:
     reg_i = add(d["lon"], d["lat"], d["cat"], d["free"], d["name"], d["id"], d["region"])
     if reg_i is not None:
         details[reg_i][d["id"]] = {k: d[k] for k in ("type_it", "type_en", "address", "postcode", "city", "province",
-                                                     "region", "web", "hours", "price", "reduced", "about", "src", "modified")
+                                                     "region", "web", "hours", "price", "about", "src", "modified")
                                    if d[k] not in (None, [], "")}
 for d in iccu_kept:
     add(d["longitudine"], d["latitudine"], 0, None, re.sub(r"\s+", " ", d["denominazione"]).strip(), "", None)

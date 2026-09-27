@@ -474,7 +474,7 @@
     card.hidden = false; $("card-empty").hidden = true;
     $("card-close").addEventListener("click", () => closeCard(true));
     if (focusCard) $("card-title").focus({ preventScroll: true });
-    if (window.innerWidth < 1000 && focusCard) card.scrollIntoView({ block: "nearest", behavior: reduced.matches ? "auto" : "smooth" });
+    if (window.innerWidth < 1000) card.scrollIntoView({ block: "nearest", behavior: reduced.matches ? "auto" : "smooth" });
     if (id) history.replaceState(null, "", "#place=" + id);
   }
   function closeCard(refocus) {
