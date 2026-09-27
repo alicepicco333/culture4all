@@ -12,8 +12,8 @@
   const TYPE_PL = ["libraries", "museums", "archives", "heritage sites"];
   const KEYS = ["k-lib", "k-mus", "k-arc", "k-oth"];
   const COLVAR = ["--c-lib", "--c-mus", "--c-arc", "--c-oth"];
-  const HEX_R = 9;              // hexagon radius in CSS px (about 18 px across)
-  const DEN_TH = [2, 5, 15, 40]; // places per hexagon: 1, 2-4, 5-14, 15-39, 40+
+  const HEX_R = 10;             // hexagon radius in CSS px (about 20 px across)
+  const DEN_TH = [3, 10, 30, 80]; // places per hexagon: 1-2, 3-9, 10-29, 30-79, 80+
   const keyOf = (s) => s.normalize("NFKD").replace(/[^\x00-\x7f]/g, "").replace(/[^a-z0-9]/gi, "").toLowerCase();
   const norm = (s) => s.normalize("NFKD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
   const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -58,7 +58,7 @@
     canvas.width = Math.round(W * dpr); canvas.height = Math.round(H * dpr); canvas.style.height = H + "px";
     proj = d3.geoConicConformal().parallels([38, 46]).rotate([-12.5, 0]).fitExtent([[8, 8], [W - 8, H - 8]], geo);
     land = new Path2D(d3.geoPath(proj)(geo));
-    const n = A.n;
+    const n = A.count;
     bx = new Float32Array(n); by = new Float32Array(n);
     for (let i = 0; i < n; i++) { const p = proj([A.x[i] / 1e4, A.y[i] / 1e4]); bx[i] = p[0]; by[i] = p[1]; }
     zoom.extent([[0, 0], [W, H]]).translateExtent([[-W * 0.2, -H * 0.2], [W * 1.2, H * 1.2]]);
@@ -76,7 +76,7 @@
   function applyFilters() {
     vis = [];
     const counts = [0, 0, 0, 0];
-    for (let i = 0; i < A.n; i++) {
+    for (let i = 0; i < A.count; i++) {
       const okEntry = st.entry === "any" || (st.entry === "free" ? A.f[i] === 1 : A.f[i] === 2);
       if (okEntry) counts[A.t[i]]++;
       if (passes(i)) vis.push(i);
@@ -85,7 +85,7 @@
     if (st.focus >= 0 && !passes(st.focus)) st.focus = -1;
     rebuildIndex();
     const entryTxt = st.entry === "free" ? " with free entry stated" : st.entry === "ticket" ? " with a ticket stated" : "";
-    $("atlas-count").textContent = `Showing ${fmt(vis.length)} of ${fmt(A.n)} places${entryTxt}`;
+    $("atlas-count").textContent = `Showing ${fmt(vis.length)} of ${fmt(A.count)} places${entryTxt}`;
     requestDraw(); scheduleInView();
   }
   function rebuildIndex() {
@@ -133,7 +133,7 @@
     else if (type === 2) { c.moveTo(x, y - r * 1.15); c.lineTo(x + r * 1.1, y + r * 0.85); c.lineTo(x - r * 1.1, y + r * 0.85); c.closePath(); }
     else { c.moveTo(x + r, y); c.arc(x, y, r, 0, 2 * Math.PI); }
   }
-  function dotR() { return Math.max(2.4, Math.min(5.5, 2.4 + (t.k * W / 2000 - 1) * 0.35)); }
+  function dotR() { return Math.max(2.6, Math.min(6, 2.6 + (t.k * W / 2000 - 1) * 0.3)); }
   function draw() {
     const paper = css("--paper"), landC = css("--land"), ink = css("--ink"), rule = css("--axis");
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
@@ -151,7 +151,7 @@
       if (st.hover >= 0 && st.hoverBin) { ctx.beginPath(); hexPath(ctx, st.hoverBin.x, st.hoverBin.y, HEX_R); ctx.lineWidth = 2; ctx.strokeStyle = ink; ctx.stroke(); }
       if (legend.dataset.mode !== "hex") {
         legend.dataset.mode = "hex";
-        legend.innerHTML = `<p>Places per hexagon</p><div class="ramp">${["1", "2–4", "5–14", "15–39", "40+"].map((l, i) => `<div><span style="background:var(--den-${i + 1})"></span>${l}</div>`).join("")}</div>`;
+        legend.innerHTML = `<p>Places per hexagon</p><div class="ramp">${["1–2", "3–9", "10–29", "30–79", "80+"].map((l, i) => `<div><span style="background:var(--den-${i + 1})"></span>${l}</div>`).join("")}</div>`;
       }
       $("atlas-mode").textContent = "Counted in hexagons: zoom in to see single places";
     } else {
@@ -359,7 +359,7 @@
     out.sort((a, b) => a.s - b.s || A.towns[a.town][0].length - A.towns[b.town][0].length);
     const towns = out.slice(0, 2);
     const places = [];
-    for (let i = 0; i < A.n; i++) {
+    for (let i = 0; i < A.count; i++) {
       const nm = A.nm[i], tn = A.m[i] >= 0 ? A.tn[A.m[i]] : "";
       const hay = nm + " " + tn;
       if (!toks.every((k) => hay.includes(k))) continue;
@@ -397,7 +397,7 @@
     resEl.hidden = true; qEl.setAttribute("aria-expanded", "false"); qEl.removeAttribute("aria-activedescendant");
     if (r.town != null) {
       const list = vis.filter((i) => A.m[i] === r.town);
-      const all = list.length ? list : d3.range(A.n).filter((i) => A.m[i] === r.town);
+      const all = list.length ? list : d3.range(A.count).filter((i) => A.m[i] === r.town);
       fitIndices(all);
       live(`Zoomed to ${A.towns[r.town][0]}: ${all.length} places.`);
       return;
@@ -434,7 +434,7 @@
   function row(label, html) { return html ? `<div><dt>${label}</dt><dd>${html}</dd></div>` : ""; }
   async function openCard(i, focusCard) {
     st.selected = i;
-    if (!dotMode() || !onScreen(i, 40)) centerOn(i, dotK()); else requestDraw();
+    if (!dotMode() || !onScreen(i, 40)) centerOn(i, dotK() * 3); else requestDraw();
     const id = A.id[i];
     let det = null;
     if (id) { try { det = (await shard(A.r[i]))[id] || null; } catch (e) { det = null; } }
@@ -455,7 +455,7 @@
       html += row("Entry", entry);
       if (det.hours) html += row("Opening hours", `<ul lang="it">${det.hours.split("|").map((h) => `<li>${esc(h)}</li>`).join("")}</ul>`);
       if (det.web?.length) html += row("Website", det.web.map((u) => `<a href="${esc(u)}" target="_blank" rel="noopener noreferrer">${esc(hostOf(u))}</a>`).join("<br>"));
-      html += row("Located in", `${comp} <span class="note">(from coordinates)</span>`);
+      if (!town || !det.city || norm(det.city) !== norm(town[0])) html += row("Located in", `${comp} <span class="note">(from coordinates)</span>`);
     } else {
       html += row("Located in", town ? `${comp} <span class="note">(from coordinates)</span>` : "Outside every municipal boundary");
       html += row("Entry", "Not recorded in this register");

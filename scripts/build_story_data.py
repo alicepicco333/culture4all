@@ -494,7 +494,7 @@ towns = [[cprops[i]["name"], prov_names.index(cprops[i]["prov_name"])] for i, _ 
 dump("atlas_points.json", {
     "regions": REG_NAMES, "provinces": [[p, prov_region[p]] for p in prov_names], "towns": towns,
     "types": ["Library", "Museum", "Archive", "Other heritage site"], **pts_out,
-    "n": len(pts_out["x"]), "n_dc": sum(1 for i in pts_out["id"] if i), "n_iccu": sum(1 for i in pts_out["id"] if not i),
+    "count": len(pts_out["x"]), "n_dc": sum(1 for i in pts_out["id"] if i), "n_iccu": sum(1 for i in pts_out["id"] if not i),
     "iccu_duplicates_dropped": dups, "outside_municipalities": outside[0],
     "note": "x, y = lon, lat x 10^4. t = type index. f: 0 not stated, 1 free, 2 ticket. m = town index (-1 = outside every "
             "municipal boundary). r = region index. id = dati.cultura record id ('' = ICCU library: name and coordinates only).",

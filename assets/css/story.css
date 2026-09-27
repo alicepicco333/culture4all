@@ -390,3 +390,4 @@ footer p { margin: 0 0 4px; }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; animation: none !important; scroll-behavior: auto !important; } }
 @media (forced-colors: active) { .chart .bar, .chart .dot { forced-color-adjust: none; } }
 @media print { .nav, details.data summary, .map-zoom { display: none; } .chapter { break-inside: avoid; } }
+.full-col { grid-column: 1 / -1; min-width: 0; }
