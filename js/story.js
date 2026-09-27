@@ -1,15 +1,39 @@
-/* Culture for All — data story charts (D3 v7). All data from data/story/*.json,
+/* Culture for All: data story charts (D3 v7). All data from data/story/*.json,
    built from the repository's own source files by scripts/build_story_data.py. */
 (function () {
   "use strict";
   const fmt = d3.format(",");
   const fmt1 = d3.format(".1f");
-  const css = (v) => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+  const root = document.documentElement;
+  const css = (v) => getComputedStyle(root).getPropertyValue(v).trim();
   const SOUTH = "South & islands";
   const fixName = (s) => s.replace("Forl�", "Forlì").replace("Vall�e", "Vallée");
   const tip = document.getElementById("tip");
   const SHORT = { "Trentino-Alto Adige": "Trentino-A. Adige", "Friuli-Venezia Giulia": "Friuli-V. Giulia" };
   const short = (l, narrow) => (narrow && SHORT[l]) || l;
+  const reduced = window.matchMedia("(prefers-reduced-motion: reduce)");
+
+  // ---------- theme switch ----------
+  const sysDark = window.matchMedia("(prefers-color-scheme: dark)");
+  const themeBtn = document.getElementById("theme-btn");
+  const isDark = () => (root.getAttribute("data-theme") || (sysDark.matches ? "dark" : "light")) === "dark";
+  function syncTheme() {
+    const dark = isDark();
+    themeBtn.setAttribute("aria-pressed", dark ? "true" : "false");
+    themeBtn.setAttribute("aria-label", "Dark theme");
+    document.getElementById("theme-label").textContent = "Dark";
+    const m = document.querySelector('meta[name="theme-color"]');
+    if (m) m.setAttribute("content", dark ? "#1c1814" : "#f5efe3");
+    document.dispatchEvent(new CustomEvent("c4a-theme", { detail: { dark } }));
+  }
+  themeBtn.addEventListener("click", () => {
+    const next = isDark() ? "light" : "dark";
+    root.setAttribute("data-theme", next);
+    try { localStorage.setItem("c4a-theme", next); } catch (e) { /* storage unavailable: theme lasts for this visit */ }
+    syncTheme();
+  });
+  sysDark.addEventListener?.("change", () => { if (!root.getAttribute("data-theme")) syncTheme(); });
+  syncTheme();
 
   // ---------- tooltip (hover + keyboard focus) ----------
   function showTip(html, evt, el) {
@@ -20,7 +44,7 @@
     else { const r = el.getBoundingClientRect(); x = r.left + window.scrollX + r.width / 2; y = r.top + window.scrollY; }
     const w = tip.offsetWidth, h = tip.offsetHeight, vw = document.documentElement.clientWidth;
     let left = x + 14; if (left + w > vw - 8) left = Math.max(8, x - w - 14);
-    tip.style.left = left + "px"; tip.style.top = Math.max(window.scrollY + 60, y - h - 12) + "px";
+    tip.style.left = left + "px"; tip.style.top = Math.max(window.scrollY + 64, y - h - 12) + "px";
   }
   const hideTip = () => tip.classList.remove("on");
   function bindTip(sel, html) {
@@ -29,6 +53,7 @@
       .on("focus", function (e, d) { showTip(html(d), e, this); })
       .on("blur", hideTip);
   }
+  window.C4A = { fmt, fmt1, css, showTip, hideTip, bindTip, fixName, reduced, SOUTH };
 
   function table(id, cols, rows) {
     const el = document.getElementById(id);
@@ -42,15 +67,14 @@
       .text((d) => { const v = d.c.v(d.r); return v == null ? "n/a" : d.c.f ? d.c.f(v) : v; });
   }
 
-  const width = (el) => Math.max(280, el.clientWidth);
+  const width = (el) => Math.max(260, el.clientWidth);
 
   // ---------- horizontal ranked bars ----------
-  // rows: [{label, value, hi(bool), tip}]  opts: {ref, refLabel, fmtV, max}
   function bars(id, rows, opts = {}) {
     const el = document.getElementById(id);
     const W = width(el);
     const narrow = W < 520;
-    const labelW = opts.labelW || (narrow ? 118 : 170);
+    const labelW = opts.labelW || (narrow ? 120 : 172);
     const valW = 58;
     const band = opts.band || 26, barH = Math.min(18, band - 8);
     const top = opts.ref != null ? 22 : 6, H = top + rows.length * band + 26;
@@ -66,8 +90,7 @@
     const g = svg.append("g").selectAll("g").data(rows).join("g").attr("transform", (d, i) => `translate(0,${top + i * band})`);
     g.append("text").attr("class", "lbl").attr("x", labelW - 10).attr("y", band / 2).attr("dy", "0.35em").attr("text-anchor", "end")
       .text((d) => short(d.label, narrow));
-    // bar with 4px rounded data end, square at baseline
-    g.append("path").attr("class", "bar").attr("fill", (d) => (d.hi ? "var(--accent)" : "var(--rest)"))
+    g.append("path").attr("class", "bar").attr("fill", (d) => (d.hi ? "var(--hi)" : "var(--rest)"))
       .attr("d", (d) => {
         const x0 = x(0), x1 = Math.max(x0 + 1, x(d.value)), y0 = (band - barH) / 2, r = Math.min(4, (x1 - x0) / 2);
         return `M${x0},${y0}H${x1 - r}Q${x1},${y0} ${x1},${y0 + r}V${y0 + barH - r}Q${x1},${y0 + barH} ${x1 - r},${y0 + barH}H${x0}Z`;
@@ -84,11 +107,10 @@
   }
 
   // ---------- ranked dot plot (optionally grouped by area) ----------
-  // rows: [{label, value, area, hi}] ; opts: {groups:[...], ref, refLabel, domain, fmtV, notes:{label:text}}
   function dots(id, rows, opts = {}) {
     const el = document.getElementById(id);
     const W = width(el), narrow = W < 520;
-    const labelW = opts.labelW || (narrow ? 118 : 160), band = 24, gap = opts.groups ? 30 : 0;
+    const labelW = opts.labelW || (narrow ? 120 : 160), band = 24, gap = opts.groups ? 30 : 0;
     const groups = opts.groups || [null];
     let y = opts.ref != null ? 22 : 8;
     const layout = [];
@@ -118,77 +140,115 @@
     g.append("text").attr("class", "lbl").attr("x", labelW - 12).attr("dy", "0.35em").attr("text-anchor", "end").text((l) => short(l.r.label, narrow));
     g.append("line").attr("x1", labelW).attr("x2", (l) => x(l.r.value)).attr("stroke", "var(--grid)").attr("stroke-width", 1);
     g.append("circle").attr("class", "dot").attr("cx", (l) => x(l.r.value)).attr("r", 5)
-      .attr("fill", (l) => (l.r.hi ? "var(--accent)" : "var(--rest)")).attr("stroke", "var(--paper)").attr("stroke-width", 2);
+      .attr("fill", (l) => (l.r.hi ? "var(--hi)" : "var(--rest)")).attr("stroke", "var(--paper)").attr("stroke-width", 2);
     g.append("text").attr("class", "val").attr("x", (l) => x(l.r.value) + 10).attr("dy", "0.35em")
-      .text((l) => (opts.labelAll || l.r.hi || l.r.label in (opts.notes || {}) ? f(l.r.value) : ""));
+      .text((l) => (opts.labelAll || l.r.hi ? f(l.r.value) : ""));
     const hit = g.append("rect").attr("class", "hit").attr("x", 0).attr("y", -band / 2).attr("width", W).attr("height", band)
       .attr("tabindex", 0).attr("role", "img").attr("aria-label", (l) => `${l.r.label}: ${f(l.r.value)}`);
     bindTip(hit, (l) => l.r.tip || `<b>${l.r.label}</b>${f(l.r.value)}`);
   }
 
-  // ---------- choropleth ----------
-  function choropleth(id, rampId, geo, valueOf, thresholds, fmtT, tipOf) {
-    const el = document.getElementById(id);
+  // ---------- supply map: one choropleth, two measures, scroll-driven ----------
+  const SEQ = ["--seq-1", "--seq-2", "--seq-3", "--seq-4", "--seq-5", "--seq-6"];
+  const MEASURES = {
+    count: { title: "Number of libraries", th: [50, 100, 150, 250, 400], f: fmt, v: (d) => d.libraries,
+      aria: "Choropleth map of Italian provinces by number of libraries in 2012. Rome, Milan, Turin and Naples are darkest." },
+    rate: { title: "Libraries per 10,000 inhabitants", th: [1.5, 2, 2.5, 3, 4], f: (v) => v.toFixed(1), v: (d) => d.per10k,
+      aria: "Choropleth map of Italian provinces by libraries per 10,000 inhabitants in 2012. Alpine provinces, Trieste, Sassari and Oristano are darkest; much of Campania, Puglia and Sicily is lightest." },
+  };
+  const supply = { measure: "count", paths: null, byKey: null };
+  function supplyFill(f, m) {
+    const d = supply.byKey.get(f.properties.key);
+    const M = MEASURES[m];
+    if (!d || M.v(d) == null) return css("--na");
+    const colors = SEQ.map(css);
+    return d3.scaleThreshold().domain(M.th).range(colors)(M.v(d));
+  }
+  function supplyRamp(m) {
+    const M = MEASURES[m];
+    const ramp = d3.select("#ramp-supply").html("");
+    SEQ.forEach((c, i) => {
+      const cell = ramp.append("div");
+      cell.append("span").style("background", `var(${c})`);
+      cell.append("div").text(i === 0 ? `< ${M.f(M.th[0])}` : i === SEQ.length - 1 ? `≥ ${M.f(M.th[i - 1])}` : `${M.f(M.th[i - 1])}–${M.f(M.th[i])}`);
+    });
+  }
+  function setMeasure(m, animate) {
+    if (!supply.paths) { supply.measure = m; return; }
+    const changed = m !== supply.measure;
+    supply.measure = m;
+    document.querySelectorAll("#fig-maps .seg button").forEach((b) => b.setAttribute("aria-pressed", b.dataset.measure === m ? "true" : "false"));
+    document.getElementById("map-title").textContent = MEASURES[m].title;
+    document.getElementById("map-supply").setAttribute("aria-label", MEASURES[m].aria);
+    supplyRamp(m);
+    const sel = supply.paths.interrupt();
+    if (animate && changed && !reduced.matches) sel.transition().duration(900).ease(d3.easeCubicInOut).attr("fill", (f) => supplyFill(f, m));
+    else sel.attr("fill", (f) => supplyFill(f, m));
+  }
+  function drawSupply(geo) {
+    const el = document.getElementById("map-supply");
     const W = width(el), H = Math.round(W * 1.12);
-    const colors = ["--seq-1", "--seq-2", "--seq-3", "--seq-4", "--seq-5", "--seq-6"].map((v) => `var(${v})`);
-    const q = d3.scaleThreshold().domain(thresholds).range(colors);
     const proj = d3.geoConicConformal().parallels([38, 46]).rotate([-12.5, 0]).fitExtent([[4, 4], [W - 4, H - 4]], geo);
     const path = d3.geoPath(proj);
     const svg = d3.select(el).html("").append("svg").attr("viewBox", `0 0 ${W} ${H}`).attr("width", W).attr("height", H);
-    const p = svg.append("g").selectAll("path").data(geo.features).join("path").attr("class", "prov").attr("d", path)
-      .attr("fill", (f) => { const v = valueOf(f); return v == null ? "var(--na)" : q(v); });
-    bindTip(p, tipOf);
-    // legend: threshold ramp
-    const edges = [null, ...thresholds];
-    const ramp = d3.select("#" + rampId).html("");
-    colors.forEach((c, i) => {
-      const cell = ramp.append("div");
-      cell.append("span").style("background", c);
-      cell.append("div").text(i === 0 ? `< ${fmtT(thresholds[0])}` : i === colors.length - 1 ? `≥ ${fmtT(thresholds[i - 1])}` : `${fmtT(edges[i])}–${fmtT(thresholds[i])}`);
+    supply.paths = svg.append("g").selectAll("path").data(geo.features).join("path").attr("class", "prov").attr("d", path);
+    bindTip(supply.paths, (f) => {
+      const d = supply.byKey.get(f.properties.key);
+      const nm = fixName(f.properties.name);
+      return d ? `<b>${nm}</b>${fmt(d.libraries)} libraries<br>${fmt1(d.per10k)} per 10,000 inhabitants` : `<b>${nm}</b>No 2012 value (province created 2016)`;
     });
+    setMeasure(supply.measure, false);
   }
+  document.querySelectorAll("#fig-maps .seg button").forEach((b) => b.addEventListener("click", () => setMeasure(b.dataset.measure, true)));
+  function setupScrolly() {
+    const box = document.getElementById("scrolly");
+    const steps = [...box.querySelectorAll(".step")];
+    if (reduced.matches || !("IntersectionObserver" in window)) { box.classList.add("static"); return null; }
+    box.classList.remove("static");
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach((e) => {
+        if (!e.isIntersecting) return;
+        steps.forEach((s) => s.classList.toggle("on", s === e.target));
+        setMeasure(e.target.dataset.measure, true);
+      });
+    }, { rootMargin: "-45% 0px -45% 0px" });
+    steps.forEach((s) => io.observe(s));
+    return io;
+  }
+  let scrollyIO = setupScrolly();
+  reduced.addEventListener?.("change", () => { scrollyIO?.disconnect(); scrollyIO = setupScrolly(); });
 
   // ---------- load everything ----------
   const J = (f) => d3.json("data/story/" + f);
-  Promise.all([J("provinces.geojson"), J("libraries_2012.json"), J("loans_2022.json"), J("reading_2021.json"),
-    J("museums_entry.json"), J("municipalities.json"), J("library_points.json")])
-    .then(([geo, lib, loans, read, mus, mun, pts]) => {
-      const byKey = new Map(lib.provinces.map((p) => [p.key, p]));
+  window.C4A.geo = J("provinces.geojson");
+  Promise.all([window.C4A.geo, J("libraries_2012.json"), J("loans_2022.json"), J("reading_2021.json"),
+    J("museums_entry.json"), J("municipalities.json")])
+    .then(([geo, lib, loans, read, mus, mun]) => {
+      supply.byKey = new Map(lib.provinces.map((p) => [p.key, p]));
       const draw = () => {
-        // 01 maps
-        const tipP = (f) => {
-          const d = byKey.get(f.properties.key);
-          const nm = fixName(f.properties.name);
-          return d ? `<b>${nm}</b>${fmt(d.libraries)} libraries<br>${fmt1(d.per10k)} per 10,000 inhabitants` : `<b>${nm}</b>No 2012 value (province created 2016)`;
-        };
-        choropleth("map-count", "ramp-count", geo, (f) => byKey.get(f.properties.key)?.libraries, [50, 100, 150, 250, 400], fmt, tipP);
-        choropleth("map-rate", "ramp-rate", geo, (f) => byKey.get(f.properties.key)?.per10k, [1.5, 2, 2.5, 3, 4], (v) => v.toFixed(1), tipP);
+        drawSupply(geo);
 
-        // 01 regions dot plot, grouped
         const areas = ["North", "Centre", SOUTH];
         const rrows = lib.regions.slice().sort((a, b) => b.per10k - a.per10k)
           .map((r) => ({ label: r.region, value: r.per10k, area: r.area, hi: r.area === SOUTH,
             tip: `<b>${r.region}</b>${fmt1(r.per10k)} per 10,000 inhabitants<br>${fmt(r.libraries)} libraries (2012)` }));
         dots("dots-rate", rrows, { groups: areas, ref: lib.areas.ITALIA, refLabel: `Italy ${lib.areas.ITALIA}`, domain: [0, 5], labelAll: true });
 
-        // 02 reach bars
         const reach = mun.regions.map((r) => ({ ...r, share: (100 * r.without_library) / r.municipalities }))
           .sort((a, b) => b.share - a.share);
         bars("bars-reach", reach.map((r) => ({ label: r.region, value: r.share, hi: r.area === SOUTH,
           tip: `<b>${r.region}</b>${r.without_library} of ${r.municipalities} municipalities have no library (${Math.round(r.share)}%)` })),
-        { fmtV: (v) => Math.round(v) + "%", tickFmt: (v) => v + "%", max: 60, ref: (100 * mun.without_library) / mun.municipalities, refLabel: "Italy 26%", band: 22 });
+        { fmtV: (v) => Math.round(v) + "%", tickFmt: (v) => v + "%", max: 60, ref: (100 * mun.without_library) / mun.municipalities, refLabel: "Italy 26%", band: 24 });
 
-        // 03 loans
         const lrows = loans.regions.slice().sort((a, b) => b.mean_public - a.mean_public);
         bars("bars-loans", lrows.map((r) => ({ label: r.region, value: r.mean_public, hi: r.area === SOUTH,
           tip: `<b>${r.region}</b>${fmt(r.mean_public)} loans per public library<br>${fmt(r.total)} local loans in total, all libraries` })),
         { ref: loans.italy.mean_public, refLabel: "Italy 5,148", tickFmt: ",", max: 11000 });
         const urbanLbl = ["Cities", "Towns and suburbs", "Rural areas"];
         const innerLbl = ["Hub", "Inter-municipal hub", "Belt", "Intermediate", "Peripheral", "Ultra-peripheral"];
-        bars("bars-urban", loans.urbanisation.map((r, i) => ({ label: urbanLbl[i], value: r.mean_public, hi: i === 2 })), { tickFmt: ",", max: 14000, labelW: 128 });
-        bars("bars-inner", loans.classification.map((r, i) => ({ label: innerLbl[i], value: r.mean_public, hi: i >= 4 })), { tickFmt: ",", max: 14000, labelW: 128 });
+        bars("bars-urban", loans.urbanisation.map((r, i) => ({ label: urbanLbl[i], value: r.mean_public, hi: i === 2 })), { tickFmt: ",", max: 14000, labelW: 132 });
+        bars("bars-inner", loans.classification.map((r, i) => ({ label: innerLbl[i], value: r.mean_public, hi: i >= 4 })), { tickFmt: ",", max: 14000, labelW: 132 });
 
-        // 04 reading
         const rd = read.regions.slice().sort((a, b) => b.any - a.any);
         const rtip = (r) => `<b>${r.region}</b>${fmt1(r.any)}% read at least one book<br>${fmt1(r.twelve_plus)}% read 12 or more`;
         dots("dots-read-any", rd.map((r) => ({ label: r.region, value: r.any, hi: r.area === SOUTH, tip: rtip(r) })),
@@ -197,16 +257,12 @@
           { domain: [0, 12], ref: read.italy.twelve_plus, refLabel: `Italy ${fmt1(read.italy.twelve_plus)}%`, fmtV: (v) => fmt1(v) + "%", tickFmt: (v) => v + "%", labelAll: true });
         scatter(loans, read);
 
-        // 05 museums
         const mrows = mus.regions.slice().sort((a, b) => b.share_free - a.share_free);
         bars("bars-museums", mrows.map((r) => ({ label: r.region, value: r.share_free, hi: r.area === SOUTH,
           tip: `<b>${r.region}</b>${r.free} free, ${r.ticket} with a ticket (${Math.round(r.share_free)}% free)` })),
-        { fmtV: (v) => Math.round(v) + "%", tickFmt: (v) => v + "%", max: 100, ref: (100 * mus.total_free) / (mus.total_free + mus.total_ticket), refLabel: "Italy 54%", band: 22 });
-
-        dotmap.draw();
+        { fmtV: (v) => Math.round(v) + "%", tickFmt: (v) => v + "%", max: 100, ref: (100 * mus.total_free) / (mus.total_free + mus.total_ticket), refLabel: "Italy 54%", band: 24 });
       };
 
-      // tables (once)
       table("tbl-prov", [{ h: "Province", v: (d) => fixName(d.name) }, { h: "Libraries", v: (d) => d.libraries, f: fmt, num: 1 }, { h: "Per 10,000 inhabitants", v: (d) => d.per10k, f: fmt1, num: 1 }],
         lib.provinces.slice().sort((a, b) => b.per10k - a.per10k));
       table("tbl-rate", [{ h: "Region", v: (d) => d.region }, { h: "Area", v: (d) => d.area }, { h: "Libraries", v: (d) => d.libraries, f: fmt, num: 1 }, { h: "Per 10,000", v: (d) => d.per10k, f: fmt1, num: 1 }],
@@ -224,60 +280,15 @@
       table("tbl-museums", [{ h: "Region", v: (d) => d.region }, { h: "Free", v: (d) => d.free, num: 1 }, { h: "Ticket", v: (d) => d.ticket, num: 1 }, { h: "% free", v: (d) => d.share_free, f: fmt1, num: 1 }],
         mus.regions.slice().sort((a, b) => b.share_free - a.share_free));
 
-      // ---------- dot map (canvas) ----------
-      const sets = {
-        libraries: { label: "libraries (2022)", data: pts.lonlat },
-        museums: { label: "museums", src: "data/Dati_Musei/Museums_complete.json", lat: "Museum_Latitude", lon: "Museum_Longitude" },
-        archives: { label: "state archives", src: "data/Dati_Archivi/Archives_Luoghi_Cultura.json", lat: "Archive_Latitude", lon: "Archive_Longitude" },
-      };
-      let current = "libraries";
-      const dotmap = {
-        draw() {
-          const el = document.getElementById("dotmap");
-          const W = width(el), H = Math.round(W * 1.12), dpr = window.devicePixelRatio || 1;
-          const s = sets[current];
-          if (!s.data) return;
-          el.innerHTML = "";
-          const c = document.createElement("canvas");
-          c.className = "map-canvas"; c.width = W * dpr; c.height = H * dpr; c.style.height = H + "px";
-          el.appendChild(c);
-          const ctx = c.getContext("2d"); ctx.scale(dpr, dpr);
-          const proj = d3.geoConicConformal().parallels([38, 46]).rotate([-12.5, 0]).fitExtent([[4, 4], [W - 4, H - 4]], geo);
-          const path = d3.geoPath(proj, ctx);
-          ctx.fillStyle = css("--na"); ctx.beginPath(); path(geo); ctx.fill();
-          ctx.strokeStyle = css("--surface"); ctx.lineWidth = 0.6; ctx.stroke();
-          ctx.fillStyle = css("--accent");
-          const n = s.data.length / 2, r = current === "archives" ? 3 : Math.max(0.9, W / 520);
-          ctx.globalAlpha = current === "archives" ? 1 : 0.55;
-          for (let i = 0; i < n; i++) {
-            const p = proj([s.data[2 * i], s.data[2 * i + 1]]);
-            if (!p) continue;
-            ctx.beginPath(); ctx.arc(p[0], p[1], r, 0, 6.2832); ctx.fill();
-          }
-          ctx.globalAlpha = 1;
-          document.getElementById("dotmap-count").textContent = `${fmt(n)} ${s.label}`;
-          el.setAttribute("aria-label", `Dot map of Italy with ${fmt(n)} ${s.label}, one dot each.`);
-        },
-      };
-      document.querySelectorAll(".seg button").forEach((b) => b.addEventListener("click", () => {
-        current = b.dataset.set;
-        document.querySelectorAll(".seg button").forEach((o) => o.setAttribute("aria-pressed", o === b ? "true" : "false"));
-        const s = sets[current];
-        if (s.data) return dotmap.draw();
-        document.getElementById("dotmap-count").textContent = "Loading…";
-        d3.json(s.src).then((rows) => {
-          s.data = rows.filter((r) => r[s.lat] && r[s.lon]).flatMap((r) => [+r[s.lon], +r[s.lat]]);
-          dotmap.draw();
-        });
-      }));
-
       draw();
       let tmo, lastW = window.innerWidth;
       window.addEventListener("resize", () => {
         if (window.innerWidth === lastW) return;
         lastW = window.innerWidth; clearTimeout(tmo); tmo = setTimeout(draw, 150);
       });
-      window.matchMedia("(prefers-color-scheme: dark)").addEventListener?.("change", () => dotmap.draw());
+      // SVG marks use CSS variables and re-colour by themselves; the supply map resolves
+      // its threshold colours to hex (so it can animate), so it is refilled here.
+      document.addEventListener("c4a-theme", () => setMeasure(supply.measure, false));
     })
     .catch((err) => { console.error("Could not load story data", err); });
 
@@ -300,10 +311,10 @@
     svg.append("text").attr("class", "lbl-muted").attr("x", m.l + 4).attr("y", m.t + 4).attr("dy", "0.7em").text("↑ Read at least one book");
     const label = new Set(["Campania", "Calabria", "Sicilia", "Emilia-Romagna", "Trentino-Alto Adige", "Lombardia", "Sardegna", "Molise", "Lazio", "Marche"]);
     const g = svg.append("g").selectAll("g").data(pts).join("g").attr("transform", (d) => `translate(${x(d.mean_public)},${y(d.read)})`);
-    g.append("circle").attr("r", 5).attr("fill", (d) => (d.area === SOUTH ? "var(--accent)" : "var(--rest)")).attr("stroke", "var(--paper)").attr("stroke-width", 2);
+    g.append("circle").attr("r", 5).attr("fill", (d) => (d.area === SOUTH ? "var(--hi)" : "var(--rest)")).attr("stroke", "var(--paper)").attr("stroke-width", 2);
     g.filter((d) => label.has(d.region) && !(narrow && ["Lazio", "Marche", "Lombardia"].includes(d.region))).append("text").attr("class", "lbl")
       .attr("x", (d) => (x(d.mean_public) > W - 140 ? -9 : 9)).attr("text-anchor", (d) => (x(d.mean_public) > W - 140 ? "end" : "start"))
-      .attr("dy", (d) => (d.region === "Calabria" ? "-0.6em" : d.region === "Campania" ? "1.1em" : "0.35em")).style("font-size", "12px").text((d) => d.region);
+      .attr("dy", (d) => (d.region === "Calabria" ? "-0.6em" : d.region === "Campania" ? "1.1em" : "0.35em")).style("font-size", "13px").text((d) => d.region);
     const hit = g.append("circle").attr("class", "hit").attr("r", 12).attr("tabindex", 0).attr("role", "img")
       .attr("aria-label", (d) => `${d.region}: ${fmt(d.mean_public)} loans per public library, ${fmt1(d.read)}% read at least one book`);
     bindTip(hit, (d) => `<b>${d.region}</b>${fmt(d.mean_public)} loans per public library<br>${fmt1(d.read)}% read at least one book`);
