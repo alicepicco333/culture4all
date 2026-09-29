@@ -224,3 +224,67 @@ footer p { margin: 0 0 4px; }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
 @media (forced-colors: active) { .chart .bar, .chart .dot { forced-color-adjust: none; } }
 @media print { .nav, details.data summary { display: none; } .chapter { break-inside: avoid; } }
+
+/* ---------- 2026 additions: how to read, follow a region, new charts ---------- */
+[hidden] { display: none !important; }
+.howto { font-size: 14px; line-height: 1.5; color: var(--ink-2); max-width: 46em; margin: 0 0 14px; }
+.howto b { font-weight: 600; color: var(--ink); margin-right: 4px; }
+.note-box { font-size: 13px; line-height: 1.5; color: var(--ink-2); border-left: 2px solid var(--rule); padding-left: 12px; margin: 20px 0 0; }
+
+/* follow a region */
+.follow { margin-top: 48px; border: 1px solid var(--rule-strong); background: var(--surface); padding: 18px 20px 16px; }
+.follow-head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 24px; }
+.follow h2 { font-size: 20px; letter-spacing: -0.01em; max-width: none; margin: 0; }
+.follow-controls { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+.follow-controls label { font-size: 14px; color: var(--ink-2); }
+.follow select { font: inherit; font-size: 15px; min-height: 40px; padding: 6px 10px; border: 1px solid var(--ink); border-radius: 0; background: var(--paper); color: var(--ink); min-width: 210px; }
+.btn { font: inherit; font-size: 14px; min-height: 40px; padding: 8px 14px; border: 1px solid var(--ink); background: var(--ink); color: var(--paper); cursor: pointer; }
+.btn:hover { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+.pf-empty { margin: 12px 0 0; font-size: 15px; color: var(--ink-2); max-width: 46em; }
+.pf { list-style: none; padding: 0; margin: 14px 0 0; display: grid; grid-template-columns: 1fr; column-gap: 40px; }
+@media (min-width: 1000px) { .pf { grid-template-columns: 1fr 1fr; } }
+.pf a { display: grid; grid-template-columns: minmax(0, 1fr) auto; grid-template-areas: "name name" "strip val"; gap: 4px 16px; align-items: center;
+  padding: 10px 0; border-top: 1px solid var(--rule); text-decoration: none; color: inherit; }
+@media (min-width: 640px) { .pf a { grid-template-columns: minmax(0, 1fr) 180px 190px; grid-template-areas: "name strip val"; } }
+.pf a:hover .pf-name { color: var(--accent); }
+.pf-name { grid-area: name; font-size: 15px; font-weight: 500; line-height: 1.3; }
+.pf-year { display: block; font-size: 12px; font-weight: 400; color: var(--muted); }
+.pf-strip { grid-area: strip; display: block; max-width: 100%; }
+.pf-val { grid-area: val; font-variant-numeric: tabular-nums; }
+.pf-val b { display: block; font-size: 17px; font-weight: 600; }
+.pf-val span { display: block; font-size: 12px; color: var(--muted); }
+.pf-key { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 12px; color: var(--muted); margin: 10px 0 0; }
+.pf-key span { display: inline-flex; align-items: center; gap: 6px; }
+.pf-key i { display: inline-block; }
+.k-me { width: 10px; height: 10px; border-radius: 50%; background: var(--accent); }
+.k-other { width: 2px; height: 12px; background: var(--rest); }
+.k-it { width: 2px; height: 14px; background: var(--ink); }
+
+.follow-pill { display: inline-flex; align-items: center; gap: 4px; margin: 0 0 0 auto; font-size: 13px; background: var(--accent); color: var(--accent-ink);
+  padding: 2px 2px 2px 10px; white-space: nowrap; max-width: 52vw; }
+.follow-pill .pill-name { font-weight: 600; overflow: hidden; text-overflow: ellipsis; }
+.follow-pill button { font: inherit; font-size: 18px; line-height: 1; background: transparent; color: inherit; border: 0; min-width: 32px; min-height: 32px; cursor: pointer; }
+.follow-pill:not([hidden]) ~ .gh { margin-left: 8px; }
+@media (min-width: 1000px) { .follow-pill { margin-left: 8px; } }
+
+/* a followed or hovered region, across every chart */
+.chart [data-region] .bar, .chart [data-region] .dot, .chart [data-region] .slope-line, .chart .prov { transition: opacity 0.15s; }
+.chart.has-focus [data-region]:not(.is-focus) .bar,
+.chart.has-focus [data-region]:not(.is-focus) .dot,
+.chart.has-focus [data-region]:not(.is-focus) .slope-line { opacity: 0.25; }
+.chart.has-focus .prov:not(.is-focus) { opacity: 0.35; }
+.chart.has-focus [data-region]:not(.is-focus) .lbl,
+.chart.has-focus [data-region]:not(.is-focus) .val { fill: var(--muted); }
+.chart [data-region].is-focus .bar, .chart [data-region].is-focus .dot { stroke: var(--ink); stroke-width: 2; }
+.chart [data-region].is-focus .lbl { font-weight: 600; }
+.chart [data-region].is-focus .slope-line { stroke-width: 3.5; }
+.chart .prov.is-focus { stroke: var(--ink); stroke-width: 1.2; }
+.chart .lbl-onfocus { display: none; }
+.chart .is-focus .lbl-onfocus { display: inline; }
+.chart .sl { font-size: 12px; }
+.chart .hit-line { stroke: transparent; stroke-width: 14; }
+.chart .hit-line:focus { outline: none; }
+.chart .hit-line:focus-visible { stroke: var(--accent); stroke-opacity: 0.25; }
+@media (prefers-reduced-motion: reduce) { .chart [data-region] .bar, .chart [data-region] .dot, .chart .prov { transition: none; } }
+@media print { .follow, .follow-pill, .howto { display: none; } }
+@media (max-width: 560px) { .follow-pill:not([hidden]) ~ .gh { display: none; } .nav .wrap { gap: 12px; } }

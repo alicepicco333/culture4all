@@ -4,8 +4,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Culture for All</title>
-  <meta name="description" content="A data story about unequal access to culture across Italian regions: libraries per inhabitant, municipalities without a library, library loans, reading habits and museum entry. Information Visualization, University of Bologna, 2023/24." />
+  <meta name="description" content="A data story about unequal access to culture across Italian regions: libraries per inhabitant, municipalities without a library and the distance to the nearest one, library loans, reading habits from 2011 to 2021, museum entry and published events. Information Visualization, University of Bologna, 2023/24." />
   <meta name="theme-color" content="#f6f5f1" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Culture for All: where you live in Italy decides how much culture you can reach" />
+  <meta property="og:description" content="Libraries, loans, reading, distance, museum prices and events, region by region, from ISTAT and Ministry of Culture open data. Follow your own region through every chart." />
+  <meta property="og:url" content="https://alicepicco333.github.io/culture4all/" />
+  <meta property="og:image" content="https://alicepicco333.github.io/culture4all/assets/image/og.png" />
+  <meta name="twitter:card" content="summary_large_image" />
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' fill='%231f3fd1'/%3E%3C/svg%3E" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -23,10 +29,13 @@
       <li><a href="#reach">Reach</a></li>
       <li><a href="#use">Loans</a></li>
       <li><a href="#reading">Reading</a></li>
+      <li><a href="#time">Time</a></li>
       <li><a href="#price">Museums</a></li>
+      <li><a href="#events">Events</a></li>
       <li><a href="#findings">Findings</a></li>
       <li><a href="#method">Method</a></li>
     </ul>
+    <p class="follow-pill" id="follow-pill" hidden>Following <span class="pill-name"></span> <button type="button" aria-label="Stop following this region">×</button></p>
     <a class="gh" href="https://github.com/alicepicco333/culture4all">GitHub</a>
   </div>
 </nav>
@@ -66,6 +75,18 @@
         <a href="#supply">Libraries per inhabitant</a>
       </div>
     </div>
+
+    <section class="follow" aria-labelledby="h-follow">
+      <div class="follow-head">
+        <h2 id="h-follow">Follow a region</h2>
+        <div class="follow-controls">
+          <label for="region-select">Region</label>
+          <select id="region-select"><option value="">None</option></select>
+          <button type="button" class="btn" id="share-btn" hidden>Save as image</button>
+        </div>
+      </div>
+      <div id="profile" aria-live="polite"></div>
+    </section>
   </header>
 
   <!-- 01 SUPPLY -->
@@ -78,17 +99,18 @@
 
         <figure class="figure" id="fig-maps">
           <div class="fig-head"><h3>Libraries by province, 2012</h3><span class="unit">Same data, two measures</span></div>
-          <p class="finding">Rome has the most libraries (<b>928</b>) but only an average rate (<b>2.3</b> per 10,000). The lowest rates are in the south and in dense commuter provinces: Barletta-Andria-Trani <b>0.6</b>, Latina and Ragusa <b>0.8</b>, Monza e della Brianza <b>0.9</b>. Trieste leads with <b>5.2</b>.</p>
+          <p class="howto" id="fig-maps-how"><b>How to read it</b> Both maps show the same provinces. Darker blue means more: on the left, more libraries in total; on the right, more libraries for every 10,000 people who live there. Compare the two to see how much of the left map is just population.</p>
+          <p class="finding" id="fig-maps-find">Rome has the most libraries (<b>928</b>) but only an average rate (<b>2.3</b> per 10,000). The lowest rates are in the south and in dense commuter provinces: Barletta-Andria-Trani <b>0.6</b>, Latina and Ragusa <b>0.8</b>, Monza e della Brianza <b>0.9</b>. Trieste leads with <b>5.2</b>.</p>
           <div class="two">
             <div>
               <p class="panel-title">Number of libraries</p>
               <div class="ramp" id="ramp-count" aria-hidden="true"></div>
-              <div class="chart" id="map-count" role="img" aria-label="Choropleth map of Italian provinces by number of libraries in 2012. Rome, Milan, Turin and Naples are darkest."></div>
+              <div class="chart" id="map-count" aria-describedby="fig-maps-how fig-maps-find" role="img" aria-label="Choropleth map of Italian provinces by number of libraries in 2012. Rome, Milan, Turin and Naples are darkest."></div>
             </div>
             <div>
               <p class="panel-title">Libraries per 10,000 inhabitants</p>
               <div class="ramp" id="ramp-rate" aria-hidden="true"></div>
-              <div class="chart" id="map-rate" role="img" aria-label="Choropleth map of Italian provinces by libraries per 10,000 inhabitants in 2012. Alpine provinces, Trieste, Sassari and Oristano are darkest; much of Campania, Puglia and Sicily is lightest."></div>
+              <div class="chart" id="map-rate" aria-describedby="fig-maps-how fig-maps-find" role="img" aria-label="Choropleth map of Italian provinces by libraries per 10,000 inhabitants in 2012. Alpine provinces, Trieste, Sassari and Oristano are darkest; much of Campania, Puglia and Sicily is lightest."></div>
             </div>
           </div>
           <p class="ramp-na"><i></i> Sud Sardegna: created in 2016, no 2012 value. Other Sardinian provinces are drawn on today's borders.</p>
@@ -98,8 +120,9 @@
 
         <figure class="figure" id="fig-rate-regions">
           <div class="fig-head"><h3>Libraries per 10,000 inhabitants, by region, 2012</h3><span class="unit">Grouped by area, ranked</span></div>
-          <p class="finding">The south is not uniformly under-served: small regions such as <b>Molise (3.7)</b> and <b>Sardegna (2.8)</b> rank high. The gap is in the big southern regions, where most southerners live: <b>Campania and Puglia (1.5)</b> and <b>Sicilia (1.7)</b>. ISTAT's area averages: north 2.3, centre 2.3, south and islands 1.8.</p>
-          <div class="chart" id="dots-rate"></div>
+          <p class="howto" id="fig-rate-regions-how"><b>How to read it</b> Each dot is a region, grouped by area. Further right means more libraries per inhabitant. The vertical line is the Italian average.</p>
+          <p class="finding" id="fig-rate-regions-find">The south is not uniformly under-served: small regions such as <b>Molise (3.7)</b> and <b>Sardegna (2.8)</b> rank high. The gap is in the big southern regions, where most southerners live: <b>Campania and Puglia (1.5)</b> and <b>Sicilia (1.7)</b>. ISTAT's area averages: north 2.3, centre 2.3, south and islands 1.8.</p>
+          <div class="chart" id="dots-rate" aria-describedby="fig-rate-regions-how fig-rate-regions-find"></div>
           <details class="data"><summary>Show the data table</summary><div class="tbl-wrap" id="tbl-rate"></div></details>
         </figure>
       </div>
@@ -116,6 +139,7 @@
 
         <figure class="figure" id="fig-reach">
           <div class="fig-head"><h3>Where the cultural institutions are</h3><span class="unit">One dot per institution</span></div>
+          <p class="howto" id="fig-reach-how"><b>How to read it</b> On the left, each dot is one library, museum or archive. On the right, each bar is a region: a longer bar means a larger share of its municipalities has no library at all.</p>
           <div class="two">
             <div>
               <div class="seg" role="group" aria-label="Institution type">
@@ -124,18 +148,39 @@
                 <button type="button" data-set="archives" aria-pressed="false">State archives</button>
               </div>
               <p class="panel-sub" id="dotmap-count" aria-live="polite">13,319 libraries (2022)</p>
-              <div class="chart" id="dotmap" role="img" aria-label="Dot map of Italy with one dot per cultural institution."></div>
+              <div class="chart" id="dotmap" aria-describedby="fig-reach-how fig-reach-find" role="img" aria-label="Dot map of Italy with one dot per cultural institution."></div>
             </div>
             <div>
               <p class="panel-title">Municipalities with no library, share by region</p>
               <p class="panel-sub">Percentage of municipalities; count in the table</p>
               <div class="legend"><span class="k"><i class="sw" style="background:var(--accent)"></i>South &amp; islands</span><span class="k"><i class="sw" style="background:var(--rest)"></i>North &amp; centre</span></div>
-              <div class="chart" id="bars-reach"></div>
+              <div class="chart" id="bars-reach" aria-describedby="fig-reach-how fig-reach-find"></div>
             </div>
           </div>
-          <p class="finding" style="margin-top:20px"><b>Abruzzo: 170 of 305 municipalities (56%)</b> have no library. Piemonte (42%) and Liguria (41%) follow. At the other end, Sardegna (6%), Sicilia and Emilia-Romagna (9%) have a library in almost every municipality.</p>
+          <p class="finding" id="fig-reach-find" style="margin-top:20px"><b>Abruzzo: 170 of 305 municipalities (56%)</b> have no library. Piemonte (42%) and Liguria (41%) follow. At the other end, Sardegna (6%), Sicilia and Emilia-Romagna (9%) have a library in almost every municipality.</p>
           <details class="data"><summary>Show the data table</summary><div class="tbl-wrap" id="tbl-reach"></div></details>
           <p class="source">Sources: library coordinates from the 2022 register (<code>data/Dati_biblioteche/lat_long.json</code>); museums and state archives from dati.cultura.gov.it "Luoghi della cultura"; municipal boundaries from <code>geojson/comuni.geojson</code>. 7 records without coordinates and 43 points outside every boundary were left out. Computed by <code>scripts/build_story_data.py</code>.</p>
+        </figure>
+
+        <figure class="figure" id="fig-distance">
+          <div class="fig-head"><h3>How far is the nearest library?</h3><span class="unit">The 2,040 municipalities without one, 2022</span></div>
+          <p class="howto" id="fig-distance-how"><b>How to read it</b> Each dot on the map is a municipality with no library, placed at its centre. Its colour shows how far the nearest library is: see the key above the map. The bars add up the people who live in those places, by distance.</p>
+          <p class="finding" id="fig-distance-find"><b>3.5 million people</b>, 6% of residents, live in a municipality with no library of its own. For most of them one is close: half of these municipalities are within <b>3.9 km</b> of a library, and only <b>71</b> are 10 km or more away, mostly Alpine valleys and small islands. Ponza is the farthest: <b>37.5 km</b>, across the sea.</p>
+          <div class="two">
+            <div>
+              <p class="panel-title">Distance to the nearest library</p>
+              <div class="ramp" id="ramp-dist" aria-hidden="true"></div>
+              <div class="chart" id="map-dist" aria-describedby="fig-distance-how fig-distance-find" role="img" aria-label="Map of the 2,040 municipalities with no library, coloured by distance to the nearest library."></div>
+            </div>
+            <div>
+              <p class="panel-title">Residents by distance</p>
+              <p class="panel-sub">People living in a municipality without a library, 1 January 2023</p>
+              <div class="chart" id="bars-dist" aria-describedby="fig-distance-how fig-distance-find"></div>
+              <p class="note-box">Some large towns appear here, such as Olbia (61,172 residents) and Ardea. They almost certainly have a library whose coordinates are missing or wrong in the register, so treat single towns with care; the overall pattern holds.</p>
+            </div>
+          </div>
+          <details class="data"><summary>Show the data table (2,040 municipalities)</summary><div class="tbl-wrap" id="tbl-dist"></div></details>
+          <p class="source">Straight-line distance from the centre of each municipality to the nearest geolocated library in the 2022 register; travel distances are longer, especially in the mountains. Residents: ISTAT, resident population on 1 January 2023 (<code>data/population/comuni_2023.csv</code>). Computed by <code>scripts/build_story_data.py</code>.</p>
         </figure>
       </div>
     </div>
@@ -151,19 +196,21 @@
 
         <figure class="figure" id="fig-loans">
           <div class="fig-head"><h3>Local loans per public library, 2022</h3><span class="unit">Average per library; south and islands highlighted</span></div>
-          <p class="finding">The eight southern and island regions all sit at the bottom. <b>Campania's 149 loans a year</b> are fewer than three a week; <b>Emilia-Romagna's 10,137</b> are almost 200 a week. Across areas, a public library in the north-east lends 7,631 times a year, one in the south 441: <b>17 times fewer</b>.</p>
+          <p class="howto" id="fig-loans-how"><b>How to read it</b> Each bar is a region. A longer bar means each public library lends more books in a year, on average. Blue bars are southern regions and islands.</p>
+          <p class="finding" id="fig-loans-find">The eight southern and island regions all sit at the bottom. <b>Campania's 149 loans a year</b> are fewer than three a week; <b>Emilia-Romagna's 10,137</b> are almost 200 a week. Across areas, a public library in the north-east lends 7,631 times a year, one in the south 441: <b>17 times fewer</b>.</p>
           <div class="legend"><span class="k"><i class="sw" style="background:var(--accent)"></i>South &amp; islands</span><span class="k"><i class="sw" style="background:var(--rest)"></i>North &amp; centre</span><span class="k"><i class="sw" style="width:1px;height:14px;background:var(--ink)"></i>Italy 5,148</span></div>
-          <div class="chart" id="bars-loans"></div>
+          <div class="chart" id="bars-loans" aria-describedby="fig-loans-how fig-loans-find"></div>
           <details class="data"><summary>Show the data table</summary><div class="tbl-wrap" id="tbl-loans"></div></details>
           <p class="source">Source: ISTAT, Indagine sulle biblioteche pubbliche e private, year 2022, table 4.12 (<code>PrestitiBiblioRegioni2022.csv</code>). Loans exclude renewals and inter-library loans. Trentino-Alto Adige covers Trento only; Bolzano's figure is not available.</p>
         </figure>
 
         <figure class="figure" id="fig-urban">
           <div class="fig-head"><h3>Loans per public library by type of place, 2022</h3><span class="unit">Same survey, two groupings</span></div>
-          <p class="finding">Libraries in cities lend <b>9 times</b> more than rural ones (12,655 against 1,429). The Italian "inner areas" classification tells the same story: the further a municipality is from services, the less its library lends.</p>
+          <p class="howto" id="fig-urban-how"><b>How to read it</b> Each bar is a type of place, not a region. On the left, from cities to rural areas; on the right, from central hubs to the most remote municipalities.</p>
+          <p class="finding" id="fig-urban-find">Libraries in cities lend <b>9 times</b> more than rural ones (12,655 against 1,429). The Italian "inner areas" classification tells the same story: the further a municipality is from services, the less its library lends.</p>
           <div class="two">
-            <div><p class="panel-title">Degree of urbanisation</p><div class="chart" id="bars-urban"></div></div>
-            <div><p class="panel-title">Distance from services (inner-areas class)</p><div class="chart" id="bars-inner"></div></div>
+            <div><p class="panel-title">Degree of urbanisation</p><div class="chart" id="bars-urban" aria-describedby="fig-urban-how fig-urban-find"></div></div>
+            <div><p class="panel-title">Distance from services (inner-areas class)</p><div class="chart" id="bars-inner" aria-describedby="fig-urban-how fig-urban-find"></div></div>
           </div>
           <details class="data"><summary>Show the data table</summary><div class="tbl-wrap" id="tbl-urban"></div></details>
         </figure>
@@ -181,11 +228,12 @@
 
         <figure class="figure" id="fig-read">
           <div class="fig-head"><h3>Reading habits by region, 2021</h3><span class="unit">% of people aged 6+</span></div>
-          <p class="finding">In <b>Sicilia, Campania, Calabria and Puglia</b> fewer than 3 in 10 people read a single book in 2021; in <b>Trentino-Alto Adige</b> it was half. Strong readers (12 or more books) are <b>2.0%</b> in Molise and <b>11.3%</b> in Trentino-Alto Adige.</p>
+          <p class="howto" id="fig-read-how"><b>How to read it</b> Each dot is a region, and both panels list the regions in the same order. Further right means a larger share of people who read.</p>
+          <p class="finding" id="fig-read-find">In <b>Sicilia, Campania, Calabria and Puglia</b> fewer than 3 in 10 people read a single book in 2021; in <b>Trentino-Alto Adige</b> it was half. Strong readers (12 or more books) are <b>2.0%</b> in Molise and <b>11.3%</b> in Trentino-Alto Adige.</p>
           <div class="legend"><span class="k"><i class="dot" style="background:var(--accent)"></i>South &amp; islands</span><span class="k"><i class="dot" style="background:var(--rest)"></i>North &amp; centre</span><span class="k"><i class="sw" style="width:1px;height:14px;background:var(--ink)"></i>Italy average</span></div>
           <div class="two">
-            <div><p class="panel-title">Read at least one book</p><div class="chart" id="dots-read-any"></div></div>
-            <div><p class="panel-title">Read 12 books or more</p><div class="chart" id="dots-read-12"></div></div>
+            <div><p class="panel-title">Read at least one book</p><div class="chart" id="dots-read-any" aria-describedby="fig-read-how fig-read-find"></div></div>
+            <div><p class="panel-title">Read 12 books or more</p><div class="chart" id="dots-read-12" aria-describedby="fig-read-how fig-read-find"></div></div>
           </div>
           <details class="data"><summary>Show the data table (all six measures)</summary><div class="tbl-wrap" id="tbl-read"></div></details>
           <p class="source">Source: ISTAT, reading for reasons other than school or work, 2021 (<code>Dati-Abitudini-lettura-regioni-2021.csv</code>). The survey also splits print, digital and mixed readers; those figures are in the table.</p>
@@ -193,28 +241,79 @@
 
         <figure class="figure" id="fig-scatter">
           <div class="fig-head"><h3>Loans per public library (2022) and share of readers (2021)</h3><span class="unit">One dot per region; horizontal scale is logarithmic</span></div>
-          <p class="finding">The regions line up: where libraries lend more, more people read. This shows association, not cause: many other things differ between these regions.</p>
-          <div class="chart" id="scatter"></div>
+          <p class="howto" id="fig-scatter-how"><b>How to read it</b> Each dot is a region. Further right means its libraries lend more; higher means more of its people read. The horizontal scale grows by multiples, so each step to the right is about three times the one before.</p>
+          <p class="finding" id="fig-scatter-find">The regions line up: where libraries lend more, more people read. This shows association, not cause: many other things differ between these regions.</p>
+          <div class="chart" id="scatter" aria-describedby="fig-scatter-how fig-scatter-find"></div>
           <p class="source">Pearson correlation between the log of loans and the share of readers across the 20 regions: 0.92. A log scale is used because loans range from 149 to 10,137, a factor of 68. Trentino-Alto Adige loans cover Trento only.</p>
         </figure>
       </div>
     </div>
   </section>
 
-  <!-- 05 PRICE -->
+  <!-- 05 TIME -->
+  <section class="chapter wrap" id="time" aria-labelledby="h-time">
+    <div class="row">
+      <div class="label-col"><span class="n">05</span><span class="t">Time</span></div>
+      <div class="body-col">
+        <h2 id="h-time">The gap narrowed because the north read less.</h2>
+        <p class="prose">ISTAT asks the same question every year: did you read at least one book in the last twelve months, for reasons other than school or work? Setting 2011 beside 2021 shows whether the regional gap is closing, and how.</p>
+
+        <figure class="figure" id="fig-slope">
+          <div class="fig-head"><h3>Read at least one book, 2011 and 2021</h3><span class="unit">% of people aged 6+</span></div>
+          <p class="howto" id="fig-slope-how"><b>How to read it</b> Each line joins a region's share of readers in 2011 (left) to 2021 (right). A line going down means fewer readers. The dashed line is Italy.</p>
+          <p class="finding" id="fig-slope-find">Italy fell from <b>45.3% to 40.8%</b>. Every region lost readers except <b>Umbria (+4.0 points)</b>, and the north lost most: <b>Friuli-Venezia Giulia −11.0</b>, Liguria −9.1, Veneto −9.0. In the south, Campania (−1.7) and Basilicata (−0.3) barely moved, from a much lower level.</p>
+          <div class="legend"><span class="k"><i class="sw" style="background:var(--accent)"></i>South &amp; islands</span><span class="k"><i class="sw" style="background:var(--rest)"></i>North &amp; centre</span><span class="k"><i class="sw" style="width:18px;height:0;border-top:2px dashed var(--ink)"></i>Italy</span></div>
+          <div class="chart" id="slope" aria-describedby="fig-slope-how fig-slope-find"></div>
+          <details class="data"><summary>Show the data table (every year, 2011–2021)</summary><div class="tbl-wrap" id="tbl-trend"></div></details>
+        </figure>
+
+        <figure class="figure" id="fig-gap">
+          <div class="fig-head"><h3>How far the south is behind, year by year</h3><span class="unit">Percentage points</span></div>
+          <p class="howto" id="fig-gap-how"><b>How to read it</b> The line is the distance between the average northern and central region and the average southern one. Lower means a smaller gap.</p>
+          <p class="finding" id="fig-gap-find">The average northern and central region was <b>16.5 points</b> ahead of the average southern one in 2011 and <b>13.9</b> ahead in 2021. The gap shrank because readers fell from 51.5% to 46.0% in the north and centre, but only from 35.0% to 32.1% in the south: <b>it closed from above, not from below.</b></p>
+          <div class="chart" id="gapline" aria-describedby="fig-gap-how fig-gap-find"></div>
+          <p class="source">Source: ISTAT, Aspetti della vita quotidiana, one table per year (<code>data/Dati_Editoria_Lettura/Dati_Lettura/</code>). Averages of regions, not weighted by population. The survey is a sample, so single years move by a point or two: read the direction, not each step.</p>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- 06 PRICE -->
   <section class="chapter wrap" id="price" aria-labelledby="h-price">
     <div class="row">
-      <div class="label-col"><span class="n">05</span><span class="t">Price</span></div>
+      <div class="label-col"><span class="n">06</span><span class="t">Price</span></div>
       <div class="body-col">
         <h2 id="h-price">Price is not where the gap is.</h2>
         <p class="prose">Of the 4,559 museums in the Ministry's open register, 2,556 state their entry conditions: <strong>1,370 free</strong> and <strong>1,186 with a ticket</strong>. Free entry does not follow the north–south line.</p>
         <figure class="figure" id="fig-museums">
           <div class="fig-head"><h3>Museums with free entry, share by region</h3><span class="unit">% of museums whose record states free entry or a ticket</span></div>
-          <p class="finding"><b>Campania (78%)</b> and <b>Emilia-Romagna (76%)</b> have the highest share of free museums, <b>Trentino-Alto Adige (10%)</b> and <b>Sardegna (17%)</b> the lowest. In this data, the southern gap shows up in how libraries are used, not in what museums charge.</p>
+          <p class="howto" id="fig-museums-how"><b>How to read it</b> Each bar is a region. A longer bar means a larger share of its museums is free to enter.</p>
+          <p class="finding" id="fig-museums-find"><b>Campania (78%)</b> and <b>Emilia-Romagna (76%)</b> have the highest share of free museums, <b>Trentino-Alto Adige (10%)</b> and <b>Sardegna (17%)</b> the lowest. In this data, the southern gap shows up in how libraries are used, not in what museums charge.</p>
           <div class="legend"><span class="k"><i class="sw" style="background:var(--accent)"></i>South &amp; islands</span><span class="k"><i class="sw" style="background:var(--rest)"></i>North &amp; centre</span></div>
-          <div class="chart" id="bars-museums"></div>
+          <div class="chart" id="bars-museums" aria-describedby="fig-museums-how fig-museums-find"></div>
           <details class="data"><summary>Show the data table</summary><div class="tbl-wrap" id="tbl-museums"></div></details>
           <p class="source">Source: dati.cultura.gov.it, "Luoghi della cultura" (<code>Numbers_of_MALs_Per_Region_Free_Entry.csv</code>, <code>…_Ticket_Cost.csv</code>). Share = free ÷ (free + ticket). Museums whose record gives neither are left out, so small regions rest on few records (Molise: 15).</p>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- 07 EVENTS -->
+  <section class="chapter wrap" id="events" aria-labelledby="h-events">
+    <div class="row">
+      <div class="label-col"><span class="n">07</span><span class="t">Events</span></div>
+      <div class="body-col">
+        <h2 id="h-events">Open data shows the Ministry's reach, not all of culture.</h2>
+        <p class="prose">The Ministry of Culture publishes the events held in its places as open data: <strong>30,541 events in 1,112 cities</strong>. Counted per resident, they say less about how much culture a region has than about how much of it runs through the Ministry.</p>
+
+        <figure class="figure" id="fig-events">
+          <div class="fig-head"><h3>Events published per 100,000 residents, by region</h3><span class="unit">Ministry of Culture open data; residents on 1 January 2023</span></div>
+          <p class="howto" id="fig-events-how"><b>How to read it</b> Each bar is a region. A longer bar means more events published in the Ministry's open data for every 100,000 people who live there.</p>
+          <p class="finding" id="fig-events-find"><b>Molise (227)</b> and <b>Basilicata (165)</b> publish the most per resident; <b>Sicilia (5)</b> and <b>Trentino-Alto Adige (7)</b> the fewest. Both manage their cultural heritage under regional autonomy, so their museums and events are run by the region and mostly missing from the national dataset. Rome alone published <b>5,010 events, 16%</b> of the total.</p>
+          <div class="legend"><span class="k"><i class="sw" style="background:var(--accent)"></i>South &amp; islands</span><span class="k"><i class="sw" style="background:var(--rest)"></i>North &amp; centre</span><span class="k"><i class="sw" style="width:1px;height:14px;background:var(--ink)"></i>Italy 52</span></div>
+          <div class="chart" id="bars-events" aria-describedby="fig-events-how fig-events-find"></div>
+          <details class="data"><summary>Show the data table</summary><div class="tbl-wrap" id="tbl-events"></div></details>
+          <p class="source">Source: Ministry of Culture open data on events, counted per city (<code>data/Dati_eventi/city_events_2023.json</code>); residents: ISTAT, 1 January 2023. City names were matched to municipalities by name; 16 names (71 events) could not be matched and are left out. A low figure here means few events published in this dataset, not few events.</p>
         </figure>
       </div>
     </div>
@@ -223,7 +322,7 @@
   <!-- FINDINGS -->
   <section class="chapter wrap" id="findings" aria-labelledby="h-findings">
     <div class="row">
-      <div class="label-col"><span class="n">06</span><span class="t">Findings</span></div>
+      <div class="label-col"><span class="n">08</span><span class="t">Findings</span></div>
       <div class="body-col">
         <h2 id="h-findings">What the data says</h2>
         <ol class="findings">
@@ -231,6 +330,9 @@
           <li><div><h3>Small places are left out, north and south.</h3><p>One municipality in four has no library; the share is highest in Abruzzo (56%), Piemonte (42%) and Liguria (41%). Rural libraries lend 9 times less than urban ones. <a href="#fig-reach">See reach</a></p></div></li>
           <li><div><h3>Reading follows the same line.</h3><p>The four largest southern regions have the fewest readers (27–29%), and the regions where libraries lend least read least. <a href="#fig-scatter">See reading and loans</a></p></div></li>
           <li><div><h3>Counts mislead; rates help.</h3><p>Absolute counts crown Rome and Milan. Per inhabitant, Trieste, the Alpine provinces and parts of Sardinia lead, and the densest commuter provinces fall behind. <a href="#fig-maps">See the two maps</a></p></div></li>
+          <li><div><h3>Distance is rarely the barrier.</h3><p>3.5 million people live in a municipality without a library, but for half of those municipalities the nearest one is under 4 km away. Real distances are confined to Alpine valleys and small islands. <a href="#fig-distance">See the distance map</a></p></div></li>
+          <li><div><h3>Fewer people read than ten years ago, everywhere but Umbria.</h3><p>The north–south gap in reading narrowed from 16.5 to 13.9 points, but because northern regions lost more readers, not because southern ones gained. <a href="#fig-gap">See the gap over time</a></p></div></li>
+          <li><div><h3>Open data has blind spots.</h3><p>National datasets miss what autonomous regions run themselves: Sicily and Trentino-Alto Adige almost vanish from the Ministry's events data. A low number can mean "not recorded here", not "not there". <a href="#fig-events">See events</a></p></div></li>
         </ol>
       </div>
     </div>
@@ -239,7 +341,7 @@
   <!-- METHOD -->
   <section class="chapter wrap" id="method" aria-labelledby="h-method">
     <div class="row">
-      <div class="label-col"><span class="n">07</span><span class="t">Method &amp; sources</span></div>
+      <div class="label-col"><span class="n">09</span><span class="t">Method &amp; sources</span></div>
       <div class="body-col">
         <h2 id="h-method">How the numbers were made</h2>
         <dl class="defs">
@@ -247,6 +349,11 @@
           <div><dt>Per capita</dt><dd>Libraries per 10,000 inhabitants are ISTAT's own rates for 2012. The repository has no population figures for other years, so we did not compute rates ourselves. Loans are ISTAT's average per library; reading figures are already shares of the population.</dd></div>
           <div><dt>Headline figures</dt><dd>68× = 10,137 ÷ 149 (loans per public library, Emilia-Romagna ÷ Campania, 2022). 17× = 7,631 ÷ 441 (north-east ÷ south). 9× = 12,655 ÷ 1,429 (cities ÷ rural areas). One in four = 2,040 ÷ 7,899 municipalities.</dd></div>
           <div><dt>Areas</dt><dd>North: Piemonte, Valle d'Aosta, Lombardia, Trentino-Alto Adige, Veneto, Friuli-Venezia Giulia, Liguria, Emilia-Romagna. Centre: Toscana, Umbria, Marche, Lazio. South &amp; islands: Abruzzo, Molise, Campania, Puglia, Basilicata, Calabria, Sicilia, Sardegna (ISTAT's "Mezzogiorno").</dd></div>
+          <div><dt>Distance</dt><dd>For each municipality with no library inside its boundary, the straight-line distance from the centre of its largest polygon to the nearest geolocated library in the 2022 register. Travel distance is longer, especially in the mountains and to islands.</dd></div>
+          <div><dt>Population</dt><dd>ISTAT resident population by municipality on 1 January 2023 (POSAS), used to count residents without a library and to express events per resident. A compact copy is in <code>data/population/comuni_2023.csv</code>.</dd></div>
+          <div><dt>Reading over time</dt><dd>ISTAT's yearly tables on reading, 2011–2021. The layouts differ from year to year; the build script reads the share of people aged 6+ who read at least one book from each, and checks that 2021 matches the table used in chapter 04.</dd></div>
+          <div><dt>Events</dt><dd>Events published per city in the Ministry of Culture's open events data, matched to municipalities by name. The dataset covers places linked to the Ministry, so regions with their own heritage administration (Sicily, Trentino-Alto Adige) are under-represented.</dd></div>
+          <div><dt>Reading the charts</dt><dd>Every chart has a "How to read it" line and a data table. The page was redesigned with a plan for testing how readers understand it: <a href="https://github.com/alicepicco333/culture4all/blob/main/docs/usability-test.md">usability test plan</a>.</dd></div>
           <div><dt>Processing</dt><dd>Data gathering and cleaning in Python notebooks (in <code>data/</code>). The figures on this page are rebuilt from those files by <code>scripts/build_story_data.py</code>, which also simplifies the province boundaries and runs the point-in-polygon count.</dd></div>
           <div><dt>Licence</dt><dd>Data from dati.cultura and ISTAT: CC BY 4.0. Project: CC0 1.0, by Alice Picco, Salvatore Di Marzo and Corrado Consiglio.</dd></div>
           <div><dt>Built with</dt><dd>D3.js, GeoJSON, HTML and CSS. No tracking.</dd></div>
@@ -258,7 +365,7 @@
   <!-- TEAM -->
   <section class="chapter wrap" id="team" aria-labelledby="h-team">
     <div class="row">
-      <div class="label-col"><span class="n">08</span><span class="t">Team</span></div>
+      <div class="label-col"><span class="n">10</span><span class="t">Team</span></div>
       <div class="body-col">
         <h2 id="h-team">Team</h2>
         <div class="team">
@@ -274,7 +381,7 @@
 <footer>
   <div class="wrap row">
     <div><p><b>Culture for All (C4A)</b></p><p>Final project for Information Visualization, Digital Humanities and Digital Knowledge MA, University of Bologna, 2023/24. Academic project, not actively maintained.</p></div>
-    <div><p><a href="https://github.com/alicepicco333/culture4all">Source code and data on GitHub</a></p><p>Redesigned 2026.</p></div>
+    <div><p><a href="https://github.com/alicepicco333/culture4all">Source code and data on GitHub</a></p><p>Redesigned 2026: follow a region, distance to the nearest library, reading over time and events added.</p></div>
   </div>
 </footer>
 

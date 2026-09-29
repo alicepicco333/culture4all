@@ -272,3 +272,149 @@ tot = sum(r["municipalities"] for r in regs); w = sum(r["with_library"] for r in
 dump("municipalities.json", {"regions": regs, "municipalities": tot, "with_library": w, "without_library": tot - w,
                              "points": len(pts), "points_outside_any_municipality": unmatched,
                              "method": "Point-in-polygon: each of the geolocated libraries in lat_long.json is placed in the municipal boundary (comuni.geojson) that contains it."})
+
+# ---------------------------------------------------------------- 2011-2021 reading trend
+# ISTAT "Persone di 6 anni e più che hanno letto almeno un libro", one table per year. The layouts
+# differ year to year (some files put a table in thousands beside the percentages), so for each
+# region row we take the first value after the region name that is a percentage (decimal, <= 100).
+def pct_after(row, name_idx):
+    for c in row[name_idx + 1:]:
+        c = c.strip()
+        if not c:
+            continue
+        if "," in c or "." not in c:
+            return None
+        v = num(c)
+        return v if v is not None and v <= 100 else None
+    return None
+
+
+def reading_share(path):
+    out = {}
+    for r in csv.reader(open(path, encoding="utf-8-sig", errors="replace")):
+        if not r or not r[0].strip():
+            continue
+        label = r[0].strip()
+        if label.lower() in ("italia", "italia (c)"):
+            k = "Italia"
+        elif label.startswith(("Bolzano", "Trento")):
+            continue
+        else:
+            reg = region_of(label)
+            if not reg:
+                continue
+            k = reg[0]
+        if k in out:
+            continue
+        for i in [i for i, c in enumerate(r) if c.strip() == label]:
+            v = pct_after(r, i)
+            if v is not None:
+                out[k] = v
+                break
+    return out
+
+
+years = list(range(2011, 2022))
+by_year = {y: reading_share(P("data/Dati_Editoria_Lettura/Dati_Lettura/LetturaPer_ LibriLetti_Regioni_%d.csv" % y)) for y in years}
+missing = [(y, r) for y in years for r, _ in REGIONS if r not in by_year[y]]
+assert not missing, missing
+assert all("Italia" in by_year[y] for y in years), [y for y in years if "Italia" not in by_year[y]]
+# the 2021 table must agree with the 2021 file used in chapter 04
+assert all(abs(by_year[2021][r["region"]] - r["any"]) < 0.05 for r in read), "2021 mismatch"
+dump("reading_trend.json", {
+    "years": years,
+    "regions": [{"region": r, "area": a, "values": [by_year[y][r] for y in years]} for r, a in REGIONS],
+    "italy": [by_year[y]["Italia"] for y in years],
+    "source": "ISTAT, Aspetti della vita quotidiana: people aged 6+ who read at least one book for non-school, non-work reasons in the previous 12 months, % (one table per year, 2011-2021)"})
+
+# ---------------------------------------------------------------- distance to the nearest library
+# For every municipality with no library inside its boundary: straight-line distance from the
+# centre of its largest polygon to the nearest geolocated library, and how many people live there
+# (ISTAT resident population on 1 January 2023, data/population/comuni_2023.csv).
+import numpy as np
+
+pop = {r["istat_code"]: int(r["residents_2023_01_01"]) for r in csv.DictReader(open(P("data/population/comuni_2023.csv"), encoding="utf-8"))}
+
+
+def centroid(ring):
+    a = cx = cy = 0.0
+    for i in range(len(ring) - 1):
+        x0, y0 = ring[i][:2]; x1, y1 = ring[i + 1][:2]
+        c = x0 * y1 - x1 * y0
+        a += c; cx += (x0 + x1) * c; cy += (y0 + y1) * c
+    if abs(a) < 1e-12:
+        xs = [p[0] for p in ring]; ys = [p[1] for p in ring]
+        return sum(xs) / len(xs), sum(ys) / len(ys)
+    return cx / (3 * a), cy / (3 * a)
+
+
+LIB = np.radians(np.array(pts, dtype=float))  # lon, lat of libraries
+
+
+def nearest_km(lon, lat):
+    lo, la = math.radians(lon), math.radians(lat)
+    d = np.sin((LIB[:, 1] - la) / 2) ** 2 + math.cos(la) * np.cos(LIB[:, 1]) * np.sin((LIB[:, 0] - lo) / 2) ** 2
+    return float(6371 * 2 * np.arcsin(np.sqrt(d.min())))
+
+
+no_lib, pop_missing, pop_total = [], 0, 0
+for i, f in enumerate(com["features"]):
+    pr = f["properties"]
+    p_ = pop.get(pr["com_istat_code"])
+    if p_ is None:
+        pop_missing += 1
+        p_ = 0
+    pop_total += p_
+    if count[i]:
+        continue
+    geo = f["geometry"]
+    ps = geo["coordinates"] if geo["type"] == "MultiPolygon" else [geo["coordinates"]]
+    big = max(ps, key=lambda poly: ring_area(poly[0]))
+    lon, lat = centroid(big[0])
+    reg = region_of(pr["reg_name"])
+    no_lib.append({"name": pr["name"], "code": pr["com_istat_code"], "region": reg[0] if reg else pr["reg_name"],
+                   "lon": round(lon, 3), "lat": round(lat, 3), "km": round(nearest_km(lon, lat), 1), "pop": p_})
+kms = sorted(m["km"] for m in no_lib)
+inband = lambda lo, hi: [m for m in no_lib if lo <= m["km"] < hi]
+bands = [{"from": a, "to": b, "municipalities": len(inband(a, b)), "residents": sum(m["pop"] for m in inband(a, b))}
+         for a, b in ((0, 2), (2, 5), (5, 10), (10, 20), (20, 999))]
+dreg = []
+for r, a in REGIONS:
+    ms = [m for m in no_lib if m["region"] == r]
+    ks = sorted(m["km"] for m in ms)
+    dreg.append({"region": r, "area": a, "municipalities": len(ms), "residents": sum(m["pop"] for m in ms),
+                 "median_km": ks[len(ks) // 2] if ks else None, "over_10km": sum(1 for k in ks if k >= 10)})
+dump("distance.json", {
+    "municipalities": no_lib, "bands": bands, "regions": dreg,
+    "residents_without": sum(m["pop"] for m in no_lib), "residents_total": pop_total,
+    "median_km": kms[len(kms) // 2], "codes_without_population": pop_missing,
+    "method": "Straight-line (great-circle) distance from the centre of each municipality's largest polygon to the nearest of the geolocated libraries of 2022. Residents: ISTAT, 1 January 2023."})
+
+# ---------------------------------------------------------------- published events per inhabitant
+# data/Dati_eventi/city_events_2023.json counts the events each city published on the Ministry of
+# Culture's open events dataset. It measures what reaches the Ministry's calendar, not all culture.
+ev = json.load(open(P("data/Dati_eventi/city_events_2023.json"), encoding="utf-8"))
+by_name = defaultdict(list)
+for f in com["features"]:
+    by_name[key(f["properties"]["name"])].append(f["properties"])
+ev_reg = defaultdict(int); ambiguous = unmatched_ev = 0; cities = []
+for name, n in ev.items():
+    cand = by_name.get(key(name.replace("_", " ")), [])
+    if len(cand) != 1:
+        ambiguous += len(cand) > 1; unmatched_ev += not cand
+        continue
+    pr = cand[0]
+    reg = region_of(pr["reg_name"])
+    ev_reg[reg[0]] += int(n)
+    cities.append({"name": pr["name"], "region": reg[0], "events": int(n), "pop": pop.get(pr["com_istat_code"], 0)})
+pop_reg = defaultdict(int)
+for f in com["features"]:
+    pr = f["properties"]; reg = region_of(pr["reg_name"])
+    pop_reg[reg[0]] += pop.get(pr["com_istat_code"], 0)
+cities.sort(key=lambda c: -c["events"])
+dump("events.json", {
+    "regions": [{"region": r, "area": a, "events": ev_reg[r], "residents": pop_reg[r],
+                 "per100k": round(100000 * ev_reg[r] / pop_reg[r], 1)} for r, a in REGIONS],
+    "top_cities": cities[:12], "total_events": sum(int(v) for v in ev.values()), "matched_events": sum(ev_reg.values()),
+    "cities": len(ev), "ambiguous_names": ambiguous, "unmatched_names": unmatched_ev,
+    "source": "Ministry of Culture open data: events published per city (data/Dati_eventi/city_events_2023.json); residents ISTAT 1 Jan 2023"})

@@ -3,6 +3,23 @@ This is the repository for the final project of the course Information Visualiza
 
 
 
+<h2><b>2026 redesign</b></h2>
+
+The site is a data story built with D3 (`index.html`, `js/story.js`, `assets/css/story.css`). Every figure comes from
+`data/story/*.json`, which `scripts/build_story_data.py` rebuilds from the source files in this repository:
+
+    python scripts/build_story_data.py
+
+What the story covers: libraries per inhabitant, municipalities without a library and the distance to the nearest one,
+library loans, reading habits and how they changed from 2011 to 2021, free museum entry, and events published in the
+Ministry of Culture's open data. Readers can **follow a region** through every chart, see where it stands on each
+measure, link to it (`?region=Campania`) and save that summary as an image.
+
+Added data: ISTAT resident population by municipality on 1 January 2023 (`data/population/comuni_2023.csv`, from the
+POSAS release), used for residents without a library and events per resident.
+
+Testing how readers understand the charts: [docs/usability-test.md](docs/usability-test.md).
+
 <h2><b>Credits</b></h2>
 
 <b>Corrado Consiglio</b> - Data Gathering - Data Curation - Data investigation
