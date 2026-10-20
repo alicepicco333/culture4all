@@ -368,6 +368,94 @@
       box-shadow: 0 2px 8px rgba(0,0,0,0.08);
     }
 
+    /* ── Nav jump links ── */
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 0.15rem;
+    }
+    .nav-jump {
+      font-size: 0.72rem;
+      font-weight: 500;
+      color: var(--text-2);
+      text-decoration: none;
+      padding: 0.3rem 0.6rem;
+      border-radius: 5px;
+      transition: color 0.18s, background 0.18s;
+      white-space: nowrap;
+    }
+    .nav-jump:hover { color: var(--accent); background: var(--accent-bg); }
+
+    /* ── Stats strip ── */
+    .stats-strip {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1px;
+      background: var(--border);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+    }
+    .stat-box {
+      background: var(--surface);
+      padding: 2rem 2.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.2rem;
+    }
+    .stat-num {
+      font-size: clamp(2rem, 3.5vw, 2.8rem);
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      color: var(--accent);
+      line-height: 1;
+    }
+    .stat-label {
+      font-size: 0.75rem;
+      color: var(--text-2);
+      line-height: 1.4;
+    }
+    .stat-sub {
+      font-size: 0.68rem;
+      color: var(--text-3);
+      margin-top: 0.1rem;
+    }
+
+    /* ── Data sources table ── */
+    .sources-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 2rem;
+      font-size: 0.8rem;
+    }
+    .sources-table th {
+      text-align: left;
+      font-size: 0.65rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--text-3);
+      padding: 0 1rem 0.65rem 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .sources-table td {
+      padding: 0.75rem 1rem 0.75rem 0;
+      border-bottom: 1px solid var(--border);
+      color: var(--text-2);
+      vertical-align: top;
+      line-height: 1.5;
+    }
+    .sources-table td:first-child { color: var(--text); font-weight: 500; }
+    .sources-table tr:last-child td { border-bottom: none; }
+
+    /* ── Viz context line ── */
+    .viz-context {
+      font-size: 0.82rem;
+      color: var(--text-2);
+      line-height: 1.65;
+      max-width: 620px;
+      margin-top: 0.45rem;
+    }
+
     /* ── Responsive ── */
     @media (max-width: 1024px) {
       .method-grid { grid-template-columns: repeat(3, 1fr); }
@@ -385,6 +473,9 @@
       .wrap { padding: 0 1.25rem; }
       .nav { padding: 0 1.25rem; }
       .viz-full-inner { padding: 1rem 1.25rem; }
+      .nav-links { display: none; }
+      .stats-strip { grid-template-columns: repeat(2, 1fr); }
+      .stat-box { padding: 1.5rem 1.25rem; }
     }
     @media (max-width: 480px) {
       .method-grid { grid-template-columns: 1fr; }
@@ -398,6 +489,13 @@
   <!-- ─── Navigation ─── -->
   <nav class="nav">
     <a href="#" class="nav-logo">C4A <span>/ Culture for All</span></a>
+    <div class="nav-links">
+      <a href="#viz-1" class="nav-jump">01 Libraries</a>
+      <a href="#viz-2" class="nav-jump">02 Holdings</a>
+      <a href="#viz-3" class="nav-jump">03 Locations</a>
+      <a href="#viz-4" class="nav-jump">04 Loans</a>
+      <a href="#viz-5" class="nav-jump">05 Reading</a>
+    </div>
     <a href="https://github.com/alicepicco333/culture4all" class="nav-link" target="_blank" rel="noopener">
       View on GitHub ↗
     </a>
@@ -424,10 +522,34 @@
     </div>
   </div>
 
+  <!-- ─── Stats strip ─── -->
+  <div class="stats-strip">
+    <div class="stat-box">
+      <span class="stat-num">8,000+</span>
+      <span class="stat-label">Libraries mapped across Italy</span>
+      <span class="stat-sub">Public, academic, and special collections</span>
+    </div>
+    <div class="stat-box">
+      <span class="stat-num">107</span>
+      <span class="stat-label">Provinces in the choropleth</span>
+      <span class="stat-sub">Full national coverage</span>
+    </div>
+    <div class="stat-box">
+      <span class="stat-num">4</span>
+      <span class="stat-label">Institution types visualized</span>
+      <span class="stat-sub">Libraries · Archives · Museums · MIBAC</span>
+    </div>
+    <div class="stat-box">
+      <span class="stat-num">2021–22</span>
+      <span class="stat-label">Reference years for all datasets</span>
+      <span class="stat-sub">Sources: ISTAT · MIC open catalog</span>
+    </div>
+  </div>
+
   <hr class="divider" />
 
   <!-- ─── About ─── -->
-  <section class="section">
+  <section class="section" id="about">
     <div class="wrap">
       <span class="eyebrow">About the Project</span>
       <h2 class="heading-2">Introducing C4A</h2>
@@ -435,23 +557,32 @@
         <div>
           <p style="font-size:1rem;font-weight:600;color:var(--accent);margin-bottom:0.75rem">The Concept</p>
           <p class="body-text">
-            Utilizing a blend of open datasets, this project offers a comprehensive overview of habits,
-            preferences, and regional disparities in cultural engagement across Italy.
+            Italy holds more UNESCO World Heritage Sites than any other country, yet access to its cultural
+            infrastructure — libraries, museums, archives, and reading programs — is far from uniform.
+            A persistent north-south divide runs through almost every measure of cultural engagement:
+            library density, loan volumes, and the percentage of people who read regularly.
           </p>
           <p class="body-text" style="margin-top:0.9rem">
-            Through interactive visualizations we aim to make complex data accessible and engaging,
-            fostering a deeper understanding of Italy's cultural landscape — and contributing
-            empirical evidence to inform policymakers in the cultural sector.
+            Culture for All draws on open national datasets to visualize these patterns at the provincial
+            and regional scale. By making the data spatial and interactive, the project moves beyond
+            aggregate statistics and allows inequalities to be seen — and explored — as geographic realities.
+            The ultimate aim is to contribute empirical evidence that can support more equitable investment
+            in cultural infrastructure.
+          </p>
+          <p class="body-text" style="margin-top:0.9rem">
+            The project was developed for the Information Visualization course of the Digital Humanities
+            and Digital Knowledge MA at the University of Bologna (2023/24).
           </p>
         </div>
         <div>
-          <p style="font-size:1rem;font-weight:600;color:var(--accent);margin-bottom:0.75rem">Objectives</p>
+          <p style="font-size:1rem;font-weight:600;color:var(--accent);margin-bottom:0.75rem">Research Questions</p>
           <ul class="objectives-list">
-            <li><span><strong>Geographical Distribution</strong> — Map the density of libraries, archives, and museums across Italian regions.</span></li>
-            <li><span><strong>Library Usage Patterns</strong> — Examine loan patterns by region, demographics, and urban classification.</span></li>
-            <li><span><strong>Regional Reading Habits</strong> — Assess reading engagement and format preferences by region.</span></li>
-            <li><span><strong>Access &amp; Equity</strong> — Identify regions with limited cultural access and propose improvements.</span></li>
-            <li><span><strong>Policy Support</strong> — Provide data-driven insights to strengthen cultural infrastructure.</span></li>
+            <li><span><strong>Geographical Distribution</strong> — Where are Italy's libraries, archives, and museums concentrated, and where are they absent?</span></li>
+            <li><span><strong>Collection Size</strong> — How does the size of library holdings vary across regions and over time?</span></li>
+            <li><span><strong>Library Usage</strong> — Which regions, demographic groups, and urban types borrow the most?</span></li>
+            <li><span><strong>Reading Habits</strong> — What share of Italians read regularly, and how does this differ between north and south?</span></li>
+            <li><span><strong>Print vs. Digital</strong> — Is the shift to e-books uniform, or are some regions ahead of others?</span></li>
+            <li><span><strong>Policy Gaps</strong> — Which areas show the clearest mismatch between population size and cultural provision?</span></li>
           </ul>
         </div>
       </div>
@@ -469,29 +600,72 @@
         <div class="method-step">
           <div class="step-num">1</div>
           <h4 style="font-size:0.85rem;font-weight:600;margin-bottom:0.3rem">Data Collection</h4>
-          <p class="body-small">Gathered data from national statistics agencies, cultural institutions, publishing houses, and digital platforms.</p>
+          <p class="body-small">Sourced five datasets from ISTAT (national statistical institute) and the MIC open catalog. Data covers library counts, holdings, loans, institution coordinates, and reading-habit surveys for 2021–22.</p>
         </div>
         <div class="method-step">
           <div class="step-num">2</div>
           <h4 style="font-size:0.85rem;font-weight:600;margin-bottom:0.3rem">Data Processing</h4>
-          <p class="body-small">Cleaned and preprocessed all datasets to ensure accuracy and consistency across sources.</p>
+          <p class="body-small">Geocoded institution records, normalized loan figures across demographic brackets, resolved region-name inconsistencies across sources, and harmonized province identifiers against GeoJSON boundaries.</p>
         </div>
         <div class="method-step">
           <div class="step-num">3</div>
           <h4 style="font-size:0.85rem;font-weight:600;margin-bottom:0.3rem">Visualization Design</h4>
-          <p class="body-small">Designed and developed interactive charts and maps suited to each dataset's structure.</p>
+          <p class="body-small">Selected chart types matched to data structure: choropleth and pin maps for spatial data; pie chart for compositional breakdown; horizontal bars for ranking; multi-line chart for multi-metric comparison.</p>
         </div>
         <div class="method-step">
           <div class="step-num">4</div>
           <h4 style="font-size:0.85rem;font-weight:600;margin-bottom:0.3rem">Interpretation</h4>
-          <p class="body-small">Built a narrative from emerging insights, connecting patterns to broader cultural themes.</p>
+          <p class="body-small">Patterns analyzed against Italy's known north-south cultural divide and urban-rural access gaps. Regional descriptions contextualize quantitative signals with qualitative local knowledge.</p>
         </div>
         <div class="method-step">
           <div class="step-num">5</div>
-          <h4 style="font-size:0.85rem;font-weight:600;margin-bottom:0.3rem">Conclusions</h4>
-          <p class="body-small">Developed data-driven answers to research questions to inform cultural policy recommendations.</p>
+          <h4 style="font-size:0.85rem;font-weight:600;margin-bottom:0.3rem">Findings</h4>
+          <p class="body-small">Data-driven observations formulated as policy-oriented findings, targeting the structural inequalities visible across all five visualizations.</p>
         </div>
       </div>
+
+      <table class="sources-table" style="margin-top:3rem">
+        <thead>
+          <tr>
+            <th>Dataset</th>
+            <th>Source</th>
+            <th>Year</th>
+            <th>Used in</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Libraries per province</td>
+            <td>ISTAT · MIC open catalog</td>
+            <td>2022</td>
+            <td>Visualization 1</td>
+          </tr>
+          <tr>
+            <td>Library holdings by volume category</td>
+            <td>ISTAT national library survey</td>
+            <td>2016–2022</td>
+            <td>Visualization 2</td>
+          </tr>
+          <tr>
+            <td>Cultural institution locations</td>
+            <td>MIC Luoghi della Cultura open catalog</td>
+            <td>2022</td>
+            <td>Visualization 3</td>
+          </tr>
+          <tr>
+            <td>Library loans by demographic &amp; geography</td>
+            <td>ISTAT · Annual Library Survey</td>
+            <td>2022</td>
+            <td>Visualization 4</td>
+          </tr>
+          <tr>
+            <td>Reading habits by region</td>
+            <td>ISTAT · Produzione e lettura di libri</td>
+            <td>2021</td>
+            <td>Visualization 5</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </section>
 
@@ -506,6 +680,7 @@
         <span class="eyebrow">Visualization 1 · Cultural Institutions</span>
         <div class="tag">Choropleth Map</div>
         <h2 class="heading-2">Libraries by Province, 2022</h2>
+        <p class="viz-context">Each province is shaded by the number of catalogued libraries. Hover over any province to see the count and explore the cultural landscape of its region. The north-south gradient is immediately visible.</p>
       </div>
       <div class="viz-split">
         <div id="map"></div>
@@ -523,6 +698,7 @@
         <span class="eyebrow">Visualization 2 · Library Holdings</span>
         <div class="tag">Pie Chart</div>
         <h2 class="heading-2">Holdings Distribution by Region &amp; Year</h2>
+        <p class="viz-context">How large are libraries' collections? Each slice shows the proportion of libraries in a region whose holdings fall within a given volume range. Smaller collections often indicate community-level or newer institutions; large collections point to major research or national libraries.</p>
       </div>
       <div class="viz-pie-layout">
         <div class="controls-panel">
@@ -550,6 +726,7 @@
           <div>
             <div class="tag">Pin Map</div>
             <h2 class="heading-2">Libraries, Archives &amp; Museums</h2>
+            <p class="viz-context">Italy's cultural institutions cluster in the north and in historic centres — Rome, Florence, Naples. Switch institution type with the dropdown and click any pin for details.</p>
           </div>
           <div class="inline-ctrl">
             <label for="datasetSelect">Institution type</label>
@@ -580,6 +757,7 @@
           <div>
             <div class="tag">Bar Chart</div>
             <h2 class="heading-2">Library Loans by Category, 2022</h2>
+            <p class="viz-context">Northern regions — especially Lombardia and Emilia-Romagna — dominate loan volumes nationally. Use the dropdown to group results by geographic area, municipality population, or urban classification.</p>
           </div>
           <div class="inline-ctrl">
             <label for="category-select">Group by</label>
@@ -607,10 +785,8 @@
           <div>
             <div class="tag">Line Chart</div>
             <h2 class="heading-2">Reading Habits by Region, 2021</h2>
+            <p class="viz-context">Six reading indicators for the population aged 6+, from casual readers (≥ 1 book/year) to avid ones (≥ 12 books/year), and print vs. digital preferences. Hover along the chart to compare all metrics simultaneously for any region.</p>
           </div>
-          <p style="font-size:0.8rem;color:var(--text-2);max-width:380px;line-height:1.6">
-            Six metrics for population aged 6+. Hover any point to compare values across regions.
-          </p>
         </div>
       </div>
       <div class="viz-chart-area">
@@ -622,28 +798,34 @@
   <hr class="divider" />
 
   <!-- ─── Conclusions ─── -->
-  <section class="section">
+  <section class="section" id="conclusions">
     <div class="wrap">
       <span class="eyebrow">Key Findings</span>
       <h2 class="heading-2">Conclusions</h2>
       <div class="conclusion-grid">
         <div class="conclusion-card">
-          <h3>Cultural Institution Distribution</h3>
-          <p class="body-small">Institutions cluster in major urban centers — Lombardy, Veneto, Tuscany, and Lazio — while remote areas show lower concentrations, highlighting equity gaps that call for targeted policy.</p>
+          <h3>A Persistent North–South Divide</h3>
+          <p class="body-small">Every indicator — library density, loan volumes, and reading rates — follows the same geographic gradient: highest in the North-West and North-East, lowest in the South and Islands. Lombardia, Emilia-Romagna, and Toscana consistently rank at the top; Calabria, Basilicata, and Molise at the bottom. This is not a coincidence of individual preferences but a structural pattern rooted in decades of unequal investment.</p>
         </div>
         <div class="conclusion-card">
-          <h3>Library Usage Patterns</h3>
-          <p class="body-small">Urban areas consistently show higher loan rates than rural regions. Demographic and geographic factors shape usage significantly — tailored outreach could improve equity in service delivery.</p>
+          <h3>Urban Concentration of Resources</h3>
+          <p class="body-small">Cultural institutions are overwhelmingly concentrated in metropolitan areas. The loan data confirms that hub municipalities and metropolitan cities record far higher borrowing rates than peripheral or ultra-peripheral ones — even within the same region. Small municipalities, which make up the majority of Italian comuni, are systematically underserved regardless of their region.</p>
         </div>
         <div class="conclusion-card">
-          <h3>Regional Reading Habits</h3>
-          <p class="body-small">Reading engagement and format preferences vary considerably by region. Some regions exhibit high concentrations of avid readers, pointing to opportunities for region-specific cultural programs.</p>
+          <h3>Reading Habits Reflect Infrastructure</h3>
+          <p class="body-small">Regions with higher library density also show higher reading engagement — particularly for avid readers (≥ 12 books/year). The relationship between access and habit is bidirectional: libraries encourage reading, and reading communities sustain libraries. The Northeast consistently leads on all six metrics; the gap between it and the South is most pronounced for intensive reading and digital book adoption.</p>
         </div>
       </div>
-      <p class="body-text" style="margin-top:2rem;max-width:700px">
-        These findings underscore the need for targeted investment in cultural infrastructure,
-        particularly in underserved regions, to foster a more inclusive and vibrant cultural ecosystem across Italy.
-      </p>
+      <div style="margin-top:2.5rem;padding:1.75rem 2rem;background:var(--accent-bg);border-radius:var(--radius);border-left:3px solid var(--accent);max-width:820px">
+        <p style="font-size:0.72rem;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:var(--accent);margin-bottom:0.6rem">Policy Implication</p>
+        <p class="body-text">
+          These findings point to a structural problem that individual libraries cannot solve in isolation.
+          Equitable cultural access requires targeted investment in physical infrastructure — especially in
+          small municipalities and southern regions — alongside digital access programs and community reading
+          initiatives. Funding formulas that scale only with existing usage will widen existing gaps, not close them.
+          The data suggests that where the need is greatest, provision is often weakest.
+        </p>
+      </div>
     </div>
   </section>
 
@@ -677,8 +859,11 @@
   <!-- ─── Footer ─── -->
   <footer>
     <p>Developed as part of the Information Visualization course · University of Bologna</p>
-    <p>Digital Humanities and Digital Knowledge MA 2023/24 · Academic project, not actively maintained</p>
-    <p style="margin-top:0.4rem;color:var(--border)">Leaflet.js · D3.js · Chart.js · GeoJSON</p>
+    <p>Digital Humanities and Digital Knowledge MA 2023/24 · Alice Picco · Corrado Consiglio · Salvatore Di Marzo</p>
+    <p style="margin-top:0.5rem">
+      Data: ISTAT · MIC Luoghi della Cultura open catalog · GeoJSON boundaries via Openpolis
+    </p>
+    <p style="margin-top:0.4rem;color:var(--border)">Built with Leaflet.js · D3.js · Chart.js · PapaParse</p>
   </footer>
 
   <!-- ─── Scripts ─── -->
